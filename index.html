@@ -1,0 +1,839 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Filter</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="clade.js"></script>
+  </head>
+  <body>
+    <style>
+      #search-bar {
+        display: flex;
+        gap: 0.5rem;
+        align-items: center;
+      }
+      #search {
+        box-sizing: border-box;
+        flex: 1;
+        font-size: 1.25rem;
+        padding: 0.75rem 1rem;
+        margin: 0;
+        border: 1px solid #ccc;
+      }
+      #feedback-btn {
+        white-space: nowrap;
+        font-size: 0.9rem;
+        padding: 0.75rem 1rem;
+        border: 1px solid #ccc;
+        background: #f5f5f5;
+        cursor: pointer;
+        text-decoration: none;
+        color: inherit;
+      }
+      #feedback-btn:hover {
+        background: #e0e0e0;
+      }
+      .copy-btn:hover {
+        opacity: 1 !important;
+      }
+
+      code {
+        text-decoration: underline;
+      }
+      big {
+        font-size: 24px;
+        font-weight: bold;
+      }
+      a {
+        color: inherit;
+        text-decoration: underline;
+      }
+    </style>
+    <div id="search-bar">
+      <input
+        id="search"
+        type="text"
+        autocomplete="off"
+        autocorrect="off"
+        autocapitalize="off"
+        spellcheck="false"
+      />
+      <a id="feedback-btn" href="https://github.com/elliotchance/clade/issues" target="_blank">Feedback/Bugs</a>
+    </div>
+    <table id="results"></table>
+
+    <table id="results-table" style="display: none">
+      <tr>
+        <td>Genres</td>
+        <td id="r-genres">none</td>
+      </tr>
+      <tr>
+        <td>Non-genres</td>
+        <td id="r-non-genres">none</td>
+      </tr>
+      <tr>
+        <td>Unrecognized</td>
+        <td id="r-unrecognized">none</td>
+      </tr>
+      <tr>
+        <td>Major Genre</td>
+        <td id="r-major-genre">none</td>
+      </tr>
+      <tr>
+        <td>Minor Genre</td>
+        <td id="r-minor-genre">none</td>
+      </tr>
+      <tr>
+        <td>Codes</td>
+        <td id="r-codes">none</td>
+      </tr>
+      <tr>
+        <td>Hierarchical codes</td>
+        <td id="r-hcodes">none</td>
+      </tr>
+      <tr>
+        <td>MP3tag Genres</td>
+        <td id="r-mp3tag"></td>
+      </tr>
+    </table>
+
+    <script>
+      const items = Object.entries(clade.genres).map(([code, g]) => ({
+        code,
+        ...g,
+      }));
+      const itemsByCode = Object.fromEntries(items.map((i) => [i.code, i]));
+
+      const entries = [...items].sort((a, b) => a.code > b.code);
+
+      let index = [];
+
+      for (const { code: key } of items) {
+        let item = [itemsByCode[key.substr(0, 1)]];
+        if (key.length > 1) {
+          item.unshift(itemsByCode[key.substr(0, 2)]);
+        }
+        if (key.length > 2) {
+          item.unshift(itemsByCode[key.substr(0, 3)]);
+        }
+        index.push(item);
+      }
+
+      index.sort((a, b) => a[0].code > b[0].code);
+
+      function validate(s) {
+        const ss = s.split("; ");
+        for (const s of ss) {
+          if (!validateSingle(s)) {
+            return false;
+          }
+        }
+
+        return true;
+      }
+
+      function validateSingle(s) {
+        const ss = s.split("; ");
+        for (const e of entries) {
+          if (`${e.code} ${e.name}` === s) {
+            return true;
+          }
+        }
+
+        return false;
+      }
+
+      // Takes an array of codes and returns a unique array of all parent codes for each code
+      function hierarchicalCodes(codes) {
+        const result = new Set();
+        for (const code of codes) {
+          for (let i = code.length; i > 0; i--) {
+            const c = code.substr(0, i);
+            if (!itemsByCode[c]?.exclude) {
+              result.add(c);
+            }
+          }
+        }
+        return Array.from(result);
+      }
+
+      function renderIndex() {
+        let index = [];
+        for (const item of items) {
+          index.push(item);
+
+          if (item.aka) {
+            for (const aka of item.aka) {
+              index.push({ ...item, name: aka, isAka: true });
+            }
+          }
+        }
+
+        index.sort((a, b) => a.name > b.name);
+
+        $("#results").empty();
+        for (const d of index) {
+          $("#results").append("<tr>");
+          let name = d.name;
+          $("#results").append(
+            `
+            <td style="background-color: ${clade.colors[d.code[0]].bgHex}; color: ${clade.colors[d.code[0]].fgHex}">${d.code}</td>
+            <td>${d.name} ${d.isAka ? ` <em>(aka of ${itemsByCode[d.code].name})</em>` : ""}</td>
+            `,
+          );
+
+          $("#results").append("</tr>");
+        }
+      }
+
+      function childrenOf(code) {
+        return Object.entries(clade.genres)
+          .filter(([k]) => k.length === code.length + 1 && k.startsWith(code))
+          .sort(([a], [b]) => {
+            const aAlpha = /[A-Z]/.test(a[code.length]);
+            const bAlpha = /[A-Z]/.test(b[code.length]);
+            if (aAlpha !== bAlpha) { return aAlpha ? -1 : 1; }
+            return a.localeCompare(b);
+          });
+      }
+
+      function genrePill(code, name, opts = {}) {
+        const color = clade.colors[code[0]];
+        const inner = `<code>${code}</code> <b>${name}</b>`;
+        const copyBtn = `<span class="copy-btn" data-copy="${code} ${name.replace(/"/g, '&quot;')}" title="Copy to clipboard" style="cursor: pointer; margin-left: 4px; opacity: 0.5">&#x1F4CB;</span>`;
+        const style = `background: ${color.bgHex}; color: ${color.fgHex}; padding: 2px 8px; white-space: nowrap; display: inline-block; font-size: small; margin: 1px`;
+        let pill;
+        if (opts.href) {
+          pill = `<a href="${opts.href}" style="color: ${color.fgHex}; text-decoration: none"><span style="${style}">${inner}${copyBtn}</span></a>`;
+        } else {
+          pill = `<span style="${style}">${inner}${copyBtn}</span>`;
+        }
+        if (opts.aka && opts.aka.length > 0) {
+          pill += ` <small>(aka. ${[...opts.aka].sort().join(", ")})</small>`;
+        }
+        return pill;
+      }
+
+      function renderBigList() {
+        $("#results-table").hide();
+        $("#results").show();
+        $("#results").empty();
+
+        for (let i = 0; i < 5; ++i) {
+          // Header row
+          $("#results").append("<tr>");
+          for (let j = 0; j < 5; ++j) {
+            const code = clade.allowedCodeCharacters[i * 5 + j];
+            const genre = clade.genres[code];
+            const color = clade.colors[code];
+            $("#results").append(`<td style="background-color: ${color.bgHex}; color: ${color.fgHex}; padding: 8px 10px"><big><a href="?browse=${code}" style="color: inherit"><code>${code}</code> ${genre.name}</a></big></td>`);
+          }
+          $("#results").append("</tr>");
+
+          // Sub-genre row
+          $("#results").append("<tr>");
+          for (let j = 0; j < 5; ++j) {
+            const code = clade.allowedCodeCharacters[i * 5 + j];
+            const genre = clade.genres[code];
+            let content = `<td style="padding: 10px; vertical-align: top">`;
+            for (const [childCode, child] of childrenOf(code)) {
+              content += genrePill(childCode, child.name, { href: `?browse=${childCode}` }) + "<br/>";
+            }
+            content += "</td>";
+            $("#results").append(content);
+          }
+          $("#results").append("</tr>");
+        }
+      }
+
+      function renderBrowse(code) {
+        $("#results-table").hide();
+        $("#results").show();
+        $("#results").empty();
+
+        const genre = clade.genres[code];
+        const color = clade.colors[code[0]];
+        const children = childrenOf(code);
+        const cols = 5;
+
+        $("#results").append("<tr>");
+        $("#results").append(`<td colspan="${cols}" style="background-color: ${color.bgHex}; color: ${color.fgHex}; padding: 10px"><big><a href="?" style="color: inherit">&#8592;</a> <code>${code}</code> ${genre.name}</big></td>`);
+        $("#results").append("</tr>");
+
+        for (let i = 0; i < children.length; i += cols) {
+          // Header row (colored)
+          $("#results").append("<tr>");
+          for (let j = 0; j < cols; j++) {
+            if (i + j >= children.length) {
+              $("#results").append("<td></td>");
+              continue;
+            }
+            const [childCode, child] = children[i + j];
+            const childColor = clade.colors[childCode[0]];
+            const childAkaStr = child.aka && child.aka.length > 0
+              ? ` <small style="font-weight: normal; font-size: 0.7em">(aka. ${[...child.aka].sort().join(", ")})</small>`
+              : '';
+            $("#results").append(`<td style="background-color: ${childColor.bgHex}; color: ${childColor.fgHex}; padding: 8px 10px"><big><code>${childCode}</code> ${child.name}</big>${childAkaStr}</td>`);
+          }
+          $("#results").append("</tr>");
+
+          // Content row (plain)
+          $("#results").append("<tr>");
+          for (let j = 0; j < cols; j++) {
+            if (i + j >= children.length) {
+              $("#results").append("<td></td>");
+              continue;
+            }
+            const [childCode, child] = children[i + j];
+            let content = `<td style="padding: 10px; vertical-align: top">`;
+            for (const [grandCode, grand] of childrenOf(childCode)) {
+              content += genrePill(grandCode, grand.name, { href: `?browse=${grandCode}`, aka: grand.aka }) + "<br/>";
+            }
+            content += "</td>";
+            $("#results").append(content);
+          }
+          $("#results").append("</tr>");
+        }
+      }
+
+      function renderReleases() {
+        $("#results-table").hide();
+        $("#results").show();
+        $("#results").empty();
+
+        let releaseDimensions = [];
+
+        for (const release of clade.releases) {
+          releaseDimensions.push([
+            `${release.artist} ${release.release}`,
+            lookup(release.genres).dimensions,
+          ]);
+        }
+        console.log(releaseDimensions);
+
+        for (const release of clade.releases) {
+          $("#results").append("<tr>");
+          $("#results").append(`<td>${release.artist}</td>`);
+          $("#results").append(`<td>${release.release}</td>`);
+          $("#results").append(`<td>${release.year}</td>`);
+          $("#results").append(`<td>${release.genres}</td>`);
+          $("#results").append(`<td>${lookup(release.genres).codes}</td>`);
+          const dimensions = lookup(release.genres).dimensions;
+          $("#results").append(`<td>${JSON.stringify(dimensions)}</td>`);
+
+          let compares = [];
+          for (const compareReleases of clade.releases) {
+            // if (compareReleases[0] ===
+            const cd = euclideanDistance(
+              dimensions,
+              lookup(compareReleases.genres).dimensions,
+            );
+            if (cd > 0) {
+              compares.push(
+                `${cd} ${compareReleases.artist} ${compareReleases.release}`,
+              );
+            }
+          }
+          compares.sort(
+            (a, b) =>
+              parseFloat(a.split(" ")[0], 10) - parseFloat(b.split(" ")[0], 10),
+          );
+          $("#results").append(
+            `<td>${compares.slice(0, 10).join("<br/>")}</td>`,
+          );
+          $("#results").append("</tr>");
+        }
+      }
+
+      // renderReleases();
+      const initialBrowse = new URL(location.href).searchParams.get("browse");
+      const browseCode = initialBrowse ? initialBrowse[0] : null;
+      if (browseCode && clade.genres[browseCode]) {
+        renderBrowse(browseCode);
+      } else {
+        renderBigList();
+      }
+      // renderIndex();
+
+      const entryCount = Object.values(clade.genres).reduce(
+        (n, g) => n + 1 + (g.aka?.length ?? 0),
+        0,
+      );
+      $("#search").attr(
+        "placeholder",
+        `Search ${entryCount.toLocaleString()} entries, comma-separate for multiple...`,
+      );
+
+      function lookup(value) {
+        const q = value
+          .split(/[,;]/)
+          .map((s) => s.trim().toLowerCase())
+          .filter((s) => s.length > 0);
+
+        if (q.length === 0) {
+          return {}; // ?
+        }
+
+        let unrecognized = [];
+        let genres = [];
+        let nonGenres = [];
+
+        for (const s of q) {
+          let found = false;
+          for (const item of index) {
+            if (
+              item[0].name.toLowerCase() === s ||
+              item[0].aka?.some((aka) => aka.toLowerCase() === s)
+            ) {
+              if (item[0].code[0] >= "A") {
+                genres.push(`${item[0].code} ${item[0].name}`);
+              } else {
+                nonGenres.push(`${item[0].code} ${item[0].name}`);
+              }
+              found = true;
+              break;
+            }
+          }
+
+          if (!found) {
+            unrecognized.push(s);
+          }
+        }
+
+        let codes = [];
+        for (const s of genres) {
+          codes.push(s.split(" ")[0]);
+        }
+        for (const s of nonGenres) {
+          codes.push(s.split(" ")[0]);
+        }
+        codes = [...new Set(codes)];
+
+        let hcodes = hierarchicalCodes(codes);
+        let mp3tag = hcodes.map((code) => `${code} ${itemsByCode[code].name}`);
+
+        let dimensions = [
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+        ];
+        const letters = ["E", "F", "J", "K", "H", "M", "P", "R"];
+        for (const letterIndex in letters) {
+          for (const code of codes) {
+            if (dimensions[letterIndex] !== undefined) {
+              break;
+            }
+
+            const letter = letters[letterIndex];
+            if (code.startsWith(letter)) {
+              dimensions[letterIndex] =
+                codes[0].charCodeAt(1) - "A".charCodeAt(0);
+              break;
+            }
+          }
+        }
+
+        return {
+          genres,
+          nonGenres,
+          unrecognized,
+          codes,
+          hcodes,
+          mp3tag,
+          dimensions,
+        };
+      }
+
+      function euclideanDistance(a, b) {
+        if (a.length !== b.length)
+          throw new Error("Vectors must have the same dimensions");
+        let sum = 0;
+        let count = 0;
+        for (let i = 0; i < a.length; i++) {
+          if (!Number.isFinite(a[i]) || !Number.isFinite(b[i])) continue;
+          const d = a[i] - b[i];
+          sum += d * d;
+          count++;
+        }
+        if (count === 0) return 0;
+        return Math.sqrt(sum);
+      }
+
+      function cosineDifference(a, b) {
+        if (a.length !== b.length)
+          throw new Error("Vectors must have the same dimensions");
+        let dot = 0,
+          magA = 0,
+          magB = 0,
+          count = 0;
+        for (let i = 0; i < a.length; i++) {
+          if (!Number.isFinite(a[i]) || !Number.isFinite(b[i])) continue;
+          dot += a[i] * b[i];
+          magA += a[i] * a[i];
+          magB += b[i] * b[i];
+          count++;
+        }
+        if (count === 0) return 0;
+        const similarity = dot / (Math.sqrt(magA) * Math.sqrt(magB));
+        if (Number.isNaN(similarity)) {
+          return 0;
+        }
+        return similarity;
+      }
+
+      function findItem(s) {
+        s = s.toLowerCase();
+        const isLetterCode = ([code]) => /[A-Z]/.test(code[0]);
+        const letterEntries = Object.entries(clade.genres).filter(isLetterCode);
+        const allEntries = Object.entries(clade.genres);
+
+        // Exact name or aka match on letter codes first
+        for (const [code, genre] of letterEntries) {
+          if (genre.name.toLowerCase() === s) {
+            return { code, ...genre };
+          }
+          if (genre.aka?.some((a) => a.toLowerCase() === s)) {
+            return { code, ...genre };
+          }
+        }
+        // Word-in-name match on letter codes (e.g. "Jazz" matches "Traditional Jazz")
+        for (const [code, genre] of letterEntries) {
+          if (genre.name.toLowerCase().split(/\W+/).includes(s)) {
+            return { code, ...genre };
+          }
+        }
+        // Fall back to exact match on any code (digit codes etc.)
+        for (const [code, genre] of allEntries) {
+          if (genre.name.toLowerCase() === s) {
+            return { code, ...genre };
+          }
+          if (genre.aka?.some((a) => a.toLowerCase() === s)) {
+            return { code, ...genre };
+          }
+        }
+        return null;
+      }
+
+      function levenshtein(a, b) {
+        const m = a.length,
+          n = b.length;
+        const dp = Array.from({ length: m + 1 }, (_, i) => [
+          i,
+          ...Array(n).fill(0),
+        ]);
+        for (let j = 0; j <= n; j++) {
+          dp[0][j] = j;
+        }
+        for (let i = 1; i <= m; i++) {
+          for (let j = 1; j <= n; j++) {
+            dp[i][j] =
+              a[i - 1] === b[j - 1]
+                ? dp[i - 1][j - 1]
+                : 1 + Math.min(dp[i - 1][j], dp[i][j - 1], dp[i - 1][j - 1]);
+          }
+        }
+        return dp[m][n];
+      }
+
+      function fuzzyMatchesText(term, text) {
+        const threshold = term.length <= 3 ? 0 : term.length <= 6 ? 1 : 2;
+        return text
+          .toLowerCase()
+          .split(/\W+/)
+          .some((word) => {
+            if (Math.abs(word.length - term.length) > threshold) {
+              return false;
+            }
+            return levenshtein(term, word) <= threshold;
+          });
+      }
+
+      function highlight(text, term) {
+        const idx = text.toLowerCase().indexOf(term.toLowerCase());
+        if (idx === -1) {
+          return text;
+        }
+        return (
+          text.slice(0, idx) +
+          `<mark style="padding: 0">${text.slice(idx, idx + term.length)}</mark>` +
+          text.slice(idx + term.length)
+        );
+      }
+
+      function createVisual(s) {
+        const terms = s
+          .split(",")
+          .map((t) => t.trim())
+          .filter((t) => t.length > 0);
+
+        $("#results").show();
+        $("#results").empty();
+        if (terms.length === 0) {
+          return;
+        }
+
+        $("#results").append("<tr>");
+
+        for (const term of terms) {
+          const termLower = term.toLowerCase();
+
+          const matches = [];
+          const termUpper = term.toUpperCase();
+          if (clade.genres[termUpper]) {
+            const genre = clade.genres[termUpper];
+            matches.push({
+              code: termUpper,
+              label: genre.name,
+              isAka: false,
+              parentName: null,
+              genre,
+            });
+          }
+          for (const [code, genre] of Object.entries(clade.genres)) {
+            if (code === termUpper) continue;
+            if (genre.name.toLowerCase().includes(termLower)) {
+              matches.push({
+                code,
+                label: genre.name,
+                isAka: false,
+                parentName: null,
+                genre,
+              });
+            }
+            for (const aka of genre.aka ?? []) {
+              if (aka.toLowerCase().includes(termLower)) {
+                matches.push({
+                  code,
+                  label: aka,
+                  isAka: true,
+                  parentName: genre.name,
+                  genre,
+                });
+              }
+            }
+          }
+          matches.sort((a, b) => {
+            const aExact = a.label.toLowerCase() === termLower;
+            const bExact = b.label.toLowerCase() === termLower;
+            if (aExact !== bExact) {
+              return aExact ? -1 : 1;
+            }
+            return a.code.length - b.code.length;
+          });
+
+          let cell = `<td style="padding: 10px; vertical-align: top; border: 1px solid #ccc; min-width: 250px; max-width: 350px">`;
+
+          if (matches.length === 0) {
+            const words = term
+              .toLowerCase()
+              .split(/\s+/)
+              .filter((w) => w.length > 0);
+            const suggestions = [];
+            const seenLabels = new Set();
+            for (const [code, genre] of Object.entries(clade.genres)) {
+              for (const word of words) {
+                if (genre.name.toLowerCase().includes(word)) {
+                  const key = code + genre.name;
+                  if (!seenLabels.has(key)) {
+                    seenLabels.add(key);
+                    suggestions.push({
+                      code,
+                      label: genre.name,
+                      isAka: false,
+                      parentName: null,
+                      genre,
+                      fuzzy: false,
+                    });
+                  }
+                  break;
+                }
+                const matchingAka = genre.aka?.find((a) =>
+                  a.toLowerCase().includes(word),
+                );
+                if (matchingAka) {
+                  const key = code + matchingAka;
+                  if (!seenLabels.has(key)) {
+                    seenLabels.add(key);
+                    suggestions.push({
+                      code,
+                      label: matchingAka,
+                      isAka: true,
+                      parentName: genre.name,
+                      genre,
+                      fuzzy: false,
+                    });
+                  }
+                  break;
+                }
+              }
+            }
+            for (const [code, genre] of Object.entries(clade.genres)) {
+              if (fuzzyMatchesText(termLower, genre.name)) {
+                const key = code + genre.name;
+                if (!seenLabels.has(key)) {
+                  seenLabels.add(key);
+                  suggestions.push({
+                    code,
+                    label: genre.name,
+                    isAka: false,
+                    parentName: null,
+                    genre,
+                    fuzzy: true,
+                  });
+                }
+              }
+              for (const aka of genre.aka ?? []) {
+                if (fuzzyMatchesText(termLower, aka)) {
+                  const key = code + aka;
+                  if (!seenLabels.has(key)) {
+                    seenLabels.add(key);
+                    suggestions.push({
+                      code,
+                      label: aka,
+                      isAka: true,
+                      parentName: genre.name,
+                      genre,
+                      fuzzy: true,
+                    });
+                  }
+                }
+              }
+            }
+            suggestions.sort(
+              (a, b) => a.fuzzy - b.fuzzy || a.code.length - b.code.length,
+            );
+
+            cell += `<em style="color: red">"${term}" not found</em>`;
+            if (suggestions.length > 0) {
+              cell += `<br/><br/><small style="color: #888">Suggestions:</small><br/>`;
+              const limit = 50;
+              for (const {
+                code,
+                label,
+                isAka,
+                parentName,
+                genre,
+                fuzzy,
+              } of suggestions.slice(0, limit)) {
+                cell += `<div style="margin: 2px 0${fuzzy ? "; opacity: 0.7" : ""}">`;
+                cell += genrePill(code, genre.name, { href: `?browse=${code}` });
+                if (isAka) {
+                  cell += ` <small><em>${label}</em></small>`;
+                }
+                if (fuzzy) {
+                  cell += ` <small style="color: #aaa">~</small>`;
+                }
+                cell += `</div>`;
+              }
+              if (suggestions.length > limit) {
+                cell += `<br/><small style="color: #888">${suggestions.length - limit} more...</small>`;
+              }
+            }
+          } else {
+            if (matches.length > 0) {
+              let bestCode = matches[0].code;
+              while (bestCode.length < 3) {
+                const extended = bestCode + "9";
+                if (clade.genres[extended]) {
+                  bestCode = extended;
+                } else {
+                  break;
+                }
+              }
+              cell += `<small style="color: #888">Best match:</small><br/>`;
+              for (let len = 1; len <= bestCode.length; len++) {
+                const c = bestCode.substr(0, len);
+                const g = clade.genres[c];
+                if (g) {
+                  if (len > 1) {
+                    cell += " › ";
+                  }
+                  cell += genrePill(c, g.name, { href: `?browse=${c}` });
+                }
+              }
+              cell += "<br/><br/>";
+            }
+
+            const others = matches.slice(1);
+            const limit = 50;
+            if (others.length > 0) {
+              cell += `<small style="color: #888">${others.length} possible other${others.length === 1 ? '' : 's'}:</small><br/>`;
+              for (const {
+                code,
+                label,
+                isAka,
+                parentName,
+                genre,
+              } of others.slice(0, limit)) {
+                cell += `<div style="margin: 2px 0">`;
+                cell += genrePill(code, genre.name, { href: `?browse=${code}` });
+                if (isAka) {
+                  cell += ` <small><em>${highlight(label, term)}</em></small>`;
+                }
+                cell += `</div>`;
+              }
+              if (others.length > limit) {
+                cell += `<br/><small style="color: #888">${others.length - limit} more...</small>`;
+              }
+            }
+          }
+
+          cell += `</td>`;
+          $("#results").append(cell);
+        }
+
+        $("#results").append("</tr>");
+      }
+
+      $("#search").on("input", function () {
+        const val = $(this).val().trim();
+        const url = new URL(location.href);
+        url.searchParams.delete("browse");
+        if (val.length === 0) {
+          url.searchParams.delete("q");
+          history.replaceState(null, "", url);
+          renderBigList();
+        } else {
+          url.searchParams.set("q", val);
+          history.replaceState(null, "", url);
+          createVisual(val);
+        }
+      });
+
+      $(document).on("click", ".copy-btn", function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        const text = $(this).data("copy");
+        navigator.clipboard.writeText(text).then(() => {
+          const orig = $(this).html();
+          $(this).html("&#x2705;");
+          setTimeout(() => $(this).html(orig), 1000);
+        });
+      });
+
+      const initialQ = new URL(location.href).searchParams.get("q");
+      if (initialQ) {
+        $("#search").val(initialQ);
+        createVisual(initialQ);
+      }
+
+      window.addEventListener("popstate", function () {
+        const q = new URL(location.href).searchParams.get("q");
+        if (q) {
+          $("#search").val(q);
+          createVisual(q);
+        } else {
+          $("#search").val("");
+          $("#results").hide();
+          renderBigList();
+        }
+      });
+    </script>
+  </body>
+</html>
