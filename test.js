@@ -355,6 +355,16 @@ runTest("winamp extension mappings are valid", () => {
   }
 });
 
+runTest("no 1 or 2 char genre codes have akas", () => {
+  for (const [code, entry] of Object.entries(clade.genres)) {
+    if (code.length > 2) continue;
+    if (/^\d/.test(code)) continue; // skip descriptor/scene codes
+    if (entry.aka && entry.aka.length > 0) {
+      failure(`"${code} ${entry.name}" has ${entry.aka.length} aka(s): ${entry.aka.slice(0, 3).join(', ')}${entry.aka.length > 3 ? '...' : ''}`);
+    }
+  }
+});
+
 runTest("no 2 or 3 letter codes ending in 9 (but not 89) have akas", () => {
   for (const [code, entry] of Object.entries(clade.genres)) {
     if (!code.endsWith('9') || code.endsWith('89')) continue;

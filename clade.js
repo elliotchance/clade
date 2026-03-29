@@ -159,9 +159,6 @@ const clade = {
       "name": "Ambient",
       "urls": [
         "https://rateyourmusic.com/genre/ambient/"
-      ],
-      "aka": [
-        "Ambient Americana"
       ]
     },
     "AAA": {
@@ -187,7 +184,10 @@ const clade = {
       ]
     },
     "AA8": {
-      "name": "Other Ambient"
+      "name": "Other Ambient",
+      "aka": [
+        "Ambient Americana"
+      ]
     },
     "AA9": {
       "name": "Unspecified Ambient"
@@ -504,10 +504,6 @@ const clade = {
       "name": "Modern Classical",
       "urls": [
         "https://rateyourmusic.com/genre/modern-classical/"
-      ],
-      "aka": [
-        "American Gamelan",
-        "Sonorism"
       ]
     },
     "CFA": {
@@ -590,7 +586,11 @@ const clade = {
       ]
     },
     "CF8": {
-      "name": "Other Modern Classical"
+      "name": "Other Modern Classical",
+      "aka": [
+        "American Gamelan",
+        "Sonorism"
+      ]
     },
     "CF9": {
       "name": "Unspecified Modern Classical"
@@ -997,17 +997,6 @@ const clade = {
       "name": "House",
       "urls": [
         "https://rateyourmusic.com/genre/house/"
-      ],
-      "aka": [
-        "Baltimore Club",
-        "Big Room House",
-        "Brazilian Bass",
-        "Chicago Hard House",
-        "Diva House",
-        "Future Funk",
-        "LA Hard House",
-        "Melodic House",
-        "Stutter House"
       ]
     },
     "DAA": {
@@ -1196,6 +1185,17 @@ const clade = {
       "name": "Other House",
       "urls": [
         "https://rateyourmusic.com/genre/romanian-popcorn/"
+      ],
+      "aka": [
+        "Baltimore Club",
+        "Big Room House",
+        "Brazilian Bass",
+        "Chicago Hard House",
+        "Diva House",
+        "Future Funk",
+        "LA Hard House",
+        "Melodic House",
+        "Stutter House"
       ]
     },
     "DA9": {
@@ -1205,9 +1205,6 @@ const clade = {
       "name": "Techno",
       "urls": [
         "https://rateyourmusic.com/genre/techno/"
-      ],
-      "aka": [
-        "Belgian Techno"
       ]
     },
     "DCA": {
@@ -1282,7 +1279,10 @@ const clade = {
       ]
     },
     "DC8": {
-      "name": "Other Techno"
+      "name": "Other Techno",
+      "aka": [
+        "Belgian Techno"
+      ]
     },
     "DC9": {
       "name": "Unspecified Techno"
@@ -1409,10 +1409,6 @@ const clade = {
       "name": "Drum and Bass",
       "urls": [
         "https://rateyourmusic.com/genre/drum-and-bass/"
-      ],
-      "aka": [
-        "Dancefloor Drum and Bass",
-        "Technoid"
       ]
     },
     "DEA": {
@@ -1524,8 +1520,17 @@ const clade = {
         "https://rateyourmusic.com/genre/hardstep/"
       ]
     },
+    "DEU": {
+      "name": "Dancefloor Drum and Bass",
+      "urls": [
+        "https://rateyourmusic.com/genre/dancefloor-drum-and-bass/"
+      ]
+    },
     "DE8": {
-      "name": "Other Drum and Bass"
+      "name": "Other Drum and Bass",
+      "aka": [
+        "Technoid"
+      ]
     },
     "DE9": {
       "name": "Unspecified Drum and Bass"
@@ -1848,9 +1853,6 @@ const clade = {
       "urls": [
         "https://rateyourmusic.com/genre/uk-bass/",
         "https://rateyourmusic.com/genre/uk-garage/"
-      ],
-      "aka": [
-        "UK Garage"
       ]
     },
     "DMA": {
@@ -1874,15 +1876,20 @@ const clade = {
     "DME": {
       "name": "Breakstep",
       "urls": [
-        "https://rateyourmusic.com/genre/breakstep/",
+        "https://rateyourmusic.com/genre/breakstep/"
+      ]
+    },
+    "DMF": {
+      "name": "Future Garage",
+      "urls": [
         "https://rateyourmusic.com/genre/future-garage/"
-      ],
-      "aka": [
-        "Future Garage"
       ]
     },
     "DM8": {
-      "name": "Other UK Bass and UK Garage"
+      "name": "Other UK Bass and UK Garage",
+      "aka": [
+        "UK Garage"
+      ]
     },
     "DM9": {
       "name": "Unspecified UK Bass and UK Garage"
@@ -2253,9 +2260,6 @@ const clade = {
       "name": "IDM and Glitch and Experimental",
       "urls": [
         "https://rateyourmusic.com/genre/idm/"
-      ],
-      "aka": [
-        "Drill and Bass"
       ]
     },
     "EDA": {
@@ -2307,7 +2311,10 @@ const clade = {
       ]
     },
     "ED8": {
-      "name": "Other IDM and Glitch and Experimental"
+      "name": "Other IDM and Glitch and Experimental",
+      "aka": [
+        "Drill and Bass"
+      ]
     },
     "ED9": {
       "name": "Unspecified IDM and Glitch and Experimental"
@@ -2438,9 +2445,6 @@ const clade = {
       "name": "Progressive and Space Electronic",
       "urls": [
         "https://rateyourmusic.com/genre/progressive-electronic/"
-      ],
-      "aka": [
-        "Berlin School"
       ]
     },
     "EJA": {
@@ -2462,7 +2466,10 @@ const clade = {
       ]
     },
     "EJ8": {
-      "name": "Other Progressive and Space Electronic"
+      "name": "Other Progressive and Space Electronic",
+      "aka": [
+        "Berlin School"
+      ]
     },
     "EJ9": {
       "name": "Unspecified Progressive and Space Electronic"
@@ -2713,13 +2720,13 @@ const clade = {
       "name": "African Folk Music",
       "urls": [
         "https://rateyourmusic.com/genre/african-folk-music/"
-      ],
-      "aka": [
-        "Moutya"
       ]
     },
     "FC8": {
-      "name": "Other African Folk Music"
+      "name": "Other African Folk Music",
+      "aka": [
+        "Moutya"
+      ]
     },
     "FC9": {
       "name": "Unspecified African Folk Music"
@@ -3474,15 +3481,15 @@ const clade = {
       "name": "Southeast Asian Folk Music",
       "urls": [
         "https://rateyourmusic.com/genre/southeast-asian-folk-music/"
-      ],
+      ]
+    },
+    "FT8": {
+      "name": "Other Southeast Asian Folk Music",
       "aka": [
         "Hmong Folk Music",
         "Lao Folk Music",
         "Thai Folk Music"
       ]
-    },
-    "FT8": {
-      "name": "Other Southeast Asian Folk Music"
     },
     "FT9": {
       "name": "Unspecified Southeast Asian Folk Music"
@@ -3491,16 +3498,16 @@ const clade = {
       "name": "West Asian and Caucasian Folk Music",
       "urls": [
         "https://rateyourmusic.com/genre/west-asian-folk-music/"
-      ],
+      ]
+    },
+    "FU8": {
+      "name": "Other West Asian and Caucasian Folk Music",
       "aka": [
         "Alevi Folk Music",
         "Assyrian Folk Music",
         "Israeli Folk Music",
         "Luri Folk Music"
       ]
-    },
-    "FU8": {
-      "name": "Other West Asian and Caucasian Folk Music"
     },
     "FU9": {
       "name": "Unspecified West Asian and Caucasian Folk Music"
@@ -3509,13 +3516,13 @@ const clade = {
       "name": "Indigenous Traditional Music",
       "urls": [
         "https://rateyourmusic.com/genre/indigenous-american-traditional-music/"
-      ],
-      "aka": [
-        "Mapuche Folk Music"
       ]
     },
     "FV8": {
-      "name": "Other Indigenous Traditional Music"
+      "name": "Other Indigenous Traditional Music",
+      "aka": [
+        "Mapuche Folk Music"
+      ]
     },
     "FV9": {
       "name": "Unspecified Indigenous Traditional Music"
@@ -3524,15 +3531,15 @@ const clade = {
       "name": "Work Songs and Other",
       "urls": [
         "https://rateyourmusic.com/genre/work-song/"
-      ],
+      ]
+    },
+    "FW8": {
+      "name": "Other Work Songs and Other",
       "aka": [
         "Field Hollers",
         "Military Cadence",
         "Sea Shanty"
       ]
-    },
-    "FW8": {
-      "name": "Other Work Songs and Other"
     },
     "FW9": {
       "name": "Unspecified Work Songs and Other"
@@ -3881,9 +3888,6 @@ const clade = {
       "name": "Pop Rap and Commercial",
       "urls": [
         "https://rateyourmusic.com/genre/pop-rap/"
-      ],
-      "aka": [
-        "Frat Rap"
       ]
     },
     "HHA": {
@@ -3909,7 +3913,10 @@ const clade = {
       ]
     },
     "HH8": {
-      "name": "Other Pop Rap and Commercial"
+      "name": "Other Pop Rap and Commercial",
+      "aka": [
+        "Frat Rap"
+      ]
     },
     "HH9": {
       "name": "Unspecified Pop Rap and Commercial"
@@ -3973,7 +3980,10 @@ const clade = {
         "https://rateyourmusic.com/genre/hipco/",
         "https://rateyourmusic.com/genre/hiplife/",
         "https://rateyourmusic.com/genre/motswako/"
-      ],
+      ]
+    },
+    "HM8": {
+      "name": "Other African Hip Hop",
       "aka": [
         "Afro Trap",
         "Bongo Flava",
@@ -3984,9 +3994,6 @@ const clade = {
         "Motswako"
       ]
     },
-    "HM8": {
-      "name": "Other African Hip Hop"
-    },
     "HM9": {
       "name": "Unspecified African Hip Hop"
     },
@@ -3996,14 +4003,14 @@ const clade = {
         "https://rateyourmusic.com/genre/arabesque-rap/",
         "https://rateyourmusic.com/genre/latin-rap/",
         "https://rateyourmusic.com/genre/chicano-rap/"
-      ],
+      ]
+    },
+    "HN8": {
+      "name": "Other Latin and Other Regional",
       "aka": [
         "Chicano Rap",
         "Latin Rap"
       ]
-    },
-    "HN8": {
-      "name": "Other Latin and Other Regional"
     },
     "HN9": {
       "name": "Unspecified Latin and Other Regional"
@@ -5398,14 +5405,14 @@ const clade = {
       "name": "Traditional Pop",
       "urls": [
         "https://rateyourmusic.com/genre/traditional-pop/"
-      ],
+      ]
+    },
+    "PA8": {
+      "name": "Other Traditional Pop",
       "aka": [
         "Standards",
         "Tin Pan Alley"
       ]
-    },
-    "PA8": {
-      "name": "Other Traditional Pop"
     },
     "PA9": {
       "name": "Unspecified Traditional Pop"
@@ -5549,13 +5556,13 @@ const clade = {
       "name": "Latin Pop",
       "urls": [
         "https://rateyourmusic.com/genre/latin-pop/"
-      ],
-      "aka": [
-        "Tropipop"
       ]
     },
     "PH8": {
-      "name": "Other Latin Pop"
+      "name": "Other Latin Pop",
+      "aka": [
+        "Tropipop"
+      ]
     },
     "PH9": {
       "name": "Unspecified Latin Pop"
@@ -5848,13 +5855,13 @@ const clade = {
       "name": "City Pop",
       "urls": [
         "https://rateyourmusic.com/genre/city-pop/"
-      ],
-      "aka": [
-        "Neo-City Pop"
       ]
     },
     "PW8": {
-      "name": "Other City Pop"
+      "name": "Other City Pop",
+      "aka": [
+        "Neo-City Pop"
+      ]
     },
     "PW9": {
       "name": "Unspecified City Pop"
@@ -5923,16 +5930,16 @@ const clade = {
       "name": "Rock and Roll",
       "urls": [
         "https://rateyourmusic.com/genre/rock-and-roll/"
-      ],
+      ]
+    },
+    "RA8": {
+      "name": "Other Rock and Roll",
       "aka": [
         "Indorock",
         "Psychobilly",
         "Rockabilly",
         "Twist"
       ]
-    },
-    "RA8": {
-      "name": "Other Rock and Roll"
     },
     "RA9": {
       "name": "Unspecified Rock and Roll"
@@ -5941,16 +5948,16 @@ const clade = {
       "name": "Hard Rock",
       "urls": [
         "https://rateyourmusic.com/genre/hard-rock/"
-      ],
+      ]
+    },
+    "RC8": {
+      "name": "Other Hard Rock",
       "aka": [
         "Glam Metal",
         "Occult Rock",
         "Sleaze Rock",
         "Stoner Rock"
       ]
-    },
-    "RC8": {
-      "name": "Other Hard Rock"
     },
     "RC9": {
       "name": "Unspecified Hard Rock"
@@ -5959,17 +5966,6 @@ const clade = {
       "name": "Alternative Rock",
       "urls": [
         "https://rateyourmusic.com/genre/alternative-rock/"
-      ],
-      "aka": [
-        "Alternative Dance",
-        "Britpop",
-        "Geek Rock",
-        "Jangle Pop",
-        "Neo-Acoustic",
-        "New Rave",
-        "Post-Britpop",
-        "Post-Grunge",
-        "Shoegaze"
       ]
     },
     "RDA": {
@@ -6004,7 +6000,18 @@ const clade = {
       ]
     },
     "RD8": {
-      "name": "Other Alternative Rock"
+      "name": "Other Alternative Rock",
+      "aka": [
+        "Alternative Dance",
+        "Britpop",
+        "Geek Rock",
+        "Jangle Pop",
+        "Neo-Acoustic",
+        "New Rave",
+        "Post-Britpop",
+        "Post-Grunge",
+        "Shoegaze"
+      ]
     },
     "RD9": {
       "name": "Unspecified Alternative Rock"
@@ -6013,12 +6020,6 @@ const clade = {
       "name": "Progressive Rock",
       "urls": [
         "https://rateyourmusic.com/genre/progressive-rock/"
-      ],
-      "aka": [
-        "Avant-Prog",
-        "Brutal Prog",
-        "Neo-Prog",
-        "Zeuhl"
       ]
     },
     "REA": {
@@ -6037,7 +6038,13 @@ const clade = {
       ]
     },
     "RE8": {
-      "name": "Other Progressive Rock"
+      "name": "Other Progressive Rock",
+      "aka": [
+        "Avant-Prog",
+        "Brutal Prog",
+        "Neo-Prog",
+        "Zeuhl"
+      ]
     },
     "RE9": {
       "name": "Unspecified Progressive Rock"
@@ -6064,13 +6071,6 @@ const clade = {
       "name": "Psychedelia",
       "urls": [
         "https://rateyourmusic.com/genre/psychedelia/"
-      ],
-      "aka": [
-        "Hypnagogic Pop",
-        "Neo-Psychedelia",
-        "Psychedelic Pop",
-        "Psychsploitation",
-        "Sitarsploitation"
       ]
     },
     "RHA": {
@@ -6090,7 +6090,14 @@ const clade = {
       ]
     },
     "RH8": {
-      "name": "Other Psychedelia"
+      "name": "Other Psychedelia",
+      "aka": [
+        "Hypnagogic Pop",
+        "Neo-Psychedelia",
+        "Psychedelic Pop",
+        "Psychsploitation",
+        "Sitarsploitation"
+      ]
     },
     "RH9": {
       "name": "Unspecified Psychedelia"
@@ -6099,10 +6106,6 @@ const clade = {
       "name": "Garage Rock",
       "urls": [
         "https://rateyourmusic.com/genre/garage-rock/"
-      ],
-      "aka": [
-        "Frat Rock",
-        "Garage Rock Revival"
       ]
     },
     "RJA": {
@@ -6121,7 +6124,11 @@ const clade = {
       ]
     },
     "RJ8": {
-      "name": "Other Garage Rock"
+      "name": "Other Garage Rock",
+      "aka": [
+        "Frat Rock",
+        "Garage Rock Revival"
+      ]
     },
     "RJ9": {
       "name": "Unspecified Garage Rock"
@@ -6130,16 +6137,6 @@ const clade = {
       "name": "Folk Rock",
       "urls": [
         "https://rateyourmusic.com/genre/folk-rock/"
-      ],
-      "aka": [
-        "Alpenrock",
-        "British Folk Rock",
-        "Celtic Rock",
-        "Mittelalter-Rock",
-        "Nordic Folk Rock",
-        "Phleng phuea chiwit",
-        "Pinoy Folk Rock",
-        "Rock rural"
       ]
     },
     "RKA": {
@@ -6152,7 +6149,17 @@ const clade = {
       ]
     },
     "RK8": {
-      "name": "Other Folk Rock"
+      "name": "Other Folk Rock",
+      "aka": [
+        "Alpenrock",
+        "British Folk Rock",
+        "Celtic Rock",
+        "Mittelalter-Rock",
+        "Nordic Folk Rock",
+        "Phleng phuea chiwit",
+        "Pinoy Folk Rock",
+        "Rock rural"
+      ]
     },
     "RK9": {
       "name": "Unspecified Folk Rock"
@@ -6200,9 +6207,6 @@ const clade = {
       "name": "Blues Rock",
       "urls": [
         "https://rateyourmusic.com/genre/blues-rock/"
-      ],
-      "aka": [
-        "Boogie Rock"
       ]
     },
     "RPA": {
@@ -6230,7 +6234,10 @@ const clade = {
       ]
     },
     "RP8": {
-      "name": "Other Blues Rock"
+      "name": "Other Blues Rock",
+      "aka": [
+        "Boogie Rock"
+      ]
     },
     "RP9": {
       "name": "Unspecified Blues Rock"
@@ -6375,13 +6382,13 @@ const clade = {
       "name": "Alt-Country",
       "urls": [
         "https://rateyourmusic.com/genre/alt-country/"
-      ],
-      "aka": [
-        "Gothic Country"
       ]
     },
     "TA8": {
-      "name": "Other Alt-Country"
+      "name": "Other Alt-Country",
+      "aka": [
+        "Gothic Country"
+      ]
     },
     "TA9": {
       "name": "Unspecified Alt-Country"
@@ -6420,15 +6427,15 @@ const clade = {
       "name": "Contemporary Country",
       "urls": [
         "https://rateyourmusic.com/genre/contemporary-country/"
-      ],
+      ]
+    },
+    "TD8": {
+      "name": "Other Contemporary Country",
       "aka": [
         "Boyfriend Country",
         "Bro-Country",
         "Neo-Traditionalist Country"
       ]
-    },
-    "TD8": {
-      "name": "Other Contemporary Country"
     },
     "TD9": {
       "name": "Unspecified Contemporary Country"
@@ -6437,13 +6444,13 @@ const clade = {
       "name": "Country Pop",
       "urls": [
         "https://rateyourmusic.com/genre/country-pop/"
-      ],
-      "aka": [
-        "Urban Cowboy"
       ]
     },
     "TE8": {
-      "name": "Other Country Pop"
+      "name": "Other Country Pop",
+      "aka": [
+        "Urban Cowboy"
+      ]
     },
     "TE9": {
       "name": "Unspecified Country Pop"
@@ -6452,13 +6459,13 @@ const clade = {
       "name": "Progressive Country",
       "urls": [
         "https://rateyourmusic.com/genre/progressive-country/"
-      ],
-      "aka": [
-        "Outlaw Country"
       ]
     },
     "TF8": {
-      "name": "Other Progressive Country"
+      "name": "Other Progressive Country",
+      "aka": [
+        "Outlaw Country"
+      ]
     },
     "TF9": {
       "name": "Unspecified Progressive Country"
@@ -6467,11 +6474,6 @@ const clade = {
       "name": "Traditional Country",
       "urls": [
         "https://rateyourmusic.com/genre/traditional-country/"
-      ],
-      "aka": [
-        "Close Harmony",
-        "Country Gospel",
-        "Country Yodeling"
       ]
     },
     "THA": {
@@ -6490,7 +6492,12 @@ const clade = {
       ]
     },
     "TH8": {
-      "name": "Other Traditional Country"
+      "name": "Other Traditional Country",
+      "aka": [
+        "Close Harmony",
+        "Country Gospel",
+        "Country Yodeling"
+      ]
     },
     "TH9": {
       "name": "Unspecified Traditional Country"
@@ -6499,14 +6506,14 @@ const clade = {
       "name": "Honky Tonk",
       "urls": [
         "https://rateyourmusic.com/genre/honky-tonk/"
-      ],
+      ]
+    },
+    "TJ8": {
+      "name": "Other Honky Tonk",
       "aka": [
         "Bakersfield Sound",
         "Truck Driving Country"
       ]
-    },
-    "TJ8": {
-      "name": "Other Honky Tonk"
     },
     "TJ9": {
       "name": "Unspecified Honky Tonk"
@@ -6524,14 +6531,6 @@ const clade = {
       "name": "Singer-Songwriter",
       "urls": [
         "https://rateyourmusic.com/genre/singer-songwriter/"
-      ],
-      "aka": [
-        "Euskal kantagintza berria",
-        "Kleinkunst",
-        "Musica de intervencao",
-        "Nova canco",
-        "Nova cancon",
-        "Poezja spiewana"
       ]
     },
     "TMA": {
@@ -6550,7 +6549,15 @@ const clade = {
       ]
     },
     "TM8": {
-      "name": "Other Singer-Songwriter"
+      "name": "Other Singer-Songwriter",
+      "aka": [
+        "Euskal kantagintza berria",
+        "Kleinkunst",
+        "Musica de intervencao",
+        "Nova canco",
+        "Nova cancon",
+        "Poezja spiewana"
+      ]
     },
     "TM9": {
       "name": "Unspecified Singer-Songwriter"
@@ -6635,11 +6642,6 @@ const clade = {
       "name": "Reggae",
       "urls": [
         "https://rateyourmusic.com/genre/reggae/"
-      ],
-      "aka": [
-        "Deejay",
-        "Seggae",
-        "Skinhead Reggae"
       ]
     },
     "UAA": {
@@ -6655,7 +6657,12 @@ const clade = {
       ]
     },
     "UA8": {
-      "name": "Other Reggae"
+      "name": "Other Reggae",
+      "aka": [
+        "Deejay",
+        "Seggae",
+        "Skinhead Reggae"
+      ]
     },
     "UA9": {
       "name": "Unspecified Reggae"
@@ -6664,13 +6671,13 @@ const clade = {
       "name": "Roots Reggae",
       "urls": [
         "https://rateyourmusic.com/genre/roots-reggae/"
-      ],
-      "aka": [
-        "Dub Poetry"
       ]
     },
     "UC8": {
-      "name": "Other Roots Reggae"
+      "name": "Other Roots Reggae",
+      "aka": [
+        "Dub Poetry"
+      ]
     },
     "UC9": {
       "name": "Unspecified Roots Reggae"
@@ -6703,9 +6710,6 @@ const clade = {
       "name": "Ska",
       "urls": [
         "https://rateyourmusic.com/genre/ska/"
-      ],
-      "aka": [
-        "Spouge"
       ]
     },
     "UFA": {
@@ -6721,7 +6725,10 @@ const clade = {
       ]
     },
     "UF8": {
-      "name": "Other Ska"
+      "name": "Other Ska",
+      "aka": [
+        "Spouge"
+      ]
     },
     "UF9": {
       "name": "Unspecified Ska"
@@ -6752,14 +6759,6 @@ const clade = {
       "name": "Dancehall",
       "urls": [
         "https://rateyourmusic.com/genre/dancehall/"
-      ],
-      "aka": [
-        "Bubbling",
-        "Flex Dance Music",
-        "Gommance",
-        "Shatta",
-        "Trap Dancehall",
-        "Zess"
       ]
     },
     "UJA": {
@@ -6769,7 +6768,15 @@ const clade = {
       ]
     },
     "UJ8": {
-      "name": "Other Dancehall"
+      "name": "Other Dancehall",
+      "aka": [
+        "Bubbling",
+        "Flex Dance Music",
+        "Gommance",
+        "Shatta",
+        "Trap Dancehall",
+        "Zess"
+      ]
     },
     "UJ9": {
       "name": "Unspecified Dancehall"
@@ -6808,15 +6815,6 @@ const clade = {
       "name": "Punk Rock",
       "urls": [
         "https://rateyourmusic.com/genre/punk-rock/"
-      ],
-      "aka": [
-        "Deutschpunk",
-        "Garage Punk",
-        "Horror Punk",
-        "Konsrock",
-        "Oi",
-        "Skate Punk",
-        "Vikingarock"
       ]
     },
     "VAA": {
@@ -6829,6 +6827,36 @@ const clade = {
         "Seishun Punk"
       ]
     },
+    "VAC": {
+      "name": "Garage Punk",
+      "urls": [
+        "https://rateyourmusic.com/genre/garage-punk/"
+      ]
+    },
+    "VAD": {
+      "name": "Vikingarock",
+      "urls": [
+        "https://rateyourmusic.com/genre/deutschpunk/",
+        "https://rateyourmusic.com/genre/konsrock/",
+        "https://rateyourmusic.com/genre/oi/",
+        "https://rateyourmusic.com/genre/vikingarock/"
+      ],
+      "aka": [
+        "Konsrock",
+        "Oi",
+        "Deutschpunk"
+      ]
+    },
+    "VAE": {
+      "name": "Skate Punk",
+      "urls": [
+        "https://rateyourmusic.com/genre/horror-punk/",
+        "https://rateyourmusic.com/genre/skate-punk/"
+      ],
+      "aka": [
+        "Horror Punk"
+      ]
+    },
     "VA8": {
       "name": "Other Punk Rock"
     },
@@ -6839,13 +6867,6 @@ const clade = {
       "name": "Hardcore",
       "urls": [
         "https://rateyourmusic.com/genre/hardcore-punk-1/"
-      ],
-      "aka": [
-        "Beatdown Hardcore",
-        "Electronicore",
-        "Nintendocore",
-        "Noisecore",
-        "Sass"
       ]
     },
     "VCA": {
@@ -6879,6 +6900,21 @@ const clade = {
         "Thrashcore"
       ]
     },
+    "VCD": {
+      "name": "Beatdown Hardcore"
+    },
+    "VCE": {
+      "name": "Nintendocore",
+      "aka": [
+        "Electronicore"
+      ]
+    },
+    "VCF": {
+      "name": "Sass",
+      "aka": [
+        "Noisecore"
+      ]
+    },
     "VC8": {
       "name": "Other Hardcore"
     },
@@ -6889,10 +6925,6 @@ const clade = {
       "name": "Post-Punk",
       "urls": [
         "https://rateyourmusic.com/genre/post-punk/"
-      ],
-      "aka": [
-        "Coldwave",
-        "Post-Punk Revival"
       ]
     },
     "VDA": {
@@ -6913,6 +6945,18 @@ const clade = {
         "Dance-Punk Revival"
       ]
     },
+    "VDD": {
+      "name": "Coldwave",
+      "urls": [
+        "https://rateyourmusic.com/genre/coldwave/"
+      ]
+    },
+    "VDE": {
+      "name": "Post-Punk Revival",
+      "urls": [
+        "https://rateyourmusic.com/genre/post-punk-revival/"
+      ]
+    },
     "VD8": {
       "name": "Other Post-Punk"
     },
@@ -6923,11 +6967,6 @@ const clade = {
       "name": "Post-Hardcore",
       "urls": [
         "https://rateyourmusic.com/genre/post-hardcore/"
-      ],
-      "aka": [
-        "Emocore",
-        "Mall Screamo",
-        "Swancore"
       ]
     },
     "VEA": {
@@ -6937,6 +6976,18 @@ const clade = {
       ],
       "aka": [
         "Emoviolence"
+      ]
+    },
+    "VEC": {
+      "name": "Swancore",
+      "urls": [
+        "https://rateyourmusic.com/genre/emocore/",
+        "https://rateyourmusic.com/genre/mall-screamo/",
+        "https://rateyourmusic.com/genre/swancore/"
+      ],
+      "aka": [
+        "Emocore",
+        "Mall Screamo"
       ]
     },
     "VE8": {
@@ -6949,9 +7000,12 @@ const clade = {
       "name": "Art Punk",
       "urls": [
         "https://rateyourmusic.com/genre/art-punk/"
-      ],
-      "aka": [
-        "Egg Punk"
+      ]
+    },
+    "VFA": {
+      "name": "Egg Punk",
+      "urls": [
+        "https://rateyourmusic.com/genre/egg-punk/"
       ]
     },
     "VF8": {
@@ -6964,10 +7018,16 @@ const clade = {
       "name": "Folk Punk",
       "urls": [
         "https://rateyourmusic.com/genre/folk-punk/"
+      ]
+    },
+    "VHA": {
+      "name": "Gypsy Punk",
+      "urls": [
+        "https://rateyourmusic.com/genre/celtic-punk/",
+        "https://rateyourmusic.com/genre/gypsy-punk/"
       ],
       "aka": [
-        "Celtic Punk",
-        "Gypsy Punk"
+        "Celtic Punk"
       ]
     },
     "VH8": {
@@ -6980,10 +7040,18 @@ const clade = {
       "name": "Emo",
       "urls": [
         "https://rateyourmusic.com/genre/emo/"
-      ],
-      "aka": [
-        "Emo-Pop",
-        "Midwest Emo"
+      ]
+    },
+    "VJA": {
+      "name": "Emo-Pop",
+      "urls": [
+        "https://rateyourmusic.com/genre/emo-pop/"
+      ]
+    },
+    "VJC": {
+      "name": "Midwest Emo",
+      "urls": [
+        "https://rateyourmusic.com/genre/midwest-emo/"
       ]
     },
     "VJ8": {
@@ -7126,26 +7194,6 @@ const clade = {
       "name": "African Music",
       "urls": [
         "https://rateyourmusic.com/genre/african-music/"
-      ],
-      "aka": [
-        "Batuque",
-        "Cape Verdean Music",
-        "Coladeira",
-        "Funana",
-        "Kalonny fahiny",
-        "Malagasy Folk Music",
-        "Malagasy Music",
-        "Maloya",
-        "Maloya electronique",
-        "Maloya elektrik",
-        "Morna",
-        "Salegy",
-        "Sante engage",
-        "Sega",
-        "Seychelles and Mascarene Islands Music",
-        "Traditional Maloya",
-        "Traditional Sega",
-        "Tsapiky"
       ]
     },
     "XAA": {
@@ -7336,7 +7384,27 @@ const clade = {
       ]
     },
     "XA8": {
-      "name": "Other African Music"
+      "name": "Other African Music",
+      "aka": [
+        "Batuque",
+        "Cape Verdean Music",
+        "Coladeira",
+        "Funana",
+        "Kalonny fahiny",
+        "Malagasy Folk Music",
+        "Malagasy Music",
+        "Maloya",
+        "Maloya electronique",
+        "Maloya elektrik",
+        "Morna",
+        "Salegy",
+        "Sante engage",
+        "Sega",
+        "Seychelles and Mascarene Islands Music",
+        "Traditional Maloya",
+        "Traditional Sega",
+        "Tsapiky"
+      ]
     },
     "XA9": {
       "name": "Unspecified African Music"
@@ -7345,7 +7413,10 @@ const clade = {
       "name": "Arabic Music",
       "urls": [
         "https://rateyourmusic.com/genre/arabic-music/"
-      ],
+      ]
+    },
+    "XC8": {
+      "name": "Other Arabic Music",
       "aka": [
         "Aita",
         "Al jeel",
@@ -7370,9 +7441,6 @@ const clade = {
         "Zajal"
       ]
     },
-    "XC8": {
-      "name": "Other Arabic Music"
-    },
     "XC9": {
       "name": "Unspecified Arabic Music"
     },
@@ -7389,21 +7457,6 @@ const clade = {
       "name": "European Music",
       "urls": [
         "https://rateyourmusic.com/genre/european-music/"
-      ],
-      "aka": [
-        "Chanson",
-        "Chanson alternative",
-        "Chanson quebecoise",
-        "Chanson realiste",
-        "Crimean Tatar Music",
-        "Dechovka",
-        "Fanfare",
-        "Nouvelle chanson francaise",
-        "Schottische",
-        "Trampska hudba",
-        "Vals venezolano",
-        "Valsa brasileira",
-        "Waltz"
       ]
     },
     "XEA": {
@@ -7531,7 +7584,22 @@ const clade = {
       ]
     },
     "XE8": {
-      "name": "Other European Music"
+      "name": "Other European Music",
+      "aka": [
+        "Chanson",
+        "Chanson alternative",
+        "Chanson quebecoise",
+        "Chanson realiste",
+        "Crimean Tatar Music",
+        "Dechovka",
+        "Fanfare",
+        "Nouvelle chanson francaise",
+        "Schottische",
+        "Trampska hudba",
+        "Vals venezolano",
+        "Valsa brasileira",
+        "Waltz"
+      ]
     },
     "XE9": {
       "name": "Unspecified European Music"
@@ -7540,9 +7608,6 @@ const clade = {
       "name": "Hispanic Music",
       "urls": [
         "https://rateyourmusic.com/genre/hispanic-music/"
-      ],
-      "aka": [
-        "Romance"
       ]
     },
     "XFA": {
@@ -7608,7 +7673,10 @@ const clade = {
       ]
     },
     "XF8": {
-      "name": "Other Hispanic Music"
+      "name": "Other Hispanic Music",
+      "aka": [
+        "Romance"
+      ]
     },
     "XF9": {
       "name": "Unspecified Hispanic Music"
@@ -7617,7 +7685,10 @@ const clade = {
       "name": "Brazilian Music",
       "urls": [
         "https://rateyourmusic.com/genre/brazilian-music/"
-      ],
+      ]
+    },
+    "XH8": {
+      "name": "Other Brazilian Music",
       "aka": [
         "Aboio",
         "Aboio cantado",
@@ -7705,9 +7776,6 @@ const clade = {
         "Xote"
       ]
     },
-    "XH8": {
-      "name": "Other Brazilian Music"
-    },
     "XH9": {
       "name": "Unspecified Brazilian Music"
     },
@@ -7715,31 +7783,6 @@ const clade = {
       "name": "Caribbean Music",
       "urls": [
         "https://rateyourmusic.com/genre/caribbean-music/"
-      ],
-      "aka": [
-        "Aleke",
-        "Bachata",
-        "Baithak gana",
-        "Brukdown",
-        "Bullerengue",
-        "Calipso venezolano",
-        "Calypso",
-        "Champeta",
-        "Chutney",
-        "Dembow",
-        "Gaita zuliana",
-        "Garifuna Music",
-        "Goombay",
-        "Indo-Caribbean Music",
-        "Junkanoo",
-        "Kaseko",
-        "Palo de mayo",
-        "Parang",
-        "Porro",
-        "Punta",
-        "Steel Band",
-        "Tassa",
-        "Vallenato"
       ]
     },
     "XJA": {
@@ -7838,7 +7881,32 @@ const clade = {
       ]
     },
     "XJ8": {
-      "name": "Other Caribbean Music"
+      "name": "Other Caribbean Music",
+      "aka": [
+        "Aleke",
+        "Bachata",
+        "Baithak gana",
+        "Brukdown",
+        "Bullerengue",
+        "Calipso venezolano",
+        "Calypso",
+        "Champeta",
+        "Chutney",
+        "Dembow",
+        "Gaita zuliana",
+        "Garifuna Music",
+        "Goombay",
+        "Indo-Caribbean Music",
+        "Junkanoo",
+        "Kaseko",
+        "Palo de mayo",
+        "Parang",
+        "Porro",
+        "Punta",
+        "Steel Band",
+        "Tassa",
+        "Vallenato"
+      ]
     },
     "XJ9": {
       "name": "Unspecified Caribbean Music"
@@ -7847,7 +7915,10 @@ const clade = {
       "name": "North American Music",
       "urls": [
         "https://rateyourmusic.com/genre/northern-american-music/"
-      ],
+      ]
+    },
+    "XK8": {
+      "name": "Other North American Music",
       "aka": [
         "Americana",
         "Barbershop",
@@ -7874,9 +7945,6 @@ const clade = {
         "Zydeco"
       ]
     },
-    "XK8": {
-      "name": "Other North American Music"
-    },
     "XK9": {
       "name": "Unspecified North American Music"
     },
@@ -7884,19 +7952,6 @@ const clade = {
       "name": "South American Music",
       "urls": [
         "https://rateyourmusic.com/genre/south-american-music/"
-      ],
-      "aka": [
-        "Avanzada",
-        "Bailecito",
-        "Caporal",
-        "Carnaval cruceno",
-        "Chuntunqui romantico",
-        "Conjunto andino",
-        "Currulao",
-        "Guarania",
-        "Onda nueva",
-        "Pasillo",
-        "Polka paraguaya"
       ]
     },
     "XMA": {
@@ -7952,7 +8007,20 @@ const clade = {
       ]
     },
     "XM8": {
-      "name": "Other South American Music"
+      "name": "Other South American Music",
+      "aka": [
+        "Avanzada",
+        "Bailecito",
+        "Caporal",
+        "Carnaval cruceno",
+        "Chuntunqui romantico",
+        "Conjunto andino",
+        "Currulao",
+        "Guarania",
+        "Onda nueva",
+        "Pasillo",
+        "Polka paraguaya"
+      ]
     },
     "XM9": {
       "name": "Unspecified South American Music"
@@ -7961,13 +8029,6 @@ const clade = {
       "name": "Asian Music",
       "urls": [
         "https://rateyourmusic.com/genre/asian-music/"
-      ],
-      "aka": [
-        "Beompae",
-        "Buddhist Music",
-        "Chod",
-        "Ghazal",
-        "Shomyo"
       ]
     },
     "XNA": {
@@ -8202,7 +8263,14 @@ const clade = {
       ]
     },
     "XN8": {
-      "name": "Other Asian Music"
+      "name": "Other Asian Music",
+      "aka": [
+        "Beompae",
+        "Buddhist Music",
+        "Chod",
+        "Ghazal",
+        "Shomyo"
+      ]
     },
     "XN9": {
       "name": "Unspecified Asian Music"
@@ -8211,14 +8279,14 @@ const clade = {
       "name": "Austronesian Music",
       "urls": [
         "https://rateyourmusic.com/genre/austronesian-music/"
-      ],
+      ]
+    },
+    "XP8": {
+      "name": "Other Austronesian Music",
       "aka": [
         "Indigenous Taiwanese Music",
         "Pakacaping Music"
       ]
-    },
-    "XP8": {
-      "name": "Other Austronesian Music"
     },
     "XP9": {
       "name": "Unspecified Austronesian Music"
@@ -8227,7 +8295,10 @@ const clade = {
       "name": "Christian Liturgical Music",
       "urls": [
         "https://rateyourmusic.com/genre/christian-liturgical-music/"
-      ],
+      ]
+    },
+    "XR8": {
+      "name": "Other Christian Liturgical Music",
       "aka": [
         "Ambrosian Chant",
         "Anglican Chant",
@@ -8251,9 +8322,6 @@ const clade = {
         "Znamenny Chant"
       ]
     },
-    "XR8": {
-      "name": "Other Christian Liturgical Music"
-    },
     "XR9": {
       "name": "Unspecified Christian Liturgical Music"
     },
@@ -8261,14 +8329,14 @@ const clade = {
       "name": "Ancient Music",
       "urls": [
         "https://rateyourmusic.com/genre/ancient-music/"
-      ],
+      ]
+    },
+    "XT8": {
+      "name": "Other Ancient Music",
       "aka": [
         "Ancient Roman Music",
         "Mesopotamian Music"
       ]
-    },
-    "XT8": {
-      "name": "Other Ancient Music"
     },
     "XT9": {
       "name": "Unspecified Ancient Music"
@@ -8277,7 +8345,10 @@ const clade = {
       "name": "Indigenous American Music",
       "urls": [
         "https://rateyourmusic.com/genre/indigenous-american-music/"
-      ],
+      ]
+    },
+    "XU8": {
+      "name": "Other Indigenous American Music",
       "aka": [
         "Athabaskan Fiddling",
         "Baguala",
@@ -8307,9 +8378,6 @@ const clade = {
         "Uaajeerneq"
       ]
     },
-    "XU8": {
-      "name": "Other Indigenous American Music"
-    },
     "XU9": {
       "name": "Unspecified Indigenous American Music"
     },
@@ -8317,7 +8385,10 @@ const clade = {
       "name": "Turkic-Mongolic Music",
       "urls": [
         "https://rateyourmusic.com/genre/turkic-mongolic-music/"
-      ],
+      ]
+    },
+    "XV8": {
+      "name": "Other Turkic-Mongolic Music",
       "aka": [
         "Altai Music",
         "Bashkir Folk Music",
@@ -8337,9 +8408,6 @@ const clade = {
         "Zohioliin duu"
       ]
     },
-    "XV8": {
-      "name": "Other Turkic-Mongolic Music"
-    },
     "XV9": {
       "name": "Unspecified Turkic-Mongolic Music"
     },
@@ -8347,7 +8415,10 @@ const clade = {
       "name": "Jewish Music",
       "urls": [
         "https://rateyourmusic.com/genre/jewish-music/"
-      ],
+      ]
+    },
+    "XW8": {
+      "name": "Other Jewish Music",
       "aka": [
         "Ancient Levitical Music",
         "Ashkenazi Cantorial Music",
@@ -8370,9 +8441,6 @@ const clade = {
         "Sephardic Music",
         "Yiddish Folksong"
       ]
-    },
-    "XW8": {
-      "name": "Other Jewish Music"
     },
     "XW9": {
       "name": "Unspecified Jewish Music"
@@ -8443,18 +8511,6 @@ const clade = {
       "name": "Musical Theatre and Entertainment",
       "urls": [
         "https://rateyourmusic.com/genre/musical-theatre-and-entertainment/"
-      ],
-      "aka": [
-        "Cabaret",
-        "Dutch Cabaret",
-        "Kabarett",
-        "Minstrelsy",
-        "Murga",
-        "Murga uruguaya",
-        "Music Hall",
-        "Revue",
-        "Show Tunes",
-        "Vaudeville"
       ]
     },
     "YA": {
@@ -8495,6 +8551,24 @@ const clade = {
     },
     "YE9": {
       "name": "Unspecified Siffleur"
+    },
+    "Y8": {
+      "name": "Other Musical Theatre and Entertainment"
+    },
+    "Y89": {
+      "name": "Misc Musical Theatre and Entertainment",
+      "aka": [
+        "Cabaret",
+        "Dutch Cabaret",
+        "Kabarett",
+        "Minstrelsy",
+        "Murga",
+        "Murga uruguaya",
+        "Music Hall",
+        "Revue",
+        "Show Tunes",
+        "Vaudeville"
+      ]
     },
     "2A": {
       "name": "Atmosphere",

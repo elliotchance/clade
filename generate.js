@@ -538,19 +538,26 @@ for (const [key, opt] of Object.entries(optByTitle)) {
   }
 }
 
-// Push akas from 1-2 char A-X codes down to their Misc (X89/XX89) equivalents
-for (const [code, entry] of Object.entries(result)) {
-  if (!entry.aka || entry.aka.length === 0) continue;
-  if (!/^[A-X]/.test(code[0])) continue;
-  if (code.length >= 3) continue;
-  const targetCode = code + '89';
-  if (!(targetCode in result)) continue;
-  const target = result[targetCode];
-  if (!target.aka) target.aka = [];
-  for (const aka of entry.aka) {
-    if (!target.aka.includes(aka)) target.aka.push(aka);
+// Push akas from 1-2 char A-Y codes down to their Other/Misc children
+// Runs twice to handle chains: X → X8 (Other) → X89 (Misc)
+for (let pass = 0; pass < 2; pass++) {
+  for (const [code, entry] of Object.entries(result)) {
+    if (!entry.aka || entry.aka.length === 0) continue;
+    if (!/^[A-Y]/.test(code[0])) continue;
+    if (code.length >= 3) continue;
+    // X8 codes push to X89 (Misc); other 2-char codes push to XX8 (Other); 1-char codes push to X8 (Other)
+    const candidates = code.endsWith('8')
+      ? [code + '9']
+      : [code + '8', code + '89'];
+    const targetCode = candidates.find(c => c in result) || null;
+    if (!targetCode) continue;
+    const target = result[targetCode];
+    if (!target.aka) target.aka = [];
+    for (const aka of entry.aka) {
+      if (!target.aka.includes(aka)) target.aka.push(aka);
+    }
+    entry.aka = [];
   }
-  entry.aka = [];
 }
 
 // Re-sort after adding stubs, using allowedCodeCharacters ordering (letters before digits)

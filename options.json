@@ -1691,6 +1691,10 @@
     "Beat fino": {
       "code": "DTD"
     },
+    "Beatdown Hardcore": {
+      "parent": "Hardcore",
+      "code": "VCD"
+    },
     "Bebop": {
       "code": "JD"
     },
@@ -2341,7 +2345,8 @@
       "parent": "New Age"
     },
     "Celtic Punk": {
-      "parent": "Folk Punk"
+      "parent": "Folk Punk",
+      "code": "VHA"
     },
     "Celtic Rock": {
       "parent": "Folk Rock"
@@ -2612,6 +2617,10 @@
     "Cold": {
       "code": "2AF",
       "parent": "atmosphere"
+    },
+    "Coldwave": {
+      "parent": "Post-Punk",
+      "code": "VDD"
     },
     "Colinde": {
       "code": "FND"
@@ -2949,7 +2958,8 @@
       "parent": "Dance-Punk"
     },
     "Dancefloor Drum and Bass": {
-      "parent": "Drum and Bass"
+      "parent": "Drum and Bass",
+      "code": "DEU"
     },
     "Dancehall": {
       "code": "UJ",
@@ -3145,6 +3155,10 @@
     },
     "Detroit Techno": {
       "code": "DCA"
+    },
+    "Deutschpunk": {
+      "parent": "Punk Rock",
+      "code": "VAD"
     },
     "Deutschrock": {
       "code": "RU"
@@ -3492,7 +3506,8 @@
       "pseudo": true
     },
     "Egg Punk": {
-      "parent": "Art Punk"
+      "parent": "Art Punk",
+      "code": "VFA"
     },
     "Egyptian Arabic": {
       "code": "2MX",
@@ -3553,6 +3568,10 @@
       "code": "3F",
       "pseudo": true
     },
+    "Electronicore": {
+      "parent": "Hardcore",
+      "code": "VCE"
+    },
     "Electropop": {
       "code": "ECA",
       "parent": "Electronic"
@@ -3589,10 +3608,12 @@
       "code": "3VE"
     },
     "Emo-Pop": {
-      "parent": "Emo"
+      "parent": "Emo",
+      "code": "VJA"
     },
     "Emocore": {
-      "parent": "Post-Hardcore"
+      "parent": "Post-Hardcore",
+      "code": "VEC"
     },
     "En": {
       "code": "7EN",
@@ -4234,7 +4255,7 @@
       "parent": "House"
     },
     "Future Garage": {
-      "code": "DME"
+      "code": "DMF"
     },
     "Future House": {
       "code": "DAM"
@@ -4332,7 +4353,8 @@
       "parent": "Psychedelic Rock"
     },
     "Garage Punk": {
-      "parent": "Punk Rock"
+      "parent": "Punk Rock",
+      "code": "VAC"
     },
     "Garage Rock": {
       "code": "RJ"
@@ -4552,6 +4574,10 @@
     },
     "Guns": {
       "code": "2HN"
+    },
+    "Gypsy Punk": {
+      "parent": "Folk Punk",
+      "code": "VHA"
     },
     "Género chico": {
       "title": "Genero chico",
@@ -4869,6 +4895,10 @@
     },
     "Horror": {
       "code": "2HC"
+    },
+    "Horror Punk": {
+      "parent": "Punk Rock",
+      "code": "VAE"
     },
     "Horror Synth": {
       "code": "EKC"
@@ -5704,7 +5734,8 @@
       "parent": "Turkic-Mongolic Music"
     },
     "Könsrock": {
-      "title": "Konsrock"
+      "title": "Konsrock",
+      "code": "VAD"
     },
     "L-M": {
       "code": "7M",
@@ -6061,7 +6092,8 @@
       "code": "2JA"
     },
     "Mall Screamo": {
-      "parent": "Post-Hardcore"
+      "parent": "Post-Hardcore",
+      "code": "VEC"
     },
     "Maloya électronique": {
       "parent": "Maloya",
@@ -6333,7 +6365,8 @@
       "pseudo": true
     },
     "Midwest Emo": {
-      "parent": "Emo"
+      "parent": "Emo",
+      "code": "VJC"
     },
     "Midwest Hip Hop": {
       "code": "3EK"
@@ -6448,6 +6481,10 @@
     },
     "Misc Miscellaneous": {
       "code": "W89",
+      "pseudo": true
+    },
+    "Misc Musical Theatre and Entertainment": {
+      "code": "Y89",
       "pseudo": true
     },
     "Misc Non-music": {
@@ -7042,6 +7079,10 @@
       "code": "7NX",
       "pseudo": true
     },
+    "Nintendocore": {
+      "parent": "Hardcore",
+      "code": "VCE"
+    },
     "Nis": {
       "code": "7NY",
       "pseudo": true
@@ -7074,6 +7115,10 @@
     "Noise Pop": {},
     "Noise Rock": {
       "code": "RRC"
+    },
+    "Noisecore": {
+      "parent": "Hardcore",
+      "code": "VCF"
     },
     "Noisy": {
       "code": "2EE"
@@ -7288,7 +7333,8 @@
       "pseudo": true
     },
     "Oi!": {
-      "title": "Oi"
+      "title": "Oi",
+      "code": "VAD"
     },
     "Ol": {
       "code": "7PF",
@@ -8030,6 +8076,10 @@
     },
     "Other Musical Theatre": {
       "code": "YA8",
+      "pseudo": true
+    },
+    "Other Musical Theatre and Entertainment": {
+      "code": "Y8",
       "pseudo": true
     },
     "Other Nature Recordings": {
@@ -8848,7 +8898,8 @@
       "parent": "Punk"
     },
     "Post-Punk Revival": {
-      "parent": "Post-Punk"
+      "parent": "Post-Punk",
+      "code": "VDE"
     },
     "Post-Punk and New Wave": {
       "code": "RF",
@@ -9609,6 +9660,10 @@
     "Sarum Chant": {
       "parent": "Gregorian Chant"
     },
+    "Sass": {
+      "parent": "Hardcore",
+      "code": "VCF"
+    },
     "Satanism": {
       "code": "2HP"
     },
@@ -9906,6 +9961,10 @@
     },
     "Skacore": {
       "parent": "Ska Punk"
+    },
+    "Skate Punk": {
+      "parent": "Punk Rock",
+      "code": "VAE"
     },
     "Skiffle": {
       "code": "FAA"
@@ -10330,6 +10389,10 @@
     },
     "Swamp Pop": {
       "parent": "Louisiana Music"
+    },
+    "Swancore": {
+      "parent": "Post-Hardcore",
+      "code": "VEC"
     },
     "Swedish": {
       "code": "2MK",
@@ -12325,6 +12388,10 @@
     },
     "Viking Metal": {
       "code": "MMA"
+    },
+    "Vikingarock": {
+      "parent": "Punk Rock",
+      "code": "VAD"
     },
     "Vikings": {
       "code": "2HM"
