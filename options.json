@@ -1109,8 +1109,7 @@
       "code": "AA"
     },
     "Ambient Americana": {
-      "code": "AAD",
-      "title": "Tribal Ambient"
+      "parent": "Ambient"
     },
     "Ambient Dub": {
       "code": "EAE"
@@ -1579,8 +1578,7 @@
       "title": "Baltic and Eastern European Folk Music"
     },
     "Baltimore Club": {
-      "code": "DAT",
-      "title": "Ballroom"
+      "parent": "House"
     },
     "Balto-Finnic Folk Music": {
       "code": "FND"
@@ -1711,9 +1709,7 @@
       "parent": "French Caribbean Music"
     },
     "Belgian Techno": {
-      "code": "DCA",
-      "parent": "Techno",
-      "title": "Detroit Techno"
+      "parent": "Techno"
     },
     "Bengali": {
       "code": "2MW",
@@ -1759,8 +1755,7 @@
       "code": "PCD"
     },
     "Big Room House": {
-      "code": "DAU",
-      "title": "Euro House"
+      "parent": "House"
     },
     "Big Room Trance": {
       "code": "DDN"
@@ -1927,8 +1922,7 @@
       "pseudo": true
     },
     "Brazilian Bass": {
-      "code": "DAP",
-      "title": "Latin House"
+      "parent": "House"
     },
     "Brazilian Classical Music": {
       "code": "CHA",
@@ -2450,8 +2444,7 @@
       "code": "HCA"
     },
     "Chicago Hard House": {
-      "code": "DAA",
-      "title": "Chicago House"
+      "parent": "House"
     },
     "Chicago House": {
       "code": "DAA"
@@ -2956,8 +2949,7 @@
       "parent": "Dance-Punk"
     },
     "Dancefloor Drum and Bass": {
-      "code": "DEK",
-      "title": "Jump-Up"
+      "parent": "Drum and Bass"
     },
     "Dancehall": {
       "code": "UJ",
@@ -3226,8 +3218,7 @@
       "code": "2CC"
     },
     "Diva House": {
-      "code": "DAH",
-      "title": "French House"
+      "parent": "House"
     },
     "Divertissement": {
       "code": "CDD"
@@ -4240,9 +4231,7 @@
       "parent": "UK Hardcore"
     },
     "Future Funk": {
-      "code": "DAM",
-      "parent": "House",
-      "title": "Future House"
+      "parent": "House"
     },
     "Future Garage": {
       "code": "DME"
@@ -6254,8 +6243,7 @@
       "code": "DJE"
     },
     "Melodic House": {
-      "code": "DAK",
-      "title": "Tech House"
+      "parent": "House"
     },
     "Melodic Metalcore": {
       "code": "MJD"
@@ -8439,8 +8427,7 @@
       "pseudo": true
     },
     "Overture": {
-      "code": "CDE",
-      "title": "Symphony"
+      "parent": "Western Classical Music"
     },
     "Ow": {
       "code": "7PR",
@@ -10039,8 +10026,7 @@
       "parent": "Central American Music"
     },
     "Sonorism": {
-      "code": "CFN",
-      "title": "Stochastic Music"
+      "parent": "Modern Classical"
     },
     "Soothing": {
       "code": "2CD"
@@ -10274,8 +10260,7 @@
       "code": "CDD"
     },
     "Stutter House": {
-      "code": "DAF",
-      "title": "UK Hard House"
+      "parent": "House"
     },
     "Style": {
       "code": "2E"
@@ -10524,8 +10509,7 @@
       "code": "PXE"
     },
     "Technoid": {
-      "code": "DEP",
-      "title": "Techstep"
+      "parent": "Drum and Bass"
     },
     "Technology": {
       "code": "2HF"

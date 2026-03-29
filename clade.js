@@ -159,6 +159,9 @@ const clade = {
       "name": "Ambient",
       "urls": [
         "https://rateyourmusic.com/genre/ambient/"
+      ],
+      "aka": [
+        "Ambient Americana"
       ]
     },
     "AAA": {
@@ -180,7 +183,6 @@ const clade = {
     "AAD": {
       "name": "Tribal Ambient",
       "urls": [
-        "https://rateyourmusic.com/genre/ambient-americana/",
         "https://rateyourmusic.com/genre/tribal-ambient/"
       ]
     },
@@ -451,7 +453,6 @@ const clade = {
     "CDE": {
       "name": "Symphony",
       "urls": [
-        "https://rateyourmusic.com/genre/overture/",
         "https://rateyourmusic.com/genre/symphony/"
       ],
       "aka": [
@@ -505,7 +506,8 @@ const clade = {
         "https://rateyourmusic.com/genre/modern-classical/"
       ],
       "aka": [
-        "American Gamelan"
+        "American Gamelan",
+        "Sonorism"
       ]
     },
     "CFA": {
@@ -572,7 +574,6 @@ const clade = {
     "CFN": {
       "name": "Stochastic Music",
       "urls": [
-        "https://rateyourmusic.com/genre/sonorism/",
         "https://rateyourmusic.com/genre/stochastic-music/"
       ]
     },
@@ -970,6 +971,7 @@ const clade = {
         "Fugue",
         "Impromptu",
         "Nocturne",
+        "Overture",
         "Prelude",
         "Ricercar",
         "Sonata",
@@ -995,19 +997,28 @@ const clade = {
       "name": "House",
       "urls": [
         "https://rateyourmusic.com/genre/house/"
+      ],
+      "aka": [
+        "Baltimore Club",
+        "Big Room House",
+        "Brazilian Bass",
+        "Chicago Hard House",
+        "Diva House",
+        "Future Funk",
+        "LA Hard House",
+        "Melodic House",
+        "Stutter House"
       ]
     },
     "DAA": {
       "name": "Chicago House",
       "urls": [
-        "https://rateyourmusic.com/genre/chicago-hard-house/",
         "https://rateyourmusic.com/genre/chicago-house/",
         "https://rateyourmusic.com/genre/ghetto-house/"
       ],
       "aka": [
         "Ghetto House",
-        "Juke",
-        "LA Hard House"
+        "Juke"
       ]
     },
     "DAC": {
@@ -1048,7 +1059,6 @@ const clade = {
     "DAF": {
       "name": "UK Hard House",
       "urls": [
-        "https://rateyourmusic.com/genre/stutter-house/",
         "https://rateyourmusic.com/genre/uk-hard-house/"
       ],
       "aka": [
@@ -1059,7 +1069,6 @@ const clade = {
     "DAH": {
       "name": "French House",
       "urls": [
-        "https://rateyourmusic.com/genre/diva-house/",
         "https://rateyourmusic.com/genre/french-house/",
         "https://rateyourmusic.com/genre/funky-house/",
         "https://rateyourmusic.com/genre/garage-house/",
@@ -1099,7 +1108,6 @@ const clade = {
     "DAK": {
       "name": "Tech House",
       "urls": [
-        "https://rateyourmusic.com/genre/melodic-house/",
         "https://rateyourmusic.com/genre/tech-house/"
       ],
       "aka": [
@@ -1110,7 +1118,6 @@ const clade = {
     "DAM": {
       "name": "Future House",
       "urls": [
-        "https://rateyourmusic.com/genre/future-funk/",
         "https://rateyourmusic.com/genre/future-house/",
         "https://rateyourmusic.com/genre/tropical-house/"
       ],
@@ -1127,9 +1134,8 @@ const clade = {
       ]
     },
     "DAP": {
-      "name": "Latin House",
+      "name": "Changa tuki",
       "urls": [
-        "https://rateyourmusic.com/genre/brazilian-bass/",
         "https://rateyourmusic.com/genre/changa-tuki/",
         "https://rateyourmusic.com/genre/eletrofunk/",
         "https://rateyourmusic.com/genre/latin-house/",
@@ -1137,9 +1143,9 @@ const clade = {
         "https://rateyourmusic.com/genre/vinahouse/"
       ],
       "aka": [
-        "Changa tuki",
         "Eletrofunk",
         "Guaracha EDM",
+        "Latin House",
         "Tribal House",
         "Vinahouse"
       ]
@@ -1156,14 +1162,12 @@ const clade = {
     "DAT": {
       "name": "Ballroom",
       "urls": [
-        "https://rateyourmusic.com/genre/baltimore-club/",
         "https://rateyourmusic.com/genre/ballroom/"
       ]
     },
     "DAU": {
       "name": "Euro House",
       "urls": [
-        "https://rateyourmusic.com/genre/big-room-house/",
         "https://rateyourmusic.com/genre/euro-house/"
       ],
       "aka": [
@@ -1201,17 +1205,19 @@ const clade = {
       "name": "Techno",
       "urls": [
         "https://rateyourmusic.com/genre/techno/"
+      ],
+      "aka": [
+        "Belgian Techno"
       ]
     },
     "DCA": {
-      "name": "Detroit Techno",
+      "name": "Bleep Techno",
       "urls": [
-        "https://rateyourmusic.com/genre/belgian-techno/",
         "https://rateyourmusic.com/genre/bleep-techno/",
         "https://rateyourmusic.com/genre/detroit-techno/"
       ],
       "aka": [
-        "Bleep Techno"
+        "Detroit Techno"
       ]
     },
     "DCC": {
@@ -1403,6 +1409,10 @@ const clade = {
       "name": "Drum and Bass",
       "urls": [
         "https://rateyourmusic.com/genre/drum-and-bass/"
+      ],
+      "aka": [
+        "Dancefloor Drum and Bass",
+        "Technoid"
       ]
     },
     "DEA": {
@@ -1471,7 +1481,6 @@ const clade = {
     "DEK": {
       "name": "Jump-Up",
       "urls": [
-        "https://rateyourmusic.com/genre/dancefloor-drum-and-bass/",
         "https://rateyourmusic.com/genre/jump-up/"
       ]
     },
@@ -1496,7 +1505,6 @@ const clade = {
     "DEP": {
       "name": "Techstep",
       "urls": [
-        "https://rateyourmusic.com/genre/technoid/",
         "https://rateyourmusic.com/genre/techstep/"
       ]
     },
