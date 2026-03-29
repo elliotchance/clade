@@ -19,6 +19,18 @@ const clade = {
         "time"
       ]
     },
+    "6": {
+      "name": "Non-music"
+    },
+    "7": {
+      "name": "Artist Sort"
+    },
+    "8": {
+      "name": "Other"
+    },
+    "9": {
+      "name": "Unassigned"
+    },
     "28": {
       "name": "Other Music Descriptor"
     },
@@ -36,6 +48,30 @@ const clade = {
     },
     "49": {
       "name": "Unspecified Time"
+    },
+    "68": {
+      "name": "Other Non-music"
+    },
+    "69": {
+      "name": "Unspecified Non-music"
+    },
+    "78": {
+      "name": "Other Artist Sort"
+    },
+    "79": {
+      "name": "Unspecified Artist Sort"
+    },
+    "88": {
+      "name": "Other Other"
+    },
+    "89": {
+      "name": "Unspecified Other"
+    },
+    "98": {
+      "name": "Other Unassigned"
+    },
+    "99": {
+      "name": "Unspecified Unassigned"
     },
     "288": {
       "name": "Other Other Music Descriptor"
@@ -77,6 +113,45 @@ const clade = {
     },
     "499": {
       "name": "Unspecified Unspecified Time"
+    },
+    "688": {
+      "name": "Other Other Non-music"
+    },
+    "689": {
+      "name": "Misc Non-music"
+    },
+    "698": {
+      "name": "Other Unspecified Non-music"
+    },
+    "788": {
+      "name": "Other Other Artist Sort"
+    },
+    "789": {
+      "name": "Misc Artist Sort"
+    },
+    "798": {
+      "name": "Other Unspecified Artist Sort"
+    },
+    "888": {
+      "name": "Other Other Other"
+    },
+    "889": {
+      "name": "Misc Other"
+    },
+    "898": {
+      "name": "Other Unspecified Other"
+    },
+    "988": {
+      "name": "Other Other Unassigned"
+    },
+    "989": {
+      "name": "Misc Unassigned"
+    },
+    "998": {
+      "name": "Other Unspecified Unassigned"
+    },
+    "A": {
+      "name": "Atmospheric Music"
     },
     "AA": {
       "name": "Ambient",
@@ -153,6 +228,21 @@ const clade = {
     },
     "AE9": {
       "name": "Unspecified Easy Listening"
+    },
+    "A8": {
+      "name": "Other Atmospheric Music"
+    },
+    "A88": {
+      "name": "Other Other Atmospheric Music"
+    },
+    "A89": {
+      "name": "Misc Atmospheric Music"
+    },
+    "A9": {
+      "name": "Unspecified Atmospheric Music"
+    },
+    "A98": {
+      "name": "Other Unspecified Atmospheric Music"
     },
     "C": {
       "name": "Classical Music"
