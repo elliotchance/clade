@@ -725,9 +725,18 @@
             }
           } else {
             if (matches.length > 0) {
+              let bestCode = matches[0].code;
+              while (bestCode.length < 3) {
+                const extended = bestCode + "9";
+                if (clade.genres[extended]) {
+                  bestCode = extended;
+                } else {
+                  break;
+                }
+              }
               cell += `<small style="color: #888">Best match:</small><br/>`;
-              for (let len = 1; len <= matches[0].code.length; len++) {
-                const c = matches[0].code.substr(0, len);
+              for (let len = 1; len <= bestCode.length; len++) {
+                const c = bestCode.substr(0, len);
                 const g = clade.genres[c];
                 if (g) {
                   if (len > 1) {

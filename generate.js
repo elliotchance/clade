@@ -523,7 +523,7 @@ for (const [rawKey, val] of Object.entries(options.items)) {
 // Fix display names for group parents: ensure the entry with a parent
 // override becomes the primary name (not an aka that happened to process first).
 for (const [key, opt] of Object.entries(optByTitle)) {
-  if (!opt.code || opt.code.length < 3 || !/^[23]/.test(opt.code)) continue;
+  if (!opt.code || opt.code.length < 3) continue;
   if (!opt.parent) continue;
   const entry = result[opt.code];
   if (!entry) continue;

@@ -1010,6 +1010,10 @@
     "Aita": {
       "parent": "Arabic Folk Music"
     },
+    "Akishibu-kei": {
+      "parent": "J-Pop",
+      "code": "PEC"
+    },
     "Akron Sound": {
       "code": "3AA"
     },
@@ -1692,6 +1696,10 @@
     "Bebop": {
       "code": "JD"
     },
+    "Bedroom Pop": {
+      "parent": "Indie Pop",
+      "code": "PNC"
+    },
     "Beijing New Sound": {
       "code": "3RC"
     },
@@ -1853,6 +1861,10 @@
     },
     "Bolero son": {
       "parent": "Son cubano"
+    },
+    "Bolero-Beat": {
+      "parent": "Canción melódica",
+      "code": "PVJ"
     },
     "Bolivian Huayño": {
       "title": "Bolivian Huayno"
@@ -2121,7 +2133,8 @@
       "code": "3HA"
     },
     "C86": {
-      "parent": "Indie Pop"
+      "parent": "Indie Pop",
+      "code": "PNA"
     },
     "CBGB Scene": {
       "code": "3AF"
@@ -2395,6 +2408,10 @@
     "Chamber Music": {
       "code": "CDD"
     },
+    "Chamber Pop": {
+      "parent": "Indie Pop",
+      "code": "PNC"
+    },
     "Champeta": {
       "parent": "Caribbean Music"
     },
@@ -2618,7 +2635,7 @@
       "pseudo": true
     },
     "Comedy Rap": {
-      "code": "HHA"
+      "code": "HHD"
     },
     "Comics": {
       "code": "2HR"
@@ -2659,7 +2676,7 @@
       "code": "2HH"
     },
     "Conscious Hip Hop": {
-      "code": "HAA"
+      "code": "HAD"
     },
     "Conservatism": {
       "code": "2HH"
@@ -2716,7 +2733,7 @@
       "parent": "Country"
     },
     "Country Rap": {
-      "code": "HHA"
+      "code": "HHC"
     },
     "Country Rock": {
       "parent": "Rock",
@@ -2789,7 +2806,7 @@
       "code": "MCA"
     },
     "Crunk": {
-      "code": "HED"
+      "code": "HEE"
     },
     "Crunkcore": {
       "code": "HFA"
@@ -2814,6 +2831,10 @@
     },
     "Cubaton": {
       "parent": "Reggaetón"
+    },
+    "Cuddlecore": {
+      "parent": "Indie Pop",
+      "code": "PNA"
     },
     "Cueca": {
       "parent": "Hispanic American Folk Music",
@@ -3098,6 +3119,10 @@
     "Dennery Segment": {
       "parent": "Soca"
     },
+    "Denpa": {
+      "parent": "J-Pop",
+      "code": "PEA"
+    },
     "Dense": {
       "code": "2EA"
     },
@@ -3144,7 +3169,7 @@
       "code": "2KF"
     },
     "Digicore": {
-      "code": "HFA"
+      "code": "HFD"
     },
     "Digital Cumbia": {
       "parent": "Cumbia"
@@ -3181,7 +3206,8 @@
       "code": "HHA"
     },
     "Disco polo": {
-      "parent": "Dance-Pop"
+      "parent": "Dance-Pop",
+      "code": "PDC"
     },
     "Disease": {
       "code": "2HK"
@@ -3566,7 +3592,7 @@
       "code": "VJ"
     },
     "Emo Rap": {
-      "code": "HFA"
+      "code": "HFC"
     },
     "Emo Revival": {
       "code": "3VE"
@@ -4084,7 +4110,8 @@
       "code": "DFC"
     },
     "Freestyle": {
-      "parent": "Dance-Pop"
+      "parent": "Dance-Pop",
+      "code": "PDA"
     },
     "Freetekno": {
       "code": "DCJ"
@@ -4858,7 +4885,7 @@
       "code": "EKC"
     },
     "Horrorcore": {
-      "code": "HDD"
+      "code": "HDF"
     },
     "House": {
       "code": "DA"
@@ -4882,6 +4909,10 @@
     "Humorous": {
       "code": "2DH",
       "parent": "form"
+    },
+    "Humppa": {
+      "parent": "Schlager",
+      "code": "PUA"
     },
     "Hungarian Folk Music": {
       "code": "FND"
@@ -5279,7 +5310,7 @@
       "code": "PRE"
     },
     "Jazz Rap": {
-      "code": "HAA"
+      "code": "HAC"
     },
     "Jazz Scenes": {
       "code": "3K",
@@ -5746,6 +5777,10 @@
       "code": "EN",
       "parent": "Electronic"
     },
+    "Latin Freestyle": {
+      "parent": "Dance-Pop",
+      "code": "PDA"
+    },
     "Latin Funk": {
       "parent": "Funk",
       "code": "KEF"
@@ -5808,6 +5843,10 @@
     },
     "Levantine Arabic Music": {
       "parent": "Arabic Music"
+    },
+    "Levenslied": {
+      "parent": "Schlager",
+      "code": "PUC"
     },
     "Li": {
       "code": "7MH",
@@ -5913,7 +5952,7 @@
       "code": "UAA"
     },
     "Lowend": {
-      "code": "HJA"
+      "code": "HJD"
     },
     "Lowercase": {
       "code": "NHA",
@@ -6682,7 +6721,8 @@
     },
     "Música cebolla": {
       "parent": "Canción melódica",
-      "title": "Musica cebolla"
+      "title": "Musica cebolla",
+      "code": "PVJ"
     },
     "Música criolla peruana": {
       "title": "Musica criolla peruana"
@@ -8575,7 +8615,7 @@
       "parent": "Folk Rock"
     },
     "Phonk": {
-      "code": "HDC"
+      "code": "HDE"
     },
     "Phonk House": {
       "code": "DAW"
@@ -8587,7 +8627,9 @@
     "Piano Blues": {
       "code": "JAJ"
     },
-    "Piano Rock": {},
+    "Piano Rock": {
+      "code": "PCH"
+    },
     "Piedmont Blues": {
       "parent": "Acoustic Blues"
     },
@@ -8697,7 +8739,7 @@
       "code": "2HH"
     },
     "Political Hip Hop": {
-      "code": "HAA"
+      "code": "HAD"
     },
     "Polka": {
       "code": "FND"
@@ -8846,7 +8888,9 @@
       "parent": "Post-Industrial",
       "code": "NCE"
     },
-    "Power Pop": {},
+    "Power Pop": {
+      "code": "PCE"
+    },
     "Powerstomp": {
       "code": "DFA"
     },
@@ -9966,7 +10010,9 @@
     "Soft": {
       "code": "2EH"
     },
-    "Soft Rock": {},
+    "Soft Rock": {
+      "code": "PCF"
+    },
     "Sombre": {
       "code": "2CJ"
     },
@@ -10188,7 +10234,8 @@
       "parent": "Crust Punk"
     },
     "Stereo": {
-      "parent": "Pop Rock"
+      "parent": "Pop Rock",
+      "code": "PCH"
     },
     "Stochastic Music": {
       "code": "CFN"
@@ -10498,7 +10545,8 @@
       "parent": "Merengue"
     },
     "Tecnorumba": {
-      "parent": "Dance-Pop"
+      "parent": "Dance-Pop",
+      "code": "PDC"
     },
     "Teen Pop": {
       "code": "PPF"
@@ -10627,7 +10675,8 @@
       "parent": "Polyphonic Chant"
     },
     "Township Bubblegum": {
-      "parent": "Dance-Pop"
+      "parent": "Dance-Pop",
+      "code": "PDD"
     },
     "Toytown Pop": {
       "code": "PRH"
@@ -10705,7 +10754,7 @@
     },
     "Trap Metal": {
       "parent": "Trap",
-      "code": "HCD"
+      "code": "HCE"
     },
     "Trap Soul": {
       "parent": "Contemporary R&amp;B",
@@ -10765,6 +10814,10 @@
     "Tropical House": {
       "code": "DAM"
     },
+    "Tropical Rock": {
+      "parent": "Pop Rock",
+      "code": "PCH"
+    },
     "Tropicanibalismo": {
       "code": "3NT"
     },
@@ -10823,7 +10876,7 @@
       "code": "NMD"
     },
     "Turntablism": {
-      "code": "HJA"
+      "code": "HJC"
     },
     "Tuvan Throat Singing": {
       "parent": "Central Asian Throat Singing"
@@ -10836,7 +10889,8 @@
       "parent": "East African Music"
     },
     "Twee Pop": {
-      "parent": "Indie Pop"
+      "parent": "Indie Pop",
+      "code": "PNA"
     },
     "Twelve Muqam": {
       "code": "CNJ",
@@ -12370,7 +12424,8 @@
     },
     "Volkstümliche Musik": {
       "parent": "Schlager",
-      "title": "Volkstumliche Musik"
+      "title": "Volkstumliche Musik",
+      "code": "PUC"
     },
     "Von": {
       "code": "7V2",
@@ -12408,7 +12463,8 @@
       "pseudo": true
     },
     "Wa Euro": {
-      "parent": "J-Pop"
+      "parent": "J-Pop",
+      "code": "PEC"
     },
     "Wal": {
       "code": "7WC",
@@ -12739,6 +12795,14 @@
     "Ya": {
       "code": "7YA",
       "pseudo": true
+    },
+    "Yacht Rock": {
+      "parent": "Pop Rock",
+      "code": "PCF"
+    },
+    "Yakousei": {
+      "parent": "J-Pop",
+      "code": "PEC"
     },
     "Yam": {
       "code": "7YC",
