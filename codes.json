@@ -1,15 +1,18 @@
 {
   "2": {
+    "name": "Music descriptor",
     "rym": [
       "Music descriptor"
     ]
   },
   "3": {
+    "name": "Scenes and Movements",
     "rym": [
       "Scenes & Movements"
     ]
   },
   "4": {
+    "name": "time",
     "rym": [
       "Music descriptor > theme > time"
     ]
@@ -23,6 +26,7 @@
     ]
   },
   "AA": {
+    "name": "Ambient",
     "rym": [
       "Ambient",
       "Ambient > Ambient Americana",
@@ -30,6 +34,7 @@
     ]
   },
   "AAA": {
+    "name": "Dark Ambient",
     "rym": [
       "Ambient > Dark Ambient",
       "Industrial & Noise > Post-Industrial > Dark Ambient",
@@ -40,22 +45,26 @@
     ]
   },
   "AAC": {
+    "name": "Space Ambient",
     "rym": [
       "Ambient > Space Ambient",
       "Electronic > Space Ambient"
     ]
   },
   "AAD": {
+    "name": "Tribal Ambient",
     "rym": [
       "Ambient > Tribal Ambient"
     ]
   },
   "AC": {
+    "name": "New Age",
     "rym": [
       "New Age"
     ]
   },
   "ACA": {
+    "name": "Celtic New Age",
     "rym": [
       "New Age > Celtic New Age",
       "Regional Music > European Music > Celtic New Age",
@@ -66,16 +75,19 @@
     ]
   },
   "ACC": {
+    "name": "Neoclassical New Age",
     "rym": [
       "New Age > Neoclassical New Age"
     ]
   },
   "AD": {
+    "name": "Drone",
     "rym": [
       "Experimental > Drone"
     ]
   },
   "AE": {
+    "name": "Easy Listening",
     "rym": [
       "Easy Listening"
     ]
@@ -91,16 +103,19 @@
     ]
   },
   "AEC": {
+    "name": "Pops Orchestra",
     "rym": [
       "Easy Listening > Pops Orchestra"
     ]
   },
   "C": {
+    "name": "Classical Music",
     "rym": [
       "Classical Music"
     ]
   },
   "CAA": {
+    "name": "Medieval Classical Music",
     "rym": [
       "Classical Music > Western Classical Music > Medieval Classical Music",
       "Regional Music > European Music > Medieval Classical Music",
@@ -128,6 +143,7 @@
     ]
   },
   "CAC": {
+    "name": "Renaissance Music",
     "rym": [
       "Classical Music > Western Classical Music > Renaissance Music",
       "Regional Music > European Music > Renaissance Music",
@@ -139,6 +155,7 @@
     ]
   },
   "CAD": {
+    "name": "Baroque Suite",
     "rym": [
       "Classical Music > Western Classical Music > Baroque Suite",
       "Regional Music > European Music > Baroque Suite",
@@ -153,6 +170,7 @@
     ]
   },
   "CCA": {
+    "name": "Opera",
     "rym": [
       "Classical Music > Western Classical Music > Opera",
       "Classical Music > Western Classical Music > Opera > Ballad Opera",
@@ -193,6 +211,7 @@
     ]
   },
   "CCC": {
+    "name": "Zarzuela",
     "rym": [
       "Classical Music > Western Classical Music > Opera > Zarzuela",
       "Classical Music > Western Classical Music > Spanish Classical Music > Zarzuela",
@@ -217,6 +236,7 @@
     ]
   },
   "CCD": {
+    "name": "Passion",
     "rym": [
       "Classical Music > Western Classical Music > Passion",
       "Regional Music > Christian Liturgical Music > Passion",
@@ -234,6 +254,7 @@
     ]
   },
   "CCE": {
+    "name": "Art Song",
     "rym": [
       "Classical Music > Western Classical Music > Art Song",
       "Classical Music > Western Classical Music > Art Song > Lied",
@@ -245,12 +266,14 @@
     ]
   },
   "CDA": {
+    "name": "Orchestral Music",
     "rym": [
       "Classical Music > Western Classical Music > Orchestral Music",
       "Classical Music > Western Classical Music > Orchestral Music > Tone Poem"
     ]
   },
   "CDC": {
+    "name": "Concerto",
     "rym": [
       "Classical Music > Western Classical Music > Concerto",
       "Classical Music > Western Classical Music > Concerto > Concerto for Orchestra",
@@ -258,6 +281,7 @@
     ]
   },
   "CDD": {
+    "name": "Chamber Music",
     "rym": [
       "Classical Music > Western Classical Music > Chamber Music",
       "Classical Music > Western Classical Music > Divertissement",
@@ -266,6 +290,7 @@
     ]
   },
   "CDE": {
+    "name": "Symphony",
     "rym": [
       "Classical Music > Western Classical Music > Symphony",
       "Classical Music > Western Classical Music > Choral > Choral Symphony",
@@ -275,6 +300,7 @@
     ]
   },
   "CDF": {
+    "name": "Cinematic Classical",
     "rym": [
       "Classical Music > Western Classical Music > Cinematic Classical",
       "Classical Music > Western Classical Music > Cinematic Classical > Epic Music",
@@ -282,66 +308,78 @@
     ]
   },
   "CE": {
+    "name": "Romanticism",
     "rym": [
       "Classical Music > Western Classical Music > Romanticism",
       "Scenes & Movements > Romanticism"
     ]
   },
   "CEA": {
+    "name": "New German School",
     "rym": [
       "Classical Music > Western Classical Music > Romanticism > New German School",
       "Scenes & Movements > Romanticism > New German School"
     ]
   },
   "CEC": {
+    "name": "Saint Petersburg School",
     "rym": [
       "Classical Music > Western Classical Music > Romanticism > Saint Petersburg School",
       "Scenes & Movements > Romanticism > Saint Petersburg School"
     ]
   },
   "CF": {
+    "name": "Modern Classical",
     "rym": [
       "Classical Music > Western Classical Music > Modern Classical",
       "Classical Music > Western Classical Music > Modern Classical > Sonorism"
     ]
   },
   "CFA": {
+    "name": "Impressionism",
     "rym": [
       "Classical Music > Western Classical Music > Modern Classical > Impressionism"
     ]
   },
   "CFC": {
+    "name": "Expressionism",
     "rym": [
       "Classical Music > Western Classical Music > Modern Classical > Expressionism"
     ]
   },
   "CFD": {
+    "name": "Neoclassicism",
     "rym": [
       "Classical Music > Western Classical Music > Neoclassicism"
     ]
   },
   "CFE": {
+    "name": "Serialism",
     "rym": [
       "Classical Music > Western Classical Music > Modern Classical > Serialism",
       "Classical Music > Western Classical Music > Modern Classical > Serialism > Integral Serialism"
     ]
   },
   "CFF": {
+    "name": "Neoromanticism",
     "rym": [
       "Classical Music > Western Classical Music > Modern Classical > Neoromanticism"
     ]
   },
   "CFH": {
+    "name": "Microtonal Classical",
     "rym": [
       "Classical Music > Western Classical Music > Modern Classical > Microtonal Classical"
     ]
   },
   "CFJ": {
+    "name": "New Complexity",
     "rym": [
       "Classical Music > Western Classical Music > Modern Classical > New Complexity"
     ]
   },
   "CFK": {
+    "name": "Indeterminacy",
     "rym": [
       "Classical Music > Western Classical Music > Modern Classical > Indeterminacy",
       "Experimental > Indeterminacy",
@@ -350,6 +388,7 @@
     ]
   },
   "CFM": {
+    "name": "Futurism",
     "rym": [
       "Classical Music > Western Classical Music > Modern Classical > Futurism",
       "Experimental > Futurism",
@@ -357,40 +396,47 @@
     ]
   },
   "CFN": {
+    "name": "Stochastic Music",
     "rym": [
       "Classical Music > Western Classical Music > Modern Classical > Stochastic Music"
     ]
   },
   "CFP": {
+    "name": "Light Music",
     "rym": [
       "Classical Music > Western Classical Music > Light Music",
       "Easy Listening > Light Music"
     ]
   },
   "CFR": {
+    "name": "English Pastoral School",
     "rym": [
       "Classical Music > Western Classical Music > English Pastoral School",
       "Regional Music > European Music > British Music > English Pastoral School"
     ]
   },
   "CF8": {
+    "name": "American Gamelan",
     "rym": [
       "Classical Music > Western Classical Music > Modern Classical > American Gamelan"
     ]
   },
   "CHA": {
+    "name": "Brazilian Classical Music",
     "rym": [
       "Classical Music > Western Classical Music > Brazilian Classical Music",
       "Regional Music > South American Music > Brazilian Music > Brazilian Classical Music"
     ]
   },
   "CHC": {
+    "name": "Latin American Classical Music",
     "rym": [
       "Classical Music > Western Classical Music > Latin American Classical Music",
       "Regional Music > Hispanic Music > Hispanic American Music > Latin American Classical Music"
     ]
   },
   "CHD": {
+    "name": "Spanish Classical Music",
     "rym": [
       "Classical Music > Western Classical Music > Spanish Classical Music",
       "Regional Music > European Music > Iberian Music > Spanish Music > Spanish Classical Music",
@@ -398,12 +444,14 @@
     ]
   },
   "CJ": {
+    "name": "East Asian Classical Music",
     "rym": [
       "Classical Music > East Asian Classical Music",
       "Regional Music > Asian Music > East Asian Music > East Asian Classical Music"
     ]
   },
   "CJA": {
+    "name": "Japanese Classical Music",
     "rym": [
       "Classical Music > East Asian Classical Music > Japanese Classical Music",
       "Regional Music > Asian Music > East Asian Music > East Asian Classical Music > Japanese Classical Music",
@@ -448,6 +496,7 @@
     ]
   },
   "CJC": {
+    "name": "Korean Classical Music",
     "rym": [
       "Classical Music > East Asian Classical Music > Korean Classical Music",
       "Regional Music > Asian Music > East Asian Music > East Asian Classical Music > Korean Classical Music",
@@ -471,6 +520,7 @@
     ]
   },
   "CJD": {
+    "name": "Chinese Classical Music",
     "rym": [
       "Classical Music > East Asian Classical Music > Chinese Classical Music",
       "Regional Music > Asian Music > East Asian Music > Chinese Music > Chinese Classical Music",
@@ -492,6 +542,7 @@
     ]
   },
   "CJE": {
+    "name": "Vietnamese Court Music",
     "rym": [
       "Classical Music > East Asian Classical Music > Vietnamese Court Music",
       "Regional Music > Asian Music > East Asian Music > East Asian Classical Music > Vietnamese Court Music",
@@ -504,12 +555,14 @@
     ]
   },
   "CK": {
+    "name": "South Asian Classical Music",
     "rym": [
       "Classical Music > South Asian Classical Music",
       "Regional Music > Asian Music > South Asian Music > South Asian Classical Music"
     ]
   },
   "CKA": {
+    "name": "Carnatic Classical Music",
     "rym": [
       "Classical Music > South Asian Classical Music > Carnatic Classical Music",
       "Regional Music > Asian Music > South Asian Music > South Asian Classical Music > Carnatic Classical Music",
@@ -518,6 +571,7 @@
     ]
   },
   "CKC": {
+    "name": "Hindustani Classical Music",
     "rym": [
       "Classical Music > South Asian Classical Music > Hindustani Classical Music",
       "Regional Music > Asian Music > South Asian Music > South Asian Classical Music > Hindustani Classical Music",
@@ -534,18 +588,21 @@
     ]
   },
   "CKD": {
+    "name": "Odissi Classical Music",
     "rym": [
       "Classical Music > South Asian Classical Music > Odissi Classical Music",
       "Regional Music > Asian Music > South Asian Music > South Asian Classical Music > Odissi Classical Music"
     ]
   },
   "CM": {
+    "name": "Southeast Asian Classical Music",
     "rym": [
       "Classical Music > Southeast Asian Classical Music",
       "Regional Music > Asian Music > Southeast Asian Music > Southeast Asian Classical Music"
     ]
   },
   "CMA": {
+    "name": "Kakawin",
     "rym": [
       "Classical Music > Southeast Asian Classical Music > Kakawin",
       "Regional Music > Asian Music > Southeast Asian Music > Indonesian Music > Kakawin",
@@ -636,6 +693,7 @@
     ]
   },
   "CMD": {
+    "name": "Tembang Sunda Cianjuran",
     "rym": [
       "Classical Music > Southeast Asian Classical Music > Tembang Sunda Cianjuran",
       "Regional Music > Asian Music > Southeast Asian Music > Indonesian Music > Sundanese Music > Tembang Sunda Cianjuran",
@@ -660,6 +718,7 @@
     ]
   },
   "CME": {
+    "name": "Pinpeat",
     "rym": [
       "Classical Music > Southeast Asian Classical Music > Pinpeat",
       "Regional Music > Asian Music > Southeast Asian Music > Khmer Music > Pinpeat",
@@ -669,6 +728,7 @@
     ]
   },
   "CMF": {
+    "name": "Burmese Classical Music",
     "rym": [
       "Classical Music > Southeast Asian Classical Music > Burmese Classical Music",
       "Regional Music > Asian Music > Southeast Asian Music > Bamar Music > Burmese Classical Music",
@@ -683,6 +743,7 @@
     ]
   },
   "CNA": {
+    "name": "Arabic Classical Music",
     "rym": [
       "Classical Music > Maqāmic Music > Arabic Classical Music",
       "Regional Music > Arabic Music > Arabic Classical Music",
@@ -698,6 +759,7 @@
     ]
   },
   "CNC": {
+    "name": "Persian Classical Music",
     "rym": [
       "Classical Music > Maqāmic Music > Persian Classical Music",
       "Regional Music > Asian Music > West Asian Music > Persian Music > Persian Classical Music",
@@ -705,6 +767,7 @@
     ]
   },
   "CND": {
+    "name": "Turkish Classical Music",
     "rym": [
       "Classical Music > Maqāmic Music > Turkish Classical Music",
       "Regional Music > Asian Music > West Asian Music > Turkish Music > Turkish Classical Music",
@@ -712,6 +775,7 @@
     ]
   },
   "CNE": {
+    "name": "Azerbaijani Mugham",
     "rym": [
       "Classical Music > Maqāmic Music > Azerbaijani Mugham",
       "Regional Music > Asian Music > West Asian Music > Azerbaijani Music > Azerbaijani Mugham",
@@ -719,6 +783,7 @@
     ]
   },
   "CNF": {
+    "name": "Shashmaqam",
     "rym": [
       "Classical Music > Maqāmic Music > Shashmaqam",
       "Regional Music > Asian Music > Central Asian Music > Shashmaqam",
@@ -726,6 +791,7 @@
     ]
   },
   "CNH": {
+    "name": "Sufiana kalam",
     "rym": [
       "Classical Music > Maqāmic Music > Sufiana kalam",
       "Regional Music > Asian Music > Central Asian Music > Sufiana kalam",
@@ -735,6 +801,7 @@
     ]
   },
   "CNJ": {
+    "name": "Twelve Muqam",
     "rym": [
       "Classical Music > Maqāmic Music > Twelve Muqam",
       "Regional Music > Asian Music > Central Asian Music > Uyghur Music > Twelve Muqam",
@@ -742,6 +809,7 @@
     ]
   },
   "CPA": {
+    "name": "Buganda Royal Court Music",
     "rym": [
       "Classical Music > Buganda Royal Court Music",
       "Regional Music > African Music > East African Music > Baganda Music > Buganda Royal Court Music"
@@ -758,24 +826,28 @@
     ]
   },
   "CPD": {
+    "name": "Kete",
     "rym": [
       "Classical Music > Kete",
       "Regional Music > African Music > West African Music > Akan Music > Kete"
     ]
   },
   "CPE": {
+    "name": "Inkiranya",
     "rym": [
       "Classical Music > Inkiranya",
       "Regional Music > African Music > East African Music > Inkiranya"
     ]
   },
   "CPF": {
+    "name": "Minyue",
     "rym": [
       "Classical Music > Minyue",
       "Regional Music > Asian Music > East Asian Music > Chinese Music > Minyue"
     ]
   },
   "CR": {
+    "name": "Tibetan Buddhist Chant",
     "rym": [
       "Classical Music > Tibetan Buddhist Chant",
       "Regional Music > Asian Music > Buddhist Music > Tibetan Buddhist Chant",
@@ -789,22 +861,26 @@
     ]
   },
   "CTA": {
+    "name": "Process Music",
     "rym": [
       "Classical Music > Western Classical Music > Modern Classical > Process Music"
     ]
   },
   "CTC": {
+    "name": "Holy Minimalism",
     "rym": [
       "Classical Music > Western Classical Music > Modern Classical > Minimalism > Holy Minimalism"
     ]
   },
   "CTD": {
+    "name": "Post-Minimalism",
     "rym": [
       "Classical Music > Western Classical Music > Modern Classical > Post-Minimalism",
       "Classical Music > Western Classical Music > Modern Classical > Post-Minimalism > Totalism"
     ]
   },
   "CTE": {
+    "name": "Spectralism",
     "rym": [
       "Classical Music > Western Classical Music > Modern Classical > Spectralism"
     ]
@@ -858,6 +934,7 @@
     ]
   },
   "DA": {
+    "name": "House",
     "rym": [
       "Dance > Electronic Dance Music > House",
       "Electronic > Electronic Dance Music > House",
@@ -885,6 +962,7 @@
     ]
   },
   "DAA": {
+    "name": "Chicago House",
     "rym": [
       "Dance > Electronic Dance Music > House > Chicago House",
       "Electronic > Electronic Dance Music > House > Chicago House",
@@ -895,6 +973,7 @@
     ]
   },
   "DAC": {
+    "name": "Deep House",
     "rym": [
       "Dance > Electronic Dance Music > House > Deep House",
       "Electronic > Electronic Dance Music > House > Deep House",
@@ -920,6 +999,7 @@
     ]
   },
   "DAE": {
+    "name": "Electro House",
     "rym": [
       "Dance > Electronic Dance Music > House > Electro House",
       "Electronic > Electronic Dance Music > House > Electro House",
@@ -936,6 +1016,7 @@
     ]
   },
   "DAF": {
+    "name": "UK Hard House",
     "rym": [
       "Dance > Electronic Dance Music > Hard Dance > UK Hard House",
       "Dance > Electronic Dance Music > House > UK Hard House",
@@ -952,6 +1033,7 @@
     ]
   },
   "DAH": {
+    "name": "French House",
     "rym": [
       "Dance > Electronic Dance Music > House > French House",
       "Electronic > Electronic Dance Music > House > French House",
@@ -974,6 +1056,7 @@
     ]
   },
   "DAJ": {
+    "name": "Kwaito",
     "rym": [
       "Dance > Electronic Dance Music > House > Kwaito",
       "Electronic > Electronic Dance Music > House > Kwaito",
@@ -997,6 +1080,7 @@
     ]
   },
   "DAK": {
+    "name": "Tech House",
     "rym": [
       "Dance > Electronic Dance Music > House > Tech House",
       "Electronic > Electronic Dance Music > House > Tech House",
@@ -1007,6 +1091,7 @@
     ]
   },
   "DAM": {
+    "name": "Future House",
     "rym": [
       "Dance > Electronic Dance Music > House > Future House",
       "Electronic > Electronic Dance Music > House > Future House",
@@ -1021,12 +1106,14 @@
     ]
   },
   "DAN": {
+    "name": "Acid House",
     "rym": [
       "Dance > Electronic Dance Music > House > Acid House",
       "Electronic > Electronic Dance Music > House > Acid House"
     ]
   },
   "DAP": {
+    "name": "Changa tuki",
     "rym": [
       "Dance > Electronic Dance Music > House > Changa tuki",
       "Electronic > Electronic Dance Music > House > Changa tuki",
@@ -1046,6 +1133,7 @@
     ]
   },
   "DAR": {
+    "name": "Bass House",
     "rym": [
       "Dance > Electronic Dance Music > House > Bass House",
       "Electronic > Electronic Dance Music > House > Bass House",
@@ -1058,12 +1146,14 @@
     ]
   },
   "DAT": {
+    "name": "Ballroom",
     "rym": [
       "Dance > Electronic Dance Music > House > Ballroom",
       "Electronic > Electronic Dance Music > House > Ballroom"
     ]
   },
   "DAU": {
+    "name": "Euro House",
     "rym": [
       "Dance > Electronic Dance Music > House > Euro House",
       "Electronic > Electronic Dance Music > House > Euro House",
@@ -1074,6 +1164,7 @@
     ]
   },
   "DAV": {
+    "name": "Ambient House",
     "rym": [
       "Dance > Electronic Dance Music > House > Ambient House",
       "Electronic > Chillout > Ambient House",
@@ -1081,6 +1172,7 @@
     ]
   },
   "DAW": {
+    "name": "Phonk House",
     "rym": [
       "Dance > Electronic Dance Music > House > Phonk House",
       "Electronic > Drift Phonk > Phonk House",
@@ -1088,6 +1180,7 @@
     ]
   },
   "DAX": {
+    "name": "G-House",
     "rym": [
       "Dance > Electronic Dance Music > House > G-House",
       "Electronic > Electronic Dance Music > House > G-House"
@@ -1105,6 +1198,7 @@
     ]
   },
   "DC": {
+    "name": "Techno",
     "rym": [
       "Dance > Electronic Dance Music > Techno",
       "Electronic > Electronic Dance Music > Techno",
@@ -1115,6 +1209,7 @@
     ]
   },
   "DCA": {
+    "name": "Bleep Techno",
     "rym": [
       "Dance > Electronic Dance Music > Techno > Bleep Techno",
       "Electronic > Electronic Dance Music > Techno > Bleep Techno",
@@ -1123,6 +1218,7 @@
     ]
   },
   "DCC": {
+    "name": "Minimal Techno",
     "rym": [
       "Dance > Electronic Dance Music > Techno > Minimal Techno",
       "Electronic > Electronic Dance Music > Techno > Minimal Techno",
@@ -1131,6 +1227,7 @@
     ]
   },
   "DCD": {
+    "name": "Industrial Techno",
     "rym": [
       "Dance > Electronic Dance Music > Techno > Industrial Techno",
       "Electronic > Electronic Dance Music > Techno > Industrial Techno",
@@ -1147,48 +1244,56 @@
     ]
   },
   "DCE": {
+    "name": "Peak Time Techno",
     "rym": [
       "Dance > Electronic Dance Music > Techno > Peak Time Techno",
       "Electronic > Electronic Dance Music > Techno > Peak Time Techno"
     ]
   },
   "DCF": {
+    "name": "Acid Techno",
     "rym": [
       "Dance > Electronic Dance Music > Techno > Acid Techno",
       "Electronic > Electronic Dance Music > Techno > Acid Techno"
     ]
   },
   "DCH": {
+    "name": "Ambient Techno",
     "rym": [
       "Dance > Electronic Dance Music > Techno > Ambient Techno",
       "Electronic > Electronic Dance Music > Techno > Ambient Techno"
     ]
   },
   "DCJ": {
+    "name": "Freetekno",
     "rym": [
       "Dance > Electronic Dance Music > Techno > Freetekno",
       "Electronic > Electronic Dance Music > Techno > Freetekno"
     ]
   },
   "DCK": {
+    "name": "Melodic Techno",
     "rym": [
       "Dance > Electronic Dance Music > Techno > Melodic Techno",
       "Electronic > Electronic Dance Music > Techno > Melodic Techno"
     ]
   },
   "DCM": {
+    "name": "Wonky Techno",
     "rym": [
       "Dance > Electronic Dance Music > Techno > Wonky Techno",
       "Electronic > Electronic Dance Music > Techno > Wonky Techno"
     ]
   },
   "DD": {
+    "name": "Trance",
     "rym": [
       "Dance > Electronic Dance Music > Trance",
       "Electronic > Electronic Dance Music > Trance"
     ]
   },
   "DDA": {
+    "name": "Psytrance",
     "rym": [
       "Dance > Electronic Dance Music > Trance > Psytrance",
       "Electronic > Electronic Dance Music > Trance > Psytrance",
@@ -1215,24 +1320,28 @@
     ]
   },
   "DDC": {
+    "name": "Progressive Trance",
     "rym": [
       "Dance > Electronic Dance Music > Trance > Progressive Trance",
       "Electronic > Electronic Dance Music > Trance > Progressive Trance"
     ]
   },
   "DDD": {
+    "name": "Tech Trance",
     "rym": [
       "Dance > Electronic Dance Music > Trance > Tech Trance",
       "Electronic > Electronic Dance Music > Trance > Tech Trance"
     ]
   },
   "DDE": {
+    "name": "Uplifting Trance",
     "rym": [
       "Dance > Electronic Dance Music > Trance > Uplifting Trance",
       "Electronic > Electronic Dance Music > Trance > Uplifting Trance"
     ]
   },
   "DDF": {
+    "name": "Vocal Trance",
     "rym": [
       "Dance > Electronic Dance Music > Trance > Vocal Trance",
       "Electronic > Electronic Dance Music > Trance > Vocal Trance",
@@ -1240,12 +1349,14 @@
     ]
   },
   "DDH": {
+    "name": "Dream Trance",
     "rym": [
       "Dance > Electronic Dance Music > Trance > Dream Trance",
       "Electronic > Electronic Dance Music > Trance > Dream Trance"
     ]
   },
   "DDJ": {
+    "name": "Euro Trance",
     "rym": [
       "Dance > Electronic Dance Music > Trance > Euro Trance",
       "Electronic > Electronic Dance Music > Trance > Euro Trance",
@@ -1256,6 +1367,7 @@
     ]
   },
   "DDK": {
+    "name": "Hard Trance",
     "rym": [
       "Dance > Electronic Dance Music > Hard Dance > Hard Trance",
       "Dance > Electronic Dance Music > Trance > Hard Trance",
@@ -1264,24 +1376,28 @@
     ]
   },
   "DDM": {
+    "name": "Acid Trance",
     "rym": [
       "Dance > Electronic Dance Music > Trance > Acid Trance",
       "Electronic > Electronic Dance Music > Trance > Acid Trance"
     ]
   },
   "DDN": {
+    "name": "Big Room Trance",
     "rym": [
       "Dance > Electronic Dance Music > Trance > Big Room Trance",
       "Electronic > Electronic Dance Music > Trance > Big Room Trance"
     ]
   },
   "DDP": {
+    "name": "Ibiza Trance",
     "rym": [
       "Dance > Electronic Dance Music > Trance > Ibiza Trance",
       "Electronic > Electronic Dance Music > Trance > Ibiza Trance"
     ]
   },
   "DDR": {
+    "name": "NRG",
     "rym": [
       "Dance > Electronic Dance Music > Hard Dance > NRG",
       "Dance > Electronic Dance Music > Trance > NRG",
@@ -1290,12 +1406,14 @@
     ]
   },
   "DDT": {
+    "name": "Hi-Tech Full-On",
     "rym": [
       "Dance > Electronic Dance Music > Trance > Hi-Tech Full-On",
       "Electronic > Electronic Dance Music > Trance > Hi-Tech Full-On"
     ]
   },
   "DE": {
+    "name": "Drum and Bass",
     "rym": [
       "Dance > Electronic Dance Music > Drum and Bass",
       "Electronic > Electronic Dance Music > Drum and Bass",
@@ -1304,12 +1422,14 @@
     ]
   },
   "DEA": {
+    "name": "Atmospheric Drum and Bass",
     "rym": [
       "Dance > Electronic Dance Music > Drum and Bass > Atmospheric Drum and Bass",
       "Electronic > Electronic Dance Music > Drum and Bass > Atmospheric Drum and Bass"
     ]
   },
   "DEC": {
+    "name": "Liquid Drum and Bass",
     "rym": [
       "Dance > Electronic Dance Music > Drum and Bass > Liquid Drum and Bass",
       "Electronic > Electronic Dance Music > Drum and Bass > Liquid Drum and Bass",
@@ -1318,6 +1438,7 @@
     ]
   },
   "DED": {
+    "name": "Deep Drum and Bass",
     "rym": [
       "Dance > Electronic Dance Music > Drum and Bass > Deep Drum and Bass",
       "Electronic > Electronic Dance Music > Drum and Bass > Deep Drum and Bass",
@@ -1326,18 +1447,21 @@
     ]
   },
   "DEE": {
+    "name": "Halftime",
     "rym": [
       "Dance > Electronic Dance Music > Drum and Bass > Halftime",
       "Electronic > Electronic Dance Music > Drum and Bass > Halftime"
     ]
   },
   "DEF": {
+    "name": "Jazzstep",
     "rym": [
       "Dance > Electronic Dance Music > Drum and Bass > Jazzstep",
       "Electronic > Electronic Dance Music > Drum and Bass > Jazzstep"
     ]
   },
   "DEH": {
+    "name": "Minimal Drum and Bass",
     "rym": [
       "Dance > Electronic Dance Music > Drum and Bass > Minimal Drum and Bass",
       "Electronic > Electronic Dance Music > Drum and Bass > Minimal Drum and Bass",
@@ -1348,6 +1472,7 @@
     ]
   },
   "DEJ": {
+    "name": "Footwork Jungle",
     "rym": [
       "Dance > Electronic Dance Music > Drum and Bass > Footwork Jungle",
       "Dance > Electronic Dance Music > Footwork > Footwork Jungle",
@@ -1362,12 +1487,14 @@
     ]
   },
   "DEK": {
+    "name": "Jump-Up",
     "rym": [
       "Dance > Electronic Dance Music > Drum and Bass > Jump-Up",
       "Electronic > Electronic Dance Music > Drum and Bass > Jump-Up"
     ]
   },
   "DEM": {
+    "name": "Darkstep",
     "rym": [
       "Dance > Electronic Dance Music > Drum and Bass > Darkstep",
       "Electronic > Electronic Dance Music > Drum and Bass > Darkstep",
@@ -1380,18 +1507,21 @@
     ]
   },
   "DEN": {
+    "name": "Neurofunk",
     "rym": [
       "Dance > Electronic Dance Music > Drum and Bass > Neurofunk",
       "Electronic > Electronic Dance Music > Drum and Bass > Neurofunk"
     ]
   },
   "DEP": {
+    "name": "Techstep",
     "rym": [
       "Dance > Electronic Dance Music > Drum and Bass > Techstep",
       "Electronic > Electronic Dance Music > Drum and Bass > Techstep"
     ]
   },
   "DER": {
+    "name": "Drumstep",
     "rym": [
       "Dance > Electronic Dance Music > Drum and Bass > Drumstep",
       "Dance > Electronic Dance Music > Dubstep > Brostep > Drumstep",
@@ -1402,12 +1532,14 @@
     ]
   },
   "DET": {
+    "name": "Hardstep",
     "rym": [
       "Dance > Electronic Dance Music > Drum and Bass > Hardstep",
       "Electronic > Electronic Dance Music > Drum and Bass > Hardstep"
     ]
   },
   "DEU": {
+    "name": "Dancefloor Drum and Bass",
     "rym": [
       "Dance > Electronic Dance Music > Drum and Bass > Dancefloor Drum and Bass",
       "Electronic > Electronic Dance Music > Drum and Bass > Dancefloor Drum and Bass"
@@ -1421,6 +1553,7 @@
     ]
   },
   "DFA": {
+    "name": "Happy Hardcore",
     "rym": [
       "Dance > Electronic Dance Music > Hardcore [EDM] > Happy Hardcore",
       "Electronic > Electronic Dance Music > Hardcore [EDM] > Happy Hardcore",
@@ -1444,12 +1577,14 @@
     ]
   },
   "DFC": {
+    "name": "Freeform Hardcore",
     "rym": [
       "Dance > Electronic Dance Music > Hardcore [EDM] > Freeform Hardcore",
       "Electronic > Electronic Dance Music > Hardcore [EDM] > Freeform Hardcore"
     ]
   },
   "DFD": {
+    "name": "Gabber",
     "rym": [
       "Dance > Electronic Dance Music > Hardcore [EDM] > Gabber",
       "Electronic > Electronic Dance Music > Hardcore [EDM] > Gabber",
@@ -1460,18 +1595,21 @@
     ]
   },
   "DFE": {
+    "name": "Frenchcore",
     "rym": [
       "Dance > Electronic Dance Music > Hardcore [EDM] > Frenchcore",
       "Electronic > Electronic Dance Music > Hardcore [EDM] > Frenchcore"
     ]
   },
   "DFF": {
+    "name": "Terrorcore",
     "rym": [
       "Dance > Electronic Dance Music > Hardcore [EDM] > Terrorcore",
       "Electronic > Electronic Dance Music > Hardcore [EDM] > Terrorcore"
     ]
   },
   "DFH": {
+    "name": "Hardtek",
     "rym": [
       "Dance > Electronic Dance Music > Hardcore [EDM] > Hardtek",
       "Dance > Electronic Dance Music > Hard Dance > Hardtek",
@@ -1484,6 +1622,7 @@
     ]
   },
   "DFJ": {
+    "name": "Breakcore",
     "rym": [
       "Dance > Electronic Dance Music > Hardcore [EDM] > Breakcore",
       "Electronic > Electronic Dance Music > Hardcore [EDM] > Breakcore",
@@ -1496,6 +1635,7 @@
     ]
   },
   "DFK": {
+    "name": "Digital Hardcore",
     "rym": [
       "Dance > Electronic Dance Music > Hardcore [EDM] > Digital Hardcore",
       "Electronic > Electronic Dance Music > Hardcore [EDM] > Digital Hardcore",
@@ -1516,6 +1656,7 @@
     ]
   },
   "DFN": {
+    "name": "Speedcore",
     "rym": [
       "Dance > Electronic Dance Music > Hardcore [EDM] > Speedcore",
       "Electronic > Electronic Dance Music > Hardcore [EDM] > Speedcore",
@@ -1526,18 +1667,21 @@
     ]
   },
   "DFP": {
+    "name": "Doomcore",
     "rym": [
       "Dance > Electronic Dance Music > Hardcore [EDM] > Doomcore",
       "Electronic > Electronic Dance Music > Hardcore [EDM] > Doomcore"
     ]
   },
   "DFR": {
+    "name": "Darkcore",
     "rym": [
       "Dance > Electronic Dance Music > Hardcore [EDM] > Darkcore",
       "Electronic > Electronic Dance Music > Hardcore [EDM] > Darkcore"
     ]
   },
   "DFT": {
+    "name": "Breakbeat Hardcore",
     "rym": [
       "Dance > Electronic Dance Music > Breakbeat > Breakbeat Hardcore",
       "Dance > Electronic Dance Music > Hardcore [EDM] > Breakbeat Hardcore",
@@ -1554,12 +1698,14 @@
     ]
   },
   "DFU": {
+    "name": "Acidcore",
     "rym": [
       "Dance > Electronic Dance Music > Hardcore [EDM] > Acidcore",
       "Electronic > Electronic Dance Music > Hardcore [EDM] > Acidcore"
     ]
   },
   "DFV": {
+    "name": "Amigacore",
     "rym": [
       "Dance > Electronic Dance Music > Hardcore [EDM] > Amigacore",
       "Electronic > Bit Music > Sequencer & Tracker > Tracker Music > Amigacore",
@@ -1567,12 +1713,14 @@
     ]
   },
   "DH": {
+    "name": "Hard Dance",
     "rym": [
       "Dance > Electronic Dance Music > Hard Dance",
       "Electronic > Electronic Dance Music > Hard Dance"
     ]
   },
   "DHA": {
+    "name": "Hardstyle",
     "rym": [
       "Dance > Electronic Dance Music > Hard Dance > Hardstyle",
       "Electronic > Electronic Dance Music > Hard Dance > Hardstyle",
@@ -1593,24 +1741,28 @@
     ]
   },
   "DHC": {
+    "name": "Jumpstyle",
     "rym": [
       "Dance > Electronic Dance Music > Hard Dance > Jumpstyle",
       "Electronic > Electronic Dance Music > Hard Dance > Jumpstyle"
     ]
   },
   "DHD": {
+    "name": "Lento violento",
     "rym": [
       "Dance > Electronic Dance Music > Hard Dance > Lento violento",
       "Electronic > Electronic Dance Music > Hard Dance > Lento violento"
     ]
   },
   "DJ": {
+    "name": "Dubstep",
     "rym": [
       "Dance > Electronic Dance Music > Dubstep",
       "Electronic > Electronic Dance Music > Dubstep"
     ]
   },
   "DJA": {
+    "name": "Brostep",
     "rym": [
       "Dance > Electronic Dance Music > Dubstep > Brostep",
       "Electronic > Electronic Dance Music > Dubstep > Brostep",
@@ -1629,6 +1781,7 @@
     ]
   },
   "DJC": {
+    "name": "Riddim",
     "rym": [
       "Dance > Electronic Dance Music > Dubstep > Riddim",
       "Electronic > Electronic Dance Music > Dubstep > Riddim",
@@ -1639,54 +1792,63 @@
     ]
   },
   "DJD": {
+    "name": "Chillstep",
     "rym": [
       "Dance > Electronic Dance Music > Dubstep > Chillstep",
       "Electronic > Electronic Dance Music > Dubstep > Chillstep"
     ]
   },
   "DJE": {
+    "name": "Melodic Dubstep",
     "rym": [
       "Dance > Electronic Dance Music > Dubstep > Melodic Dubstep",
       "Electronic > Electronic Dance Music > Dubstep > Melodic Dubstep"
     ]
   },
   "DJF": {
+    "name": "Dungeon Sound",
     "rym": [
       "Dance > Electronic Dance Music > Dubstep > Dungeon Sound",
       "Electronic > Electronic Dance Music > Dubstep > Dungeon Sound"
     ]
   },
   "DJH": {
+    "name": "Purple Sound",
     "rym": [
       "Dance > Electronic Dance Music > Dubstep > Purple Sound",
       "Electronic > Electronic Dance Music > Dubstep > Purple Sound"
     ]
   },
   "DK": {
+    "name": "Breakbeat",
     "rym": [
       "Dance > Electronic Dance Music > Breakbeat",
       "Electronic > Electronic Dance Music > Breakbeat"
     ]
   },
   "DKA": {
+    "name": "Acid Breaks",
     "rym": [
       "Dance > Electronic Dance Music > Breakbeat > Acid Breaks",
       "Electronic > Electronic Dance Music > Breakbeat > Acid Breaks"
     ]
   },
   "DKC": {
+    "name": "Big Beat",
     "rym": [
       "Dance > Electronic Dance Music > Breakbeat > Big Beat",
       "Electronic > Electronic Dance Music > Breakbeat > Big Beat"
     ]
   },
   "DKD": {
+    "name": "Nu Skool Breaks",
     "rym": [
       "Dance > Electronic Dance Music > Breakbeat > Nu Skool Breaks",
       "Electronic > Electronic Dance Music > Breakbeat > Nu Skool Breaks"
     ]
   },
   "DKE": {
+    "name": "Progressive Breaks",
     "rym": [
       "Dance > Electronic Dance Music > Breakbeat > Progressive Breaks",
       "Electronic > Electronic Dance Music > Breakbeat > Progressive Breaks",
@@ -1695,6 +1857,7 @@
     ]
   },
   "DKF": {
+    "name": "Funky Breaks",
     "rym": [
       "Dance > Electronic Dance Music > Breakbeat > Funky Breaks",
       "Electronic > Electronic Dance Music > Breakbeat > Funky Breaks",
@@ -1703,12 +1866,14 @@
     ]
   },
   "DKH": {
+    "name": "Florida Breaks",
     "rym": [
       "Dance > Electronic Dance Music > Breakbeat > Florida Breaks",
       "Electronic > Electronic Dance Music > Breakbeat > Florida Breaks"
     ]
   },
   "DKJ": {
+    "name": "Breakbeat Kota",
     "rym": [
       "Dance > Electronic Dance Music > Breakbeat > Breakbeat Kota",
       "Dance > Electronic Dance Music > Funkot > Breakbeat Kota",
@@ -1730,12 +1895,14 @@
     ]
   },
   "DMA": {
+    "name": "2-Step",
     "rym": [
       "Dance > Electronic Dance Music > UK Garage > 2-Step",
       "Electronic > Electronic Dance Music > UK Garage > 2-Step"
     ]
   },
   "DMC": {
+    "name": "Speed Garage",
     "rym": [
       "Dance > Electronic Dance Music > House > Speed Garage",
       "Dance > Electronic Dance Music > UK Garage > Speed Garage",
@@ -1744,6 +1911,7 @@
     ]
   },
   "DMD": {
+    "name": "Bassline",
     "rym": [
       "Dance > Electronic Dance Music > House > Bassline",
       "Dance > Electronic Dance Music > UK Garage > Bassline",
@@ -1752,12 +1920,14 @@
     ]
   },
   "DME": {
+    "name": "Breakstep",
     "rym": [
       "Dance > Electronic Dance Music > UK Garage > Breakstep",
       "Electronic > Electronic Dance Music > UK Garage > Breakstep"
     ]
   },
   "DMF": {
+    "name": "Future Garage",
     "rym": [
       "Dance > Electronic Dance Music > UK Garage > Future Garage",
       "Electronic > Electronic Dance Music > UK Garage > Future Garage"
@@ -1772,6 +1942,7 @@
     ]
   },
   "DNA": {
+    "name": "Dark Electro",
     "rym": [
       "Dance > Electronic Dance Music > EBM > Dark Electro",
       "Electronic > Electro-Industrial > Dark Electro",
@@ -1786,6 +1957,7 @@
     ]
   },
   "DNC": {
+    "name": "New Beat",
     "rym": [
       "Dance > Electronic Dance Music > EBM > New Beat",
       "Electronic > Electronic Dance Music > EBM > New Beat",
@@ -1796,6 +1968,7 @@
     ]
   },
   "DND": {
+    "name": "Futurepop",
     "rym": [
       "Dance > Electronic Dance Music > EBM > Futurepop",
       "Electronic > Electronic Dance Music > EBM > Futurepop",
@@ -1805,6 +1978,7 @@
     ]
   },
   "DNE": {
+    "name": "Electro",
     "rym": [
       "Dance > Electronic Dance Music > Electro",
       "Electronic > Electronic Dance Music > Electro"
@@ -1828,6 +2002,7 @@
     ]
   },
   "DPC": {
+    "name": "Future Bass",
     "rym": [
       "Dance > Electronic Dance Music > Future Bass",
       "Electronic > Electronic Dance Music > Future Bass",
@@ -1836,6 +2011,7 @@
     ]
   },
   "DPD": {
+    "name": "Melodic Bass",
     "rym": [
       "Dance > Electronic Dance Music > Melodic Bass",
       "Electronic > Electronic Dance Music > Melodic Bass"
@@ -1855,6 +2031,7 @@
     ]
   },
   "DTA": {
+    "name": "Funk 150 bpm",
     "rym": [
       "Regional Music > South American Music > Brazilian Music > Funk brasileiro > Funk 150 bpm",
       "Regional Music > South American Music > Brazilian Music > Funk brasileiro > Funk carioca",
@@ -1868,6 +2045,7 @@
     ]
   },
   "DTC": {
+    "name": "Tecnofunk",
     "rym": [
       "Electronic > Tecnobrega > Tecnofunk",
       "Regional Music > South American Music > Brazilian Music > Brega > Tecnobrega > Tecnofunk",
@@ -1899,6 +2077,7 @@
     ]
   },
   "DTD": {
+    "name": "Funk melody",
     "rym": [
       "Dance > Dance-Pop > Funk melody",
       "Pop > Dance-Pop > Funk melody",
@@ -1932,11 +2111,13 @@
     ]
   },
   "DX": {
+    "name": "Disco",
     "rym": [
       "Dance > Disco"
     ]
   },
   "DXA": {
+    "name": "Electro-Disco",
     "rym": [
       "Dance > Disco > Electro-Disco",
       "Dance > Electronic Dance Music > Electro-Disco",
@@ -1953,6 +2134,7 @@
     ]
   },
   "DXC": {
+    "name": "Italo-Disco",
     "rym": [
       "Dance > Disco > Electro-Disco > Italo-Disco",
       "Dance > Electronic Dance Music > Electro-Disco > Italo-Disco",
@@ -1967,11 +2149,13 @@
     ]
   },
   "DXD": {
+    "name": "Euro-Disco",
     "rym": [
       "Dance > Disco > Euro-Disco"
     ]
   },
   "DXE": {
+    "name": "Nu-Disco",
     "rym": [
       "Dance > Disco > Nu-Disco",
       "Dance > Electronic Dance Music > Nu-Disco",
@@ -1980,6 +2164,7 @@
     ]
   },
   "DXF": {
+    "name": "Latin Disco",
     "rym": [
       "Dance > Disco > Latin Disco",
       "Regional Music > Hispanic Music > Hispanic American Music > Latin Disco",
@@ -2080,6 +2265,7 @@
     ]
   },
   "E": {
+    "name": "Electronic",
     "rym": [
       "Electronic"
     ]
@@ -2091,27 +2277,32 @@
     ]
   },
   "EAA": {
+    "name": "Binaural Beats",
     "rym": [
       "Electronic > Binaural Beats"
     ]
   },
   "EAC": {
+    "name": "Downtempo",
     "rym": [
       "Electronic > Chillout > Downtempo",
       "Electronic > Chillout > Downtempo > Trip Hop"
     ]
   },
   "EAD": {
+    "name": "Ambient Trance",
     "rym": [
       "Electronic > Chillout > Ambient Trance"
     ]
   },
   "EAE": {
+    "name": "Ambient Dub",
     "rym": [
       "Electronic > Chillout > Ambient Dub"
     ]
   },
   "EAF": {
+    "name": "Balearic Beat",
     "rym": [
       "Dance > Electronic Dance Music > Balearic Beat",
       "Electronic > Chillout > Balearic Beat",
@@ -2119,6 +2310,7 @@
     ]
   },
   "EAH": {
+    "name": "Psybient",
     "rym": [
       "Electronic > Chillout > Psybient"
     ]
@@ -2131,18 +2323,21 @@
     ]
   },
   "ECA": {
+    "name": "Electropop",
     "rym": [
       "Electronic > Electropop",
       "Pop > Electropop"
     ]
   },
   "ECC": {
+    "name": "Hyperpop",
     "rym": [
       "Electronic > Hyperpop",
       "Pop > Hyperpop"
     ]
   },
   "ECD": {
+    "name": "Indietronica",
     "rym": [
       "Electronic > Indietronica",
       "Electronic > Indietronica > Chillwave",
@@ -2152,6 +2347,7 @@
     ]
   },
   "ECE": {
+    "name": "Nightcore",
     "rym": [
       "Electronic > Nightcore"
     ]
@@ -2163,49 +2359,58 @@
     ]
   },
   "EDA": {
+    "name": "Algorave",
     "rym": [
       "Electronic > Algorave"
     ]
   },
   "EDC": {
+    "name": "Flashcore",
     "rym": [
       "Electronic > Flashcore"
     ]
   },
   "EDD": {
+    "name": "Glitch",
     "rym": [
       "Electronic > Glitch",
       "Experimental > Glitch"
     ]
   },
   "EDE": {
+    "name": "Glitch Hop",
     "rym": [
       "Electronic > Glitch Hop"
     ]
   },
   "EDF": {
+    "name": "Graphical Sound",
     "rym": [
       "Electronic > Graphical Sound",
       "Experimental > Graphical Sound"
     ]
   },
   "EDH": {
+    "name": "HexD",
     "rym": [
       "Electronic > HexD"
     ]
   },
   "EDJ": {
+    "name": "Illbient",
     "rym": [
       "Electronic > Illbient"
     ]
   },
   "EDK": {
+    "name": "Micromontage",
     "rym": [
       "Electronic > Micromontage",
       "Experimental > Micromontage"
     ]
   },
   "ED8": {
+    "name": "Drill and Bass",
     "rym": [
       "Electronic > IDM > Drill and Bass"
     ]
@@ -2217,22 +2422,26 @@
     ]
   },
   "EEA": {
+    "name": "Bitpop",
     "rym": [
       "Electronic > Bitpop",
       "Pop > Bitpop"
     ]
   },
   "EEC": {
+    "name": "Chiptune",
     "rym": [
       "Electronic > Bit Music > Chiptune"
     ]
   },
   "EED": {
+    "name": "FM Synthesis",
     "rym": [
       "Electronic > Bit Music > FM Synthesis"
     ]
   },
   "EEE": {
+    "name": "MIDI Music",
     "rym": [
       "Electronic > Bit Music > MIDI Music",
       "Electronic > Bit Music > MIDI Music > Black MIDI"
@@ -2254,6 +2463,7 @@
     ]
   },
   "EFA": {
+    "name": "Vaporwave",
     "rym": [
       "Electronic > Vapor > Vaporwave",
       "Electronic > Vapor > Vaporwave > Broken Transmission",
@@ -2263,17 +2473,20 @@
     ]
   },
   "EFC": {
+    "name": "Barber Beats",
     "rym": [
       "Electronic > Chillout > Barber Beats",
       "Electronic > Vapor > Barber Beats"
     ]
   },
   "EFD": {
+    "name": "Dreampunk",
     "rym": [
       "Electronic > Vapor > Dreampunk"
     ]
   },
   "EFE": {
+    "name": "Hardvapour",
     "rym": [
       "Dance > Electronic Dance Music > Hardvapour",
       "Electronic > Electronic Dance Music > Hardvapour",
@@ -2281,16 +2494,19 @@
     ]
   },
   "EFF": {
+    "name": "Utopian Virtual",
     "rym": [
       "Electronic > Vapor > Utopian Virtual"
     ]
   },
   "EFH": {
+    "name": "Vapornoise",
     "rym": [
       "Electronic > Vapor > Vapornoise"
     ]
   },
   "EFJ": {
+    "name": "Vaportrap",
     "rym": [
       "Electronic > Vapor > Vaportrap"
     ]
@@ -2309,22 +2525,26 @@
     ]
   },
   "EJA": {
+    "name": "Digital Fusion",
     "rym": [
       "Electronic > Digital Fusion"
     ]
   },
   "EJC": {
+    "name": "Livetronica",
     "rym": [
       "Electronic > Livetronica",
       "Rock > Jam Band > Livetronica"
     ]
   },
   "EJD": {
+    "name": "Moogsploitation",
     "rym": [
       "Electronic > Moogsploitation"
     ]
   },
   "EJ8": {
+    "name": "Berlin School",
     "rym": [
       "Electronic > Progressive Electronic > Berlin School"
     ]
@@ -2336,6 +2556,7 @@
     ]
   },
   "EKA": {
+    "name": "Dungeon Synth",
     "rym": [
       "Electronic > Dungeon Synth",
       "Electronic > Dungeon Synth > Comfy Synth",
@@ -2343,17 +2564,20 @@
     ]
   },
   "EKC": {
+    "name": "Horror Synth",
     "rym": [
       "Electronic > Horror Synth"
     ]
   },
   "EKD": {
+    "name": "Minimal Wave",
     "rym": [
       "Electronic > Minimal Wave",
       "Electronic > Minimal Wave > Minimal Synth"
     ]
   },
   "EKE": {
+    "name": "Synthwave",
     "rym": [
       "Electronic > Synthwave",
       "Electronic > Indietronica > Chillwave > Chillsynth",
@@ -2362,33 +2586,39 @@
     ]
   },
   "EKF": {
+    "name": "Witch House",
     "rym": [
       "Electronic > Witch House"
     ]
   },
   "EMA": {
+    "name": "Celtic Electronica",
     "rym": [
       "Electronic > Celtic Electronica",
       "Regional Music > European Music > Celtic Electronica"
     ]
   },
   "EMC": {
+    "name": "Folktronica",
     "rym": [
       "Electronic > Folktronica"
     ]
   },
   "EMD": {
+    "name": "Funktronica",
     "rym": [
       "Electronic > Funktronica"
     ]
   },
   "EN": {
+    "name": "Latin Electronic",
     "rym": [
       "Electronic > Latin Electronic",
       "Regional Music > Hispanic Music > Hispanic American Music > Latin Electronic"
     ]
   },
   "ENA": {
+    "name": "Electro latino",
     "rym": [
       "Dance > Electronic Dance Music > Electro latino",
       "Electronic > Electronic Dance Music > Electro latino",
@@ -2397,6 +2627,7 @@
     ]
   },
   "ENC": {
+    "name": "Electrotango",
     "rym": [
       "Electronic > Latin Electronic > Electrotango",
       "Regional Music > Hispanic Music > Hispanic American Music > Latin Electronic > Electrotango",
@@ -2405,12 +2636,14 @@
     ]
   },
   "END": {
+    "name": "Nortec",
     "rym": [
       "Electronic > Latin Electronic > Nortec",
       "Regional Music > Hispanic Music > Hispanic American Music > Latin Electronic > Nortec"
     ]
   },
   "ENE": {
+    "name": "Tribal Guarachero",
     "rym": [
       "Dance > Electronic Dance Music > Tribal Guarachero",
       "Electronic > Electronic Dance Music > Tribal Guarachero",
@@ -2419,11 +2652,13 @@
     ]
   },
   "EP": {
+    "name": "Drift Phonk",
     "rym": [
       "Electronic > Drift Phonk"
     ]
   },
   "ER": {
+    "name": "Tecnobrega",
     "rym": [
       "Electronic > Tecnobrega",
       "Regional Music > South American Music > Brazilian Music > Brega > Tecnobrega",
@@ -2431,17 +2666,20 @@
     ]
   },
   "ETA": {
+    "name": "Electro Hop",
     "rym": [
       "Electronic > Electro Hop",
       "Pop > Electro Hop"
     ]
   },
   "ETC": {
+    "name": "Nu Jazz",
     "rym": [
       "Electronic > Nu Jazz"
     ]
   },
   "F": {
+    "name": "Folk",
     "rym": [
       "Folk",
       "Folk > Traditional Folk Music",
@@ -2449,11 +2687,13 @@
     ]
   },
   "FA": {
+    "name": "Contemporary Folk",
     "rym": [
       "Folk > Contemporary Folk"
     ]
   },
   "FAA": {
+    "name": "Folk Pop",
     "rym": [
       "Folk > Contemporary Folk > Folk Pop",
       "Pop > Folk Pop",
@@ -2467,6 +2707,7 @@
     ]
   },
   "FAC": {
+    "name": "Psychedelic Folk",
     "rym": [
       "Folk > Contemporary Folk > Psychedelic Folk",
       "Psychedelia > Psychedelic Folk",
@@ -2497,6 +2738,7 @@
     ]
   },
   "FC": {
+    "name": "African Folk Music",
     "rym": [
       "Folk > Traditional Folk Music > African Folk Music",
       "Regional Music > African Music > African Folk Music",
@@ -2508,6 +2750,7 @@
     ]
   },
   "FD": {
+    "name": "American Folk Music",
     "rym": [
       "Folk > Traditional Folk Music > American Folk Music",
       "Regional Music > Northern American Music > American Folk Music",
@@ -2532,6 +2775,7 @@
     ]
   },
   "FDC": {
+    "name": "Pennsylvania Dutch Folk Music",
     "rym": [
       "Folk > Traditional Folk Music > American Folk Music > Pennsylvania Dutch Folk Music",
       "Folk > Traditional Folk Music > European Folk Music > German Folk Music > Pennsylvania Dutch Folk Music",
@@ -2614,6 +2858,7 @@
     ]
   },
   "FEC": {
+    "name": "Zamacueca",
     "rym": [
       "Folk > Traditional Folk Music > Hispanic American Folk Music > Zamacueca",
       "Regional Music > Hispanic Music > Hispanic American Music > Hispanic American Folk Music > Zamacueca",
@@ -2651,6 +2896,7 @@
     ]
   },
   "FED": {
+    "name": "Zamba",
     "rym": [
       "Folk > Traditional Folk Music > Hispanic American Folk Music > Zamba",
       "Regional Music > Hispanic Music > Hispanic American Music > Hispanic American Folk Music > Zamba",
@@ -2686,6 +2932,7 @@
     ]
   },
   "FF": {
+    "name": "Caribbean Folk Music",
     "rym": [
       "Folk > Traditional Folk Music > Caribbean Folk Music",
       "Regional Music > Caribbean Music > Caribbean Folk Music",
@@ -2693,6 +2940,7 @@
     ]
   },
   "FFA": {
+    "name": "Plena",
     "rym": [
       "Folk > Traditional Folk Music > Caribbean Folk Music > Plena",
       "Folk > Traditional Folk Music > Hispanic American Folk Music > Plena",
@@ -2715,6 +2963,7 @@
     ]
   },
   "FFC": {
+    "name": "Benna",
     "rym": [
       "Folk > Traditional Folk Music > Caribbean Folk Music > Benna",
       "Regional Music > Caribbean Music > Caribbean Folk Music > Benna",
@@ -2740,6 +2989,7 @@
     ]
   },
   "FH": {
+    "name": "Celtic Folk Music",
     "rym": [
       "Folk > Traditional Folk Music > European Folk Music > Celtic Folk Music",
       "Regional Music > European Music > European Folk Music > Celtic Folk Music",
@@ -2747,6 +2997,7 @@
     ]
   },
   "FHA": {
+    "name": "Scottish Folk Music",
     "rym": [
       "Folk > Traditional Folk Music > European Folk Music > Celtic Folk Music > Scottish Folk Music",
       "Regional Music > European Music > British Music > Scottish Folk Music",
@@ -2802,6 +3053,7 @@
     ]
   },
   "FHC": {
+    "name": "Welsh Folk Music",
     "rym": [
       "Folk > Traditional Folk Music > European Folk Music > Celtic Folk Music > Welsh Folk Music",
       "Regional Music > European Music > British Music > Welsh Folk Music",
@@ -2826,6 +3078,7 @@
     ]
   },
   "FJ": {
+    "name": "Nordic Folk Music",
     "rym": [
       "Folk > Traditional Folk Music > European Folk Music > Nordic Folk Music",
       "Regional Music > European Music > European Folk Music > Nordic Folk Music",
@@ -2891,6 +3144,7 @@
     ]
   },
   "FK": {
+    "name": "Balkan Folk Music",
     "rym": [
       "Folk > Traditional Folk Music > European Folk Music > Balkan Folk Music",
       "Regional Music > European Music > Balkan Music > Balkan Folk Music",
@@ -2899,6 +3153,7 @@
     ]
   },
   "FKA": {
+    "name": "Starogradska muzika",
     "rym": [
       "Folk > Traditional Folk Music > European Folk Music > Balkan Folk Music > Starogradska muzika",
       "Folk > Traditional Folk Music > European Folk Music > Slavic Folk Music > Starogradska muzika",
@@ -3000,6 +3255,7 @@
     ]
   },
   "FKC": {
+    "name": "Greek Folk Music",
     "rym": [
       "Folk > Traditional Folk Music > European Folk Music > Balkan Folk Music > Greek Folk Music",
       "Regional Music > European Music > Balkan Music > Balkan Folk Music > Greek Folk Music",
@@ -3039,6 +3295,7 @@
     ]
   },
   "FKD": {
+    "name": "Albanian Folk Music",
     "rym": [
       "Folk > Traditional Folk Music > European Folk Music > Balkan Folk Music > Albanian Folk Music",
       "Regional Music > European Music > Balkan Music > Balkan Folk Music > Albanian Folk Music",
@@ -3065,6 +3322,7 @@
     ]
   },
   "FM": {
+    "name": "Slavic Folk Music",
     "rym": [
       "Folk > Traditional Folk Music > European Folk Music > Slavic Folk Music",
       "Regional Music > European Music > European Folk Music > Slavic Folk Music",
@@ -3072,6 +3330,7 @@
     ]
   },
   "FMA": {
+    "name": "Russian Folk Music",
     "rym": [
       "Folk > Traditional Folk Music > European Folk Music > Slavic Folk Music > Russian Folk Music",
       "Regional Music > European Music > European Folk Music > Slavic Folk Music > Russian Folk Music",
@@ -3092,6 +3351,7 @@
     ]
   },
   "FMC": {
+    "name": "Polish Folk Music",
     "rym": [
       "Folk > Traditional Folk Music > European Folk Music > Slavic Folk Music > Polish Folk Music",
       "Regional Music > European Music > European Folk Music > Slavic Folk Music > Polish Folk Music",
@@ -3154,6 +3414,7 @@
     ]
   },
   "FN": {
+    "name": "European Folk Music",
     "rym": [
       "Folk > Traditional Folk Music > European Folk Music",
       "Regional Music > European Music > European Folk Music",
@@ -3161,6 +3422,7 @@
     ]
   },
   "FNA": {
+    "name": "Luxembourgish Folk Music",
     "rym": [
       "Folk > Traditional Folk Music > European Folk Music > Luxembourgish Folk Music",
       "Regional Music > European Music > European Folk Music > Luxembourgish Folk Music",
@@ -3266,6 +3528,7 @@
     ]
   },
   "FNC": {
+    "name": "Spanish Folk Music",
     "rym": [
       "Folk > Traditional Folk Music > European Folk Music > Spanish Folk Music",
       "Regional Music > European Music > European Folk Music > Spanish Folk Music",
@@ -3438,6 +3701,7 @@
     ]
   },
   "FND": {
+    "name": "Romanian Folk Music",
     "rym": [
       "Folk > Traditional Folk Music > European Folk Music > Romanian Folk Music",
       "Regional Music > European Music > European Folk Music > Romanian Folk Music",
@@ -3547,6 +3811,7 @@
     ]
   },
   "FP": {
+    "name": "East Asian Folk Music",
     "rym": [
       "Folk > Traditional Folk Music > East Asian Folk Music",
       "Regional Music > Asian Music > East Asian Music > East Asian Folk Music",
@@ -3554,6 +3819,7 @@
     ]
   },
   "FPA": {
+    "name": "Japanese Folk Music",
     "rym": [
       "Folk > Traditional Folk Music > East Asian Folk Music > Japanese Folk Music",
       "Regional Music > Asian Music > East Asian Music > East Asian Folk Music > Japanese Folk Music",
@@ -3590,6 +3856,7 @@
     ]
   },
   "FPC": {
+    "name": "Korean Folk Music",
     "rym": [
       "Folk > Traditional Folk Music > East Asian Folk Music > Korean Folk Music",
       "Regional Music > Asian Music > East Asian Music > East Asian Folk Music > Korean Folk Music",
@@ -3618,6 +3885,7 @@
     ]
   },
   "FR": {
+    "name": "South Asian Folk Music",
     "rym": [
       "Folk > Traditional Folk Music > South Asian Folk Music",
       "Regional Music > Asian Music > South Asian Music > South Asian Folk Music",
@@ -3625,6 +3893,7 @@
     ]
   },
   "FRA": {
+    "name": "Pashto Folk Music",
     "rym": [
       "Folk > Traditional Folk Music > South Asian Folk Music > Pashto Folk Music",
       "Regional Music > Asian Music > Central Asian Music > Pashto Folk Music",
@@ -3719,6 +3988,7 @@
     ]
   },
   "FT": {
+    "name": "Southeast Asian Folk Music",
     "rym": [
       "Folk > Traditional Folk Music > Southeast Asian Folk Music",
       "Regional Music > Asian Music > Southeast Asian Music > Southeast Asian Folk Music",
@@ -3734,6 +4004,7 @@
     ]
   },
   "FT8": {
+    "name": "Lao Folk Music",
     "rym": [
       "Folk > Traditional Folk Music > Southeast Asian Folk Music > Lao Folk Music",
       "Regional Music > Asian Music > Southeast Asian Music > Southeast Asian Folk Music > Lao Folk Music",
@@ -3749,6 +4020,7 @@
     ]
   },
   "FU8": {
+    "name": "Alevi Folk Music",
     "rym": [
       "Folk > Traditional Folk Music > West Asian Folk Music > Alevi Folk Music",
       "Folk > Traditional Folk Music > West Asian Folk Music > Assyrian Folk Music",
@@ -3789,6 +4061,7 @@
     ]
   },
   "FW8": {
+    "name": "Military Cadence",
     "rym": [
       "Folk > Traditional Folk Music > Work Song > Military Cadence",
       "Folk > Traditional Folk Music > Work Song > Sea Shanty",
@@ -3830,6 +4103,7 @@
     ]
   },
   "H": {
+    "name": "Hip Hop",
     "rym": [
       "Hip Hop"
     ]
@@ -3841,17 +4115,20 @@
     ]
   },
   "HAA": {
+    "name": "Abstract Hip Hop",
     "rym": [
       "Hip Hop > Abstract Hip Hop",
       "Hip Hop > Chipmunk Soul"
     ]
   },
   "HAC": {
+    "name": "Jazz Rap",
     "rym": [
       "Hip Hop > Jazz Rap"
     ]
   },
   "HAD": {
+    "name": "Conscious Hip Hop",
     "rym": [
       "Hip Hop > Conscious Hip Hop",
       "Hip Hop > Political Hip Hop"
@@ -3864,6 +4141,7 @@
     ]
   },
   "HCA": {
+    "name": "Drill",
     "rym": [
       "Hip Hop > Drill",
       "Hip Hop > Drill > Chicago Drill > Bop",
@@ -3884,6 +4162,7 @@
     ]
   },
   "HCC": {
+    "name": "Plugg",
     "rym": [
       "Hip Hop > Trap > Plugg",
       "Hip Hop > Trap > Plugg > Ambient Plugg",
@@ -3897,6 +4176,7 @@
     ]
   },
   "HCD": {
+    "name": "Rare Phonk",
     "rym": [
       "Hip Hop > Instrumental Hip Hop > Rare Phonk",
       "Hip Hop > Trap > Rare Phonk",
@@ -3908,6 +4188,7 @@
     ]
   },
   "HCE": {
+    "name": "Trap Metal",
     "rym": [
       "Hip Hop > Hardcore Hip Hop > Trap Metal",
       "Hip Hop > Trap > Trap Metal"
@@ -3920,6 +4201,7 @@
     ]
   },
   "HDA": {
+    "name": "Gangsta Rap",
     "rym": [
       "Hip Hop > Hardcore Hip Hop > Gangsta Rap",
       "Hip Hop > Hardcore Hip Hop > Gangsta Rap > Coke Rap",
@@ -3931,6 +4213,7 @@
     ]
   },
   "HDC": {
+    "name": "Memphis Rap",
     "rym": [
       "Hip Hop > Hardcore Hip Hop > Memphis Rap",
       "Hip Hop > Hardcore Hip Hop > Memphis Rap > Dungeon Rap"
@@ -3945,16 +4228,19 @@
     ]
   },
   "HDE": {
+    "name": "Phonk",
     "rym": [
       "Hip Hop > Hardcore Hip Hop > Memphis Rap > Phonk"
     ]
   },
   "HDF": {
+    "name": "Horrorcore",
     "rym": [
       "Hip Hop > Hardcore Hip Hop > Horrorcore"
     ]
   },
   "HE": {
+    "name": "Southern Hip Hop",
     "rym": [
       "Scenes & Movements > Southern Hip Hop"
     ]
@@ -3970,6 +4256,7 @@
     ]
   },
   "HEC": {
+    "name": "Miami Bass",
     "rym": [
       "Dance > Miami Bass",
       "Hip Hop > Miami Bass",
@@ -4005,6 +4292,7 @@
     ]
   },
   "HEE": {
+    "name": "Crunk",
     "rym": [
       "Hip Hop > Crunk"
     ]
@@ -4016,6 +4304,7 @@
     ]
   },
   "HFA": {
+    "name": "Cloud Rap",
     "rym": [
       "Hip Hop > Cloud Rap",
       "Hip Hop > Comedy Rap > Chap Hop",
@@ -4027,11 +4316,13 @@
     ]
   },
   "HFC": {
+    "name": "Emo Rap",
     "rym": [
       "Hip Hop > Emo Rap"
     ]
   },
   "HFD": {
+    "name": "Digicore",
     "rym": [
       "Hip Hop > Digicore"
     ]
@@ -4043,22 +4334,26 @@
     ]
   },
   "HHA": {
+    "name": "Christian Hip Hop",
     "rym": [
       "Hip Hop > Christian Hip Hop",
       "Hip Hop > Disco Rap"
     ]
   },
   "HHC": {
+    "name": "Country Rap",
     "rym": [
       "Hip Hop > Country Rap"
     ]
   },
   "HHD": {
+    "name": "Comedy Rap",
     "rym": [
       "Hip Hop > Comedy Rap"
     ]
   },
   "HH8": {
+    "name": "Frat Rap",
     "rym": [
       "Hip Hop > Pop Rap > Frat Rap"
     ]
@@ -4070,16 +4365,19 @@
     ]
   },
   "HJA": {
+    "name": "Lo-Fi Hip Hop",
     "rym": [
       "Hip Hop > Lo-Fi Hip Hop"
     ]
   },
   "HJC": {
+    "name": "Turntablism",
     "rym": [
       "Hip Hop > Turntablism"
     ]
   },
   "HJD": {
+    "name": "Lowend",
     "rym": [
       "Hip Hop > Lowend"
     ]
@@ -4091,6 +4389,7 @@
     ]
   },
   "HKA": {
+    "name": "Philly Club Rap",
     "rym": [
       "Hip Hop > Philly Club Rap"
     ]
@@ -4131,6 +4430,7 @@
     ]
   },
   "JA": {
+    "name": "Blues",
     "rym": [
       "Blues"
     ]
@@ -4159,6 +4459,7 @@
     ]
   },
   "JAD": {
+    "name": "Country Blues",
     "rym": [
       "Blues > Country Blues",
       "Folk > Traditional Folk Music > American Folk Music > Country Blues",
@@ -4185,6 +4486,7 @@
     ]
   },
   "JAE": {
+    "name": "Electric Blues",
     "rym": [
       "Blues > Electric Blues",
       "Blues > Electric Blues > British Blues",
@@ -4196,6 +4498,7 @@
     ]
   },
   "JAF": {
+    "name": "Fife and Drum Blues",
     "rym": [
       "Blues > Fife and Drum Blues",
       "Folk > Traditional Folk Music > American Folk Music > Fife and Drum Blues",
@@ -4204,22 +4507,26 @@
     ]
   },
   "JAH": {
+    "name": "Jump Blues",
     "rym": [
       "Blues > Jump Blues"
     ]
   },
   "JAJ": {
+    "name": "Piano Blues",
     "rym": [
       "Blues > Piano Blues"
     ]
   },
   "JAK": {
+    "name": "Soul Blues",
     "rym": [
       "Blues > Soul Blues",
       "R&B > Soul Blues"
     ]
   },
   "JAM": {
+    "name": "Vaudeville Blues",
     "rym": [
       "Blues > Vaudeville Blues",
       "Musical Theatre and Entertainment > Vaudeville > Vaudeville Blues",
@@ -4227,6 +4534,7 @@
     ]
   },
   "JCA": {
+    "name": "Big Band",
     "rym": [
       "Jazz > Big Band",
       "Jazz > Avant-Garde Jazz > Experimental Big Band",
@@ -4235,17 +4543,20 @@
     ]
   },
   "JCC": {
+    "name": "Dixieland",
     "rym": [
       "Jazz > Dixieland"
     ]
   },
   "JCD": {
+    "name": "Stride",
     "rym": [
       "Jazz > Stride",
       "Regional Music > Northern American Music > Ragtime > Stride"
     ]
   },
   "JCE": {
+    "name": "Swing",
     "rym": [
       "Jazz > Swing",
       "Jazz > Swing > Swing Revival",
@@ -4253,6 +4564,7 @@
     ]
   },
   "JCF": {
+    "name": "British Dance Band",
     "rym": [
       "Jazz > British Dance Band",
       "Pop > Traditional Pop > British Dance Band",
@@ -4260,72 +4572,86 @@
     ]
   },
   "JCH": {
+    "name": "Jazz manouche",
     "rym": [
       "Jazz > Jazz manouche"
     ]
   },
   "JCJ": {
+    "name": "Sweet Jazz",
     "rym": [
       "Jazz > Sweet Jazz"
     ]
   },
   "JD": {
+    "name": "Bebop",
     "rym": [
       "Jazz > Bebop"
     ]
   },
   "JDA": {
+    "name": "Hard Bop",
     "rym": [
       "Jazz > Hard Bop"
     ]
   },
   "JDC": {
+    "name": "Cool Jazz",
     "rym": [
       "Jazz > Cool Jazz"
     ]
   },
   "JDD": {
+    "name": "Post-Bop",
     "rym": [
       "Jazz > Post-Bop"
     ]
   },
   "JDE": {
+    "name": "Soul Jazz",
     "rym": [
       "Jazz > Soul Jazz"
     ]
   },
   "JDF": {
+    "name": "West Coast Jazz",
     "rym": [
       "Jazz > West Coast Jazz"
     ]
   },
   "JE": {
+    "name": "Avant-Garde Jazz",
     "rym": [
       "Jazz > Avant-Garde Jazz"
     ]
   },
   "JEA": {
+    "name": "Free Jazz",
     "rym": [
       "Jazz > Avant-Garde Jazz > Free Jazz",
       "Jazz > Avant-Garde Jazz > Free Jazz > European Free Jazz"
     ]
   },
   "JEC": {
+    "name": "Chamber Jazz",
     "rym": [
       "Jazz > Chamber Jazz"
     ]
   },
   "JED": {
+    "name": "Dark Jazz",
     "rym": [
       "Jazz > Dark Jazz"
     ]
   },
   "JEE": {
+    "name": "ECM Style Jazz",
     "rym": [
       "Jazz > ECM Style Jazz"
     ]
   },
   "JEF": {
+    "name": "Modal Jazz",
     "rym": [
       "Jazz > Modal Jazz",
       "Jazz > Modal Jazz > Jazz Mugham",
@@ -4333,89 +4659,105 @@
     ]
   },
   "JEH": {
+    "name": "Spiritual Jazz",
     "rym": [
       "Jazz > Spiritual Jazz"
     ]
   },
   "JEJ": {
+    "name": "Third Stream",
     "rym": [
       "Jazz > Third Stream"
     ]
   },
   "JF": {
+    "name": "Jazz Fusion",
     "rym": [
       "Jazz > Jazz Fusion"
     ]
   },
   "JFA": {
+    "name": "Jazz-Funk",
     "rym": [
       "Jazz > Jazz-Funk",
       "R&B > Funk > Jazz-Funk"
     ]
   },
   "JFC": {
+    "name": "Smooth Jazz",
     "rym": [
       "Jazz > Smooth Jazz"
     ]
   },
   "JH": {
+    "name": "Vocal Jazz",
     "rym": [
       "Jazz > Vocal Jazz"
     ]
   },
   "JHA": {
+    "name": "Vocalese",
     "rym": [
       "Jazz > Vocal Jazz > Vocalese"
     ]
   },
   "JHC": {
+    "name": "Jazz Poetry",
     "rym": [
       "Jazz > Jazz Poetry",
       "Spoken Word > Poetry > Jazz Poetry"
     ]
   },
   "JJ": {
+    "name": "Latin Jazz",
     "rym": [
       "Jazz > Latin Jazz"
     ]
   },
   "JJA": {
+    "name": "Afro-Cuban Jazz",
     "rym": [
       "Jazz > Latin Jazz > Afro-Cuban Jazz",
       "Regional Music > Hispanic Music > Hispanic American Music > Afro-Cuban Jazz"
     ]
   },
   "JJC": {
+    "name": "Afro-Jazz",
     "rym": [
       "Jazz > Afro-Jazz",
       "Regional Music > African Music > Afro-Jazz"
     ]
   },
   "JJD": {
+    "name": "Arabic Jazz",
     "rym": [
       "Jazz > Arabic Jazz",
       "Regional Music > Arabic Music > Arabic Jazz"
     ]
   },
   "JJE": {
+    "name": "Bulawayo Jazz",
     "rym": [
       "Jazz > Bulawayo Jazz",
       "Regional Music > African Music > Southern African Music > Bulawayo Jazz"
     ]
   },
   "JJF": {
+    "name": "Cape Jazz",
     "rym": [
       "Jazz > Cape Jazz",
       "Regional Music > African Music > Southern African Music > Cape Jazz"
     ]
   },
   "JJH": {
+    "name": "Ethio-Jazz",
     "rym": [
       "Jazz > Ethio-Jazz",
       "Regional Music > African Music > Northeastern African Music > Ethiopic Music > Ethio-Jazz"
     ]
   },
   "JJJ": {
+    "name": "Flamenco Jazz",
     "rym": [
       "Jazz > Flamenco Jazz",
       "Regional Music > European Music > Iberian Music > Spanish Music > Flamenco > Flamenco nuevo > Flamenco Jazz",
@@ -4423,6 +4765,7 @@
     ]
   },
   "JJK": {
+    "name": "Indo Jazz",
     "rym": [
       "Jazz > Indo Jazz",
       "Regional Music > Asian Music > South Asian Music > Indo Jazz"
@@ -4436,6 +4779,7 @@
     ]
   },
   "JJN": {
+    "name": "Marabi",
     "rym": [
       "Jazz > Marabi",
       "Regional Music > African Music > Southern African Music > Marabi",
@@ -4446,16 +4790,19 @@
     ]
   },
   "JKA": {
+    "name": "Cartoon Music",
     "rym": [
       "Jazz > Cartoon Music"
     ]
   },
   "JKC": {
+    "name": "Crime Jazz",
     "rym": [
       "Jazz > Crime Jazz"
     ]
   },
   "JKD": {
+    "name": "Spy Music",
     "rym": [
       "Jazz > Spy Music"
     ]
@@ -4467,28 +4814,33 @@
     ]
   },
   "KA": {
+    "name": "Rhythm and Blues",
     "rym": [
       "R&B > Rhythm & Blues"
     ]
   },
   "KAA": {
+    "name": "Beach Music",
     "rym": [
       "R&B > Beach Music",
       "Scenes & Movements > Beach Music"
     ]
   },
   "KAC": {
+    "name": "Doo-Wop",
     "rym": [
       "R&B > Doo-Wop"
     ]
   },
   "KAD": {
+    "name": "New Orleans RnB",
     "rym": [
       "R&B > New Orleans R&B",
       "Regional Music > Northern American Music > Louisiana Music > New Orleans R&B"
     ]
   },
   "KAE": {
+    "name": "British Rhythm and Blues",
     "rym": [
       "R&B > Rhythm & Blues > British Rhythm & Blues",
       "Rock > British Rhythm & Blues",
@@ -4496,28 +4848,33 @@
     ]
   },
   "KAF": {
+    "name": "West Side Sound",
     "rym": [
       "R&B > Rhythm & Blues > West Side Sound",
       "Scenes & Movements > West Side Sound"
     ]
   },
   "KC": {
+    "name": "Soul",
     "rym": [
       "R&B > Soul"
     ]
   },
   "KCA": {
+    "name": "Acid Jazz",
     "rym": [
       "R&B > Acid Jazz"
     ]
   },
   "KCC": {
+    "name": "Blue-Eyed Soul",
     "rym": [
       "Pop > Blue-Eyed Soul",
       "R&B > Blue-Eyed Soul"
     ]
   },
   "KCD": {
+    "name": "Chicago Soul",
     "rym": [
       "R&B > Soul > Chicago Soul"
     ]
@@ -4529,27 +4886,32 @@
     ]
   },
   "KCF": {
+    "name": "Deep Soul",
     "rym": [
       "R&B > Soul > Deep Soul"
     ]
   },
   "KCH": {
+    "name": "Latin Soul",
     "rym": [
       "R&B > Soul > Latin Soul",
       "Regional Music > Hispanic Music > Hispanic American Music > Latin Soul"
     ]
   },
   "KCJ": {
+    "name": "Neo-Soul",
     "rym": [
       "R&B > Soul > Neo-Soul"
     ]
   },
   "KCK": {
+    "name": "Philly Soul",
     "rym": [
       "R&B > Soul > Philly Soul"
     ]
   },
   "KCM": {
+    "name": "Pop Soul",
     "rym": [
       "Pop > Pop Soul",
       "R&B > Soul > Pop Soul",
@@ -4558,32 +4920,38 @@
     ]
   },
   "KCN": {
+    "name": "Progressive Soul",
     "rym": [
       "R&B > Soul > Progressive Soul"
     ]
   },
   "KCP": {
+    "name": "Psychedelic Soul",
     "rym": [
       "Psychedelia > Psychedelic Soul",
       "R&B > Soul > Psychedelic Soul"
     ]
   },
   "KCR": {
+    "name": "Smooth Soul",
     "rym": [
       "R&B > Soul > Smooth Soul"
     ]
   },
   "KCT": {
+    "name": "Southern Soul",
     "rym": [
       "R&B > Soul > Southern Soul"
     ]
   },
   "KD": {
+    "name": "Contemporary RnB",
     "rym": [
       "R&B > Contemporary R&B"
     ]
   },
   "KDA": {
+    "name": "Alternative RnB",
     "rym": [
       "R&B > Contemporary R&B > Alternative R&B"
     ]
@@ -4595,22 +4963,26 @@
     ]
   },
   "KDD": {
+    "name": "New Jack Swing",
     "rym": [
       "R&B > Contemporary R&B > New Jack Swing"
     ]
   },
   "KDE": {
+    "name": "Trap Soul",
     "rym": [
       "Hip Hop > Trap > Trap Soul",
       "R&B > Contemporary R&B > Trap Soul"
     ]
   },
   "KDF": {
+    "name": "UK Street Soul",
     "rym": [
       "R&B > Contemporary R&B > UK Street Soul"
     ]
   },
   "KE": {
+    "name": "Funk",
     "rym": [
       "R&B > Funk"
     ]
@@ -4623,38 +4995,45 @@
     ]
   },
   "KEC": {
+    "name": "Britfunk",
     "rym": [
       "R&B > Funk > Britfunk"
     ]
   },
   "KED": {
+    "name": "Deep Funk",
     "rym": [
       "R&B > Funk > Deep Funk"
     ]
   },
   "KEE": {
+    "name": "Go-Go",
     "rym": [
       "R&B > Funk > Go-Go",
       "R&B > Funk > Go-Go > Bounce Beat"
     ]
   },
   "KEF": {
+    "name": "Latin Funk",
     "rym": [
       "R&B > Funk > Latin Funk",
       "Regional Music > Hispanic Music > Hispanic American Music > Latin Funk"
     ]
   },
   "KEH": {
+    "name": "P-Funk",
     "rym": [
       "R&B > Funk > P-Funk"
     ]
   },
   "KEJ": {
+    "name": "Porn Groove",
     "rym": [
       "R&B > Funk > Porn Groove"
     ]
   },
   "KEK": {
+    "name": "Synth Funk",
     "rym": [
       "R&B > Funk > Synth Funk",
       "R&B > Funk > Synth Funk > Minneapolis Sound",
@@ -4662,54 +5041,63 @@
     ]
   },
   "M": {
+    "name": "Metal",
     "rym": [
       "Metal",
       "Rock > Metal"
     ]
   },
   "MA": {
+    "name": "Heavy Metal",
     "rym": [
       "Metal > Heavy Metal",
       "Rock > Metal > Heavy Metal"
     ]
   },
   "MAA": {
+    "name": "Neoclassical Metal",
     "rym": [
       "Metal > Neoclassical Metal",
       "Rock > Metal > Neoclassical Metal"
     ]
   },
   "MAC": {
+    "name": "Power Metal",
     "rym": [
       "Metal > Power Metal",
       "Rock > Metal > Power Metal"
     ]
   },
   "MAD": {
+    "name": "Speed Metal",
     "rym": [
       "Metal > Heavy Metal > Speed Metal",
       "Rock > Metal > Heavy Metal > Speed Metal"
     ]
   },
   "MAE": {
+    "name": "Symphonic Metal",
     "rym": [
       "Metal > Symphonic Metal",
       "Rock > Metal > Symphonic Metal"
     ]
   },
   "MAF": {
+    "name": "US Power Metal",
     "rym": [
       "Metal > Heavy Metal > US Power Metal",
       "Rock > Metal > Heavy Metal > US Power Metal"
     ]
   },
   "MC": {
+    "name": "Thrash Metal",
     "rym": [
       "Metal > Thrash Metal",
       "Rock > Metal > Thrash Metal"
     ]
   },
   "MCA": {
+    "name": "Crossover Thrash",
     "rym": [
       "Metal > Thrash Metal > Crossover Thrash",
       "Punk > Hardcore [Punk] > Hardcore Punk > Crossover Thrash",
@@ -4720,18 +5108,21 @@
     ]
   },
   "MCC": {
+    "name": "Technical Thrash Metal",
     "rym": [
       "Metal > Thrash Metal > Technical Thrash Metal",
       "Rock > Metal > Thrash Metal > Technical Thrash Metal"
     ]
   },
   "MD": {
+    "name": "Death Metal",
     "rym": [
       "Metal > Death Metal",
       "Rock > Metal > Death Metal"
     ]
   },
   "MDA": {
+    "name": "Brutal Death Metal",
     "rym": [
       "Metal > Death Metal > Brutal Death Metal",
       "Rock > Metal > Death Metal > Brutal Death Metal",
@@ -4740,12 +5131,14 @@
     ]
   },
   "MDC": {
+    "name": "Death n Roll",
     "rym": [
       "Metal > Death Metal > Death 'n' Roll",
       "Rock > Metal > Death Metal > Death 'n' Roll"
     ]
   },
   "MDD": {
+    "name": "Deathgrind",
     "rym": [
       "Metal > Death Metal > Deathgrind",
       "Metal > Grindcore > Deathgrind",
@@ -4756,12 +5149,14 @@
     ]
   },
   "MDE": {
+    "name": "Melodic Death Metal",
     "rym": [
       "Metal > Death Metal > Melodic Death Metal",
       "Rock > Metal > Death Metal > Melodic Death Metal"
     ]
   },
   "MDF": {
+    "name": "Technical Death Metal",
     "rym": [
       "Metal > Death Metal > Technical Death Metal",
       "Rock > Metal > Death Metal > Technical Death Metal",
@@ -4770,12 +5165,14 @@
     ]
   },
   "ME": {
+    "name": "Black Metal",
     "rym": [
       "Metal > Black Metal",
       "Rock > Metal > Black Metal"
     ]
   },
   "MEA": {
+    "name": "Atmospheric Black Metal",
     "rym": [
       "Metal > Black Metal > Atmospheric Black Metal",
       "Rock > Metal > Black Metal > Atmospheric Black Metal"
@@ -4789,6 +5186,7 @@
     ]
   },
   "MED": {
+    "name": "Black Noise",
     "rym": [
       "Experimental > Noise > Black Noise",
       "Industrial & Noise > Noise > Black Noise",
@@ -4797,12 +5195,14 @@
     ]
   },
   "MEE": {
+    "name": "Dissonant Black Metal",
     "rym": [
       "Metal > Black Metal > Dissonant Black Metal",
       "Rock > Metal > Black Metal > Dissonant Black Metal"
     ]
   },
   "MEF": {
+    "name": "DSBM",
     "rym": [
       "Metal > Black Metal > DSBM",
       "Rock > Metal > Black Metal > DSBM"
@@ -4817,48 +5217,56 @@
     ]
   },
   "MEJ": {
+    "name": "Melodic Black Metal",
     "rym": [
       "Metal > Black Metal > Melodic Black Metal",
       "Rock > Metal > Black Metal > Melodic Black Metal"
     ]
   },
   "MEK": {
+    "name": "Pagan Black Metal",
     "rym": [
       "Metal > Black Metal > Pagan Black Metal",
       "Rock > Metal > Black Metal > Pagan Black Metal"
     ]
   },
   "MEM": {
+    "name": "Symphonic Black Metal",
     "rym": [
       "Metal > Black Metal > Symphonic Black Metal",
       "Rock > Metal > Black Metal > Symphonic Black Metal"
     ]
   },
   "MEN": {
+    "name": "War Metal",
     "rym": [
       "Metal > Black Metal > War Metal",
       "Rock > Metal > Black Metal > War Metal"
     ]
   },
   "MF": {
+    "name": "Doom Metal",
     "rym": [
       "Metal > Doom Metal",
       "Rock > Metal > Doom Metal"
     ]
   },
   "MFA": {
+    "name": "Death Doom Metal",
     "rym": [
       "Metal > Doom Metal > Death Doom Metal",
       "Rock > Metal > Doom Metal > Death Doom Metal"
     ]
   },
   "MFC": {
+    "name": "Funeral Doom Metal",
     "rym": [
       "Metal > Doom Metal > Funeral Doom Metal",
       "Rock > Metal > Doom Metal > Funeral Doom Metal"
     ]
   },
   "MFD": {
+    "name": "Traditional Doom Metal",
     "rym": [
       "Metal > Doom Metal > Traditional Doom Metal",
       "Rock > Metal > Doom Metal > Traditional Doom Metal",
@@ -4874,12 +5282,14 @@
     ]
   },
   "MFF": {
+    "name": "Gothic Metal",
     "rym": [
       "Metal > Gothic Metal",
       "Rock > Metal > Gothic Metal"
     ]
   },
   "MFH": {
+    "name": "Sludge Metal",
     "rym": [
       "Metal > Sludge Metal",
       "Rock > Metal > Sludge Metal",
@@ -4890,12 +5300,14 @@
     ]
   },
   "MFJ": {
+    "name": "Southern Metal",
     "rym": [
       "Metal > Southern Metal",
       "Rock > Metal > Southern Metal"
     ]
   },
   "MFK": {
+    "name": "Stoner Metal",
     "rym": [
       "Metal > Stoner Metal",
       "Psychedelia > Stoner Metal",
@@ -4903,12 +5315,14 @@
     ]
   },
   "MH": {
+    "name": "Alternative Metal",
     "rym": [
       "Metal > Alternative Metal",
       "Rock > Metal > Alternative Metal"
     ]
   },
   "MHA": {
+    "name": "Funk Metal",
     "rym": [
       "Metal > Alternative Metal > Funk Metal",
       "Rock > Funk Rock > Funk Metal",
@@ -4916,6 +5330,7 @@
     ]
   },
   "MHC": {
+    "name": "Industrial Metal",
     "rym": [
       "Industrial & Noise > Post-Industrial > Industrial Metal",
       "Metal > Industrial Metal",
@@ -4931,6 +5346,7 @@
     ]
   },
   "MHD": {
+    "name": "Kawaii Metal",
     "rym": [
       "Metal > Kawaii Metal",
       "Rock > Metal > Kawaii Metal",
@@ -4938,12 +5354,14 @@
     ]
   },
   "MHE": {
+    "name": "Nu Metal",
     "rym": [
       "Metal > Alternative Metal > Nu Metal",
       "Rock > Metal > Alternative Metal > Nu Metal"
     ]
   },
   "MHF": {
+    "name": "Rap Metal",
     "rym": [
       "Metal > Alternative Metal > Rap Metal",
       "Rock > Metal > Alternative Metal > Rap Metal",
@@ -4951,12 +5369,14 @@
     ]
   },
   "MHH": {
+    "name": "Trance Metal",
     "rym": [
       "Metal > Trance Metal",
       "Rock > Metal > Trance Metal"
     ]
   },
   "MJ": {
+    "name": "Metalcore",
     "rym": [
       "Metal > Metalcore",
       "Punk > Hardcore [Punk] > Metalcore",
@@ -4978,6 +5398,7 @@
     ]
   },
   "MJC": {
+    "name": "Mathcore",
     "rym": [
       "Metal > Metalcore > Mathcore",
       "Punk > Hardcore [Punk] > Metalcore > Mathcore",
@@ -4986,6 +5407,7 @@
     ]
   },
   "MJD": {
+    "name": "Melodic Metalcore",
     "rym": [
       "Metal > Metalcore > Melodic Metalcore",
       "Punk > Hardcore [Punk] > Metalcore > Melodic Metalcore",
@@ -4994,6 +5416,7 @@
     ]
   },
   "MJE": {
+    "name": "Djent",
     "rym": [
       "Metal > Djent",
       "Rock > Metal > Djent",
@@ -5006,18 +5429,21 @@
     ]
   },
   "MJF": {
+    "name": "Progressive Metal",
     "rym": [
       "Metal > Progressive Metal",
       "Rock > Metal > Progressive Metal"
     ]
   },
   "MK": {
+    "name": "Post-Metal",
     "rym": [
       "Metal > Post-Metal",
       "Rock > Metal > Post-Metal"
     ]
   },
   "MKA": {
+    "name": "Blackgaze",
     "rym": [
       "Metal > Black Metal > Atmospheric Black Metal > Blackgaze",
       "Metal > Post-Metal > Blackgaze",
@@ -5026,24 +5452,28 @@
     ]
   },
   "MKC": {
+    "name": "Doomgaze",
     "rym": [
       "Metal > Post-Metal > Doomgaze",
       "Rock > Metal > Post-Metal > Doomgaze"
     ]
   },
   "MM": {
+    "name": "Folk Metal",
     "rym": [
       "Metal > Folk Metal",
       "Rock > Metal > Folk Metal"
     ]
   },
   "MMA": {
+    "name": "Viking Metal",
     "rym": [
       "Metal > Viking Metal",
       "Rock > Metal > Viking Metal"
     ]
   },
   "MMC": {
+    "name": "Celtic Metal",
     "rym": [
       "Metal > Folk Metal > Celtic Metal",
       "Regional Music > European Music > Celtic Metal",
@@ -5051,6 +5481,7 @@
     ]
   },
   "MMD": {
+    "name": "Mittelalter-Metal",
     "rym": [
       "Metal > Folk Metal > Mittelalter-Metal",
       "Regional Music > European Music > Mittelalter-Metal",
@@ -5058,6 +5489,7 @@
     ]
   },
   "M89": {
+    "name": "Avant-Garde Metal",
     "rym": [
       "Metal > Avant-Garde Metal",
       "Metal > Groove Metal",
@@ -5073,34 +5505,40 @@
     ]
   },
   "NA": {
+    "name": "Industrial",
     "rym": [
       "Experimental > Industrial",
       "Industrial & Noise > Industrial"
     ]
   },
   "NC": {
+    "name": "Post-Industrial",
     "rym": [
       "Industrial & Noise > Post-Industrial"
     ]
   },
   "NCA": {
+    "name": "Industrial Hip Hop",
     "rym": [
       "Hip Hop > Experimental Hip Hop > Industrial Hip Hop",
       "Industrial & Noise > Post-Industrial > Industrial Hip Hop"
     ]
   },
   "NCC": {
+    "name": "Industrial Rock",
     "rym": [
       "Industrial & Noise > Post-Industrial > Industrial Rock",
       "Rock > Industrial Rock"
     ]
   },
   "NCD": {
+    "name": "Martial Industrial",
     "rym": [
       "Industrial & Noise > Post-Industrial > Martial Industrial"
     ]
   },
   "NCE": {
+    "name": "Power Noise",
     "rym": [
       "Electronic > Power Noise",
       "Experimental > Noise > Power Noise",
@@ -5109,12 +5547,14 @@
     ]
   },
   "ND": {
+    "name": "Noise",
     "rym": [
       "Experimental > Noise",
       "Industrial & Noise > Noise"
     ]
   },
   "NDA": {
+    "name": "Power Electronics",
     "rym": [
       "Electronic > Power Electronics",
       "Experimental > Industrial > Power Electronics",
@@ -5129,6 +5569,7 @@
     ]
   },
   "NDC": {
+    "name": "Harsh Noise",
     "rym": [
       "Experimental > Noise > Harsh Noise",
       "Industrial & Noise > Noise > Harsh Noise",
@@ -5137,12 +5578,14 @@
     ]
   },
   "NDD": {
+    "name": "Ambient Noise Wall",
     "rym": [
       "Experimental > Noise > Ambient Noise Wall",
       "Industrial & Noise > Noise > Ambient Noise Wall"
     ]
   },
   "NDE": {
+    "name": "Gorenoise",
     "rym": [
       "Experimental > Noise > Gorenoise",
       "Industrial & Noise > Noise > Gorenoise",
@@ -5153,12 +5596,14 @@
     ]
   },
   "NE": {
+    "name": "Electroacoustic",
     "rym": [
       "Electronic > Electroacoustic",
       "Experimental > Electroacoustic"
     ]
   },
   "NEA": {
+    "name": "EAI",
     "rym": [
       "Electronic > Electroacoustic > EAI",
       "Experimental > Electroacoustic > EAI",
@@ -5166,6 +5611,7 @@
     ]
   },
   "NEC": {
+    "name": "Acousmatic Music",
     "rym": [
       "Electronic > Electroacoustic > Acousmatic Music",
       "Experimental > Electroacoustic > Acousmatic Music"
@@ -5179,84 +5625,100 @@
     ]
   },
   "NF": {
+    "name": "Free Improvisation",
     "rym": [
       "Experimental > Free Improvisation"
     ]
   },
   "NH": {
+    "name": "Reductionism",
     "rym": [
       "Experimental > Reductionism"
     ]
   },
   "NHA": {
+    "name": "Lowercase",
     "rym": [
       "Experimental > Reductionism > Lowercase"
     ]
   },
   "NHC": {
+    "name": "Onkyo",
     "rym": [
       "Experimental > Reductionism > Onkyo",
       "Scenes & Movements > Onkyo"
     ]
   },
   "NJ": {
+    "name": "Sound Collage",
     "rym": [
       "Experimental > Sound Collage"
     ]
   },
   "NJA": {
+    "name": "Epic Collage",
     "rym": [
       "Electronic > Epic Collage",
       "Experimental > Sound Collage > Epic Collage"
     ]
   },
   "NKA": {
+    "name": "Data Sonification",
     "rym": [
       "Experimental > Data Sonification"
     ]
   },
   "NKC": {
+    "name": "Sound Art",
     "rym": [
       "Experimental > Sound Art"
     ]
   },
   "NKD": {
+    "name": "Sound Poetry",
     "rym": [
       "Experimental > Sound Poetry",
       "Spoken Word > Poetry > Sound Poetry"
     ]
   },
   "NMA": {
+    "name": "Plunderphonics",
     "rym": [
       "Experimental > Plunderphonics"
     ]
   },
   "NMC": {
+    "name": "Tape Music",
     "rym": [
       "Experimental > Tape Music"
     ]
   },
   "NMD": {
+    "name": "Turntable Music",
     "rym": [
       "Experimental > Turntable Music"
     ]
   },
   "NNA": {
+    "name": "Conducted Improvisation",
     "rym": [
       "Experimental > Conducted Improvisation"
     ]
   },
   "NNC": {
+    "name": "Modern Creative",
     "rym": [
       "Experimental > Modern Creative"
     ]
   },
   "P": {
+    "name": "Pop",
     "rym": [
       "Pop"
     ]
   },
   "PA": {
+    "name": "Traditional Pop",
     "rym": [
       "Pop > Traditional Pop",
       "Pop > Traditional Pop > Tin Pan Alley",
@@ -5264,17 +5726,20 @@
     ]
   },
   "PA8": {
+    "name": "Standards",
     "rym": [
       "Pop > Traditional Pop > Standards"
     ]
   },
   "PC": {
+    "name": "Pop Rock",
     "rym": [
       "Pop > Pop Rock",
       "Rock > Pop Rock"
     ]
   },
   "PCA": {
+    "name": "Beat",
     "rym": [
       "Pop > Pop Rock > Beat",
       "Rock > Pop Rock > Beat",
@@ -5284,6 +5749,7 @@
     ]
   },
   "PCC": {
+    "name": "Beat Rock",
     "rym": [
       "Pop > Pop Rock > Beat Rock",
       "Rock > New Wave > Beat Rock",
@@ -5291,18 +5757,21 @@
     ]
   },
   "PCD": {
+    "name": "Big Music",
     "rym": [
       "Pop > Pop Rock > Big Music",
       "Rock > Pop Rock > Big Music"
     ]
   },
   "PCE": {
+    "name": "Power Pop",
     "rym": [
       "Pop > Pop Rock > Power Pop",
       "Rock > Pop Rock > Power Pop"
     ]
   },
   "PCF": {
+    "name": "Yacht Rock",
     "rym": [
       "Pop > Pop Rock > Soft Rock > Yacht Rock",
       "Rock > Pop Rock > Soft Rock > Yacht Rock",
@@ -5311,6 +5780,7 @@
     ]
   },
   "PCH": {
+    "name": "Tropical Rock",
     "rym": [
       "Pop > Pop Rock > Soft Rock > Tropical Rock",
       "Rock > Pop Rock > Soft Rock > Tropical Rock",
@@ -5322,12 +5792,14 @@
     ]
   },
   "PD": {
+    "name": "Dance-Pop",
     "rym": [
       "Dance > Dance-Pop",
       "Pop > Dance-Pop"
     ]
   },
   "PDA": {
+    "name": "Latin Freestyle",
     "rym": [
       "Dance > Dance-Pop > Freestyle > Latin Freestyle",
       "Dance > Electronic Dance Music > Freestyle > Latin Freestyle",
@@ -5341,6 +5813,7 @@
     ]
   },
   "PDC": {
+    "name": "Tecnorumba",
     "rym": [
       "Dance > Dance-Pop > Tecnorumba",
       "Dance > Electronic Dance Music > Tecnorumba",
@@ -5354,6 +5827,7 @@
     ]
   },
   "PDD": {
+    "name": "Township Bubblegum",
     "rym": [
       "Dance > Dance-Pop > Township Bubblegum",
       "Pop > Dance-Pop > Township Bubblegum",
@@ -5361,18 +5835,21 @@
     ]
   },
   "PE": {
+    "name": "J-Pop",
     "rym": [
       "Pop > J-Pop",
       "Scenes & Movements > J-Pop"
     ]
   },
   "PEA": {
+    "name": "Denpa",
     "rym": [
       "Pop > J-Pop > Denpa",
       "Scenes & Movements > J-Pop > Denpa"
     ]
   },
   "PEC": {
+    "name": "Yakousei",
     "rym": [
       "Pop > J-Pop > Yakousei",
       "Scenes & Movements > J-Pop > Yakousei",
@@ -5385,33 +5862,39 @@
     ]
   },
   "PH": {
+    "name": "Latin Pop",
     "rym": [
       "Pop > Latin Pop",
       "Regional Music > Hispanic Music > Hispanic American Music > Latin Pop"
     ]
   },
   "PH8": {
+    "name": "Tropipop",
     "rym": [
       "Pop > Latin Pop > Tropipop",
       "Regional Music > Hispanic Music > Hispanic American Music > Latin Pop > Tropipop"
     ]
   },
   "PK": {
+    "name": "Afrobeats",
     "rym": [
       "Pop > Afrobeats"
     ]
   },
   "PM": {
+    "name": "Europop",
     "rym": [
       "Pop > Europop"
     ]
   },
   "PN": {
+    "name": "Indie Pop",
     "rym": [
       "Pop > Indie Pop"
     ]
   },
   "PNA": {
+    "name": "Twee Pop",
     "rym": [
       "Pop > Indie Pop > Twee Pop",
       "Pop > Pop Rock > Twee Pop",
@@ -5429,112 +5912,133 @@
     ]
   },
   "PNC": {
+    "name": "Chamber Pop",
     "rym": [
       "Pop > Indie Pop > Chamber Pop",
       "Pop > Indie Pop > Bedroom Pop"
     ]
   },
   "PP": {
+    "name": "Boy Band",
     "rym": [
       "Pop > Boy Band"
     ]
   },
   "PPA": {
+    "name": "Bubblegum",
     "rym": [
       "Pop > Bubblegum"
     ]
   },
   "PPC": {
+    "name": "Girl Group",
     "rym": [
       "Pop > Girl Group"
     ]
   },
   "PPD": {
+    "name": "K-Pop",
     "rym": [
       "Pop > K-Pop",
       "Scenes & Movements > K-Pop"
     ]
   },
   "PPE": {
+    "name": "P-Pop",
     "rym": [
       "Pop > P-Pop",
       "Scenes & Movements > P-Pop"
     ]
   },
   "PPF": {
+    "name": "Teen Pop",
     "rym": [
       "Pop > Teen Pop"
     ]
   },
   "PR": {
+    "name": "Baroque Pop",
     "rym": [
       "Pop > Baroque Pop"
     ]
   },
   "PRA": {
+    "name": "Brill Building",
     "rym": [
       "Pop > Brill Building"
     ]
   },
   "PRC": {
+    "name": "Classical Crossover",
     "rym": [
       "Pop > Classical Crossover"
     ]
   },
   "PRD": {
+    "name": "Irish Showband",
     "rym": [
       "Pop > Irish Showband",
       "Regional Music > European Music > Irish Showband"
     ]
   },
   "PRE": {
+    "name": "Jazz Pop",
     "rym": [
       "Pop > Jazz Pop"
     ]
   },
   "PRF": {
+    "name": "Sunshine Pop",
     "rym": [
       "Pop > Sunshine Pop"
     ]
   },
   "PRH": {
+    "name": "Toytown Pop",
     "rym": [
       "Pop > Toytown Pop"
     ]
   },
   "PT": {
+    "name": "Alt-Pop",
     "rym": [
       "Pop > Alt-Pop"
     ]
   },
   "PTA": {
+    "name": "Art Pop",
     "rym": [
       "Pop > Art Pop"
     ]
   },
   "PTC": {
+    "name": "New Music",
     "rym": [
       "Pop > New Music",
       "Scenes & Movements > New Music"
     ]
   },
   "PTD": {
+    "name": "Progressive Pop",
     "rym": [
       "Pop > Progressive Pop"
     ]
   },
   "PTE": {
+    "name": "Sophisti-Pop",
     "rym": [
       "Pop > Sophisti-Pop"
     ]
   },
   "PU": {
+    "name": "Schlager",
     "rym": [
       "Pop > Schlager",
       "Regional Music > European Music > Schlager"
     ]
   },
   "PUA": {
+    "name": "Humppa",
     "rym": [
       "Pop > Schlager > Humppa",
       "Regional Music > European Music > Schlager > Humppa"
@@ -5558,11 +6062,13 @@
     ]
   },
   "PVA": {
+    "name": "French Pop",
     "rym": [
       "Pop > French Pop"
     ]
   },
   "PVC": {
+    "name": "Italo Pop",
     "rym": [
       "Pop > Italo Pop",
       "Pop > Italo Pop > Canzone neomelodica"
@@ -5576,12 +6082,14 @@
     ]
   },
   "PVE": {
+    "name": "Nederpop",
     "rym": [
       "Pop > Nederpop",
       "Pop > Nederpop > Palingsound"
     ]
   },
   "PVF": {
+    "name": "Soviet Estrada",
     "rym": [
       "Pop > Soviet Estrada"
     ]
@@ -5604,11 +6112,13 @@
     ]
   },
   "PW": {
+    "name": "City Pop",
     "rym": [
       "Pop > City Pop"
     ]
   },
   "PW8": {
+    "name": "Neo-City Pop",
     "rym": [
       "Pop > City Pop > Neo-City Pop"
     ]
@@ -5620,6 +6130,7 @@
     ]
   },
   "PXA": {
+    "name": "Korean Ballad",
     "rym": [
       "Pop > Korean Ballad",
       "Pop > Korean Ballad > Oriental Ballad",
@@ -5648,6 +6159,7 @@
     ]
   },
   "P89": {
+    "name": "Adult Contemporary",
     "rym": [
       "Pop > Adult Contemporary"
     ]
@@ -5679,6 +6191,7 @@
     ]
   },
   "RC": {
+    "name": "Hard Rock",
     "rym": [
       "Rock > Hard Rock",
       "Psychedelia > Stoner Rock",
@@ -5686,6 +6199,7 @@
     ]
   },
   "RC8": {
+    "name": "Glam Metal",
     "rym": [
       "Rock > Hard Rock > Glam Metal",
       "Rock > Hard Rock > Glam Metal > Sleaze Rock",
@@ -5693,6 +6207,7 @@
     ]
   },
   "RD": {
+    "name": "Alternative Rock",
     "rym": [
       "Rock > Alternative Rock",
       "Dance > Alternative Dance",
@@ -5710,23 +6225,27 @@
     ]
   },
   "RDA": {
+    "name": "Grunge",
     "rym": [
       "Rock > Alternative Rock > Grunge"
     ]
   },
   "RDC": {
+    "name": "Baggy",
     "rym": [
       "Psychedelia > Neo-Psychedelia > Baggy",
       "Rock > Alternative Rock > Indie Rock > Baggy"
     ]
   },
   "RDD": {
+    "name": "Dream Pop",
     "rym": [
       "Psychedelia > Neo-Psychedelia > Dream Pop",
       "Rock > Alternative Rock > Dream Pop"
     ]
   },
   "RDE": {
+    "name": "Indie Rock",
     "rym": [
       "Rock > Alternative Rock > Indie Rock",
       "Rock > Alternative Rock > Indie Rock > Dunedin Sound",
@@ -5754,6 +6273,7 @@
     ]
   },
   "RE": {
+    "name": "Progressive Rock",
     "rym": [
       "Rock > Progressive Rock",
       "Rock > Experimental Rock > Avant-Prog",
@@ -5761,6 +6281,7 @@
     ]
   },
   "REA": {
+    "name": "Canterbury Scene",
     "rym": [
       "Rock > Progressive Rock > Canterbury Scene",
       "Scenes & Movements > Canterbury Scene",
@@ -5769,11 +6290,13 @@
     ]
   },
   "REC": {
+    "name": "Symphonic Prog",
     "rym": [
       "Rock > Progressive Rock > Symphonic Prog"
     ]
   },
   "RE8": {
+    "name": "Brutal Prog",
     "rym": [
       "Rock > Experimental Rock > Avant-Prog > Brutal Prog",
       "Rock > Experimental Rock > Avant-Prog > Zeuhl",
@@ -5783,6 +6306,7 @@
     ]
   },
   "RFA": {
+    "name": "New Wave",
     "rym": [
       "Rock > New Wave",
       "Punk > Mod Revival",
@@ -5791,6 +6315,7 @@
     ]
   },
   "RH": {
+    "name": "Psychedelia",
     "rym": [
       "Psychedelia",
       "Pop > Psychedelic Pop",
@@ -5798,6 +6323,7 @@
     ]
   },
   "RHA": {
+    "name": "Psychedelic Rock",
     "rym": [
       "Psychedelia > Psychedelic Rock",
       "Rock > Psychedelic Rock",
@@ -5839,6 +6365,7 @@
     ]
   },
   "RJ": {
+    "name": "Garage Rock",
     "rym": [
       "Rock > Garage Rock",
       "Rock > Alternative Rock > Indie Rock > Garage Rock Revival",
@@ -5846,6 +6373,7 @@
     ]
   },
   "RJA": {
+    "name": "Surf Music",
     "rym": [
       "Rock > Surf Music",
       "Regional Music > Asian Music > East Asian Music > Japanese Music > Eleki",
@@ -5865,11 +6393,13 @@
     ]
   },
   "RJ8": {
+    "name": "Frat Rock",
     "rym": [
       "Rock > Garage Rock > Frat Rock"
     ]
   },
   "RK": {
+    "name": "Folk Rock",
     "rym": [
       "Rock > Folk Rock",
       "Regional Music > European Music > Alpenrock",
@@ -5891,6 +6421,7 @@
     ]
   },
   "RKA": {
+    "name": "Country Rock",
     "rym": [
       "Regional Music > Northern American Music > Country Rock",
       "Rock > Country Rock",
@@ -5899,63 +6430,75 @@
     ]
   },
   "RMA": {
+    "name": "Funk Rock",
     "rym": [
       "Rock > Funk Rock"
     ]
   },
   "RMC": {
+    "name": "Rap Rock",
     "rym": [
       "Rock > Rap Rock"
     ]
   },
   "RN": {
+    "name": "Rock Musical",
     "rym": [
       "Musical Theatre and Entertainment > Rock Musical",
       "Rock > Rock Musical"
     ]
   },
   "RNA": {
+    "name": "Rock Opera",
     "rym": [
       "Rock > Rock Opera"
     ]
   },
   "RP": {
+    "name": "Blues Rock",
     "rym": [
       "Rock > Blues Rock"
     ]
   },
   "RPA": {
+    "name": "Heartland Rock",
     "rym": [
       "Rock > Heartland Rock"
     ]
   },
   "RPC": {
+    "name": "Jersey Shore Sound",
     "rym": [
       "Rock > Jersey Shore Sound",
       "Scenes & Movements > Jersey Shore Sound"
     ]
   },
   "RPD": {
+    "name": "Pub Rock",
     "rym": [
       "Rock > Pub Rock"
     ]
   },
   "RPE": {
+    "name": "Southern Rock",
     "rym": [
       "Rock > Southern Rock"
     ]
   },
   "RP8": {
+    "name": "Boogie Rock",
     "rym": [
       "Rock > Blues Rock > Boogie Rock"
     ]
   },
   "RRA": {
+    "name": "Post-Rock",
     "rym": [
       "Rock > Post-Rock"
     ]
   },
   "RRC": {
+    "name": "Noise Rock",
     "rym": [
       "Rock > Noise Rock",
       "Punk > Pigfuck",
@@ -5965,6 +6508,7 @@
     ]
   },
   "RRD": {
+    "name": "Math Rock",
     "rym": [
       "Rock > Math Rock",
       "Rock > Alternative Rock > Indie Rock > Math Pop",
@@ -5972,23 +6516,27 @@
     ]
   },
   "RRE": {
+    "name": "Experimental Rock",
     "rym": [
       "Rock > Experimental Rock",
       "Rock > Experimental Rock > Krautrock"
     ]
   },
   "RRF": {
+    "name": "Art Rock",
     "rym": [
       "Rock > Art Rock"
     ]
   },
   "RT": {
+    "name": "Latin Rock",
     "rym": [
       "Regional Music > Hispanic Music > Hispanic American Music > Latin Rock",
       "Rock > Latin Rock"
     ]
   },
   "RTA": {
+    "name": "Rock andaluz",
     "rym": [
       "Regional Music > European Music > Iberian Music > Spanish Music > Rock andaluz",
       "Regional Music > Hispanic Music > Spanish Music > Rock andaluz",
@@ -5996,6 +6544,7 @@
     ]
   },
   "RTC": {
+    "name": "Rock andino",
     "rym": [
       "Regional Music > Hispanic Music > Hispanic American Music > Rock andino",
       "Regional Music > South American Music > Rock andino",
@@ -6003,18 +6552,21 @@
     ]
   },
   "RU": {
+    "name": "Deutschrock",
     "rym": [
       "Rock > Deutschrock",
       "Scenes & Movements > Deutschrock"
     ]
   },
   "RV": {
+    "name": "Afro-Rock",
     "rym": [
       "Regional Music > African Music > West African Music > Afro-Rock",
       "Rock > Afro-Rock"
     ]
   },
   "RVA": {
+    "name": "Anatolian Rock",
     "rym": [
       "Regional Music > Asian Music > West Asian Music > Turkish Music > Anatolian Rock",
       "Rock > Anatolian Rock"
@@ -6051,24 +6603,28 @@
     ]
   },
   "TA": {
+    "name": "Alt-Country",
     "rym": [
       "Country > Alt-Country",
       "Regional Music > Northern American Music > Country > Alt-Country"
     ]
   },
   "TA8": {
+    "name": "Gothic Country",
     "rym": [
       "Country > Alt-Country > Gothic Country",
       "Regional Music > Northern American Music > Country > Alt-Country > Gothic Country"
     ]
   },
   "TC": {
+    "name": "Bluegrass",
     "rym": [
       "Country > Bluegrass",
       "Regional Music > Northern American Music > Country > Bluegrass"
     ]
   },
   "TCA": {
+    "name": "Progressive Bluegrass",
     "rym": [
       "Country > Bluegrass > Progressive Bluegrass",
       "Regional Music > Northern American Music > Country > Bluegrass > Progressive Bluegrass",
@@ -6078,6 +6634,7 @@
     ]
   },
   "TCC": {
+    "name": "Traditional Bluegrass",
     "rym": [
       "Country > Bluegrass > Traditional Bluegrass",
       "Country > Traditional Country > Traditional Bluegrass",
@@ -6101,6 +6658,7 @@
     ]
   },
   "TD": {
+    "name": "Contemporary Country",
     "rym": [
       "Country > Contemporary Country",
       "Regional Music > Northern American Music > Country > Contemporary Country",
@@ -6117,12 +6675,14 @@
     ]
   },
   "TD8": {
+    "name": "Neo-Traditionalist Country",
     "rym": [
       "Country > Contemporary Country > Neo-Traditionalist Country",
       "Regional Music > Northern American Music > Country > Contemporary Country > Neo-Traditionalist Country"
     ]
   },
   "TE": {
+    "name": "Country Pop",
     "rym": [
       "Country > Country Pop",
       "Pop > Country Pop",
@@ -6130,6 +6690,7 @@
     ]
   },
   "TE8": {
+    "name": "Urban Cowboy",
     "rym": [
       "Country > Country Pop > Urban Cowboy",
       "Pop > Country Pop > Urban Cowboy",
@@ -6137,18 +6698,21 @@
     ]
   },
   "TF": {
+    "name": "Progressive Country",
     "rym": [
       "Country > Progressive Country",
       "Regional Music > Northern American Music > Country > Progressive Country"
     ]
   },
   "TF8": {
+    "name": "Outlaw Country",
     "rym": [
       "Country > Progressive Country > Outlaw Country",
       "Regional Music > Northern American Music > Country > Progressive Country > Outlaw Country"
     ]
   },
   "TH": {
+    "name": "Traditional Country",
     "rym": [
       "Country > Traditional Country",
       "Folk > Traditional Folk Music > American Folk Music > Traditional Country",
@@ -6165,6 +6729,7 @@
     ]
   },
   "THA": {
+    "name": "Nashville Sound",
     "rym": [
       "Country > Nashville Sound",
       "Regional Music > Northern American Music > Country > Nashville Sound",
@@ -6176,12 +6741,14 @@
     ]
   },
   "THC": {
+    "name": "Western",
     "rym": [
       "Country > Western",
       "Regional Music > Northern American Music > Country > Western"
     ]
   },
   "TH8": {
+    "name": "Close Harmony",
     "rym": [
       "Country > Traditional Country > Close Harmony",
       "Country > Traditional Country > Country Gospel",
@@ -6196,12 +6763,14 @@
     ]
   },
   "TJ": {
+    "name": "Honky Tonk",
     "rym": [
       "Country > Honky Tonk",
       "Regional Music > Northern American Music > Country > Honky Tonk"
     ]
   },
   "TJ8": {
+    "name": "Bakersfield Sound",
     "rym": [
       "Country > Honky Tonk > Bakersfield Sound",
       "Country > Honky Tonk > Truck Driving Country",
@@ -6210,6 +6779,7 @@
     ]
   },
   "TM": {
+    "name": "Singer-Songwriter",
     "rym": [
       "Singer-Songwriter",
       "Regional Music > European Music > Iberian Music > Euskal kantagintza berria",
@@ -6227,12 +6797,14 @@
     ]
   },
   "TMA": {
+    "name": "Canzone dautore",
     "rym": [
       "Regional Music > European Music > Italian Music > Canzone d'autore",
       "Singer-Songwriter > Canzone d'autore"
     ]
   },
   "TMC": {
+    "name": "Avtorskaya pesnya",
     "rym": [
       "Regional Music > European Music > Russian Music > Avtorskaya pesnya",
       "Singer-Songwriter > Avtorskaya pesnya",
@@ -6281,6 +6853,7 @@
     ]
   },
   "TP": {
+    "name": "Liedermacher",
     "rym": [
       "Regional Music > European Music > German Music > Liedermacher",
       "Singer-Songwriter > Liedermacher"
@@ -6312,6 +6885,7 @@
     ]
   },
   "UA": {
+    "name": "Reggae",
     "rym": [
       "Reggae / Ska / Dancehall > Reggae",
       "Regional Music > Caribbean Music > Jamaican Music > Reggae",
@@ -6321,12 +6895,14 @@
     ]
   },
   "UAA": {
+    "name": "Lovers Rock",
     "rym": [
       "Reggae / Ska / Dancehall > Reggae > Lovers Rock",
       "Regional Music > Caribbean Music > Jamaican Music > Reggae > Lovers Rock"
     ]
   },
   "UAC": {
+    "name": "Pacific Reggae",
     "rym": [
       "Reggae / Ska / Dancehall > Reggae > Pacific Reggae",
       "Regional Music > Caribbean Music > Jamaican Music > Reggae > Pacific Reggae",
@@ -6334,6 +6910,7 @@
     ]
   },
   "UA8": {
+    "name": "Deejay",
     "rym": [
       "Reggae / Ska / Dancehall > Reggae > Deejay",
       "Reggae / Ska / Dancehall > Reggae > Skinhead Reggae",
@@ -6342,6 +6919,7 @@
     ]
   },
   "UC": {
+    "name": "Roots Reggae",
     "rym": [
       "Reggae / Ska / Dancehall > Reggae > Roots Reggae",
       "Regional Music > Caribbean Music > Jamaican Music > Reggae > Roots Reggae",
@@ -6351,6 +6929,7 @@
     ]
   },
   "UD": {
+    "name": "Pop Reggae",
     "rym": [
       "Pop > Pop Reggae",
       "Reggae / Ska / Dancehall > Reggae > Pop Reggae",
@@ -6358,12 +6937,14 @@
     ]
   },
   "UE": {
+    "name": "Dub",
     "rym": [
       "Reggae / Ska / Dancehall > Reggae > Dub",
       "Regional Music > Caribbean Music > Jamaican Music > Reggae > Dub"
     ]
   },
   "UF": {
+    "name": "Ska",
     "rym": [
       "Reggae / Ska / Dancehall > Ska",
       "Reggae / Ska / Dancehall > Ska > Spouge",
@@ -6371,23 +6952,27 @@
     ]
   },
   "UFA": {
+    "name": "Jamaican Ska",
     "rym": [
       "Reggae / Ska / Dancehall > Ska > Jamaican Ska",
       "Regional Music > Caribbean Music > Jamaican Music > Jamaican Ska"
     ]
   },
   "UFC": {
+    "name": "2 Tone",
     "rym": [
       "Reggae / Ska / Dancehall > Ska > 2 Tone",
       "Rock > New Wave > 2 Tone"
     ]
   },
   "UH": {
+    "name": "Third Wave Ska",
     "rym": [
       "Reggae / Ska / Dancehall > Ska > Third Wave Ska"
     ]
   },
   "UHA": {
+    "name": "Ska Punk",
     "rym": [
       "Punk > Punk Rock > Ska Punk",
       "Reggae / Ska / Dancehall > Ska > Third Wave Ska > Ska Punk",
@@ -6409,6 +6994,7 @@
     ]
   },
   "UJ": {
+    "name": "Dancehall",
     "rym": [
       "Reggae / Ska / Dancehall > Dancehall",
       "Regional Music > Caribbean Music > Jamaican Music > Dancehall",
@@ -6425,6 +7011,7 @@
     ]
   },
   "UJA": {
+    "name": "Digital Dancehall",
     "rym": [
       "Reggae / Ska / Dancehall > Dancehall > Digital Dancehall",
       "Reggae / Ska / Dancehall > Reggae > Digital Dancehall",
@@ -6433,6 +7020,7 @@
     ]
   },
   "UJ8": {
+    "name": "Gommance",
     "rym": [
       "Reggae / Ska / Dancehall > Dancehall > Gommance",
       "Reggae / Ska / Dancehall > Dancehall > Shatta",
@@ -6443,12 +7031,14 @@
     ]
   },
   "UK": {
+    "name": "Ragga",
     "rym": [
       "Reggae / Ska / Dancehall > Dancehall > Ragga",
       "Regional Music > Caribbean Music > Jamaican Music > Dancehall > Ragga"
     ]
   },
   "V": {
+    "name": "Punk",
     "rym": [
       "Punk",
       "Punk > Cowpunk",
@@ -6464,12 +7054,14 @@
     ]
   },
   "VA": {
+    "name": "Punk Rock",
     "rym": [
       "Punk > Punk Rock",
       "Rock > Punk Rock"
     ]
   },
   "VAA": {
+    "name": "Pop Punk",
     "rym": [
       "Punk > Punk Rock > Pop Punk",
       "Rock > Punk Rock > Pop Punk",
@@ -6480,6 +7072,7 @@
     ]
   },
   "VAC": {
+    "name": "Garage Punk",
     "rym": [
       "Punk > Punk Rock > Garage Punk",
       "Rock > Garage Rock > Garage Punk",
@@ -6487,6 +7080,7 @@
     ]
   },
   "VAD": {
+    "name": "Vikingarock",
     "rym": [
       "Punk > Punk Rock > Vikingarock",
       "Rock > Punk Rock > Vikingarock",
@@ -6499,6 +7093,7 @@
     ]
   },
   "VAE": {
+    "name": "Skate Punk",
     "rym": [
       "Punk > Punk Rock > Skate Punk",
       "Rock > Punk Rock > Skate Punk",
@@ -6514,6 +7109,7 @@
     ]
   },
   "VCA": {
+    "name": "Grindcore",
     "rym": [
       "Metal > Grindcore",
       "Punk > Hardcore [Punk] > Grindcore",
@@ -6546,6 +7142,7 @@
     ]
   },
   "VCC": {
+    "name": "Hardcore Punk",
     "rym": [
       "Punk > Hardcore [Punk] > Hardcore Punk",
       "Punk > Punk Rock > Hardcore Punk",
@@ -6596,12 +7193,14 @@
     ]
   },
   "VCD": {
+    "name": "Beatdown Hardcore",
     "rym": [
       "Punk > Hardcore [Punk] > Beatdown Hardcore",
       "Rock > Hardcore [Punk] > Beatdown Hardcore"
     ]
   },
   "VCE": {
+    "name": "Nintendocore",
     "rym": [
       "Punk > Hardcore [Punk] > Nintendocore",
       "Rock > Hardcore [Punk] > Nintendocore",
@@ -6610,6 +7209,7 @@
     ]
   },
   "VCF": {
+    "name": "Sass",
     "rym": [
       "Punk > Hardcore [Punk] > Sass",
       "Rock > Hardcore [Punk] > Sass",
@@ -6618,12 +7218,14 @@
     ]
   },
   "VD": {
+    "name": "Post-Punk",
     "rym": [
       "Punk > Post-Punk",
       "Rock > Post-Punk"
     ]
   },
   "VDA": {
+    "name": "Gothic Rock",
     "rym": [
       "Punk > Post-Punk > Gothic Rock",
       "Rock > Post-Punk > Gothic Rock",
@@ -6634,6 +7236,7 @@
     ]
   },
   "VDC": {
+    "name": "Dance-Punk",
     "rym": [
       "Punk > Post-Punk > Dance-Punk",
       "Rock > Post-Punk > Dance-Punk",
@@ -6645,12 +7248,14 @@
     ]
   },
   "VDD": {
+    "name": "Coldwave",
     "rym": [
       "Punk > Post-Punk > Coldwave",
       "Rock > Post-Punk > Coldwave"
     ]
   },
   "VDE": {
+    "name": "Post-Punk Revival",
     "rym": [
       "Punk > Post-Punk > Post-Punk Revival",
       "Rock > Alternative Rock > Indie Rock > Post-Punk Revival",
@@ -6658,12 +7263,14 @@
     ]
   },
   "VE": {
+    "name": "Post-Hardcore",
     "rym": [
       "Punk > Hardcore [Punk] > Post-Hardcore",
       "Rock > Hardcore [Punk] > Post-Hardcore"
     ]
   },
   "VEA": {
+    "name": "Screamo",
     "rym": [
       "Punk > Emo > Screamo",
       "Punk > Hardcore [Punk] > Post-Hardcore > Screamo",
@@ -6676,6 +7283,7 @@
     ]
   },
   "VEC": {
+    "name": "Swancore",
     "rym": [
       "Punk > Hardcore [Punk] > Post-Hardcore > Swancore",
       "Rock > Hardcore [Punk] > Post-Hardcore > Swancore",
@@ -6691,12 +7299,14 @@
     ]
   },
   "VF": {
+    "name": "Art Punk",
     "rym": [
       "Punk > Art Punk",
       "Rock > Art Punk"
     ]
   },
   "VFA": {
+    "name": "Egg Punk",
     "rym": [
       "Punk > Art Punk > Egg Punk",
       "Punk > Punk Rock > Egg Punk",
@@ -6705,11 +7315,13 @@
     ]
   },
   "VH": {
+    "name": "Folk Punk",
     "rym": [
       "Punk > Folk Punk"
     ]
   },
   "VHA": {
+    "name": "Gypsy Punk",
     "rym": [
       "Punk > Folk Punk > Gypsy Punk",
       "Punk > Folk Punk > Celtic Punk",
@@ -6719,12 +7331,14 @@
     ]
   },
   "VJ": {
+    "name": "Emo",
     "rym": [
       "Punk > Emo",
       "Rock > Emo"
     ]
   },
   "VJA": {
+    "name": "Emo-Pop",
     "rym": [
       "Punk > Emo > Emo-Pop",
       "Rock > Alternative Rock > Emo-Pop",
@@ -6732,6 +7346,7 @@
     ]
   },
   "VJC": {
+    "name": "Midwest Emo",
     "rym": [
       "Punk > Emo > Midwest Emo",
       "Rock > Alternative Rock > Indie Rock > Midwest Emo",
@@ -6739,11 +7354,13 @@
     ]
   },
   "X": {
+    "name": "Regional Music",
     "rym": [
       "Regional Music"
     ]
   },
   "XA": {
+    "name": "African Music",
     "rym": [
       "Regional Music > African Music",
       "Regional Music > African Music > Malagasy Music",
@@ -6751,6 +7368,7 @@
     ]
   },
   "XAA": {
+    "name": "West African Music",
     "rym": [
       "Regional Music > African Music > West African Music",
       "Folk > Traditional Folk Music > African Folk Music > Apala",
@@ -6815,6 +7433,7 @@
     ]
   },
   "XAC": {
+    "name": "East African Music",
     "rym": [
       "Regional Music > African Music > East African Music",
       "Electronic > Acholitronix",
@@ -6858,6 +7477,7 @@
     ]
   },
   "XAD": {
+    "name": "Central African Music",
     "rym": [
       "Regional Music > African Music > Central African Music",
       "Folk > Traditional Folk Music > African Folk Music > Ambasse bey",
@@ -6891,6 +7511,7 @@
     ]
   },
   "XAE": {
+    "name": "Southern African Music",
     "rym": [
       "Regional Music > African Music > Southern African Music",
       "Folk > Traditional Folk Music > African Folk Music > Southern African Folk Music",
@@ -6927,6 +7548,7 @@
     ]
   },
   "XAF": {
+    "name": "North African Music",
     "rym": [
       "Regional Music > African Music > North African Music",
       "Regional Music > African Music > North African Music > Maghrebi Music > Algerian Chaabi",
@@ -6971,6 +7593,7 @@
     ]
   },
   "XAH": {
+    "name": "Northeastern African Music",
     "rym": [
       "Regional Music > African Music > Northeastern African Music",
       "Regional Music > African Music > Northeastern African Music > Afar Music",
@@ -7032,6 +7655,7 @@
     ]
   },
   "XC": {
+    "name": "Arabic Music",
     "rym": [
       "Regional Music > Arabic Music",
       "Folk > Traditional Folk Music > Arabic Folk Music",
@@ -7113,11 +7737,13 @@
     ]
   },
   "XE": {
+    "name": "European Music",
     "rym": [
       "Regional Music > European Music"
     ]
   },
   "XEA": {
+    "name": "British Music",
     "rym": [
       "Regional Music > European Music > British Music",
       "Regional Music > European Music > British Music > British Brass Band",
@@ -7126,12 +7752,14 @@
     ]
   },
   "XEC": {
+    "name": "German Music",
     "rym": [
       "Regional Music > European Music > German Music",
       "Regional Music > European Music > German Music > Guggenmusik"
     ]
   },
   "XED": {
+    "name": "Nordic Music",
     "rym": [
       "Regional Music > European Music > Nordic Music",
       "Pop > Dansbandsmusik",
@@ -7148,12 +7776,14 @@
     ]
   },
   "XEE": {
+    "name": "Italian Music",
     "rym": [
       "Regional Music > European Music > Italian Music",
       "Regional Music > European Music > Italian Music > Lauda"
     ]
   },
   "XEF": {
+    "name": "Iberian Music",
     "rym": [
       "Regional Music > European Music > Iberian Music",
       "Regional Music > European Music > Iberian Music > Spanish Music > Bolero español",
@@ -7180,6 +7810,7 @@
     ]
   },
   "XEH": {
+    "name": "Russian Music",
     "rym": [
       "Regional Music > European Music > Russian Music",
       "Pop > Russian Chanson",
@@ -7188,6 +7819,7 @@
     ]
   },
   "XEJ": {
+    "name": "Greek Music",
     "rym": [
       "Regional Music > European Music > Greek Music",
       "Regional Music > Ancient Music > Ancient Greek Music",
@@ -7213,6 +7845,7 @@
     ]
   },
   "XEK": {
+    "name": "Polish Music",
     "rym": [
       "Regional Music > European Music > Polish Music",
       "Regional Music > European Music > Polish Music > Miejski folk",
@@ -7223,6 +7856,7 @@
     ]
   },
   "XEM": {
+    "name": "Romanian Music",
     "rym": [
       "Regional Music > European Music > Romanian Music",
       "Pop > Balkan Pop-Folk > Manele",
@@ -7235,6 +7869,7 @@
     ]
   },
   "XEN": {
+    "name": "Balkan Music",
     "rym": [
       "Regional Music > European Music > Balkan Music",
       "Pop > Balkan Pop-Folk",
@@ -7275,11 +7910,13 @@
     ]
   },
   "XF": {
+    "name": "Hispanic Music",
     "rym": [
       "Regional Music > Hispanic Music"
     ]
   },
   "XFA": {
+    "name": "Hispanic American Music",
     "rym": [
       "Regional Music > Hispanic Music > Hispanic American Music",
       "Regional Music > Hispanic Music > Hispanic American Music > Reggaetón > Bachatón",
@@ -7391,11 +8028,13 @@
     ]
   },
   "XF8": {
+    "name": "Romance",
     "rym": [
       "Regional Music > Hispanic Music > Romance"
     ]
   },
   "XH": {
+    "name": "Brazilian Music",
     "rym": [
       "Regional Music > South American Music > Brazilian Music",
       "Folk > Traditional Folk Music > Brazilian Folk Music",
@@ -7577,6 +8216,7 @@
     ]
   },
   "XJ": {
+    "name": "Caribbean Music",
     "rym": [
       "Regional Music > Caribbean Music",
       "Regional Music > Caribbean Music > Aleke",
@@ -7612,6 +8252,7 @@
     ]
   },
   "XJA": {
+    "name": "Cuban Music",
     "rym": [
       "Regional Music > Caribbean Music > Cuban Music",
       "Regional Music > Hispanic Music > Hispanic American Music > Cuban Music",
@@ -7674,6 +8315,7 @@
     ]
   },
   "XJC": {
+    "name": "Jamaican Music",
     "rym": [
       "Regional Music > Caribbean Music > Jamaican Music",
       "Folk > Traditional Folk Music > Caribbean Folk Music > Kumina",
@@ -7690,6 +8332,7 @@
     ]
   },
   "XJD": {
+    "name": "French Caribbean Music",
     "rym": [
       "Regional Music > Caribbean Music > French Caribbean Music",
       "Folk > Traditional Folk Music > Caribbean Folk Music > Bele",
@@ -7722,6 +8365,7 @@
     ]
   },
   "XJE": {
+    "name": "Soca",
     "rym": [
       "Regional Music > Caribbean Music > Soca",
       "Regional Music > Caribbean Music > Indo-Caribbean Music > Chutney > Chutney Soca",
@@ -7734,6 +8378,7 @@
     ]
   },
   "XJF": {
+    "name": "Merengue",
     "rym": [
       "Regional Music > Caribbean Music > Merengue",
       "Regional Music > Hispanic Music > Hispanic American Music > Merengue",
@@ -7809,6 +8454,7 @@
     ]
   },
   "XM": {
+    "name": "South American Music",
     "rym": [
       "Regional Music > South American Music",
       "Regional Music > Hispanic Music > Hispanic American Music > Avanzada",
@@ -7836,6 +8482,7 @@
     ]
   },
   "XMA": {
+    "name": "Argentine Music",
     "rym": [
       "Regional Music > Hispanic Music > Hispanic American Music > Argentine Music",
       "Regional Music > South American Music > Argentine Music",
@@ -7846,6 +8493,7 @@
     ]
   },
   "XMC": {
+    "name": "Chilean Music",
     "rym": [
       "Regional Music > Hispanic Music > Hispanic American Music > Chilean Music",
       "Regional Music > South American Music > Chilean Music",
@@ -7868,6 +8516,7 @@
     ]
   },
   "XMD": {
+    "name": "Rioplatense Music",
     "rym": [
       "Regional Music > Hispanic Music > Hispanic American Music > Rioplatense Music",
       "Regional Music > South American Music > Rioplatense Music",
@@ -7884,6 +8533,7 @@
     ]
   },
   "XME": {
+    "name": "Peruvian Music",
     "rym": [
       "Regional Music > Hispanic Music > Hispanic American Music > Peruvian Music",
       "Regional Music > South American Music > Peruvian Music",
@@ -7909,11 +8559,13 @@
     ]
   },
   "XN": {
+    "name": "Asian Music",
     "rym": [
       "Regional Music > Asian Music"
     ]
   },
   "XNA": {
+    "name": "South Asian Music",
     "rym": [
       "Regional Music > Asian Music > South Asian Music",
       "Regional Music > Asian Music > Central Asian Music > Balochi Music",
@@ -7944,6 +8596,7 @@
     ]
   },
   "XNC": {
+    "name": "East Asian Music",
     "rym": [
       "Regional Music > Asian Music > East Asian Music",
       "Regional Music > Asian Music > East Asian Music > Ainu Music",
@@ -8032,6 +8685,7 @@
     ]
   },
   "XND": {
+    "name": "Southeast Asian Music",
     "rym": [
       "Regional Music > Asian Music > Southeast Asian Music",
       "Regional Music > Asian Music > Southeast Asian Music > Indonesian Music > Balinese Music",
@@ -8211,6 +8865,7 @@
     ]
   },
   "XNE": {
+    "name": "Central Asian Music",
     "rym": [
       "Regional Music > Asian Music > Central Asian Music",
       "Folk > Traditional Folk Music > Bayawan",
@@ -8231,6 +8886,7 @@
     ]
   },
   "XNF": {
+    "name": "West Asian Music",
     "rym": [
       "Regional Music > Asian Music > West Asian Music",
       "Folk > Traditional Folk Music > West Asian Folk Music > Armenian Folk Music",
@@ -8333,6 +8989,7 @@
     ]
   },
   "XNH": {
+    "name": "North Asian Music",
     "rym": [
       "Regional Music > Asian Music > North Asian Music",
       "Folk > Traditional Folk Music > Chukchi Folk Music",
@@ -8363,6 +9020,7 @@
     ]
   },
   "XP": {
+    "name": "Austronesian Music",
     "rym": [
       "Regional Music > Austronesian Music",
       "Folk > Traditional Folk Music > East Asian Folk Music > Indigenous Taiwanese Music",
@@ -8372,11 +9030,13 @@
     ]
   },
   "XP8": {
+    "name": "Pakacaping Music",
     "rym": [
       "Regional Music > Austronesian Music > Pakacaping Music"
     ]
   },
   "XR": {
+    "name": "Christian Liturgical Music",
     "rym": [
       "Regional Music > Christian Liturgical Music",
       "Regional Music > Christian Liturgical Music > Anglican Chant",
@@ -8442,6 +9102,7 @@
     ]
   },
   "XT": {
+    "name": "Ancient Music",
     "rym": [
       "Regional Music > Ancient Music",
       "Regional Music > Ancient Music > Ancient Roman Music",
@@ -8451,6 +9112,7 @@
     ]
   },
   "XU": {
+    "name": "Indigenous American Music",
     "rym": [
       "Regional Music > Indigenous American Music",
       "Regional Music > Indigenous American Music > Indigenous Andean Music",
@@ -8546,6 +9208,7 @@
     ]
   },
   "XV": {
+    "name": "Turkic-Mongolic Music",
     "rym": [
       "Regional Music > Turkic-Mongolic Music",
       "Regional Music > Asian Music > Central Asian Music > Altai Music",
@@ -8605,6 +9268,7 @@
     ]
   },
   "XW": {
+    "name": "Jewish Music",
     "rym": [
       "Regional Music > Jewish Music",
       "Regional Music > European Music > Ashkenazi Music",
@@ -8769,6 +9433,7 @@
     ]
   },
   "Y": {
+    "name": "Musical Theatre and Entertainment",
     "rym": [
       "Musical Theatre and Entertainment",
       "Musical Theatre and Entertainment > Dutch Cabaret",
@@ -8786,6 +9451,7 @@
     ]
   },
   "YE": {
+    "name": "Siffleur",
     "rym": [
       "Musical Theatre and Entertainment > Siffleur"
     ]
@@ -8803,12 +9469,14 @@
     ]
   },
   "2A": {
+    "name": "atmosphere",
     "rym": [
       "Music descriptor > atmosphere",
       "Music descriptor > style > atmosphere"
     ]
   },
   "2AA": {
+    "name": "dark",
     "rym": [
       "Music descriptor > atmosphere > dark",
       "Music descriptor > atmosphere > dark > funereal",
@@ -8817,6 +9485,7 @@
     ]
   },
   "2AC": {
+    "name": "beach",
     "rym": [
       "Music descriptor > atmosphere > beach",
       "Music descriptor > atmosphere > natural",
@@ -8831,6 +9500,7 @@
     ]
   },
   "2AD": {
+    "name": "seasonal",
     "rym": [
       "Music descriptor > atmosphere > seasonal",
       "Music descriptor > atmosphere > summer",
@@ -8840,6 +9510,7 @@
     ]
   },
   "2AE": {
+    "name": "daytime",
     "rym": [
       "Music descriptor > atmosphere > daytime",
       "Music descriptor > atmosphere > evening",
@@ -8848,6 +9519,7 @@
     ]
   },
   "2AF": {
+    "name": "cavernous",
     "rym": [
       "Music descriptor > atmosphere > cavernous",
       "Music descriptor > atmosphere > cold",
@@ -8855,6 +9527,7 @@
     ]
   },
   "2AH": {
+    "name": "bright",
     "rym": [
       "Music descriptor > atmosphere > bright",
       "Music descriptor > atmosphere > cozy",
@@ -8863,6 +9536,7 @@
     ]
   },
   "2AJ": {
+    "name": "ethereal",
     "rym": [
       "Music descriptor > atmosphere > ethereal",
       "Music descriptor > atmosphere > hazy",
@@ -8872,6 +9546,7 @@
     ]
   },
   "2AK": {
+    "name": "apocalyptic",
     "rym": [
       "Music descriptor > atmosphere > apocalyptic",
       "Music descriptor > atmosphere > epic",
@@ -8880,6 +9555,7 @@
     ]
   },
   "2AM": {
+    "name": "hypnotic",
     "rym": [
       "Music descriptor > atmosphere > hypnotic",
       "Music descriptor > atmosphere > mysterious",
@@ -8887,6 +9563,7 @@
     ]
   },
   "2AN": {
+    "name": "ritualistic",
     "rym": [
       "Music descriptor > atmosphere > ritualistic",
       "Music descriptor > atmosphere > spiritual",
@@ -8899,6 +9576,7 @@
     ]
   },
   "2AP": {
+    "name": "futuristic",
     "rym": [
       "Music descriptor > atmosphere > futuristic",
       "Music descriptor > atmosphere > mechanical",
@@ -8907,11 +9585,13 @@
     ]
   },
   "2AR": {
+    "name": "peaceful",
     "rym": [
       "Music descriptor > atmosphere > peaceful"
     ]
   },
   "2AT": {
+    "name": "party",
     "rym": [
       "Music descriptor > atmosphere > party",
       "Music descriptor > atmosphere > urban",
@@ -8919,11 +9599,13 @@
     ]
   },
   "2AU": {
+    "name": "medieval",
     "rym": [
       "Music descriptor > atmosphere > medieval"
     ]
   },
   "2AV": {
+    "name": "repetitive",
     "rym": [
       "Music descriptor > atmosphere > repetitive",
       "Music descriptor > atmosphere > rhythmic",
@@ -8932,18 +9614,21 @@
     ]
   },
   "2C": {
+    "name": "mood",
     "rym": [
       "Music descriptor > lyrics > mood",
       "Music descriptor > mood"
     ]
   },
   "2CA": {
+    "name": "aggressive",
     "rym": [
       "Music descriptor > mood > aggressive",
       "Music descriptor > mood > angry"
     ]
   },
   "2CC": {
+    "name": "anxious",
     "rym": [
       "Music descriptor > mood > anxious",
       "Music descriptor > mood > disturbing",
@@ -8952,6 +9637,7 @@
     ]
   },
   "2CD": {
+    "name": "calm",
     "rym": [
       "Music descriptor > mood > calm",
       "Music descriptor > mood > calm > meditative",
@@ -8961,6 +9647,7 @@
     ]
   },
   "2CE": {
+    "name": "energetic",
     "rym": [
       "Music descriptor > mood > energetic",
       "Music descriptor > mood > energetic > manic",
@@ -8969,6 +9656,7 @@
     ]
   },
   "2CF": {
+    "name": "happy",
     "rym": [
       "Music descriptor > mood > happy",
       "Music descriptor > mood > playful",
@@ -8977,6 +9665,7 @@
     ]
   },
   "2CH": {
+    "name": "passionate",
     "rym": [
       "Music descriptor > mood > passionate",
       "Music descriptor > mood > romantic",
@@ -8985,6 +9674,7 @@
     ]
   },
   "2CJ": {
+    "name": "bittersweet",
     "rym": [
       "Music descriptor > mood > bittersweet",
       "Music descriptor > mood > longing",
@@ -8998,11 +9688,13 @@
     ]
   },
   "2D": {
+    "name": "form",
     "rym": [
       "Music descriptor > form"
     ]
   },
   "2DA": {
+    "name": "ensemble",
     "rym": [
       "Music descriptor > form > ensemble",
       "Music descriptor > form > ensemble > a cappella",
@@ -9018,6 +9710,7 @@
     ]
   },
   "2DC": {
+    "name": "section",
     "rym": [
       "Music descriptor > form > section",
       "Music descriptor > form > section > interlude",
@@ -9029,6 +9722,7 @@
     ]
   },
   "2DD": {
+    "name": "medley",
     "rym": [
       "Music descriptor > form > medley",
       "Music descriptor > form > suite",
@@ -9038,16 +9732,19 @@
     ]
   },
   "2DE": {
+    "name": "ballad",
     "rym": [
       "Music descriptor > form > ballad"
     ]
   },
   "2DF": {
+    "name": "concept album",
     "rym": [
       "Music descriptor > form > concept album"
     ]
   },
   "2DH": {
+    "name": "novelty",
     "rym": [
       "Music descriptor > form > novelty",
       "Music descriptor > form > parody",
@@ -9059,12 +9756,14 @@
     ]
   },
   "2DJ": {
+    "name": "diss",
     "rym": [
       "Music descriptor > form > diss",
       "Music descriptor > form > monologue"
     ]
   },
   "2DK": {
+    "name": "avant-garde",
     "rym": [
       "Music descriptor > form > avant-garde",
       "Music descriptor > form > silence",
@@ -9073,6 +9772,7 @@
     ]
   },
   "2E": {
+    "name": "style",
     "rym": [
       "Music descriptor > style"
     ]
@@ -9089,6 +9789,7 @@
     ]
   },
   "2EC": {
+    "name": "crackly",
     "rym": [
       "Music descriptor > style > crackly",
       "Music descriptor > style > fuzzy",
@@ -9099,6 +9800,7 @@
     ]
   },
   "2ED": {
+    "name": "anthemic",
     "rym": [
       "Music descriptor > style > anthemic",
       "Music descriptor > style > melodic",
@@ -9108,6 +9810,7 @@
     ]
   },
   "2EE": {
+    "name": "angular",
     "rym": [
       "Music descriptor > style > angular",
       "Music descriptor > style > atonal",
@@ -9118,6 +9821,7 @@
     ]
   },
   "2EF": {
+    "name": "technical",
     "rym": [
       "Music descriptor > style > technical",
       "Music descriptor > style > complex",
@@ -9126,6 +9830,7 @@
     ]
   },
   "2EH": {
+    "name": "minimalistic",
     "rym": [
       "Music descriptor > style > minimalistic",
       "Music descriptor > style > monophonic",
@@ -9134,6 +9839,7 @@
     ]
   },
   "2EJ": {
+    "name": "atmospheric",
     "rym": [
       "Music descriptor > style > atmospheric",
       "Music descriptor > style > bassy",
@@ -9141,16 +9847,19 @@
     ]
   },
   "2EK": {
+    "name": "theatrical",
     "rym": [
       "Music descriptor > style > theatrical"
     ]
   },
   "2F": {
+    "name": "technique",
     "rym": [
       "Music descriptor > technique"
     ]
   },
   "2FA": {
+    "name": "improvisation",
     "rym": [
       "Music descriptor > technique > improvisation",
       "Music descriptor > technique > aleatory",
@@ -9162,6 +9871,7 @@
     ]
   },
   "2FC": {
+    "name": "blast beats",
     "rym": [
       "Music descriptor > technique > blast beats",
       "Music descriptor > technique > gallop",
@@ -9172,6 +9882,7 @@
     ]
   },
   "2FD": {
+    "name": "production",
     "rym": [
       "Music descriptor > technique > production",
       "Music descriptor > technique > lobit",
@@ -9179,6 +9890,7 @@
     ]
   },
   "2FE": {
+    "name": "generative music",
     "rym": [
       "Music descriptor > technique > generative music",
       "Music descriptor > technique > through-composed",
@@ -9186,17 +9898,20 @@
     ]
   },
   "2FF": {
+    "name": "call and response",
     "rym": [
       "Music descriptor > technique > call and response"
     ]
   },
   "2H": {
+    "name": "theme",
     "rym": [
       "Music descriptor > lyrics > theme",
       "Music descriptor > theme"
     ]
   },
   "2HA": {
+    "name": "betrayal",
     "rym": [
       "Music descriptor > theme > betrayal",
       "Music descriptor > theme > betrayal > infidelity",
@@ -9213,6 +9928,7 @@
     ]
   },
   "2HC": {
+    "name": "afterlife",
     "rym": [
       "Music descriptor > theme > afterlife",
       "Music descriptor > theme > afterlife > ghosts",
@@ -9231,6 +9947,7 @@
     ]
   },
   "2HD": {
+    "name": "drugs",
     "rym": [
       "Music descriptor > theme > drugs",
       "Music descriptor > theme > alcohol",
@@ -9244,6 +9961,7 @@
     ]
   },
   "2HE": {
+    "name": "fire",
     "rym": [
       "Music descriptor > theme > fire",
       "Music descriptor > theme > ideology > nature",
@@ -9260,6 +9978,7 @@
     ]
   },
   "2HF": {
+    "name": "science fiction",
     "rym": [
       "Music descriptor > atmosphere > science fiction",
       "Music descriptor > theme > aliens",
@@ -9275,6 +9994,7 @@
     ]
   },
   "2HH": {
+    "name": "pacifism",
     "rym": [
       "Music descriptor > theme > ideology > pacifism",
       "Music descriptor > theme > ideology > vegetarianism",
@@ -9319,6 +10039,7 @@
     ]
   },
   "2HK": {
+    "name": "healing",
     "rym": [
       "Music descriptor > theme > healing",
       "Music descriptor > theme > health",
@@ -9356,6 +10077,7 @@
     ]
   },
   "2HN": {
+    "name": "conspiracy",
     "rym": [
       "Music descriptor > theme > conspiracy",
       "Music descriptor > theme > crime",
@@ -9405,6 +10127,7 @@
     ]
   },
   "2HT": {
+    "name": "adolescence",
     "rym": [
       "Music descriptor > theme > adolescence",
       "Music descriptor > theme > ageing",
@@ -9415,6 +10138,7 @@
     ]
   },
   "2HU": {
+    "name": "alienation",
     "rym": [
       "Music descriptor > theme > alienation",
       "Music descriptor > theme > courage",
@@ -9430,6 +10154,7 @@
     ]
   },
   "2HV": {
+    "name": "cosmetics",
     "rym": [
       "Music descriptor > theme > fashion > cosmetics",
       "Music descriptor > theme > sports > association football",
@@ -9455,6 +10180,7 @@
     ]
   },
   "2HW": {
+    "name": "money",
     "rym": [
       "Music descriptor > theme > money",
       "Music descriptor > theme > money > gambling",
@@ -9472,12 +10198,14 @@
     ]
   },
   "2HY": {
+    "name": "sleep",
     "rym": [
       "Music descriptor > theme > sleep",
       "Music descriptor > theme > sleep > dreams"
     ]
   },
   "2H2": {
+    "name": "abstract",
     "rym": [
       "Music descriptor > theme > abstract",
       "Music descriptor > theme > apology",
@@ -9489,6 +10217,7 @@
     ]
   },
   "2H8": {
+    "name": "disaster",
     "rym": [
       "Music descriptor > theme > disaster",
       "Music descriptor > theme > disaster > drought",
@@ -9499,11 +10228,13 @@
     ]
   },
   "2J": {
+    "name": "vocals",
     "rym": [
       "Music descriptor > vocals"
     ]
   },
   "2JA": {
+    "name": "androgynous vocals",
     "rym": [
       "Music descriptor > vocals > androgynous vocals",
       "Music descriptor > vocals > female vocalist",
@@ -9512,6 +10243,7 @@
     ]
   },
   "2JC": {
+    "name": "gang vocals",
     "rym": [
       "Music descriptor > vocals > gang vocals",
       "Music descriptor > vocals > harsh vocals",
@@ -9519,6 +10251,7 @@
     ]
   },
   "2JD": {
+    "name": "crooning",
     "rym": [
       "Music descriptor > vocals > crooning",
       "Music descriptor > vocals > falsetto",
@@ -9527,18 +10260,21 @@
     ]
   },
   "2JE": {
+    "name": "nonlexical vocables",
     "rym": [
       "Music descriptor > vocals > nonlexical vocables",
       "Music descriptor > vocals > whistling"
     ]
   },
   "2JF": {
+    "name": "pitched-down vocals",
     "rym": [
       "Music descriptor > vocals > pitched-down vocals",
       "Music descriptor > vocals > pitched-up vocals"
     ]
   },
   "2JH": {
+    "name": "deadpan",
     "rym": [
       "Music descriptor > vocals > deadpan",
       "Music descriptor > vocals > sing-rapping",
@@ -9546,11 +10282,13 @@
     ]
   },
   "2K": {
+    "name": "lyrics",
     "rym": [
       "Music descriptor > lyrics"
     ]
   },
   "2KA": {
+    "name": "boastful",
     "rym": [
       "Music descriptor > lyrics > boastful",
       "Music descriptor > lyrics > provocative",
@@ -9559,6 +10297,7 @@
     ]
   },
   "2KC": {
+    "name": "altruistic",
     "rym": [
       "Music descriptor > lyrics > altruistic",
       "Music descriptor > lyrics > compassionate",
@@ -9566,6 +10305,7 @@
     ]
   },
   "2KD": {
+    "name": "cynical",
     "rym": [
       "Music descriptor > lyrics > cynical",
       "Music descriptor > lyrics > hateful",
@@ -9577,6 +10317,7 @@
     ]
   },
   "2KE": {
+    "name": "lyrical dissonance",
     "rym": [
       "Music descriptor > lyrics > lyrical dissonance",
       "Music descriptor > lyrics > stream of consciousness",
@@ -9586,12 +10327,14 @@
     ]
   },
   "2KF": {
+    "name": "dialogue",
     "rym": [
       "Music descriptor > lyrics > dialogue",
       "Music descriptor > lyrics > narrative"
     ]
   },
   "2KH": {
+    "name": "apathetic",
     "rym": [
       "Music descriptor > lyrics > apathetic",
       "Music descriptor > lyrics > insecure",
@@ -9599,51 +10342,61 @@
     ]
   },
   "2KJ": {
+    "name": "code-mixing",
     "rym": [
       "Music descriptor > lyrics > code-mixing"
     ]
   },
   "2KK": {
+    "name": "tone",
     "rym": [
       "Music descriptor > lyrics > tone"
     ]
   },
   "3AA": {
+    "name": "Akron Sound",
     "rym": [
       "Scenes & Movements > Akron Sound"
     ]
   },
   "3AC": {
+    "name": "Aussie Pub Rock",
     "rym": [
       "Scenes & Movements > Aussie Pub Rock"
     ]
   },
   "3AD": {
+    "name": "BRock",
     "rym": [
       "Scenes & Movements > BRock"
     ]
   },
   "3AE": {
+    "name": "Bosstown Sound",
     "rym": [
       "Scenes & Movements > Bosstown Sound"
     ]
   },
   "3AF": {
+    "name": "CBGB Scene",
     "rym": [
       "Scenes & Movements > CBGB Scene"
     ]
   },
   "3AH": {
+    "name": "Cleveland Punk",
     "rym": [
       "Scenes & Movements > Cleveland Punk"
     ]
   },
   "3AJ": {
+    "name": "Clube da esquina",
     "rym": [
       "Scenes & Movements > Clube da esquina"
     ]
   },
   "3AK": {
+    "name": "Grebo",
     "rym": [
       "Dance > Alternative Dance > Grebo",
       "Rock > Alternative Rock > Alternative Dance > Grebo",
@@ -9651,11 +10404,13 @@
     ]
   },
   "3AM": {
+    "name": "Greenwich Village Scene",
     "rym": [
       "Scenes & Movements > Greenwich Village Scene"
     ]
   },
   "3AN": {
+    "name": "Group Sounds",
     "rym": [
       "Pop > Pop Rock > Beat > Group Sounds",
       "Rock > Pop Rock > Beat > Group Sounds",
@@ -9663,11 +10418,13 @@
     ]
   },
   "3AP": {
+    "name": "Hoboken Sound",
     "rym": [
       "Scenes & Movements > Hoboken Sound"
     ]
   },
   "3AR": {
+    "name": "Jovem Guarda",
     "rym": [
       "Pop > Pop Rock > Beat > Jovem Guarda",
       "Rock > Pop Rock > Beat > Jovem Guarda",
@@ -9675,26 +10432,31 @@
     ]
   },
   "3AT": {
+    "name": "Laurel Canyon Scene",
     "rym": [
       "Scenes & Movements > Laurel Canyon Scene"
     ]
   },
   "3AU": {
+    "name": "Louisville Sound",
     "rym": [
       "Scenes & Movements > Louisville Sound"
     ]
   },
   "3AV": {
+    "name": "Madchester",
     "rym": [
       "Scenes & Movements > Madchester"
     ]
   },
   "3AW": {
+    "name": "Mentai Rock",
     "rym": [
       "Scenes & Movements > Mentai Rock"
     ]
   },
   "3AX": {
+    "name": "Merseybeat",
     "rym": [
       "Pop > Pop Rock > Beat > Merseybeat",
       "Rock > Pop Rock > Beat > Merseybeat",
@@ -9702,37 +10464,44 @@
     ]
   },
   "3AY": {
+    "name": "Mod",
     "rym": [
       "Scenes & Movements > Mod"
     ]
   },
   "3A2": {
+    "name": "San Francisco Sound",
     "rym": [
       "Scenes & Movements > San Francisco Sound",
       "Scenes & Movements > San Francisco Sound > Haight-Ashbury Scene"
     ]
   },
   "3A3": {
+    "name": "New Brunswick Basement Scene",
     "rym": [
       "Scenes & Movements > New Brunswick Basement Scene"
     ]
   },
   "3A4": {
+    "name": "San Diego Sound",
     "rym": [
       "Scenes & Movements > San Diego Sound"
     ]
   },
   "3A6": {
+    "name": "Palm Desert Scene",
     "rym": [
       "Scenes & Movements > Palm Desert Scene"
     ]
   },
   "3A7": {
+    "name": "Texas Psychedelia",
     "rym": [
       "Scenes & Movements > Texas Psychedelia"
     ]
   },
   "3CA": {
+    "name": "Anarcho-Punk",
     "rym": [
       "Punk > Punk Rock > Anarcho-Punk",
       "Rock > Punk Rock > Anarcho-Punk",
@@ -9740,41 +10509,49 @@
     ]
   },
   "3CC": {
+    "name": "Chikipunk",
     "rym": [
       "Scenes & Movements > Chikipunk"
     ]
   },
   "3CD": {
+    "name": "Christian Hardcore",
     "rym": [
       "Scenes & Movements > Christian Hardcore"
     ]
   },
   "3CE": {
+    "name": "Epadunk",
     "rym": [
       "Scenes & Movements > Epadunk"
     ]
   },
   "3CF": {
+    "name": "Florida Fast Music",
     "rym": [
       "Scenes & Movements > Florida Fast Music"
     ]
   },
   "3CH": {
+    "name": "Japanese Hardcore",
     "rym": [
       "Scenes & Movements > Japanese Hardcore"
     ]
   },
   "3CJ": {
+    "name": "Nardcore",
     "rym": [
       "Scenes & Movements > Nardcore"
     ]
   },
   "3CK": {
+    "name": "New York Hardcore",
     "rym": [
       "Scenes & Movements > New York Hardcore"
     ]
   },
   "3CM": {
+    "name": "Positive Punk",
     "rym": [
       "Punk > Post-Punk > Gothic Rock > Positive Punk",
       "Punk > Punk Rock > Positive Punk",
@@ -9784,21 +10561,25 @@
     ]
   },
   "3CN": {
+    "name": "Revolution Summer",
     "rym": [
       "Scenes & Movements > Revolution Summer"
     ]
   },
   "3CP": {
+    "name": "Riot Grrrl",
     "rym": [
       "Scenes & Movements > Riot Grrrl"
     ]
   },
   "3CR": {
+    "name": "Siberian Punk",
     "rym": [
       "Scenes & Movements > Siberian Punk"
     ]
   },
   "3CT": {
+    "name": "Straight Edge",
     "rym": [
       "Scenes & Movements > Straight Edge",
       "Scenes & Movements > Straight Edge > Krishnacore",
@@ -9809,26 +10590,31 @@
     ]
   },
   "3CU": {
+    "name": "UK82",
     "rym": [
       "Scenes & Movements > UK82"
     ]
   },
   "3CV": {
+    "name": "Vixa",
     "rym": [
       "Scenes & Movements > Vixa"
     ]
   },
   "3DA": {
+    "name": "Bay Area Thrash Metal",
     "rym": [
       "Scenes & Movements > Bay Area Thrash Metal"
     ]
   },
   "3DC": {
+    "name": "Cascadian Black Metal",
     "rym": [
       "Scenes & Movements > Cascadian Black Metal"
     ]
   },
   "3DD": {
+    "name": "Gothenburg Sound",
     "rym": [
       "Metal > Death Metal > Melodic Death Metal > Gothenburg Sound",
       "Rock > Metal > Death Metal > Melodic Death Metal > Gothenburg Sound",
@@ -9836,46 +10622,55 @@
     ]
   },
   "3DE": {
+    "name": "Holy Terror",
     "rym": [
       "Scenes & Movements > Holy Terror"
     ]
   },
   "3DF": {
+    "name": "NOLA Sludge",
     "rym": [
       "Scenes & Movements > NOLA Sludge"
     ]
   },
   "3DH": {
+    "name": "NWOBHM",
     "rym": [
       "Scenes & Movements > NWOBHM"
     ]
   },
   "3DJ": {
+    "name": "RABM",
     "rym": [
       "Scenes & Movements > RABM"
     ]
   },
   "3DK": {
+    "name": "Sunset Strip Glam Metal",
     "rym": [
       "Scenes & Movements > Sunset Strip Glam Metal"
     ]
   },
   "3DM": {
+    "name": "Teutonic Thrash Metal",
     "rym": [
       "Scenes & Movements > Teutonic Thrash Metal"
     ]
   },
   "3EA": {
+    "name": "DMV Hip Hop",
     "rym": [
       "Scenes & Movements > DMV Hip Hop"
     ]
   },
   "3EC": {
+    "name": "Desi Hip Hop",
     "rym": [
       "Scenes & Movements > Desi Hip Hop"
     ]
   },
   "3ED": {
+    "name": "East Coast Hip Hop",
     "rym": [
       "Scenes & Movements > East Coast Hip Hop",
       "Scenes & Movements > East Coast Hip Hop > Bronx Drill",
@@ -9883,46 +10678,55 @@
     ]
   },
   "3EE": {
+    "name": "French Hip Hop",
     "rym": [
       "Scenes & Movements > French Hip Hop"
     ]
   },
   "3EF": {
+    "name": "Hip-hopolo",
     "rym": [
       "Scenes & Movements > Hip-hopolo"
     ]
   },
   "3EH": {
+    "name": "Japanese Hip Hop",
     "rym": [
       "Scenes & Movements > Japanese Hip Hop"
     ]
   },
   "3EJ": {
+    "name": "LA Beat Scene",
     "rym": [
       "Scenes & Movements > LA Beat Scene"
     ]
   },
   "3EK": {
+    "name": "Midwest Hip Hop",
     "rym": [
       "Scenes & Movements > Midwest Hip Hop"
     ]
   },
   "3EM": {
+    "name": "UK Hip Hop",
     "rym": [
       "Scenes & Movements > UK Hip Hop"
     ]
   },
   "3FA": {
+    "name": "Bloghouse",
     "rym": [
       "Scenes & Movements > Bloghouse"
     ]
   },
   "3FC": {
+    "name": "Bristol Sound",
     "rym": [
       "Scenes & Movements > Bristol Sound"
     ]
   },
   "3FD": {
+    "name": "Dek Bass",
     "rym": [
       "Dance > Electronic Dance Music > Dek Bass",
       "Electronic > Electronic Dance Music > Dek Bass",
@@ -9931,16 +10735,19 @@
     ]
   },
   "3FE": {
+    "name": "First Wave of Detroit Techno",
     "rym": [
       "Scenes & Movements > First Wave of Detroit Techno"
     ]
   },
   "3FF": {
+    "name": "J-core",
     "rym": [
       "Scenes & Movements > J-core"
     ]
   },
   "3FH": {
+    "name": "Nerdcore Techno",
     "rym": [
       "Dance > Electronic Dance Music > Nerdcore Techno",
       "Electronic > Electronic Dance Music > Nerdcore Techno",
@@ -9948,27 +10755,32 @@
     ]
   },
   "3FJ": {
+    "name": "Seapunk",
     "rym": [
       "Scenes & Movements > Seapunk"
     ]
   },
   "3FK": {
+    "name": "Second Wave of Detroit Techno",
     "rym": [
       "Scenes & Movements > Second Wave of Detroit Techno"
     ]
   },
   "3FM": {
+    "name": "Sovietwave",
     "rym": [
       "Electronic > Synthwave > Sovietwave",
       "Scenes & Movements > Sovietwave"
     ]
   },
   "3FN": {
+    "name": "The Wave",
     "rym": [
       "Scenes & Movements > The Wave"
     ]
   },
   "3HA": {
+    "name": "C-Pop",
     "rym": [
       "Scenes & Movements > C-Pop",
       "Scenes & Movements > C-Pop > Cantopop",
@@ -9978,27 +10790,32 @@
     ]
   },
   "3HC": {
+    "name": "Japanese Idol",
     "rym": [
       "Scenes & Movements > Japanese Idol",
       "Scenes & Movements > Japanese Idol > Alternative Idol"
     ]
   },
   "3HD": {
+    "name": "Manila Sound",
     "rym": [
       "Scenes & Movements > Manila Sound"
     ]
   },
   "3HE": {
+    "name": "New Pop",
     "rym": [
       "Scenes & Movements > New Pop"
     ]
   },
   "3HF": {
+    "name": "New Romantic",
     "rym": [
       "Scenes & Movements > New Romantic"
     ]
   },
   "3HH": {
+    "name": "OPM",
     "rym": [
       "Pop > OPM",
       "Regional Music > Asian Music > Southeast Asian Music > Philippine Music > OPM",
@@ -10006,11 +10823,13 @@
     ]
   },
   "3HJ": {
+    "name": "Pop Kreatif",
     "rym": [
       "Scenes & Movements > Pop Kreatif"
     ]
   },
   "3HK": {
+    "name": "Pop Yeh-Yeh",
     "rym": [
       "Pop > Pop Rock > Pop Yeh-Yeh",
       "Regional Music > Asian Music > Southeast Asian Music > Malay Music > Pop Yeh-Yeh",
@@ -10020,27 +10839,32 @@
     ]
   },
   "3HM": {
+    "name": "Q-Pop",
     "rym": [
       "Scenes & Movements > Q-Pop"
     ]
   },
   "3HN": {
+    "name": "T-Pop",
     "rym": [
       "Scenes & Movements > T-Pop"
     ]
   },
   "3HP": {
+    "name": "Tontipop",
     "rym": [
       "Pop > Indie Pop > Tontipop",
       "Scenes & Movements > Tontipop"
     ]
   },
   "3HR": {
+    "name": "V-Pop",
     "rym": [
       "Scenes & Movements > V-Pop"
     ]
   },
   "3JA": {
+    "name": "Campus Folk",
     "rym": [
       "Folk > Contemporary Folk > Campus Folk",
       "Regional Music > Asian Music > East Asian Music > Chinese Music > Campus Folk",
@@ -10048,81 +10872,97 @@
     ]
   },
   "3JC": {
+    "name": "Neue Volksmusik",
     "rym": [
       "Scenes & Movements > Neue Volksmusik"
     ]
   },
   "3JD": {
+    "name": "New Weird America",
     "rym": [
       "Scenes & Movements > New Weird America"
     ]
   },
   "3JE": {
+    "name": "New Weird Finland",
     "rym": [
       "Scenes & Movements > New Weird Finland"
     ]
   },
   "3JF": {
+    "name": "Red Dirt",
     "rym": [
       "Scenes & Movements > Red Dirt"
     ]
   },
   "3JH": {
+    "name": "Scottish Folk Revival",
     "rym": [
       "Scenes & Movements > Scottish Folk Revival"
     ]
   },
   "3JJ": {
+    "name": "Second British Folk Revival",
     "rym": [
       "Scenes & Movements > Second British Folk Revival"
     ]
   },
   "3KA": {
+    "name": "British Trad Jazz",
     "rym": [
       "Scenes & Movements > British Trad Jazz"
     ]
   },
   "3KC": {
+    "name": "Loft Jazz",
     "rym": [
       "Scenes & Movements > Loft Jazz"
     ]
   },
   "3KD": {
+    "name": "New London Jazz",
     "rym": [
       "Scenes & Movements > New London Jazz"
     ]
   },
   "3KE": {
+    "name": "New Orleans Blues",
     "rym": [
       "Scenes & Movements > New Orleans Blues"
     ]
   },
   "3KF": {
+    "name": "Yass",
     "rym": [
       "Scenes & Movements > Yass"
     ]
   },
   "3KH": {
+    "name": "Chicago School",
     "rym": [
       "Scenes & Movements > Chicago School"
     ]
   },
   "3MA": {
+    "name": "Chicago No Wave",
     "rym": [
       "Scenes & Movements > Chicago No Wave"
     ]
   },
   "3MC": {
+    "name": "Darmstadt School",
     "rym": [
       "Scenes & Movements > Darmstadt School"
     ]
   },
   "3MD": {
+    "name": "Fort Thunder Scene",
     "rym": [
       "Scenes & Movements > Fort Thunder Scene"
     ]
   },
   "3ME": {
+    "name": "Franco-Flemish School",
     "rym": [
       "Classical Music > Western Classical Music > Renaissance Music > Franco-Flemish School",
       "Regional Music > European Music > Renaissance Music > Franco-Flemish School",
@@ -10130,36 +10970,43 @@
     ]
   },
   "3MF": {
+    "name": "Free Noise",
     "rym": [
       "Scenes & Movements > Free Noise"
     ]
   },
   "3MH": {
+    "name": "Kansai No Wave",
     "rym": [
       "Scenes & Movements > Kansai No Wave"
     ]
   },
   "3MJ": {
+    "name": "Moscow School",
     "rym": [
       "Scenes & Movements > Moscow School"
     ]
   },
   "3MK": {
+    "name": "New York School",
     "rym": [
       "Scenes & Movements > New York School"
     ]
   },
   "3MM": {
+    "name": "No Wave",
     "rym": [
       "Scenes & Movements > No Wave"
     ]
   },
   "3MN": {
+    "name": "Rock in Opposition",
     "rym": [
       "Scenes & Movements > Rock in Opposition"
     ]
   },
   "3MP": {
+    "name": "Second Viennese School",
     "rym": [
       "Scenes & Movements > Second Viennese School"
     ]
@@ -10173,6 +11020,7 @@
     ]
   },
   "3NC": {
+    "name": "Manguebeat",
     "rym": [
       "Regional Music > South American Music > Brazilian Music > Northeastern Brazilian Music > Manguebeat",
       "Rock > Manguebeat",
@@ -10186,26 +11034,31 @@
     ]
   },
   "3NE": {
+    "name": "Nova vanguarda paulistana",
     "rym": [
       "Scenes & Movements > Nova vanguarda paulistana"
     ]
   },
   "3NF": {
+    "name": "Novo Dub",
     "rym": [
       "Scenes & Movements > Novo Dub"
     ]
   },
   "3NH": {
+    "name": "Nueva ola",
     "rym": [
       "Scenes & Movements > Nueva ola"
     ]
   },
   "3NJ": {
+    "name": "Rock barrial",
     "rym": [
       "Scenes & Movements > Rock barrial"
     ]
   },
   "3NK": {
+    "name": "Rock radical vasco",
     "rym": [
       "Scenes & Movements > Rock radical vasco"
     ]
@@ -10229,11 +11082,13 @@
     ]
   },
   "3NR": {
+    "name": "Rock urbano mexicano",
     "rym": [
       "Scenes & Movements > Rock urbano mexicano"
     ]
   },
   "3NT": {
+    "name": "Tropicanibalismo",
     "rym": [
       "Regional Music > Caribbean Music > Tropicanibalismo",
       "Regional Music > Hispanic Music > Hispanic American Music > Tropicanibalismo",
@@ -10249,26 +11104,31 @@
     ]
   },
   "3NV": {
+    "name": "Trova rosarina",
     "rym": [
       "Scenes & Movements > Trova rosarina"
     ]
   },
   "3NW": {
+    "name": "Vanguarda paulista",
     "rym": [
       "Scenes & Movements > Vanguarda paulista"
     ]
   },
   "3PA": {
+    "name": "Bernese Dialect Scene",
     "rym": [
       "Scenes & Movements > Bernese Dialect Scene"
     ]
   },
   "3PC": {
+    "name": "Brno Alternative Scene",
     "rym": [
       "Scenes & Movements > Brno Alternative Scene"
     ]
   },
   "3PD": {
+    "name": "Donosti Sound",
     "rym": [
       "Scenes & Movements > Donosti Sound"
     ]
@@ -10280,27 +11140,32 @@
     ]
   },
   "3PF": {
+    "name": "English Underground",
     "rym": [
       "Scenes & Movements > English Underground",
       "Scenes & Movements > English Underground > Ladbroke Grove Scene"
     ]
   },
   "3PH": {
+    "name": "Friese bries",
     "rym": [
       "Scenes & Movements > Friese bries"
     ]
   },
   "3PJ": {
+    "name": "Hamburger Schule",
     "rym": [
       "Scenes & Movements > Hamburger Schule"
     ]
   },
   "3PK": {
+    "name": "Leningrad Rock Club Scene",
     "rym": [
       "Scenes & Movements > Leningrad Rock Club Scene"
     ]
   },
   "3PM": {
+    "name": "Little Band Scene",
     "rym": [
       "Scenes & Movements > Little Band Scene"
     ]
@@ -10312,51 +11177,61 @@
     ]
   },
   "3PP": {
+    "name": "Neue Deutsche Welle",
     "rym": [
       "Scenes & Movements > Neue Deutsche Welle"
     ]
   },
   "3PR": {
+    "name": "New Partisans",
     "rym": [
       "Scenes & Movements > New Partisans"
     ]
   },
   "3PT": {
+    "name": "New Primitivism",
     "rym": [
       "Scenes & Movements > New Primitivism"
     ]
   },
   "3PU": {
+    "name": "New Wave of New Wave",
     "rym": [
       "Scenes & Movements > New Wave of New Wave"
     ]
   },
   "3PV": {
+    "name": "New Way of Danish Fuck You",
     "rym": [
       "Scenes & Movements > New Way of Danish Fuck You"
     ]
   },
   "3PW": {
+    "name": "Northern Gothic",
     "rym": [
       "Scenes & Movements > Northern Gothic"
     ]
   },
   "3PX": {
+    "name": "Nova srpska scena",
     "rym": [
       "Scenes & Movements > Nova srpska scena"
     ]
   },
   "3PY": {
+    "name": "Novaya scena",
     "rym": [
       "Scenes & Movements > Novaya scena"
     ]
   },
   "3P2": {
+    "name": "West Coast Sound of Holland",
     "rym": [
       "Scenes & Movements > West Coast Sound of Holland"
     ]
   },
   "3P3": {
+    "name": "Yugoslav New Wave",
     "rym": [
       "Scenes & Movements > Yugoslav New Wave"
     ]
@@ -10380,16 +11255,19 @@
     ]
   },
   "3RA": {
+    "name": "Asian Underground",
     "rym": [
       "Scenes & Movements > Asian Underground"
     ]
   },
   "3RC": {
+    "name": "Beijing New Sound",
     "rym": [
       "Scenes & Movements > Beijing New Sound"
     ]
   },
   "3RD": {
+    "name": "Doujin Music",
     "rym": [
       "Scenes & Movements > Doujin Music",
       "Scenes & Movements > Doujin Music > Touhou Music"
@@ -10402,22 +11280,26 @@
     ]
   },
   "3RF": {
+    "name": "Shibuya-kei",
     "rym": [
       "Scenes & Movements > Shibuya-kei"
     ]
   },
   "3RH": {
+    "name": "Shimokita-kei",
     "rym": [
       "Rock > Alternative Rock > Shimokita-kei",
       "Scenes & Movements > Shimokita-kei"
     ]
   },
   "3RJ": {
+    "name": "Vietnamese New Wave",
     "rym": [
       "Scenes & Movements > Vietnamese New Wave"
     ]
   },
   "3RK": {
+    "name": "Visual kei",
     "rym": [
       "Scenes & Movements > Visual kei",
       "Scenes & Movements > Visual kei > Kote kei",
@@ -10426,6 +11308,7 @@
     ]
   },
   "3RM": {
+    "name": "Xibei feng",
     "rym": [
       "Regional Music > Asian Music > East Asian Music > Chinese Music > Xibei feng",
       "Scenes & Movements > Xibei feng"
@@ -10445,12 +11328,14 @@
     ]
   },
   "3TD": {
+    "name": "Burger-Highlife",
     "rym": [
       "Regional Music > African Music > West African Music > Highlife > Burger-Highlife",
       "Scenes & Movements > Burger-Highlife"
     ]
   },
   "3TE": {
+    "name": "Urban Grooves",
     "rym": [
       "Scenes & Movements > Urban Grooves"
     ]
@@ -10462,6 +11347,7 @@
     ]
   },
   "3TH": {
+    "name": "Zamrock",
     "rym": [
       "Psychedelia > Psychedelic Rock > Zamrock",
       "Regional Music > African Music > Central African Music > Zamrock",
@@ -10470,16 +11356,19 @@
     ]
   },
   "3TJ": {
+    "name": "Zimdancehall",
     "rym": [
       "Scenes & Movements > Zimdancehall"
     ]
   },
   "3UA": {
+    "name": "Brony Music",
     "rym": [
       "Scenes & Movements > Brony Music"
     ]
   },
   "3UC": {
+    "name": "Dariacore",
     "rym": [
       "Dance > Electronic Dance Music > Dariacore",
       "Electronic > Electronic Dance Music > Dariacore",
@@ -10487,73 +11376,87 @@
     ]
   },
   "3UD": {
+    "name": "Demoscene",
     "rym": [
       "Scenes & Movements > Demoscene"
     ]
   },
   "3UE": {
+    "name": "Doom WAD Music",
     "rym": [
       "Scenes & Movements > Doom WAD Music"
     ]
   },
   "3UF": {
+    "name": "Filk",
     "rym": [
       "Scenes & Movements > Filk"
     ]
   },
   "3UH": {
+    "name": "Furry Music",
     "rym": [
       "Scenes & Movements > Furry Music"
     ]
   },
   "3UJ": {
+    "name": "High Quality Rip",
     "rym": [
       "Scenes & Movements > High Quality Rip"
     ]
   },
   "3UK": {
+    "name": "Maidcore",
     "rym": [
       "Scenes & Movements > Maidcore"
     ]
   },
   "3UM": {
+    "name": "Russemusikk",
     "rym": [
       "Scenes & Movements > Russemusikk"
     ]
   },
   "3UN": {
+    "name": "SoundClown",
     "rym": [
       "Scenes & Movements > SoundClown"
     ]
   },
   "3UP": {
+    "name": "Vocaloid Scene",
     "rym": [
       "Scenes & Movements > Vocaloid Scene",
       "Scenes & Movements > Vocaloid Scene > Utaite"
     ]
   },
   "3UR": {
+    "name": "Warez Scene",
     "rym": [
       "Scenes & Movements > Warez Scene"
     ]
   },
   "3UT": {
+    "name": "Wizard Rock",
     "rym": [
       "Scenes & Movements > Wizard Rock"
     ]
   },
   "3UU": {
+    "name": "YTPMV",
     "rym": [
       "Scenes & Movements > YTPMV",
       "Scenes & Movements > YTPMV > OtoMAD"
     ]
   },
   "3VA": {
+    "name": "Afrofuturism",
     "rym": [
       "Scenes & Movements > Afrofuturism"
     ]
   },
   "3VC": {
+    "name": "CCM",
     "rym": [
       "Scenes & Movements > CCM",
       "Scenes & Movements > CCM > Praise & Worship",
@@ -10562,6 +11465,7 @@
     ]
   },
   "3VD": {
+    "name": "Dolewave",
     "rym": [
       "Pop > Pop Rock > Jangle Pop > Dolewave",
       "Rock > Alternative Rock > Indie Rock > Dolewave",
@@ -10571,22 +11475,26 @@
     ]
   },
   "3VE": {
+    "name": "Emo Revival",
     "rym": [
       "Scenes & Movements > Emo Revival"
     ]
   },
   "3VF": {
+    "name": "Harlem Renaissance",
     "rym": [
       "Scenes & Movements > Harlem Renaissance"
     ]
   },
   "3VH": {
+    "name": "New Tone",
     "rym": [
       "Reggae / Ska / Dancehall > Ska > New Tone",
       "Scenes & Movements > New Tone"
     ]
   },
   "3VJ": {
+    "name": "Paisley Underground",
     "rym": [
       "Pop > Pop Rock > Jangle Pop > Paisley Underground",
       "Psychedelia > Neo-Psychedelia > Paisley Underground",
@@ -10596,27 +11504,32 @@
     ]
   },
   "3VK": {
+    "name": "Pansy Craze",
     "rym": [
       "Scenes & Movements > Pansy Craze"
     ]
   },
   "3VM": {
+    "name": "Queercore",
     "rym": [
       "Scenes & Movements > Queercore"
     ]
   },
   "3VN": {
+    "name": "Scene",
     "rym": [
       "Scenes & Movements > Scene",
       "Scenes & Movements > Scene > Happy Rock"
     ]
   },
   "3VP": {
+    "name": "Taqwacore",
     "rym": [
       "Scenes & Movements > Taqwacore"
     ]
   },
   "3VR": {
+    "name": "Ultra",
     "rym": [
       "Scenes & Movements > Ultra"
     ]
@@ -10628,11 +11541,13 @@
     ]
   },
   "3VU": {
+    "name": "Northern Soul",
     "rym": [
       "Scenes & Movements > Northern Soul"
     ]
   },
   "6A": {
+    "name": "Spoken Word",
     "rym": [
       "Spoken Word",
       "Spoken Word > Fairy Tales",
@@ -10647,6 +11562,7 @@
     ]
   },
   "6D": {
+    "name": "Poetry",
     "rym": [
       "Spoken Word > Poetry",
       "Regional Music > Northern American Music > Cowboy Poetry",
@@ -10666,6 +11582,7 @@
     ]
   },
   "7WD": {
+    "name": "war",
     "rym": [
       "Music descriptor > theme > war"
     ]
