@@ -411,161 +411,31 @@ function count(nodes) { for (const n of nodes) { totalNodes++; if (n.children) c
 count(genres);
 console.log(`Total nodes: ${totalNodes}`);
 
-// Phase 2: combine genres.json + options.json → genres.js
-//
-// options.json items keyed by raw RYM title (may contain HTML entities).
-// genres.json titles are already decoded. Decode all option keys/values for matching.
-
-const options = JSON.parse(fs.readFileSync("options.json", "utf8"));
-
-// Build decoded-key lookup: decoded title → {code?, title?, parent?}
-// Also index by lowercase for case-insensitive descriptor matching.
-const optByTitle = {};
-for (const [rawKey, val] of Object.entries(options.items)) {
-  const key = decodeEntities(rawKey);
-  const entry = {
-    ...val,
-    _key: key,
-    parent: val.parent ? decodeEntities(val.parent) : undefined,
-  };
-  optByTitle[key] = entry;
-  // Add lowercase alias for descriptor entries (code starts with '2')
-  const lc = key.toLowerCase();
-  if (val.code && val.code.startsWith("2") && lc !== key && !(lc in optByTitle)) {
-    optByTitle[lc] = entry;
-  }
-}
+// Phase 2: combine genres.json + codes.json → clade.js
+const codes = JSON.parse(fs.readFileSync("codes.json", "utf8"));
 
 const result = {};
-// Track seen titles to deduplicate genres with no parent override (first occurrence wins)
-const seenTitles = new Set();
+for (const [code, entry] of Object.entries(codes)) {
+  const name = entry.name;
+  const urls = [];
+  const aka = [];
 
-function processNode(node, parentTitle, activeCode) {
-  const title = node.title; // already decoded
-  const opt = optByTitle[title] || {};
-
-  // If a parent override is set, only process this node under the specified parent
-  if (opt.parent !== undefined) {
-    if (opt.parent !== parentTitle) return;
-  } else {
-    // No parent override: deduplicate — first occurrence wins
-    if (seenTitles.has(title)) return;
-    seenTitles.add(title);
-  }
-
-  const displayName = opt.title || opt._key || title;
-  const code = opt.code || null;
-
-  if (code) {
-    if (!(code in result)) {
-      result[code] = { name: displayName, urls: [], aka: [] };
-    } else if (displayName !== result[code].name && !result[code].aka.includes(displayName)) {
-      result[code].aka.push(displayName);
-    }
-    if (node.url) result[code].urls.push(node.url);
-    if (node.children) {
-      for (const child of node.children) processNode(child, title, code);
-    }
-  } else {
-    // For descriptor/scene codes, redirect overflow to appropriate catch-all:
-    // 1-char digit codes (2, 3) → X99 (Undecided), 2-char digit codes (2A, 3A) → XX8 (Other)
-    let fallbackCode = activeCode;
-    if (activeCode && /^[23]$/.test(activeCode)) {
-      fallbackCode = activeCode + "99";
-    } else if (activeCode && /^[23][A-Z]$/.test(activeCode)) {
-      fallbackCode = activeCode + "8";
-    }
-    if (fallbackCode) {
-      if (!(fallbackCode in result)) {
-        const fbEntry = Object.entries(optByTitle).find(([, o]) => o.code === fallbackCode);
-        const fbName = fbEntry ? (fbEntry[1].title || fbEntry[0]) : fallbackCode;
-        result[fallbackCode] = { name: fbName, urls: [], aka: [] };
-      }
-      if (!result[fallbackCode].aka.includes(displayName)) {
-        // Skip if this name already exists as a genre name/aka (case-insensitive)
-        const lc = displayName.toLowerCase();
-        const clashInResult = Object.entries(result).some(([c, e]) =>
-          c !== fallbackCode && (e.name.toLowerCase() === lc || (e.aka || []).some(a => a.toLowerCase() === lc))
-        );
-        // Also check options.json entries (stubs not yet in result)
-        const clashInOptions = Object.entries(optByTitle).some(([k, o]) =>
-          o.code && o.code !== fallbackCode && (k.toLowerCase() === lc || (o.title && o.title.toLowerCase() === lc))
-        );
-        const clashes = clashInResult || clashInOptions;
-        if (!clashes) {
-          result[fallbackCode].aka.push(displayName);
-        }
-      }
-    }
-    if (node.children) {
-      for (const child of node.children) processNode(child, title, activeCode);
+  for (const rymPath of entry.rym) {
+    // Find the node in genres.json to get its URL
+    const leaf = rymPath.split(" > ").pop();
+    // First rym entry's leaf becomes name (if no name override), rest become akas
+    if (urls.length === 0 || leaf === name) {
+      // primary — collect URL
+    } else if (leaf !== name && !aka.includes(leaf)) {
+      aka.push(leaf);
     }
   }
+
+  result[code] = { name };
+  if (aka.length > 0) result[code].aka = aka.sort();
 }
 
-for (const node of genres) processNode(node, null, null);
-
-// Clean up, sort aka
-for (const entry of Object.values(result)) {
-  if (entry.urls.length === 0) delete entry.urls;
-  if (entry.aka.length === 0) delete entry.aka;
-  if (entry.aka) entry.aka = entry.aka.sort();
-}
-
-// Fallback: create stub entries for any options.json code not reached by the tree walk
-for (const [rawKey, val] of Object.entries(options.items)) {
-  if (!val.code || val.code in result) continue;
-  const key = decodeEntities(rawKey);
-  const displayName = val.title || key;
-  result[val.code] = { name: displayName, aka: [] };
-}
-
-// Fix display names for group parents: ensure the entry with a parent
-// override becomes the primary name (not an aka that happened to process first).
-// When multiple entries share the same code, prefer the one whose parent maps
-// to the parent code (not to the same code — that means it's deeper in the chain).
-for (const [key, opt] of Object.entries(optByTitle)) {
-  if (!opt.code || opt.code.length < 3) continue;
-  if (!opt.parent) continue;
-  // Skip if this entry's parent genre also maps to the same code (deeper in chain)
-  const parentOpt = optByTitle[opt.parent];
-  if (parentOpt?.code === opt.code) continue;
-  const entry = result[opt.code];
-  if (!entry) continue;
-  const displayName = opt.title || opt._key || key;
-  if (entry.name !== displayName) {
-    if (!entry.aka) entry.aka = [];
-    if (!entry.aka.includes(entry.name)) {
-      entry.aka.push(entry.name);
-    }
-    entry.aka = entry.aka.filter(a => a !== displayName);
-    entry.name = displayName;
-  }
-}
-
-// Push akas from 1-2 char A-Y codes down to their Other/Misc children
-// Runs twice to handle chains: X → X8 (Other) → X89 (Misc)
-for (let pass = 0; pass < 2; pass++) {
-  for (const [code, entry] of Object.entries(result)) {
-    if (!entry.aka || entry.aka.length === 0) continue;
-    if (!/^[A-Y]/.test(code[0])) continue;
-    if (code.length >= 3) continue;
-    // X8 codes push to X89 (Misc); other 2-char codes push to XX8 (Other); 1-char codes push to X8 (Other)
-    const candidates = code.endsWith('8')
-      ? [code + '9']
-      : [code + '8', code + '89'];
-    const targetCode = candidates.find(c => c in result) || null;
-    if (!targetCode) continue;
-    const target = result[targetCode];
-    if (!target.aka) target.aka = [];
-    for (const aka of entry.aka) {
-      if (!target.aka.includes(aka)) target.aka.push(aka);
-    }
-    entry.aka = [];
-  }
-}
-
-// Re-sort after adding stubs, using allowedCodeCharacters ordering (letters before digits)
+// Sort using allowedCodeCharacters ordering
 function codeCompare(a, b) {
   for (let i = 0; i < Math.max(a.length, b.length); i++) {
     if (i >= a.length) return -1;
@@ -580,29 +450,12 @@ const sorted = Object.fromEntries(
   Object.entries(result).sort(([a], [b]) => codeCompare(a, b))
 );
 
-// Clean up empty aka arrays on stubs
-for (const entry of Object.values(sorted)) {
-  if (entry.aka && entry.aka.length === 0) delete entry.aka;
-}
-
-// Generate all.csv: code,title,count (count = number of codes with this code as prefix)
-const allCodes = Object.keys(sorted);
-const csvRows = Object.entries(sorted).sort(([a], [b]) => codeCompare(a, b));
-const csvLines = ['code,title,count,aka'];
-for (const [code, entry] of csvRows) {
-  const title = entry.name.replace(/"/g, '""');
-  const count = allCodes.filter(c => c !== code && c.startsWith(code)).length;
-  const aka = (entry.aka || []).join('; ').replace(/"/g, '""');
-  csvLines.push(`${code},"${title}",${count},"${aka}"`);
-}
-fs.writeFileSync('all.csv', csvLines.join('\n') + '\n');
-console.log(`Written all.csv with ${csvLines.length - 1} rows`);
-
 const clade = { genres: sorted, colors, allowedCodeCharacters, allowedFileNameCharacters, releases };
 
 fs.writeFileSync(
   "clade.js",
-  "const clade = " +
+  "// GENERATED FILE — DO NOT EDIT. Run `node generate.js` to regenerate.\n" +
+    "const clade = " +
     JSON.stringify(clade, null, 2) +
     ";\nif (typeof module !== 'undefined') module.exports = { clade };\n"
 );

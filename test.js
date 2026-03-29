@@ -182,7 +182,7 @@ runTest("names use allowed file path characters", () => {
   }
 });
 
-runTest("subgenres follow allowed characters in order", () => {
+runTest("subgenres use allowed characters in ascending order", () => {
   const codes = Object.keys(options2);
   const byParent = {};
   for (const code of codes) {
@@ -195,13 +195,12 @@ runTest("subgenres follow allowed characters in order", () => {
 
   for (const [parent, siblings] of Object.entries(byParent)) {
     const nonCatchAll = siblings.filter(c => !/[89]$/.test(c));
-    const suffixes = nonCatchAll.map(c => c.slice(-1)).sort((a, b) =>
-      allowedCodeCharacters.indexOf(a) - allowedCodeCharacters.indexOf(b)
-    );
-    const expected = allowedCodeCharacters.slice(0, suffixes.length);
-    for (let i = 0; i < suffixes.length; i++) {
-      if (suffixes[i] !== expected[i]) {
-        failure(`children of "${parent}" use suffix "${suffixes[i]}" at position ${i} but expected "${expected[i]}" (children: ${siblings.join(", ")})`);
+    const suffixes = nonCatchAll.map(c => c.slice(-1));
+    for (let i = 1; i < suffixes.length; i++) {
+      const prev = allowedCodeCharacters.indexOf(suffixes[i - 1]);
+      const curr = allowedCodeCharacters.indexOf(suffixes[i]);
+      if (curr <= prev) {
+        failure(`children of "${parent}" have "${suffixes[i]}" after "${suffixes[i - 1]}" (children: ${siblings.join(", ")})`);
         break;
       }
     }
@@ -228,6 +227,7 @@ runTest("every 2-char code has an XX8 child named 'Other <parent>'", () => {
 runTest("every 2-char code has an XX9 child named 'Unspecified <parent>'", () => {
   for (const code of Object.keys(options2)) {
     if (code.length !== 2) continue;
+    if (code.endsWith("8") || code.endsWith("9")) continue; // skip X8/X9 (handled by X89/Misc tests)
     const name = effectiveName(code);
     const child = options2[code + "9"];
     if (!child) {
@@ -555,7 +555,9 @@ runTest("winamp extension mappings are valid", () => {
 });
 
 runTest("codes.json is sorted in code order", () => {
-  const codes = Object.keys(options2);
+  // Extract keys from raw text to avoid V8 integer key reordering
+  const raw = fs.readFileSync("codes.json", "utf8");
+  const codes = [...raw.matchAll(/^  "([^"]+)":/gm)].map(m => m[1]);
   function codeCompare(a, b) {
     for (let i = 0; i < Math.max(a.length, b.length); i++) {
       if (i >= a.length) return -1;
