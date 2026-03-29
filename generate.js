@@ -6,7 +6,8 @@ const GENRES_DIR = path.join(HTML_DIR, "genres");
 const BASE_URL = "https://rateyourmusic.com";
 
 const allowedCodeCharacters = "ACDEFHJKMNPRTUVWXY2346789";
-const allowedFileNameCharacters = "^[a-zA-Z0-9 _.\\-]+$";
+const allowedCodeRegex = new RegExp(`^[${allowedCodeCharacters}]+$`);
+const allowedFileNameCharacters = /^[a-zA-Z0-9 _.\-]+$/;
 
 const colors = {
   2: { name: "Mint", bgHex: "#00FF99", fgHex: "#000000" },
@@ -139,6 +140,8 @@ const releases = [
   { artist: "Talking Heads", release: "Stop Making Sense", year: "1984", genres: "New Wave, Film Soundtrack, Post-Punk" },
 ];
 
+// ── HTML Parsing ────────────────────────────────────────────────────────────
+
 function decodeEntities(s) {
   return s
     .replace(/&amp;/g, "&")
@@ -149,8 +152,6 @@ function decodeEntities(s) {
     .replace(/&#34;/g, '"');
 }
 
-// Find the position after the matching closing tag for a given opening tag at pos.
-// `open` and `close` are the opening/closing tag strings to balance.
 function findMatchingClose(html, pos, open, close) {
   let depth = 1;
   while (pos < html.length && depth > 0) {
@@ -168,91 +169,57 @@ function findMatchingClose(html, pos, open, close) {
   return pos;
 }
 
-// Parse all genre items from a slice of HTML that represents the contents of
-// a hierarchy_list_children <li>. Returns [{title, url, children}].
 function parseChildrenContent(html) {
   const items = [];
   let pos = 0;
-
   while (pos < html.length) {
-    // Find the next <ul class="hierarchy_list">
     const ulStart = html.indexOf('<ul class="hierarchy_list"', pos);
     if (ulStart === -1) break;
-
-    // Find end of the opening <ul ...> tag
     const ulTagEnd = html.indexOf(">", ulStart) + 1;
-
-    // Find the matching </ul> for this ul
-    const ulContentStart = ulTagEnd;
     const ulEnd = findMatchingClose(html, ulTagEnd, "<ul", "</ul>");
-
-    const ulContent = html.slice(ulContentStart, ulEnd - "</ul>".length);
+    const ulContent = html.slice(ulTagEnd, ulEnd - "</ul>".length);
     pos = ulEnd;
-
-    // Each <ul> here contains exactly one <li class="hierarchy_list_item">
     const item = parseOneItem(ulContent);
     if (item) items.push(item);
   }
-
   return items;
 }
 
-// Parse a single genre item from the content of a <ul class="hierarchy_list">
-// that contains one <li class="hierarchy_list_item">.
 function parseOneItem(ulContent) {
   const liStart = ulContent.indexOf('<li class="hierarchy_list_item"');
   if (liStart === -1) return null;
-
   const liTagEnd = ulContent.indexOf(">", liStart) + 1;
-  // Find the matching </li>
   const liEnd = findMatchingClose(ulContent, liTagEnd, "<li", "</li>");
   const liContent = ulContent.slice(liTagEnd, liEnd - "</li>".length);
-
-  // Extract title and url from hierarchy_list_item_details
   const detailsStart = liContent.indexOf("hierarchy_list_item_details");
   if (detailsStart === -1) return null;
   const detailsDivEnd = liContent.indexOf("</div>", detailsStart);
   const detailsContent = liContent.slice(detailsStart, detailsDivEnd);
-
   const linkMatch = detailsContent.match(/<a href="([^"]+)">([^<]+)<\/a>/);
   if (!linkMatch) return null;
-
   const url = BASE_URL + linkMatch[1];
   const title = decodeEntities(linkMatch[2].trim());
-
-  // Everything after </div> in the li contains nested children (as <ul> elements)
   const afterDetails = liContent.slice(detailsDivEnd + "</div>".length);
   const children = parseChildrenContent(afterDetails);
-
   return { title, url, ...(children.length ? { children } : {}) };
 }
 
-// Parse an individual genre page (e.g. Dance.html).
 function parseGenrePage(html) {
   const canonicalMatch = html.match(/<link rel="canonical" href="([^"]+)"/);
   const url = canonicalMatch ? canonicalMatch[1] : null;
-
   const titleMatch = html.match(/<title>([^<]+?) - Music genre/);
   const title = titleMatch ? decodeEntities(titleMatch[1].trim()) : null;
-
-  // Find the hierarchy section
   const sectionStart = html.indexOf('id="page_genre_section_hierarchy"');
   if (sectionStart === -1) return { title, url, children: [] };
-
-  // Find hierarchy_list_children (contains the direct children)
   const childrenLiStart = html.indexOf('class="hierarchy_list_children"', sectionStart);
   if (childrenLiStart === -1) return { title, url, children: [] };
-
   const childrenLiTagEnd = html.indexOf(">", childrenLiStart) + 1;
-  // Find matching </li> for the hierarchy_list_children li
   const childrenLiEnd = findMatchingClose(html, childrenLiTagEnd, "<li", "</li>");
   const childrenContent = html.slice(childrenLiTagEnd, childrenLiEnd - "</li>".length);
-
   const children = parseChildrenContent(childrenContent);
   return { title, url, children };
 }
 
-// Parse Genres.html index page to get all top-level genres.
 function parseGenresIndex(html) {
   const results = [];
   const marker = 'class="page_genre_index_hierarchy_item_main_inner"';
@@ -275,42 +242,28 @@ function parseGenresIndex(html) {
   return results;
 }
 
-// Parse Music descriptor.html into a tree of {title, url, children}.
-// Structure: top-level descriptors are in <div style="background:..."><b><a class="genre">
-// Children are in <blockquote> blocks; sub-parents are nested <div>+<blockquote>.
 function parseDescriptorPage(html) {
   const descriptorLinkRe = /<a[^>]*class="genre"[^>]*href="\/music_descriptor\/([^"]+)\/"[^>]*>([^<]+)<\/a>/;
-
   function parseDescriptorBlock(block) {
     const items = [];
     let pos = 0;
     while (pos < block.length) {
-      // Find the next descriptor link
       const linkIdx = block.indexOf('class="genre"', pos);
       if (linkIdx === -1) break;
-
-      // Back up to find the <a tag start
       const aStart = block.lastIndexOf("<a", linkIdx);
       const aEnd = block.indexOf("</a>", linkIdx);
       if (aEnd === -1) break;
-
       const linkHtml = block.slice(aStart, aEnd + "</a>".length);
       const m = linkHtml.match(descriptorLinkRe);
       if (!m) { pos = aEnd + 4; continue; }
-
       const url = BASE_URL + "/music_descriptor/" + m[1] + "/";
       const title = decodeEntities(m[2].trim());
-
-      // Check if this is a sub-parent (bold wrapper)
       const isBold = block.lastIndexOf("<b>", linkIdx) > block.lastIndexOf("</b>", linkIdx);
-
-      // Look for a <blockquote> following this descriptor (its children)
       let children = [];
       const afterLink = aEnd + "</a>".length;
       if (isBold) {
         const bqStart = block.indexOf("<blockquote", afterLink);
         const nextDescriptor = block.indexOf('class="genre"', afterLink);
-        // Only use this blockquote if it comes before the next non-nested descriptor
         if (bqStart !== -1 && (nextDescriptor === -1 || bqStart < nextDescriptor)) {
           const bqTagEnd = block.indexOf(">", bqStart) + 1;
           const bqEnd = findMatchingClose(block, bqTagEnd, "<blockquote", "</blockquote>");
@@ -323,18 +276,13 @@ function parseDescriptorPage(html) {
       } else {
         pos = afterLink;
       }
-
       items.push({ title, url, ...(children.length ? { children } : {}) });
     }
     return items;
   }
-
-  // Find the content area (after the admin links, starting from first descriptor div)
   const firstDiv = html.indexOf('<div style="background:var(--mono-f8)');
   if (firstDiv === -1) return [];
   const content = html.slice(firstDiv);
-
-  // Split into top-level descriptor divs
   const topLevel = [];
   let pos = 0;
   const divMarker = '<div style="background:var(--mono-f8);border:var(--mono-b) 1px solid;padding:6px;margin:10px; ">';
@@ -344,13 +292,10 @@ function parseDescriptorPage(html) {
     const divContentStart = divStart + divMarker.length;
     const divEnd = findMatchingClose(content, divContentStart, "<div", "</div>");
     const divContent = content.slice(divContentStart, divEnd - "</div>".length);
-
     const m = divContent.match(descriptorLinkRe);
     if (m) {
       const url = BASE_URL + "/music_descriptor/" + m[1] + "/";
       const title = decodeEntities(m[2].trim());
-
-      // Children are in blockquote
       let children = [];
       const bqStart = divContent.indexOf("<blockquote");
       if (bqStart !== -1) {
@@ -359,24 +304,20 @@ function parseDescriptorPage(html) {
         const bqContent = divContent.slice(bqTagEnd, bqEnd - "</blockquote>".length);
         children = parseDescriptorBlock(bqContent);
       }
-
       topLevel.push({ title, url, ...(children.length ? { children } : {}) });
     }
     pos = divEnd;
   }
-
   return topLevel;
 }
 
-// Main
+// ── Phase 1: Parse HTML ─────────────────────────────────────────────────────
+
 const genresHtml = fs.readFileSync(path.join(HTML_DIR, "Genres.html"), "utf8");
 const topLevel = parseGenresIndex(genresHtml);
 
-// Build canonical-url -> file content map
 const urlToEntry = {};
-const files = fs
-  .readdirSync(GENRES_DIR)
-  .filter((f) => f.endsWith(".html"));
+const files = fs.readdirSync(GENRES_DIR).filter((f) => f.endsWith(".html"));
 for (const file of files) {
   const content = fs.readFileSync(path.join(GENRES_DIR, file), "utf8");
   const m = content.match(/<link rel="canonical" href="([^"]+)"/);
@@ -391,51 +332,398 @@ for (const { title, url } of topLevel) {
   genres.push({ title: parsed.title || title, url: parsed.url || url, children: parsed.children });
 }
 
-// Parse descriptors
 const descriptorFile = path.join(HTML_DIR, "Music descriptor.html");
 if (fs.existsSync(descriptorFile)) {
   const descriptorHtml = fs.readFileSync(descriptorFile, "utf8");
   const descriptors = parseDescriptorPage(descriptorHtml);
   if (descriptors.length > 0) {
     genres.push({ title: "Music descriptor", children: descriptors });
-    console.log(`Parsed ${descriptors.length} top-level descriptors`);
   }
 }
 
-fs.writeFileSync("genres.json", JSON.stringify(genres, null, 2));
-console.log(`Written genres.json with ${genres.length} top-level genres`);
+// Build all RYM paths
+function collectPaths(nodes, prefix) {
+  const paths = [];
+  for (const node of nodes) {
+    const p = prefix ? `${prefix} > ${node.title}` : node.title;
+    paths.push(p);
+    if (node.children) paths.push(...collectPaths(node.children, p));
+  }
+  return paths;
+}
+const allRymPaths = collectPaths(genres, "");
+const allRymPathSet = new Set(allRymPaths);
 
-// Stats
-let totalNodes = 0;
-function count(nodes) { for (const n of nodes) { totalNodes++; if (n.children) count(n.children); } }
-count(genres);
-console.log(`Total nodes: ${totalNodes}`);
+console.log(`Parsed ${genres.length} top-level genres, ${allRymPaths.length} total paths`);
 
-// Phase 2: combine genres.json + codes.json → clade.js
+// ── Phase 2: Validate codes.json ────────────────────────────────────────────
+
 const codes = JSON.parse(fs.readFileSync("codes.json", "utf8"));
+
+// Build reverse index
+const pathToCode = {};
+for (const [code, entry] of Object.entries(codes)) {
+  for (const rymPath of entry.rym) {
+    (pathToCode[rymPath] ??= []).push(code);
+  }
+}
+
+const green = (s) => `\x1b[32m${s}\x1b[0m`;
+const red = (s) => `\x1b[31m${s}\x1b[0m`;
+let failureCount = 0;
+const failures = [];
+function failure(msg) { failures.push(msg); }
+
+function runTest(description, fn) {
+  const before = failures.length;
+  fn();
+  const newFailures = failures.slice(before);
+  if (newFailures.length === 0) {
+    console.log(`${green("✓")} ${description}`);
+  } else {
+    console.log(`${red("✗")} ${description}`);
+    for (const msg of newFailures) console.log(red(`  - ${msg}`));
+    failureCount += newFailures.length;
+  }
+}
+
+runTest("every RYM path appears in codes.json", () => {
+  const missing = [];
+  for (const p of allRymPaths) {
+    if (!pathToCode[p]) missing.push(p);
+  }
+  if (missing.length > 0) {
+    for (const p of missing.slice(0, 20)) failure(`missing: ${p}`);
+    if (missing.length > 20) failure(`... and ${missing.length - 20} more`);
+  }
+});
+
+runTest("every RYM path appears in only one code", () => {
+  for (const [p, c] of Object.entries(pathToCode)) {
+    if (c.length > 1) failure(`"${p}" appears in ${c.join(", ")}`);
+  }
+});
+
+runTest("every rym entry in codes.json exists as a path in the HTML", () => {
+  const stale = [];
+  for (const [code, entry] of Object.entries(codes)) {
+    for (const rymPath of entry.rym) {
+      if (!allRymPathSet.has(rymPath)) stale.push(`${code}: ${rymPath}`);
+    }
+  }
+  if (stale.length > 0) {
+    for (const s of stale.slice(0, 50)) failure(s);
+    if (stale.length > 50) failure(`... and ${stale.length - 50} more`);
+  }
+});
+
+runTest("codes only use allowed characters", () => {
+  for (const code of Object.keys(codes)) {
+    if (!allowedCodeRegex.test(code)) failure(`code "${code}" contains disallowed characters`);
+  }
+});
+
+runTest("all codes are 1-3 characters", () => {
+  for (const code of Object.keys(codes)) {
+    if (code.length < 1 || code.length > 3) failure(`code "${code}" is ${code.length} characters`);
+  }
+});
+
+runTest("name is the first property in every code entry", () => {
+  const raw = fs.readFileSync("codes.json", "utf8");
+  const entries = [...raw.matchAll(/"([A-Z0-9]+)":\s*\{[\s\n]*"(\w+)"/g)];
+  for (const [, code, firstProp] of entries) {
+    if (firstProp !== "name") failure(`${code}: first property is "${firstProp}", expected "name"`);
+  }
+});
+
+runTest("every code has a name", () => {
+  for (const [code, entry] of Object.entries(codes)) {
+    if (!entry.name) failure(`${code}: missing name`);
+  }
+});
+
+runTest("all names are unique", () => {
+  const seen = {};
+  for (const [code, entry] of Object.entries(codes)) {
+    if (!entry.name) continue;
+    const key = entry.name.toLowerCase();
+    if (key in seen) failure(`"${entry.name}" used by both ${seen[key]} and ${code}`);
+    else seen[key] = code;
+  }
+});
+
+runTest("names use allowed file path characters", () => {
+  for (const [code, entry] of Object.entries(codes)) {
+    if (entry.name && !allowedFileNameCharacters.test(entry.name)) {
+      failure(`${code}: name "${entry.name}" contains invalid file path characters`);
+    }
+  }
+});
+
+runTest("subgenres use allowed characters in ascending order", () => {
+  const byParent = {};
+  for (const code of Object.keys(codes)) {
+    if (code.length < 2) continue;
+    const parent = code.slice(0, -1);
+    if (parent in codes) (byParent[parent] ??= []).push(code);
+  }
+  for (const [parent, siblings] of Object.entries(byParent)) {
+    const suffixes = siblings.filter(c => !/[89]$/.test(c)).map(c => c.slice(-1));
+    for (let i = 1; i < suffixes.length; i++) {
+      if (allowedCodeCharacters.indexOf(suffixes[i]) <= allowedCodeCharacters.indexOf(suffixes[i - 1])) {
+        failure(`children of "${parent}" have "${suffixes[i]}" after "${suffixes[i - 1]}" (children: ${siblings.join(", ")})`);
+        break;
+      }
+    }
+  }
+});
+
+runTest("every 2-char code has an XX8 child named 'Other <parent>'", () => {
+  for (const [code, entry] of Object.entries(codes)) {
+    if (code.length !== 2) continue;
+    const child = codes[code + "8"];
+    if (!child) failure(`"${code}8" missing for parent "${code} ${entry.name}"`);
+    else if (child.name !== `Other ${entry.name}`) failure(`"${code}8": expected "Other ${entry.name}", got "${child.name}"`);
+  }
+});
+
+runTest("every 2-char code has an XX9 child named 'Unspecified <parent>'", () => {
+  for (const [code, entry] of Object.entries(codes)) {
+    if (code.length !== 2) continue;
+    if (code.endsWith("8") || code.endsWith("9")) continue;
+    const child = codes[code + "9"];
+    if (!child) failure(`"${code}9" missing for parent "${code} ${entry.name}"`);
+    else if (child.name !== `Unspecified ${entry.name}`) failure(`"${code}9": expected "Unspecified ${entry.name}", got "${child.name}"`);
+  }
+});
+
+runTest("every X8 code has an X89 child named 'Misc <parent>'", () => {
+  for (const [code, entry] of Object.entries(codes)) {
+    if (!/^[A-Y2-9]8$/.test(code)) continue;
+    const miscCode = code.slice(0, -1) + "89";
+    const parentName = entry.name.replace(/^Other /, '');
+    const child = codes[miscCode];
+    if (!child) failure(`"${miscCode}" missing for parent "${code} ${entry.name}"`);
+    else if (child.name !== `Misc ${parentName}`) failure(`"${miscCode}": expected "Misc ${parentName}", got "${child.name}"`);
+  }
+});
+
+runTest("every 1-char code has an X8 child named 'Other <parent>'", () => {
+  for (const [code, entry] of Object.entries(codes)) {
+    if (code.length !== 1) continue;
+    const child = codes[code + "8"];
+    if (!child) failure(`"${code}8" missing for parent "${code} ${entry.name}"`);
+    else if (child.name !== `Other ${entry.name}`) failure(`"${code}8": expected "Other ${entry.name}", got "${child.name}"`);
+  }
+});
+
+runTest("every 1-char code has an X9 child named 'Unspecified <parent>'", () => {
+  for (const [code, entry] of Object.entries(codes)) {
+    if (code.length !== 1) continue;
+    const child = codes[code + "9"];
+    if (!child) failure(`"${code}9" missing for parent "${code} ${entry.name}"`);
+    else if (child.name !== `Unspecified ${entry.name}`) failure(`"${code}9": expected "Unspecified ${entry.name}", got "${child.name}"`);
+  }
+});
+
+// External format mappings
+const cdtext = [
+  ["Adult Contemporary", "PA Traditional Pop"],
+  ["Classical", "C Classical Music"],
+  ["Contemporary Christian", "KF Gospel"],
+  ["Country", "T Country and Singer-Songwriter"],
+  ["Dance", "D Electronic Dance Music"],
+  ["Easy Listening", "AE Easy Listening"],
+  ["Erotic", "W Miscellaneous"],
+  ["Folk", "F Folk"],
+  ["Gospel", "KF Gospel"],
+  ["Hip Hop", "H Hip Hop"],
+  ["Jazz", "J Jazz and Blues"],
+  ["Latin", "X Regional Music"],
+  ["Musical", "Y Musical Theatre and Entertainment"],
+  ["New Age", "AC New Age"],
+  ["Opera", "CCA Opera"],
+  ["Operetta", "CCA Opera"],
+  ["Pop Music", "P Pop"],
+  ["Rap", "H Hip Hop"],
+  ["Reggae", "UA Reggae"],
+  ["Rock Music", "R Rock and Psychedelia"],
+  ["Rhythm & Blues", "KA Rhythm and Blues"],
+  ["Sound Effects", "6H Sound Effects"],
+  ["Soundtrack", "WD Soundtrack"],
+  ["Spoken Word", "6A Spoken Word"],
+  ["World Music", "X Regional Music"],
+];
+
+const id3v1 = [
+  [0, "Blues", "JA Blues"], [1, "Classic rock", "RA Rock and Roll"],
+  [2, "Country", "T Country and Singer-Songwriter"], [3, "Dance", "D Electronic Dance Music"],
+  [4, "Disco", "DX Disco"], [5, "Funk", "KE Funk"], [6, "Grunge", "RDA Grunge"],
+  [7, "Hip-hop", "H Hip Hop"], [8, "Jazz", "J Jazz and Blues"], [9, "Metal", "M Metal"],
+  [10, "New age", "AC New Age"], [11, "Oldies", "RA Rock and Roll"],
+  [12, "Other", "W Miscellaneous"], [13, "Pop", "P Pop"],
+  [14, "Rhythm and blues", "KA Rhythm and Blues"], [15, "Rap", "H Hip Hop"],
+  [16, "Reggae", "UA Reggae"], [17, "Rock", "R Rock and Psychedelia"],
+  [18, "Techno", "DC Techno"], [19, "Industrial", "NA Industrial"],
+  [20, "Alternative", "RD Alternative Rock"], [21, "Ska", "UF Ska"],
+  [22, "Death metal", "MD Death Metal"], [23, "Pranks", "WC Comedy"],
+  [24, "Soundtrack", "WD Soundtrack"], [25, "Euro-techno", "DC Techno"],
+  [26, "Ambient", "AA Ambient"], [27, "Trip-hop", "EA Chillout and Downtempo"],
+  [28, "Vocal", "6A Spoken Word"], [29, "Jazz & funk", "J Jazz and Blues; KE Funk"],
+  [30, "Fusion", "JF Jazz Fusion"], [31, "Trance", "DD Trance"],
+  [32, "Classical", "C Classical Music"], [33, "Instrumental", "W Miscellaneous"],
+  [34, "Acid", "DAN Acid House"], [35, "House", "DA House"],
+  [36, "Game", "WE Video Game Music"], [37, "Sound clip", "W Miscellaneous"],
+  [38, "Gospel", "KF Gospel"], [39, "Noise", "ND Noise"],
+  [40, "Alternative rock", "RD Alternative Rock"], [41, "Bass", "D Electronic Dance Music"],
+  [42, "Soul", "KC Soul"], [43, "Punk", "V Punk"], [44, "Space", "RH Psychedelia"],
+  [45, "Meditative", "AA Ambient"], [46, "Instrumental pop", "P Pop"],
+  [47, "Instrumental rock", "R Rock and Psychedelia"], [48, "Ethnic", "X Regional Music"],
+  [49, "Gothic", "RF Post-Punk and New Wave"], [50, "Darkwave", "VD Post-Punk"],
+  [51, "Techno-industrial", "NA Industrial"], [52, "Electronic", "E Electronic"],
+  [53, "Pop-folk", "F Folk"], [54, "Eurodance", "DN EBM and Electro"],
+  [55, "Dream", "RD Alternative Rock"], [56, "Southern rock", "RPE Southern Rock"],
+  [57, "Comedy", "WC Comedy"], [58, "Cult", "W Miscellaneous"],
+  [59, "Gangsta", "HDA Gangsta Rap"], [60, "Top 40", "P Pop"],
+  [61, "Christian rap", "H Hip Hop"], [62, "Pop/funk", "P Pop; KE Funk"],
+  [63, "Jungle music", "DEJ Footwork Jungle"], [64, "Native US", "X Regional Music"],
+  [65, "Cabaret", "W Miscellaneous"], [66, "New wave", "RFA New Wave"],
+  [67, "Psychedelic", "RH Psychedelia"], [68, "Rave", "D Electronic Dance Music"],
+  [69, "Showtunes", "YA Musical Theatre"], [70, "Trailer", "W Miscellaneous"],
+  [71, "Lo-fi", "HJ Instrumental and Lo-Fi"], [72, "Tribal", "DA House; X Regional Music"],
+  [73, "Acid punk", "VF Art Punk"], [74, "Acid jazz", "KCA Acid Jazz"],
+  [75, "Polka", "W Miscellaneous"], [76, "Retro", "W Miscellaneous"],
+  [77, "Musical", "YA Musical Theatre"], [78, "Rock 'n' roll", "RA Rock and Roll"],
+  [79, "Hard rock", "RC Hard Rock"],
+];
+
+const winampExtensions = [
+  [80, "Folk", "F Folk"], [81, "Folk rock", "RK Folk Rock"],
+  [82, "National folk", "F Folk"], [83, "Swing", "JCE Swing"],
+  [84, "Fast fusion", "JF Jazz Fusion"], [85, "Bebop", "JD Bebop"],
+  [86, "Latin", "X Regional Music"], [87, "Revival", "W Miscellaneous"],
+  [88, "Celtic", "FH Celtic Folk Music"], [89, "Bluegrass", "TC Bluegrass"],
+  [90, "Avantgarde", "N Experimental and Industrial"],
+  [91, "Gothic rock", "VDA Gothic Rock"], [92, "Progressive rock", "RE Progressive Rock"],
+  [93, "Psychedelic rock", "RHA Psychedelic Rock"],
+  [94, "Symphonic rock", "REC Symphonic Prog"], [95, "Slow rock", "PC Pop Rock"],
+  [96, "Big band", "JCA Big Band"], [97, "Chorus", "CC Opera and Vocal Music"],
+  [98, "Easy listening", "AE Easy Listening"], [99, "Acoustic", "W Miscellaneous"],
+  [100, "Humour", "WC Comedy"], [101, "Speech", "6A Spoken Word"],
+  [102, "Chanson", "TR Chanson a texte"], [103, "Opera", "CCA Opera"],
+  [104, "Chamber music", "CDD Chamber Music"], [105, "Sonata", "CE Romanticism"],
+  [106, "Symphony", "CDE Symphony"], [107, "Booty bass", "HE Southern Hip Hop"],
+  [108, "Primus", "W Miscellaneous"], [109, "Porn groove", "KEJ Porn Groove"],
+  [110, "Satire", "WC Comedy"], [111, "Slow jam", "KD Contemporary RnB"],
+  [112, "Club", "D Electronic Dance Music"], [113, "Tango", "XMD Rioplatense Music"],
+  [114, "Samba", "XH Brazilian Music"], [115, "Folklore", "F Folk"],
+  [116, "Ballad", "W Miscellaneous"], [117, "Power ballad", "W Miscellaneous"],
+  [118, "Rhythmic Soul", "KC Soul"], [119, "Freestyle", "PDA Latin Freestyle"],
+  [120, "Duet", "W Miscellaneous"], [121, "Punk rock", "VA Punk Rock"],
+  [122, "Drum solo", "W Miscellaneous"], [123, "A cappella", "CC Opera and Vocal Music"],
+  [124, "Euro-house", "DA House"], [125, "Dance hall", "UJ Dancehall"],
+  [126, "Goa music", "DD Trance"], [127, "Drum & bass", "DE Drum and Bass"],
+  [128, "Club-house", "DA House"], [129, "Hardcore techno", "DF Hardcore EDM"],
+  [130, "Terror", "DW World and Regional EDM"], [131, "Indie", "RD Alternative Rock"],
+  [132, "Britpop", "RD Alternative Rock"], [133, "Negerpunk", "W Miscellaneous"],
+  [134, "Polsk punk", "VA Punk Rock"], [135, "Beat", "PCA Beat"],
+  [136, "Christian gangsta rap", "HD Hardcore Hip Hop and Gangsta"],
+  [137, "Heavy metal", "MA Heavy Metal"], [138, "Black metal", "ME Black Metal"],
+  [139, "Crossover", "MC Thrash Metal"],
+  [140, "Contemporary Christian", "W Miscellaneous"],
+  [141, "Christian rock", "RN Rock Musical"], [142, "Merengue", "XJF Merengue"],
+  [143, "Salsa", "XFA Hispanic American Music"], [144, "Thrash metal", "MC Thrash Metal"],
+  [145, "Anime", "W Miscellaneous"], [146, "Jpop", "PE J-Pop"],
+  [147, "Synthpop", "EC Synth and Pop Electronic"], [148, "Christmas", "W Miscellaneous"],
+  [149, "Art rock", "RRF Art Rock"], [150, "Baroque", "CAD Baroque Suite"],
+  [151, "Bhangra", "FR South Asian Folk Music"], [152, "Big beat", "DKC Big Beat"],
+  [153, "Breakbeat", "DK Breakbeat"], [154, "Chillout", "EA Chillout and Downtempo"],
+  [155, "Downtempo", "EAC Downtempo"], [156, "Dub", "UE Dub"],
+  [157, "EBM", "DN EBM and Electro"], [158, "Eclectic", "W Miscellaneous"],
+  [159, "Electro", "DNE Electro"], [160, "Electroclash", "DN EBM and Electro"],
+  [161, "Emo", "VJ Emo"], [162, "Experimental", "N Experimental and Industrial"],
+  [163, "Garage", "DM UK Bass and UK Garage"], [164, "Global", "X Regional Music"],
+  [165, "IDM", "ED IDM and Glitch and Experimental"],
+  [166, "Illbient", "EDJ Illbient"], [167, "Industro-Goth", "EH Industrial Electronic"],
+  [168, "Jam band", "RK Folk Rock"], [169, "Krautrock", "RRE Experimental Rock"],
+  [170, "Leftfield", "DK Breakbeat"], [171, "Lounge", "AEA Lounge and Exotica"],
+  [172, "Math rock", "RRD Math Rock"],
+  [173, "New romantic", "RF Post-Punk and New Wave"],
+  [174, "Nu-breakz", "DK Breakbeat"], [175, "Post-punk", "VD Post-Punk"],
+  [176, "Post-rock", "RRA Post-Rock"], [177, "Psytrance", "DDA Psytrance"],
+  [178, "Shoegaze", "RD Alternative Rock"], [179, "Space rock", "RH Psychedelia"],
+  [180, "Trop rock", "RK Folk Rock"], [181, "World music", "X Regional Music"],
+  [182, "Neoclassical", "CF Modern Classical"], [183, "Audiobook", "6E Audiobook"],
+  [184, "Audio theatre", "6A Spoken Word"],
+  [185, "Neue Deutsche Welle", "RF Post-Punk and New Wave"],
+  [186, "Podcast", "6F Podcast"], [187, "Indie rock", "RDE Indie Rock"],
+  [188, "G-Funk", "HE Southern Hip Hop"], [189, "Dubstep", "DJ Dubstep"],
+  [190, "Garage rock", "RJ Garage Rock"], [191, "Psybient", "EAH Psybient"],
+];
+
+function checkMapping(source, label, mapping) {
+  for (const part of mapping.split("; ")) {
+    const spaceIdx = part.indexOf(" ");
+    const code = part.slice(0, spaceIdx);
+    const expectedName = part.slice(spaceIdx + 1);
+    const entry = codes[code];
+    if (!entry) failure(`${source} "${label}": code "${code}" not found in codes.json`);
+    else if (entry.name !== expectedName) failure(`${source} "${label}": expected "${code} ${entry.name}", got "${part}"`);
+  }
+}
+
+runTest("cdtext mappings are valid", () => {
+  for (const [label, mapping] of cdtext) checkMapping("cdtext", label, mapping);
+});
+
+runTest("id3v1 mappings are valid", () => {
+  for (const [, label, mapping] of id3v1) checkMapping("id3v1", label, mapping);
+});
+
+runTest("winamp extension mappings are valid", () => {
+  for (const [, label, mapping] of winampExtensions) checkMapping("winampExtensions", label, mapping);
+});
+
+runTest("codes.json is sorted in code order", () => {
+  const raw = fs.readFileSync("codes.json", "utf8");
+  const keys = [...raw.matchAll(/"([A-Z0-9]+)":\s*\{/gm)].map(m => m[1]);
+  function codeCompare(a, b) {
+    for (let i = 0; i < Math.max(a.length, b.length); i++) {
+      if (i >= a.length) return -1;
+      if (i >= b.length) return 1;
+      const ai = allowedCodeCharacters.indexOf(a[i]);
+      const bi = allowedCodeCharacters.indexOf(b[i]);
+      if (ai !== bi) return ai - bi;
+    }
+    return 0;
+  }
+  for (let i = 1; i < keys.length; i++) {
+    if (codeCompare(keys[i], keys[i - 1]) < 0) {
+      failure(`"${keys[i]}" appears before "${keys[i - 1]}"`);
+      break;
+    }
+  }
+});
+
+if (failureCount > 0) {
+  console.log(red(`\n${failureCount} test failure(s) — clade.js not generated`));
+  process.exit(1);
+}
+
+// ── Phase 3: Generate clade.js ──────────────────────────────────────────────
 
 const result = {};
 for (const [code, entry] of Object.entries(codes)) {
-  const name = entry.name;
-  const urls = [];
   const aka = [];
-
   for (const rymPath of entry.rym) {
-    // Find the node in genres.json to get its URL
     const leaf = rymPath.split(" > ").pop();
-    // First rym entry's leaf becomes name (if no name override), rest become akas
-    if (urls.length === 0 || leaf === name) {
-      // primary — collect URL
-    } else if (leaf !== name && !aka.includes(leaf)) {
-      aka.push(leaf);
-    }
+    if (leaf !== entry.name && !aka.includes(leaf)) aka.push(leaf);
   }
-
-  result[code] = { name };
+  result[code] = { name: entry.name };
   if (aka.length > 0) result[code].aka = aka.sort();
 }
 
-// Sort using allowedCodeCharacters ordering
 function codeCompare(a, b) {
   for (let i = 0; i < Math.max(a.length, b.length); i++) {
     if (i >= a.length) return -1;
@@ -450,7 +738,7 @@ const sorted = Object.fromEntries(
   Object.entries(result).sort(([a], [b]) => codeCompare(a, b))
 );
 
-const clade = { genres: sorted, colors, allowedCodeCharacters, allowedFileNameCharacters, releases };
+const clade = { genres: sorted, colors, allowedCodeCharacters, allowedFileNameCharacters: allowedFileNameCharacters.source, releases };
 
 fs.writeFileSync(
   "clade.js",
@@ -459,4 +747,4 @@ fs.writeFileSync(
     JSON.stringify(clade, null, 2) +
     ";\nif (typeof module !== 'undefined') module.exports = { clade };\n"
 );
-console.log(`Written clade.js with ${Object.keys(sorted).length} genre codes`);
+console.log(`\nWritten clade.js with ${Object.keys(sorted).length} genre codes`);
