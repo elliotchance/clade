@@ -1878,7 +1878,8 @@
       "parent": "Hip Hop"
     },
     "Boogie": {
-      "parent": "Disco"
+      "parent": "Disco",
+      "code": "DXF"
     },
     "Boogie Woogie": {
       "code": "JAC",
@@ -2041,7 +2042,8 @@
       "code": "3UA"
     },
     "Brostep": {
-      "code": "DJA"
+      "code": "DJA",
+      "parent": "Dubstep"
     },
     "Bru": {
       "code": "7CN",
@@ -3208,6 +3210,10 @@
       "code": "7DN",
       "pseudo": true
     },
+    "Disco": {
+      "parent": "Electronic Dance Music",
+      "code": "DX"
+    },
     "Disco Rap": {
       "code": "HHA"
     },
@@ -3298,7 +3304,8 @@
       "pseudo": true
     },
     "Doskpop": {
-      "parent": "Spacesynth"
+      "parent": "Spacesynth",
+      "code": "DXC"
     },
     "Doujin Music": {
       "code": "3RD"
@@ -3546,7 +3553,8 @@
       "parent": "Latin Electronic"
     },
     "Electro-Disco": {
-      "parent": "Disco"
+      "parent": "Disco",
+      "code": "DXA"
     },
     "Electro-Industrial": {
       "code": "EH",
@@ -3731,6 +3739,10 @@
     },
     "Euro Trance": {
       "code": "DDJ"
+    },
+    "Euro-Disco": {
+      "parent": "Disco",
+      "code": "DXD"
     },
     "European Folk Music": {
       "code": "FN",
@@ -4785,6 +4797,10 @@
       "code": "7HX",
       "pseudo": true
     },
+    "Hi-NRG": {
+      "parent": "Electro-Disco",
+      "code": "DXA"
+    },
     "Hi-Tech Full-On": {
       "code": "DDT"
     },
@@ -5223,6 +5239,10 @@
     },
     "Italo Pop": {
       "code": "PVC"
+    },
+    "Italo-Disco": {
+      "parent": "Electro-Disco",
+      "code": "DXC"
     },
     "Iv": {
       "code": "7JN",
@@ -5791,7 +5811,8 @@
       "pseudo": true
     },
     "Latin Disco": {
-      "parent": "Disco"
+      "parent": "Disco",
+      "code": "DXF"
     },
     "Latin Electronic": {
       "code": "EN",
@@ -6702,6 +6723,10 @@
       "code": "CFK",
       "title": "Musique concrete instrumentale"
     },
+    "Mutant Disco": {
+      "parent": "Disco",
+      "code": "DXE"
+    },
     "Muzică de mahala": {
       "parent": "Balkan Pop-Folk",
       "title": "Muzica de mahala"
@@ -7240,7 +7265,8 @@
       "code": "DFD"
     },
     "Nu-Disco": {
-      "parent": "Disco"
+      "parent": "Disco",
+      "code": "DXE"
     },
     "Nuban": {
       "parent": "Khaliji Music"
@@ -7716,6 +7742,10 @@
     },
     "Other Deutschrock": {
       "code": "RU8",
+      "pseudo": true
+    },
+    "Other Disco": {
+      "code": "DX8",
       "pseudo": true
     },
     "Other Doom Metal": {
@@ -9263,6 +9293,10 @@
     "Red Dirt": {
       "code": "3JF"
     },
+    "Red Disco": {
+      "parent": "Electro-Disco",
+      "code": "DXA"
+    },
     "Reductionism": {
       "code": "NH"
     },
@@ -10199,8 +10233,16 @@
       "code": "AAC",
       "parent": "Ambient"
     },
+    "Space Disco": {
+      "parent": "Electro-Disco",
+      "code": "DXA"
+    },
     "Space Rock Revival": {
       "parent": "Space Rock"
+    },
+    "Spacesynth": {
+      "parent": "Italo-Disco",
+      "code": "DXC"
     },
     "Spanish": {
       "code": "2MC",
@@ -11460,6 +11502,10 @@
     },
     "Unspecified Deutschrock": {
       "code": "RU9",
+      "pseudo": true
+    },
+    "Unspecified Disco": {
+      "code": "DX9",
       "pseudo": true
     },
     "Unspecified Doom Metal": {

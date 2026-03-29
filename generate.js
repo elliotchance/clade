@@ -522,9 +522,14 @@ for (const [rawKey, val] of Object.entries(options.items)) {
 
 // Fix display names for group parents: ensure the entry with a parent
 // override becomes the primary name (not an aka that happened to process first).
+// When multiple entries share the same code, prefer the one whose parent maps
+// to the parent code (not to the same code — that means it's deeper in the chain).
 for (const [key, opt] of Object.entries(optByTitle)) {
   if (!opt.code || opt.code.length < 3) continue;
   if (!opt.parent) continue;
+  // Skip if this entry's parent genre also maps to the same code (deeper in chain)
+  const parentOpt = optByTitle[opt.parent];
+  if (parentOpt?.code === opt.code) continue;
   const entry = result[opt.code];
   if (!entry) continue;
   const displayName = opt.title || opt._key || key;
