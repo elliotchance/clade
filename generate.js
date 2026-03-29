@@ -363,7 +363,7 @@ const codes = JSON.parse(fs.readFileSync("codes.json", "utf8"));
 // Build reverse index
 const pathToCode = {};
 for (const [code, entry] of Object.entries(codes)) {
-  for (const rymPath of entry.rym) {
+  for (const rymPath of entry.rym || []) {
     (pathToCode[rymPath] ??= []).push(code);
   }
 }
@@ -407,7 +407,7 @@ runTest("every RYM path appears in only one code", () => {
 runTest("every rym entry in codes.json exists as a path in the HTML", () => {
   const stale = [];
   for (const [code, entry] of Object.entries(codes)) {
-    for (const rymPath of entry.rym) {
+    for (const rymPath of entry.rym || []) {
       if (!allRymPathSet.has(rymPath)) stale.push(`${code}: ${rymPath}`);
     }
   }
@@ -716,7 +716,7 @@ if (failureCount > 0) {
 const result = {};
 for (const [code, entry] of Object.entries(codes)) {
   const aka = [];
-  for (const rymPath of entry.rym) {
+  for (const rymPath of entry.rym || []) {
     const leaf = rymPath.split(" > ").pop();
     if (leaf !== entry.name && !aka.includes(leaf)) aka.push(leaf);
   }
