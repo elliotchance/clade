@@ -706,6 +706,14 @@ runTest("codes.json is sorted in code order", () => {
   }
 });
 
+runTest("every 3-char code has a 2-char parent", () => {
+  for (const code of Object.keys(codes)) {
+    if (code.length !== 3) continue;
+    const parent = code.slice(0, 2);
+    if (!codes[parent]) failure(`"${code}" has no parent "${parent}"`);
+  }
+});
+
 if (failureCount > 0) {
   console.log(red(`\n${failureCount} test failure(s) — clade.js not generated`));
   process.exit(1);

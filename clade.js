@@ -247,6 +247,9 @@ const clade = {
     "C": {
       "name": "Classical Music"
     },
+    "CA": {
+      "name": "Medieval Classical"
+    },
     "CAA": {
       "name": "Medieval Classical Music",
       "aka": [
@@ -272,6 +275,12 @@ const clade = {
         "Baroque Music",
         "Zarzuela barroca"
       ]
+    },
+    "CA8": {
+      "name": "Other Medieval Classical"
+    },
+    "CA9": {
+      "name": "Unspecified Medieval Classical"
     },
     "CC": {
       "name": "Opera and Vocal Music"
@@ -331,6 +340,9 @@ const clade = {
     "CC9": {
       "name": "Unspecified Opera and Vocal Music"
     },
+    "CD": {
+      "name": "Contemporary Classical"
+    },
     "CDA": {
       "name": "Orchestral Music",
       "aka": [
@@ -365,6 +377,12 @@ const clade = {
         "Epic Music",
         "Spaghetti Western"
       ]
+    },
+    "CD8": {
+      "name": "Other Contemporary Classical"
+    },
+    "CD9": {
+      "name": "Unspecified Contemporary Classical"
     },
     "CE": {
       "name": "Romanticism"
@@ -438,6 +456,9 @@ const clade = {
         "Sonorism"
       ]
     },
+    "CH": {
+      "name": "Latin and Iberian Classical"
+    },
     "CHA": {
       "name": "Brazilian Classical Music"
     },
@@ -446,6 +467,12 @@ const clade = {
     },
     "CHD": {
       "name": "Spanish Classical Music"
+    },
+    "CH8": {
+      "name": "Other Latin and Iberian Classical"
+    },
+    "CH9": {
+      "name": "Unspecified Latin and Iberian Classical"
     },
     "CJ": {
       "name": "East Asian Classical Music"
@@ -618,6 +645,9 @@ const clade = {
         "Maqāmic Music"
       ]
     },
+    "CP": {
+      "name": "African and Other Classical"
+    },
     "CPA": {
       "name": "Buganda Royal Court Music"
     },
@@ -635,6 +665,12 @@ const clade = {
     },
     "CPF": {
       "name": "Minyue"
+    },
+    "CP8": {
+      "name": "Other African and Other Classical"
+    },
+    "CP9": {
+      "name": "Unspecified African and Other Classical"
     },
     "CR": {
       "name": "Tibetan Buddhist Chant"
@@ -1292,6 +1328,9 @@ const clade = {
         "EBM"
       ]
     },
+    "DP": {
+      "name": "Trap and Future Bass and Melodic Bass"
+    },
     "DPA": {
       "name": "Trap EDM",
       "aka": [
@@ -1311,6 +1350,12 @@ const clade = {
     },
     "DPD": {
       "name": "Melodic Bass"
+    },
+    "DP8": {
+      "name": "Other Trap and Future Bass and Melodic Bass"
+    },
+    "DP9": {
+      "name": "Unspecified Trap and Future Bass and Melodic Bass"
     },
     "DR": {
       "name": "Footwork and Juke"
@@ -1764,6 +1809,9 @@ const clade = {
     "EK9": {
       "name": "Unspecified Wave and Dark Synth"
     },
+    "EM": {
+      "name": "Electronica"
+    },
     "EMA": {
       "name": "Celtic Electronica"
     },
@@ -1772,6 +1820,12 @@ const clade = {
     },
     "EMD": {
       "name": "Funktronica"
+    },
+    "EM8": {
+      "name": "Other Electronica"
+    },
+    "EM9": {
+      "name": "Unspecified Electronica"
     },
     "EN": {
       "name": "Latin Electronic"
@@ -1812,11 +1866,20 @@ const clade = {
     "ER9": {
       "name": "Unspecified Tecnobrega"
     },
+    "ET": {
+      "name": "Electronic Fusion"
+    },
     "ETA": {
       "name": "Electro Hop"
     },
     "ETC": {
       "name": "Nu Jazz"
+    },
+    "ET8": {
+      "name": "Other Electronic Fusion"
+    },
+    "ET9": {
+      "name": "Unspecified Electronic Fusion"
     },
     "E8": {
       "name": "Other Electronic"
@@ -2809,6 +2872,9 @@ const clade = {
     "JA9": {
       "name": "Unspecified Blues"
     },
+    "JC": {
+      "name": "Swing and Pre-Bop"
+    },
     "JCA": {
       "name": "Big Band",
       "aka": [
@@ -2836,6 +2902,12 @@ const clade = {
     },
     "JCJ": {
       "name": "Sweet Jazz"
+    },
+    "JC8": {
+      "name": "Other Swing and Pre-Bop"
+    },
+    "JC9": {
+      "name": "Unspecified Swing and Pre-Bop"
     },
     "JD": {
       "name": "Bebop"
@@ -2973,6 +3045,9 @@ const clade = {
     "JJ9": {
       "name": "Unspecified Latin Jazz"
     },
+    "JK": {
+      "name": "Cinematic Jazz"
+    },
     "JKA": {
       "name": "Cartoon Music"
     },
@@ -2981,6 +3056,12 @@ const clade = {
     },
     "JKD": {
       "name": "Spy Music"
+    },
+    "JK8": {
+      "name": "Other Cinematic Jazz"
+    },
+    "JK9": {
+      "name": "Unspecified Cinematic Jazz"
     },
     "J8": {
       "name": "Other Jazz and Blues"
@@ -3591,6 +3672,9 @@ const clade = {
     "NJ9": {
       "name": "Unspecified Sound Collage"
     },
+    "NK": {
+      "name": "Sonic Arts"
+    },
     "NKA": {
       "name": "Data Sonification"
     },
@@ -3599,6 +3683,15 @@ const clade = {
     },
     "NKD": {
       "name": "Sound Poetry"
+    },
+    "NK8": {
+      "name": "Other Sonic Arts"
+    },
+    "NK9": {
+      "name": "Unspecified Sonic Arts"
+    },
+    "NM": {
+      "name": "Sample-Based Music"
     },
     "NMA": {
       "name": "Plunderphonics"
@@ -3609,11 +3702,26 @@ const clade = {
     "NMD": {
       "name": "Turntable Music"
     },
+    "NM8": {
+      "name": "Other Sample-Based Music"
+    },
+    "NM9": {
+      "name": "Unspecified Sample-Based Music"
+    },
+    "NN": {
+      "name": "Drone Music"
+    },
     "NNA": {
       "name": "Conducted Improvisation"
     },
     "NNC": {
       "name": "Modern Creative"
+    },
+    "NN8": {
+      "name": "Other Drone Music"
+    },
+    "NN9": {
+      "name": "Unspecified Drone Music"
     },
     "N8": {
       "name": "Other Experimental and Industrial"
@@ -4200,11 +4308,20 @@ const clade = {
         "Rock rural"
       ]
     },
+    "RM": {
+      "name": "Rock Crossover"
+    },
     "RMA": {
       "name": "Funk Rock"
     },
     "RMC": {
       "name": "Rap Rock"
+    },
+    "RM8": {
+      "name": "Other Rock Crossover"
+    },
+    "RM9": {
+      "name": "Unspecified Rock Crossover"
     },
     "RN": {
       "name": "Rock Musical"
@@ -4242,6 +4359,9 @@ const clade = {
     "RP9": {
       "name": "Unspecified Blues Rock"
     },
+    "RR": {
+      "name": "Art and Experimental Rock"
+    },
     "RRA": {
       "name": "Post-Rock"
     },
@@ -4266,6 +4386,12 @@ const clade = {
     },
     "RRF": {
       "name": "Art Rock"
+    },
+    "RR8": {
+      "name": "Other Art and Experimental Rock"
+    },
+    "RR9": {
+      "name": "Unspecified Art and Experimental Rock"
     },
     "RT": {
       "name": "Latin Rock"
@@ -4765,9 +4891,9 @@ const clade = {
       "name": "Beatdown Hardcore"
     },
     "VCE": {
-      "name": "Nintendocore",
+      "name": "Electronicore",
       "aka": [
-        "Electronicore"
+        "Nintendocore"
       ]
     },
     "VCF": {
@@ -7094,6 +7220,9 @@ const clade = {
     "2K9": {
       "name": "Unspecified Lyrics"
     },
+    "3A": {
+      "name": "Pop and Rock Scenes"
+    },
     "3AA": {
       "name": "Akron Sound"
     },
@@ -7169,6 +7298,15 @@ const clade = {
     "3A7": {
       "name": "Texas Psychedelia"
     },
+    "3A8": {
+      "name": "Other Pop and Rock Scenes"
+    },
+    "3A9": {
+      "name": "Unspecified Pop and Rock Scenes"
+    },
+    "3C": {
+      "name": "Punk Scenes"
+    },
     "3CA": {
       "name": "Anarcho-Punk"
     },
@@ -7221,6 +7359,15 @@ const clade = {
     "3CV": {
       "name": "Vixa"
     },
+    "3C8": {
+      "name": "Other Punk Scenes"
+    },
+    "3C9": {
+      "name": "Unspecified Punk Scenes"
+    },
+    "3D": {
+      "name": "Metal Scenes"
+    },
     "3DA": {
       "name": "Bay Area Thrash Metal"
     },
@@ -7247,6 +7394,15 @@ const clade = {
     },
     "3DM": {
       "name": "Teutonic Thrash Metal"
+    },
+    "3D8": {
+      "name": "Other Metal Scenes"
+    },
+    "3D9": {
+      "name": "Unspecified Metal Scenes"
+    },
+    "3E": {
+      "name": "Electronic Scenes"
     },
     "3EA": {
       "name": "DMV Hip Hop"
@@ -7282,6 +7438,15 @@ const clade = {
     "3EM": {
       "name": "UK Hip Hop"
     },
+    "3E8": {
+      "name": "Other Electronic Scenes"
+    },
+    "3E9": {
+      "name": "Unspecified Electronic Scenes"
+    },
+    "3F": {
+      "name": "Electronic Scenes 2"
+    },
     "3FA": {
       "name": "Bloghouse"
     },
@@ -7314,6 +7479,15 @@ const clade = {
     },
     "3FN": {
       "name": "The Wave"
+    },
+    "3F8": {
+      "name": "Other Electronic Scenes 2"
+    },
+    "3F9": {
+      "name": "Unspecified Electronic Scenes 2"
+    },
+    "3H": {
+      "name": "Pop Scenes"
     },
     "3HA": {
       "name": "C-Pop",
@@ -7360,6 +7534,15 @@ const clade = {
     "3HR": {
       "name": "V-Pop"
     },
+    "3H8": {
+      "name": "Other Pop Scenes"
+    },
+    "3H9": {
+      "name": "Unspecified Pop Scenes"
+    },
+    "3J": {
+      "name": "Country Scenes"
+    },
     "3JA": {
       "name": "Campus Folk"
     },
@@ -7381,6 +7564,15 @@ const clade = {
     "3JJ": {
       "name": "Second British Folk Revival"
     },
+    "3J8": {
+      "name": "Other Country Scenes"
+    },
+    "3J9": {
+      "name": "Unspecified Country Scenes"
+    },
+    "3K": {
+      "name": "Jazz Scenes"
+    },
     "3KA": {
       "name": "British Trad Jazz"
     },
@@ -7398,6 +7590,15 @@ const clade = {
     },
     "3KH": {
       "name": "Chicago School"
+    },
+    "3K8": {
+      "name": "Other Jazz Scenes"
+    },
+    "3K9": {
+      "name": "Unspecified Jazz Scenes"
+    },
+    "3M": {
+      "name": "Classical Scenes"
     },
     "3MA": {
       "name": "Chicago No Wave"
@@ -7431,6 +7632,15 @@ const clade = {
     },
     "3MP": {
       "name": "Second Viennese School"
+    },
+    "3M8": {
+      "name": "Other Classical Scenes"
+    },
+    "3M9": {
+      "name": "Unspecified Classical Scenes"
+    },
+    "3N": {
+      "name": "Latin Scenes"
     },
     "3NA": {
       "name": "Berite Club",
@@ -7518,6 +7728,15 @@ const clade = {
       "aka": [
         "Vanguarda paulista"
       ]
+    },
+    "3N8": {
+      "name": "Other Latin Scenes"
+    },
+    "3N9": {
+      "name": "Unspecified Latin Scenes"
+    },
+    "3P": {
+      "name": "European Scenes"
     },
     "3PA": {
       "name": "Bernese Dialect Scene"
@@ -7615,6 +7834,15 @@ const clade = {
         "Český underground"
       ]
     },
+    "3P8": {
+      "name": "Other European Scenes"
+    },
+    "3P9": {
+      "name": "Unspecified European Scenes"
+    },
+    "3R": {
+      "name": "Asian Scenes"
+    },
     "3RA": {
       "name": "Asian Underground"
     },
@@ -7663,6 +7891,15 @@ const clade = {
         "Xibei feng"
       ]
     },
+    "3R8": {
+      "name": "Other Asian Scenes"
+    },
+    "3R9": {
+      "name": "Unspecified Asian Scenes"
+    },
+    "3T": {
+      "name": "African Scenes"
+    },
     "3TA": {
       "name": "Alte",
       "aka": [
@@ -7692,6 +7929,15 @@ const clade = {
     },
     "3TJ": {
       "name": "Zimdancehall"
+    },
+    "3T8": {
+      "name": "Other African Scenes"
+    },
+    "3T9": {
+      "name": "Unspecified African Scenes"
+    },
+    "3U": {
+      "name": "Other Scenes"
     },
     "3UA": {
       "name": "Brony Music"
@@ -7740,6 +7986,15 @@ const clade = {
       "aka": [
         "OtoMAD"
       ]
+    },
+    "3U8": {
+      "name": "Other Other Scenes"
+    },
+    "3U9": {
+      "name": "Unspecified Other Scenes"
+    },
+    "3V": {
+      "name": "Movement Scenes"
     },
     "3VA": {
       "name": "Afrofuturism"
@@ -7793,6 +8048,12 @@ const clade = {
     },
     "3VU": {
       "name": "Northern Soul"
+    },
+    "3V8": {
+      "name": "Other Movement Scenes"
+    },
+    "3V9": {
+      "name": "Unspecified Movement Scenes"
     },
     "6A": {
       "name": "Spoken Word",
@@ -7855,6 +8116,9 @@ const clade = {
     "6H9": {
       "name": "Unspecified Sound Effects"
     },
+    "7R": {
+      "name": "Artist Sort R"
+    },
     "7RJ": {
       "name": "Rai",
       "aka": [
@@ -7862,11 +8126,26 @@ const clade = {
         "Raï"
       ]
     },
+    "7R8": {
+      "name": "Other Artist Sort R"
+    },
+    "7R9": {
+      "name": "Unspecified Artist Sort R"
+    },
+    "7W": {
+      "name": "Artist Sort W"
+    },
     "7WD": {
       "name": "War",
       "aka": [
         "war"
       ]
+    },
+    "7W8": {
+      "name": "Other Artist Sort W"
+    },
+    "7W9": {
+      "name": "Unspecified Artist Sort W"
     }
   },
   "colors": {
