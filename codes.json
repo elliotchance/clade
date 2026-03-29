@@ -169,6 +169,10 @@
       "Regional Music > Hispanic Music > Spanish Music > Spanish Classical Music > Zarzuela > Zarzuela barroca"
     ]
   },
+  "CC": {
+    "name": "Opera and Vocal Music",
+    "rym": []
+  },
   "CCA": {
     "name": "Opera",
     "rym": [
@@ -2109,6 +2113,10 @@
       "Electronic > Electronic Dance Music > Deconstructed Club",
       "Industrial & Noise > Post-Industrial > Deconstructed Club"
     ]
+  },
+  "DW": {
+    "name": "World and Regional EDM",
+    "rym": []
   },
   "DX": {
     "name": "Disco",
@@ -5040,6 +5048,10 @@
       "Scenes & Movements > Minneapolis Sound"
     ]
   },
+  "KF": {
+    "name": "Gospel",
+    "rym": []
+  },
   "M": {
     "name": "Metal",
     "rym": [
@@ -6305,6 +6317,10 @@
       "Rock > Progressive Rock > Neo-Prog"
     ]
   },
+  "RF": {
+    "name": "Post-Punk and New Wave",
+    "rym": []
+  },
   "RFA": {
     "name": "New Wave",
     "rym": [
@@ -7352,6 +7368,26 @@
       "Rock > Alternative Rock > Indie Rock > Midwest Emo",
       "Rock > Emo > Midwest Emo"
     ]
+  },
+  "W": {
+    "name": "Miscellaneous",
+    "rym": []
+  },
+  "WC": {
+    "name": "Comedy",
+    "rym": []
+  },
+  "WD": {
+    "name": "Soundtrack",
+    "rym": []
+  },
+  "WE": {
+    "name": "Video Game Music",
+    "rym": []
+  },
+  "WM": {
+    "name": "Exercise Music",
+    "rym": []
   },
   "X": {
     "name": "Regional Music",
@@ -9449,6 +9485,10 @@
       "Musical Theatre and Entertainment > Vaudeville",
       "Regional Music > Northern American Music > Vaudeville"
     ]
+  },
+  "YA": {
+    "name": "Musical Theatre",
+    "rym": []
   },
   "YE": {
     "name": "Siffleur",
@@ -11570,6 +11610,18 @@
       "Spoken Word > Poetry > Beat Poetry",
       "Spoken Word > Poetry > Slam Poetry"
     ]
+  },
+  "6E": {
+    "name": "Audiobook",
+    "rym": []
+  },
+  "6F": {
+    "name": "Podcast",
+    "rym": []
+  },
+  "6H": {
+    "name": "Sound Effects",
+    "rym": []
   },
   "7RJ": {
     "name": "Rai",
