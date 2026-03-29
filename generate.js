@@ -397,7 +397,7 @@ if (fs.existsSync(descriptorFile)) {
   const descriptorHtml = fs.readFileSync(descriptorFile, "utf8");
   const descriptors = parseDescriptorPage(descriptorHtml);
   if (descriptors.length > 0) {
-    genres.push({ title: "Descriptor", children: descriptors });
+    genres.push({ title: "Music descriptor", children: descriptors });
     console.log(`Parsed ${descriptors.length} top-level descriptors`);
   }
 }

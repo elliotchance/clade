@@ -8591,202 +8591,83 @@ const clade = {
       ]
     },
     "2A": {
-      "name": "Atmosphere",
-      "urls": [
-        "https://rateyourmusic.com/music_descriptor/atmosphere/"
-      ]
+      "name": "Atmosphere"
     },
     "2AA": {
-      "name": "Dark",
-      "urls": [
-        "https://rateyourmusic.com/music_descriptor/dark/",
-        "https://rateyourmusic.com/music_descriptor/funereal/",
-        "https://rateyourmusic.com/music_descriptor/infernal/",
-        "https://rateyourmusic.com/music_descriptor/ominous/"
-      ],
-      "aka": [
-        "Funereal",
-        "Infernal",
-        "Ominous"
-      ]
+      "name": "Dark"
     },
     "2AC": {
       "name": "Natural",
-      "urls": [
-        "https://rateyourmusic.com/music_descriptor/beach/",
-        "https://rateyourmusic.com/music_descriptor/natural/",
-        "https://rateyourmusic.com/music_descriptor/aquatic/",
-        "https://rateyourmusic.com/music_descriptor/desert/",
-        "https://rateyourmusic.com/music_descriptor/forest/",
-        "https://rateyourmusic.com/music_descriptor/natural/",
-        "https://rateyourmusic.com/music_descriptor/mountains/",
-        "https://rateyourmusic.com/music_descriptor/rain/",
-        "https://rateyourmusic.com/music_descriptor/storm/",
-        "https://rateyourmusic.com/music_descriptor/tropical/",
-        "https://rateyourmusic.com/music_descriptor/pastoral/"
-      ],
       "aka": [
-        "Aquatic",
-        "Desert",
-        "Forest",
-        "Mountains",
-        "Pastoral",
-        "Rain",
-        "Storm",
-        "Tropical",
-        "Beach"
+        "Aquatic"
       ]
     },
     "2AD": {
       "name": "Seasonal",
-      "urls": [
-        "https://rateyourmusic.com/music_descriptor/seasonal/",
-        "https://rateyourmusic.com/music_descriptor/summer/",
-        "https://rateyourmusic.com/music_descriptor/autumn/",
-        "https://rateyourmusic.com/music_descriptor/winter/",
-        "https://rateyourmusic.com/music_descriptor/spring/"
-      ],
       "aka": [
-        "Autumn",
-        "Spring",
-        "Summer",
-        "Winter"
+        "Autumn"
       ]
     },
     "2AE": {
       "name": "Nocturnal",
-      "urls": [
-        "https://rateyourmusic.com/music_descriptor/daytime/",
-        "https://rateyourmusic.com/music_descriptor/evening/",
-        "https://rateyourmusic.com/music_descriptor/morning/",
-        "https://rateyourmusic.com/music_descriptor/nocturnal/"
-      ],
       "aka": [
-        "Evening",
-        "Morning",
         "Daytime"
       ]
     },
     "2AF": {
       "name": "Cold",
-      "urls": [
-        "https://rateyourmusic.com/music_descriptor/cavernous/",
-        "https://rateyourmusic.com/music_descriptor/cold/",
-        "https://rateyourmusic.com/music_descriptor/desolate/",
-        "https://rateyourmusic.com/music_descriptor/cold/"
-      ],
       "aka": [
-        "Desolate",
         "Cavernous"
       ]
     },
     "2AH": {
       "name": "Warm",
-      "urls": [
-        "https://rateyourmusic.com/music_descriptor/bright/",
-        "https://rateyourmusic.com/music_descriptor/cozy/",
-        "https://rateyourmusic.com/music_descriptor/warm/",
-        "https://rateyourmusic.com/music_descriptor/warm/",
-        "https://rateyourmusic.com/music_descriptor/twinkling/",
-        "https://rateyourmusic.com/music_descriptor/warm/"
-      ],
       "aka": [
-        "Cozy",
-        "Twinkling",
         "Bright"
       ]
     },
     "2AJ": {
-      "name": "Ethereal",
-      "urls": [
-        "https://rateyourmusic.com/music_descriptor/ethereal/",
-        "https://rateyourmusic.com/music_descriptor/hazy/",
-        "https://rateyourmusic.com/music_descriptor/psychedelic/",
-        "https://rateyourmusic.com/music_descriptor/surreal/",
-        "https://rateyourmusic.com/music_descriptor/ethereal/"
-      ],
-      "aka": [
-        "Hazy",
-        "Psychedelic",
-        "Surreal"
-      ]
+      "name": "Ethereal"
     },
     "2AK": {
       "name": "Epic",
-      "urls": [
-        "https://rateyourmusic.com/music_descriptor/apocalyptic/",
-        "https://rateyourmusic.com/music_descriptor/epic/",
-        "https://rateyourmusic.com/music_descriptor/martial/"
-      ],
       "aka": [
-        "Martial",
         "Apocalyptic"
       ]
     },
     "2AM": {
       "name": "Mysterious",
-      "urls": [
-        "https://rateyourmusic.com/music_descriptor/hypnotic/",
-        "https://rateyourmusic.com/music_descriptor/mysterious/",
-        "https://rateyourmusic.com/music_descriptor/suspenseful/"
-      ],
       "aka": [
-        "Suspenseful",
         "Hypnotic"
       ]
     },
     "2AN": {
       "name": "Spiritual",
-      "urls": [
-        "https://rateyourmusic.com/music_descriptor/ritualistic/",
-        "https://rateyourmusic.com/music_descriptor/spiritual/",
-        "https://rateyourmusic.com/music_descriptor/introspective/",
-        "https://rateyourmusic.com/music_descriptor/tribal/"
-      ],
       "aka": [
-        "Introspective",
-        "Tribal",
-        "Ritualistic"
+        "Introspective"
       ]
     },
     "2AP": {
       "name": "Space",
-      "urls": [
-        "https://rateyourmusic.com/music_descriptor/futuristic/",
-        "https://rateyourmusic.com/music_descriptor/mechanical/",
-        "https://rateyourmusic.com/music_descriptor/space/"
-      ],
       "aka": [
-        "Mechanical",
         "Futuristic"
       ]
     },
     "2AR": {
-      "name": "Peaceful",
-      "urls": [
-        "https://rateyourmusic.com/music_descriptor/peaceful/"
-      ]
+      "name": "Peaceful"
     },
     "2AT": {
       "name": "Urban",
-      "urls": [
-        "https://rateyourmusic.com/music_descriptor/party/",
-        "https://rateyourmusic.com/music_descriptor/urban/"
-      ],
       "aka": [
         "Party"
       ]
     },
     "2AU": {
-      "name": "Medieval",
-      "urls": [
-        "https://rateyourmusic.com/music_descriptor/medieval/"
-      ]
+      "name": "Medieval"
     },
     "2AV": {
       "name": "Repetitive",
       "urls": [
-        "https://rateyourmusic.com/music_descriptor/repetitive/",
         "https://rateyourmusic.com/music_descriptor/rhythmic/"
       ],
       "aka": [
@@ -8800,106 +8681,29 @@ const clade = {
       "name": "Unspecified Atmosphere"
     },
     "2C": {
-      "name": "Mood",
-      "urls": [
-        "https://rateyourmusic.com/music_descriptor/mood/"
-      ]
+      "name": "Mood"
     },
     "2CA": {
-      "name": "Aggressive",
-      "urls": [
-        "https://rateyourmusic.com/music_descriptor/aggressive/",
-        "https://rateyourmusic.com/music_descriptor/angry/"
-      ],
-      "aka": [
-        "Angry"
-      ]
+      "name": "Aggressive"
     },
     "2CC": {
-      "name": "Anxious",
-      "urls": [
-        "https://rateyourmusic.com/music_descriptor/anxious/",
-        "https://rateyourmusic.com/music_descriptor/disturbing/",
-        "https://rateyourmusic.com/music_descriptor/scary/"
-      ],
-      "aka": [
-        "Disturbing",
-        "Scary"
-      ]
+      "name": "Anxious"
     },
     "2CD": {
-      "name": "Calm",
-      "urls": [
-        "https://rateyourmusic.com/music_descriptor/calm/",
-        "https://rateyourmusic.com/music_descriptor/meditative/",
-        "https://rateyourmusic.com/music_descriptor/lethargic/",
-        "https://rateyourmusic.com/music_descriptor/mellow/",
-        "https://rateyourmusic.com/music_descriptor/soothing/"
-      ],
-      "aka": [
-        "Lethargic",
-        "Meditative",
-        "Mellow",
-        "Soothing"
-      ]
+      "name": "Calm"
     },
     "2CE": {
-      "name": "Energetic",
-      "urls": [
-        "https://rateyourmusic.com/music_descriptor/energetic/",
-        "https://rateyourmusic.com/music_descriptor/manic/",
-        "https://rateyourmusic.com/music_descriptor/uplifting/",
-        "https://rateyourmusic.com/music_descriptor/triumphant/"
-      ],
-      "aka": [
-        "Manic",
-        "Triumphant",
-        "Uplifting"
-      ]
+      "name": "Energetic"
     },
     "2CF": {
-      "name": "Happy",
-      "urls": [
-        "https://rateyourmusic.com/music_descriptor/happy/",
-        "https://rateyourmusic.com/music_descriptor/playful/",
-        "https://rateyourmusic.com/music_descriptor/quirky/"
-      ],
-      "aka": [
-        "Playful",
-        "Quirky"
-      ]
+      "name": "Happy"
     },
     "2CH": {
-      "name": "Passionate",
-      "urls": [
-        "https://rateyourmusic.com/music_descriptor/passionate/",
-        "https://rateyourmusic.com/music_descriptor/romantic/",
-        "https://rateyourmusic.com/music_descriptor/sensual/"
-      ],
-      "aka": [
-        "Romantic",
-        "Sensual"
-      ]
+      "name": "Passionate"
     },
     "2CJ": {
       "name": "Sad",
-      "urls": [
-        "https://rateyourmusic.com/music_descriptor/bittersweet/",
-        "https://rateyourmusic.com/music_descriptor/longing/",
-        "https://rateyourmusic.com/music_descriptor/sad/",
-        "https://rateyourmusic.com/music_descriptor/depressive/",
-        "https://rateyourmusic.com/music_descriptor/lonely/",
-        "https://rateyourmusic.com/music_descriptor/melancholic/",
-        "https://rateyourmusic.com/music_descriptor/sombre/",
-        "https://rateyourmusic.com/music_descriptor/sentimental/"
-      ],
       "aka": [
-        "Depressive",
-        "Lonely",
-        "Longing",
-        "Melancholic",
-        "Sentimental",
-        "Sombre",
         "Bittersweet"
       ]
     },
@@ -9229,490 +9033,121 @@ const clade = {
       "name": "Unspecified Technique"
     },
     "2H": {
-      "name": "Theme",
-      "urls": [
-        "https://rateyourmusic.com/music_descriptor/theme/"
-      ]
+      "name": "Theme"
     },
     "2HA": {
       "name": "Love",
-      "urls": [
-        "https://rateyourmusic.com/music_descriptor/betrayal/",
-        "https://rateyourmusic.com/music_descriptor/infidelity/",
-        "https://rateyourmusic.com/music_descriptor/flirting/",
-        "https://rateyourmusic.com/music_descriptor/love/",
-        "https://rateyourmusic.com/music_descriptor/breakup/",
-        "https://rateyourmusic.com/music_descriptor/unrequited+love/",
-        "https://rateyourmusic.com/music_descriptor/loyalty/",
-        "https://rateyourmusic.com/music_descriptor/marriage/",
-        "https://rateyourmusic.com/music_descriptor/divorce/",
-        "https://rateyourmusic.com/music_descriptor/sexual/"
-      ],
       "aka": [
-        "Breakup",
-        "Divorce",
-        "Flirting",
-        "Infidelity",
-        "Loyalty",
-        "Marriage",
-        "Sexual",
-        "Unrequited Love",
         "Betrayal"
       ]
     },
     "2HC": {
       "name": "Death",
-      "urls": [
-        "https://rateyourmusic.com/music_descriptor/afterlife/",
-        "https://rateyourmusic.com/music_descriptor/ghosts/",
-        "https://rateyourmusic.com/music_descriptor/death/",
-        "https://rateyourmusic.com/music_descriptor/suicide/",
-        "https://rateyourmusic.com/music_descriptor/homicide/",
-        "https://rateyourmusic.com/music_descriptor/decay/",
-        "https://rateyourmusic.com/music_descriptor/horror/",
-        "https://rateyourmusic.com/music_descriptor/macabre/",
-        "https://rateyourmusic.com/music_descriptor/gore/",
-        "https://rateyourmusic.com/music_descriptor/monsters/",
-        "https://rateyourmusic.com/music_descriptor/vampires/"
-      ],
       "aka": [
-        "Decay",
-        "Ghosts",
-        "Gore",
-        "Homicide",
-        "Horror",
-        "Macabre",
-        "Monsters",
-        "Suicide",
-        "Vampires",
         "Afterlife"
       ]
     },
     "2HD": {
       "name": "Drugs",
-      "urls": [
-        "https://rateyourmusic.com/music_descriptor/drugs/",
-        "https://rateyourmusic.com/music_descriptor/drugs/",
-        "https://rateyourmusic.com/music_descriptor/alcohol/",
-        "https://rateyourmusic.com/music_descriptor/antidrug/",
-        "https://rateyourmusic.com/music_descriptor/cannabis/",
-        "https://rateyourmusic.com/music_descriptor/cocaine/",
-        "https://rateyourmusic.com/music_descriptor/hallucinogens/",
-        "https://rateyourmusic.com/music_descriptor/nicotine/",
-        "https://rateyourmusic.com/music_descriptor/opioids/",
-        "https://rateyourmusic.com/music_descriptor/hedonism/"
-      ],
       "aka": [
-        "Alcohol",
-        "Antidrug",
-        "Cannabis",
-        "Cocaine",
-        "Hallucinogens",
-        "Hedonism",
-        "Nicotine",
-        "Opioids"
+        "Alcohol"
       ]
     },
     "2HE": {
       "name": "Nature",
-      "urls": [
-        "https://rateyourmusic.com/music_descriptor/fire/",
-        "https://rateyourmusic.com/music_descriptor/environmentalism/",
-        "https://rateyourmusic.com/music_descriptor/maritime/",
-        "https://rateyourmusic.com/music_descriptor/nature/",
-        "https://rateyourmusic.com/music_descriptor/animals/",
-        "https://rateyourmusic.com/music_descriptor/hunting/",
-        "https://rateyourmusic.com/music_descriptor/pets/",
-        "https://rateyourmusic.com/music_descriptor/plants/",
-        "https://rateyourmusic.com/music_descriptor/flowers/",
-        "https://rateyourmusic.com/music_descriptor/farming/"
-      ],
       "aka": [
-        "Animals",
-        "Environmentalism",
-        "Farming",
-        "Flowers",
-        "Hunting",
-        "Maritime",
-        "Pets",
-        "Plants",
-        "Fire"
+        "Animals"
       ]
     },
     "2HF": {
       "name": "Science Fiction",
-      "urls": [
-        "https://rateyourmusic.com/music_descriptor/aliens/",
-        "https://rateyourmusic.com/music_descriptor/dystopian/",
-        "https://rateyourmusic.com/music_descriptor/cyberpunk/",
-        "https://rateyourmusic.com/music_descriptor/internet/",
-        "https://rateyourmusic.com/music_descriptor/science+fiction/",
-        "https://rateyourmusic.com/music_descriptor/technology/",
-        "https://rateyourmusic.com/music_descriptor/robots/",
-        "https://rateyourmusic.com/music_descriptor/vehicles/",
-        "https://rateyourmusic.com/music_descriptor/cars/"
-      ],
       "aka": [
-        "Cars",
-        "Cyberpunk",
-        "Dystopian",
-        "Internet",
-        "Robots",
-        "Technology",
-        "Vehicles",
         "Aliens"
       ]
     },
     "2HH": {
       "name": "Ideology",
-      "urls": [
-        "https://rateyourmusic.com/music_descriptor/conscious/",
-        "https://rateyourmusic.com/music_descriptor/political/",
-        "https://rateyourmusic.com/music_descriptor/antidiscrimination/",
-        "https://rateyourmusic.com/music_descriptor/antiracism/",
-        "https://rateyourmusic.com/music_descriptor/ideology/",
-        "https://rateyourmusic.com/music_descriptor/nationalism/",
-        "https://rateyourmusic.com/music_descriptor/anarchism/",
-        "https://rateyourmusic.com/music_descriptor/anti%2dauthoritarian/",
-        "https://rateyourmusic.com/music_descriptor/anticolonialism/",
-        "https://rateyourmusic.com/music_descriptor/conservatism/",
-        "https://rateyourmusic.com/music_descriptor/propaganda/",
-        "https://rateyourmusic.com/music_descriptor/protest/",
-        "https://rateyourmusic.com/music_descriptor/revolution/",
-        "https://rateyourmusic.com/music_descriptor/socialism/",
-        "https://rateyourmusic.com/music_descriptor/patriotic/"
-      ],
       "aka": [
-        "Anarchism",
-        "Anti-Authoritarian",
-        "Anticolonialism",
-        "Antidiscrimination",
-        "Antiracism",
-        "Conservatism",
-        "Nationalism",
-        "Patriotic",
-        "Political",
-        "Propaganda",
-        "Protest",
-        "Revolution",
-        "Socialism",
-        "pacifism",
-        "vegetarianism",
-        "Conscious"
+        "Anarchism"
       ]
     },
     "2HJ": {
       "name": "Gender",
-      "urls": [
-        "https://rateyourmusic.com/music_descriptor/gender/",
-        "https://rateyourmusic.com/music_descriptor/feminism/",
-        "https://rateyourmusic.com/music_descriptor/manhood/",
-        "https://rateyourmusic.com/music_descriptor/nonbinary/",
-        "https://rateyourmusic.com/music_descriptor/transgender/",
-        "https://rateyourmusic.com/music_descriptor/womanhood/",
-        "https://rateyourmusic.com/music_descriptor/LGBTQ/",
-        "https://rateyourmusic.com/music_descriptor/individuality/",
-        "https://rateyourmusic.com/music_descriptor/self%2dhatred/",
-        "https://rateyourmusic.com/music_descriptor/self%2dlove/"
-      ],
       "aka": [
-        "Feminism",
-        "Individuality",
-        "LGBTQ",
-        "Manhood",
-        "Nonbinary",
-        "Self-Hatred",
-        "Self-Love",
-        "Transgender",
-        "Womanhood"
+        "Bisexual"
       ]
     },
     "2HK": {
       "name": "Health",
-      "urls": [
-        "https://rateyourmusic.com/music_descriptor/healing/",
-        "https://rateyourmusic.com/music_descriptor/health/",
-        "https://rateyourmusic.com/music_descriptor/disease/",
-        "https://rateyourmusic.com/music_descriptor/fitness/",
-        "https://rateyourmusic.com/music_descriptor/injury/",
-        "https://rateyourmusic.com/music_descriptor/mental+health/",
-        "https://rateyourmusic.com/music_descriptor/addiction/",
-        "https://rateyourmusic.com/music_descriptor/trauma/",
-        "https://rateyourmusic.com/music_descriptor/sobriety/"
-      ],
       "aka": [
-        "Addiction",
-        "Disease",
-        "Fitness",
-        "Injury",
-        "Mental Health",
-        "Sobriety",
-        "Trauma",
-        "Healing"
+        "Addiction"
       ]
     },
     "2HM": {
       "name": "History",
-      "urls": [
-        "https://rateyourmusic.com/music_descriptor/fairy+tale/",
-        "https://rateyourmusic.com/music_descriptor/fantasy/",
-        "https://rateyourmusic.com/music_descriptor/folklore/",
-        "https://rateyourmusic.com/music_descriptor/history/",
-        "https://rateyourmusic.com/music_descriptor/antiquity/",
-        "https://rateyourmusic.com/music_descriptor/prehistory/",
-        "https://rateyourmusic.com/music_descriptor/mythology/",
-        "https://rateyourmusic.com/music_descriptor/pirates/",
-        "https://rateyourmusic.com/music_descriptor/Vikings/",
-        "https://rateyourmusic.com/music_descriptor/Wild+West/"
-      ],
       "aka": [
-        "Antiquity",
-        "Fantasy",
-        "Folklore",
-        "Mythology",
-        "Pirates",
-        "Prehistory",
-        "Vikings",
-        "Wild West",
-        "Fairy Tale"
+        "Antiquity"
       ]
     },
     "2HN": {
       "name": "Crime",
-      "urls": [
-        "https://rateyourmusic.com/music_descriptor/conspiracy/",
-        "https://rateyourmusic.com/music_descriptor/crime/",
-        "https://rateyourmusic.com/music_descriptor/violence/",
-        "https://rateyourmusic.com/music_descriptor/theft/",
-        "https://rateyourmusic.com/music_descriptor/domestic/",
-        "https://rateyourmusic.com/music_descriptor/guns/",
-        "https://rateyourmusic.com/music_descriptor/police/",
-        "https://rateyourmusic.com/music_descriptor/prison/",
-        "https://rateyourmusic.com/music_descriptor/vengeance/"
-      ],
       "aka": [
-        "Domestic",
-        "Guns",
-        "Police",
-        "Prison",
-        "Theft",
-        "Vengeance",
-        "Violence",
         "Conspiracy"
       ]
     },
     "2HP": {
       "name": "Philosophical",
-      "urls": [
-        "https://rateyourmusic.com/music_descriptor/religious/",
-        "https://rateyourmusic.com/music_descriptor/anti%2dreligious/",
-        "https://rateyourmusic.com/music_descriptor/pagan/",
-        "https://rateyourmusic.com/music_descriptor/Christian/",
-        "https://rateyourmusic.com/music_descriptor/occult/",
-        "https://rateyourmusic.com/music_descriptor/satanism/",
-        "https://rateyourmusic.com/music_descriptor/paranormal/",
-        "https://rateyourmusic.com/music_descriptor/philosophical/",
-        "https://rateyourmusic.com/music_descriptor/existential/",
-        "https://rateyourmusic.com/music_descriptor/nihilistic/",
-        "https://rateyourmusic.com/music_descriptor/shamanism/"
-      ],
       "aka": [
-        "Anti-Religious",
-        "Christian",
-        "Existential",
-        "Nihilistic",
-        "Occult",
-        "Pagan",
-        "Paranormal",
-        "Satanism",
-        "Shamanism",
-        "Religious"
+        "Anti-Religious"
       ]
     },
     "2HR": {
       "name": "Visual Arts",
-      "urls": [
-        "https://rateyourmusic.com/music_descriptor/about+music/",
-        "https://rateyourmusic.com/music_descriptor/entertainment+industry/",
-        "https://rateyourmusic.com/music_descriptor/literature/",
-        "https://rateyourmusic.com/music_descriptor/Biblical/",
-        "https://rateyourmusic.com/music_descriptor/comics/",
-        "https://rateyourmusic.com/music_descriptor/radio/",
-        "https://rateyourmusic.com/music_descriptor/television/",
-        "https://rateyourmusic.com/music_descriptor/video+games/",
-        "https://rateyourmusic.com/music_descriptor/visual+arts/",
-        "https://rateyourmusic.com/music_descriptor/anime+and+manga/",
-        "https://rateyourmusic.com/music_descriptor/film/"
-      ],
       "aka": [
-        "Anime and Manga",
-        "Biblical",
-        "Comics",
-        "Entertainment Industry",
-        "Film",
-        "Literature",
-        "Radio",
-        "Television",
-        "Video Games",
         "About Music"
       ]
     },
     "2HT": {
       "name": "Family",
-      "urls": [
-        "https://rateyourmusic.com/music_descriptor/adolescence/",
-        "https://rateyourmusic.com/music_descriptor/ageing/",
-        "https://rateyourmusic.com/music_descriptor/childhood/",
-        "https://rateyourmusic.com/music_descriptor/family/",
-        "https://rateyourmusic.com/music_descriptor/parenthood/",
-        "https://rateyourmusic.com/music_descriptor/school/"
-      ],
       "aka": [
-        "Ageing",
-        "Childhood",
-        "Parenthood",
-        "School",
         "Adolescence"
       ]
     },
     "2HU": {
       "name": "Nostalgia",
-      "urls": [
-        "https://rateyourmusic.com/music_descriptor/alienation/",
-        "https://rateyourmusic.com/music_descriptor/courage/",
-        "https://rateyourmusic.com/music_descriptor/envy/",
-        "https://rateyourmusic.com/music_descriptor/failure/",
-        "https://rateyourmusic.com/music_descriptor/fame/",
-        "https://rateyourmusic.com/music_descriptor/greed/",
-        "https://rateyourmusic.com/music_descriptor/grief/",
-        "https://rateyourmusic.com/music_descriptor/nostalgia/",
-        "https://rateyourmusic.com/music_descriptor/obsession/",
-        "https://rateyourmusic.com/music_descriptor/paranoia/",
-        "https://rateyourmusic.com/music_descriptor/rejection/"
-      ],
       "aka": [
-        "Courage",
-        "Envy",
-        "Failure",
-        "Fame",
-        "Greed",
-        "Grief",
-        "Obsession",
-        "Paranoia",
-        "Rejection",
         "Alienation"
       ]
     },
     "2HV": {
       "name": "Everyday Life",
-      "urls": [
-        "https://rateyourmusic.com/music_descriptor/community/",
-        "https://rateyourmusic.com/music_descriptor/dancing/",
-        "https://rateyourmusic.com/music_descriptor/everyday+life/",
-        "https://rateyourmusic.com/music_descriptor/fashion/",
-        "https://rateyourmusic.com/music_descriptor/fishing/",
-        "https://rateyourmusic.com/music_descriptor/food/",
-        "https://rateyourmusic.com/music_descriptor/leisure/",
-        "https://rateyourmusic.com/music_descriptor/nightlife/",
-        "https://rateyourmusic.com/music_descriptor/shopping/",
-        "https://rateyourmusic.com/music_descriptor/sports/",
-        "https://rateyourmusic.com/music_descriptor/suburban/",
-        "https://rateyourmusic.com/music_descriptor/travel/",
-        "https://rateyourmusic.com/music_descriptor/work/",
-        "https://rateyourmusic.com/music_descriptor/mining/"
-      ],
       "aka": [
-        "Dancing",
-        "Fashion",
-        "Fishing",
-        "Food",
-        "Leisure",
-        "Mining",
-        "Nightlife",
-        "Shopping",
-        "Sports",
-        "Suburban",
-        "Travel",
-        "Work",
-        "association football",
-        "basketball",
-        "boxing",
-        "cosmetics",
-        "racing",
-        "skateboarding",
-        "wrestling",
         "Community"
       ]
     },
     "2HW": {
       "name": "Money",
-      "urls": [
-        "https://rateyourmusic.com/music_descriptor/money/",
-        "https://rateyourmusic.com/music_descriptor/gambling/",
-        "https://rateyourmusic.com/music_descriptor/poverty/"
-      ],
       "aka": [
-        "Gambling",
-        "Poverty"
+        "Gambling"
       ]
     },
     "2HX": {
       "name": "Holiday",
-      "urls": [
-        "https://rateyourmusic.com/music_descriptor/birthday/",
-        "https://rateyourmusic.com/music_descriptor/holiday/",
-        "https://rateyourmusic.com/music_descriptor/Christmas/",
-        "https://rateyourmusic.com/music_descriptor/Halloween/",
-        "https://rateyourmusic.com/music_descriptor/Carnaval/",
-        "https://rateyourmusic.com/music_descriptor/holiday/"
-      ],
       "aka": [
-        "Carnaval",
-        "Christmas",
-        "Halloween",
         "Birthday"
       ]
     },
     "2HY": {
       "name": "Sleep",
-      "urls": [
-        "https://rateyourmusic.com/music_descriptor/sleep/",
-        "https://rateyourmusic.com/music_descriptor/dreams/"
-      ],
       "aka": [
         "Dreams"
       ]
     },
     "2H2": {
-      "name": "Abstract",
-      "urls": [
-        "https://rateyourmusic.com/music_descriptor/abstract/",
-        "https://rateyourmusic.com/music_descriptor/apology/",
-        "https://rateyourmusic.com/music_descriptor/callback/",
-        "https://rateyourmusic.com/music_descriptor/educational/",
-        "https://rateyourmusic.com/music_descriptor/escapism/",
-        "https://rateyourmusic.com/music_descriptor/mathematics/",
-        "https://rateyourmusic.com/music_descriptor/science/"
-      ],
-      "aka": [
-        "Apology",
-        "Callback",
-        "Educational",
-        "Escapism",
-        "Mathematics",
-        "Science"
-      ]
+      "name": "Abstract"
     },
     "2H8": {
-      "name": "Other Theme",
-      "aka": [
-        "disaster",
-        "drought",
-        "fans",
-        "friendship",
-        "indigeneity",
-        "migration"
-      ]
+      "name": "Other Theme"
     },
     "2H9": {
       "name": "Unspecified Theme"
