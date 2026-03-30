@@ -867,6 +867,9 @@ const clade = {
     "DAX": {
       "name": "G-House"
     },
+    "DAY": {
+      "name": "Melodic House"
+    },
     "DA8": {
       "name": "Other House",
       "aka": [
@@ -883,7 +886,6 @@ const clade = {
         "Chicago Hard House",
         "Diva House",
         "Future Funk",
-        "Melodic House",
         "Stutter House"
       ]
     },
