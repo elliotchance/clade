@@ -5039,7 +5039,11 @@ const clade = {
       "name": "Other Comedy"
     },
     "WC9": {
-      "name": "Unspecified Comedy"
+      "name": "Unspecified Comedy",
+      "aka": [
+        "Musical Parody",
+        "Satire"
+      ]
     },
     "WD": {
       "name": "Soundtrack"
@@ -5048,7 +5052,13 @@ const clade = {
       "name": "Other Soundtrack"
     },
     "WD9": {
-      "name": "Unspecified Soundtrack"
+      "name": "Unspecified Soundtrack",
+      "aka": [
+        "Film Score",
+        "Film Soundtrack",
+        "Library Music",
+        "Television Music"
+      ]
     },
     "WE": {
       "name": "Video Game Music"
@@ -5078,7 +5088,15 @@ const clade = {
       "name": "Misc Miscellaneous"
     },
     "W9": {
-      "name": "Unspecified Miscellaneous"
+      "name": "Unspecified Miscellaneous",
+      "aka": [
+        "Carols",
+        "Christmas Music",
+        "Descriptor",
+        "Educational Music",
+        "Halloween Music",
+        "Holiday Music"
+      ]
     },
     "W98": {
       "name": "Other Unspecified Miscellaneous"
@@ -6560,6 +6578,8 @@ const clade = {
     "2DA": {
       "name": "Ensemble",
       "aka": [
+        "A cappella",
+        "Vocal Group",
         "a cappella",
         "acoustic",
         "duet",

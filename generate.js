@@ -341,6 +341,13 @@ if (fs.existsSync(descriptorFile)) {
   }
 }
 
+// Descriptor genre page (not listed in Genres.html index)
+const descriptorGenreUrl = BASE_URL + "/genre/descriptor/";
+if (urlToEntry[descriptorGenreUrl]) {
+  const parsed = parseGenrePage(urlToEntry[descriptorGenreUrl]);
+  genres.push({ title: parsed.title || "Descriptor", children: parsed.children });
+}
+
 // Build all RYM paths
 function collectPaths(nodes, prefix) {
   const paths = [];
