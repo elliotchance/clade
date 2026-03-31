@@ -489,30 +489,28 @@ runTest("subgenres use allowed characters in ascending order", () => {
 runTest("every 2-char code has an XX8 child named 'Other <parent>'", () => {
   for (const [code, entry] of Object.entries(codes)) {
     if (code.length !== 2) continue;
+    if (code.endsWith("8") || code.endsWith("9")) continue;
     const child = codes[code + "8"];
     if (!child) failure(`"${code}8" missing for parent "${code} ${entry.name}"`);
     else if (child.name !== `Other ${entry.name}`) failure(`"${code}8": expected "Other ${entry.name}", got "${child.name}"`);
   }
 });
 
-runTest("every 2-char code has an XX9 child named 'Unspecified <parent>'", () => {
+runTest("every 2-char code has an XX9 child named 'General <parent>'", () => {
   for (const [code, entry] of Object.entries(codes)) {
     if (code.length !== 2) continue;
     if (code.endsWith("8") || code.endsWith("9")) continue;
     const child = codes[code + "9"];
     if (!child) failure(`"${code}9" missing for parent "${code} ${entry.name}"`);
-    else if (child.name !== `Unspecified ${entry.name}`) failure(`"${code}9": expected "Unspecified ${entry.name}", got "${child.name}"`);
+    else if (child.name !== `General ${entry.name}`) failure(`"${code}9": expected "General ${entry.name}", got "${child.name}"`);
   }
 });
 
-runTest("every X8 code has an X89 child named 'Misc <parent>'", () => {
-  for (const [code, entry] of Object.entries(codes)) {
-    if (!/^[A-Y2-9]8$/.test(code)) continue;
-    const miscCode = code.slice(0, -1) + "89";
-    const parentName = entry.name.replace(/^Other /, '');
-    const child = codes[miscCode];
-    if (!child) failure(`"${miscCode}" missing for parent "${code} ${entry.name}"`);
-    else if (child.name !== `Misc ${parentName}`) failure(`"${miscCode}": expected "Misc ${parentName}", got "${child.name}"`);
+runTest("X8 and X9 codes have no children", () => {
+  for (const code of Object.keys(codes)) {
+    if (code.length !== 3) continue;
+    const parent = code.slice(0, 2);
+    if (/^[A-Z][89]$/.test(parent)) failure(`"${code}" should not exist — "${parent}" codes should not have children`);
   }
 });
 
@@ -525,12 +523,12 @@ runTest("every 1-char code has an X8 child named 'Other <parent>'", () => {
   }
 });
 
-runTest("every 1-char code has an X9 child named 'Unspecified <parent>'", () => {
+runTest("every 1-char code has an X9 child named 'General <parent>'", () => {
   for (const [code, entry] of Object.entries(codes)) {
     if (code.length !== 1) continue;
     const child = codes[code + "9"];
     if (!child) failure(`"${code}9" missing for parent "${code} ${entry.name}"`);
-    else if (child.name !== `Unspecified ${entry.name}`) failure(`"${code}9": expected "Unspecified ${entry.name}", got "${child.name}"`);
+    else if (child.name !== `General ${entry.name}`) failure(`"${code}9": expected "General ${entry.name}", got "${child.name}"`);
   }
 });
 
