@@ -713,6 +713,12 @@ runTest("codes.json is sorted in code order", () => {
   }
 });
 
+runTest("every genre in Genres.html has a page in html/genres", () => {
+  for (const { title, url } of topLevel) {
+    if (!urlToEntry[url]) failure(`"${title}" (${url}) has no matching HTML file`);
+  }
+});
+
 runTest("every 3-char code has a 2-char parent", () => {
   for (const code of Object.keys(codes)) {
     if (code.length !== 3) continue;

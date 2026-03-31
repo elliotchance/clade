@@ -53,7 +53,19 @@ const clade = {
       "name": "Other Non-music"
     },
     "69": {
-      "name": "Unspecified Non-music"
+      "name": "Unspecified Non-music",
+      "aka": [
+        "ASMR",
+        "Animal Sounds",
+        "Bird Sounds",
+        "Field Recordings",
+        "Insect Sounds",
+        "Mechanical Music",
+        "Nature Recordings",
+        "Radio Broadcast Recordings",
+        "Rain Sounds",
+        "Whale Song"
+      ]
     },
     "78": {
       "name": "Other Artist Sort"
@@ -1809,7 +1821,13 @@ const clade = {
       "name": "Other Wave and Dark Synth"
     },
     "EK9": {
-      "name": "Unspecified Wave and Dark Synth"
+      "name": "Unspecified Wave and Dark Synth",
+      "aka": [
+        "Darkwave",
+        "Ethereal Wave",
+        "Neoclassical Darkwave",
+        "Neue Deutsche Todeskunst"
+      ]
     },
     "EM": {
       "name": "Electronica"
@@ -1893,7 +1911,10 @@ const clade = {
       "name": "Misc Electronic"
     },
     "E9": {
-      "name": "Unspecified Electronic"
+      "name": "Unspecified Electronic",
+      "aka": [
+        "Slowed & Reverb"
+      ]
     },
     "E98": {
       "name": "Other Unspecified Electronic"
@@ -2487,7 +2508,10 @@ const clade = {
       ]
     },
     "F9": {
-      "name": "Unspecified Folk"
+      "name": "Unspecified Folk",
+      "aka": [
+        "Worldbeat"
+      ]
     },
     "F98": {
       "name": "Other Unspecified Folk"
@@ -2678,6 +2702,7 @@ const clade = {
     "HFA": {
       "name": "Cloud Rap",
       "aka": [
+        "Beatboxing",
         "Chap Hop",
         "Crunkcore",
         "Drumless",
@@ -3663,7 +3688,10 @@ const clade = {
       "name": "Unspecified Reductionism"
     },
     "NJ": {
-      "name": "Sound Collage"
+      "name": "Sound Collage",
+      "aka": [
+        "Mashup"
+      ]
     },
     "NJA": {
       "name": "Epic Collage"
@@ -4099,7 +4127,11 @@ const clade = {
       ]
     },
     "P9": {
-      "name": "Unspecified Pop"
+      "name": "Unspecified Pop",
+      "aka": [
+        "Ambient Pop",
+        "Toypop"
+      ]
     },
     "P98": {
       "name": "Other Unspecified Pop"
@@ -5041,8 +5073,12 @@ const clade = {
     "WC9": {
       "name": "Unspecified Comedy",
       "aka": [
+        "Break-In",
+        "Musical Comedy",
         "Musical Parody",
-        "Satire"
+        "Prank Calls",
+        "Satire",
+        "Sketch Comedy"
       ]
     },
     "WD": {
@@ -5090,12 +5126,30 @@ const clade = {
     "W9": {
       "name": "Unspecified Miscellaneous",
       "aka": [
+        "Bugle Call",
         "Carols",
+        "Children's Music",
         "Christmas Music",
+        "Circus March",
+        "Concert Band",
         "Descriptor",
+        "Drum and Bugle Corps",
+        "Drumline",
         "Educational Music",
+        "Fife and Drum Corps",
+        "Funeral March",
         "Halloween Music",
-        "Holiday Music"
+        "Hanmai",
+        "Holiday Music",
+        "Hymn",
+        "Jingles",
+        "Lullabies",
+        "Mantra",
+        "March",
+        "Marching Band",
+        "Nursery Rhymes",
+        "Parlour Music",
+        "Sacred Singing Circle"
       ]
     },
     "W98": {
@@ -6339,6 +6393,7 @@ const clade = {
       "name": "Misc Musical Theatre and Entertainment",
       "aka": [
         "Cabaret",
+        "Dark Cabaret",
         "Murga uruguaya",
         "Revue",
         "Show Tunes"
@@ -7424,7 +7479,10 @@ const clade = {
       "name": "Unspecified Metal Scenes"
     },
     "3E": {
-      "name": "Electronic Scenes"
+      "name": "Electronic Scenes",
+      "aka": [
+        "Hauntology"
+      ]
     },
     "3EA": {
       "name": "DMV Hip Hop"
@@ -8080,6 +8138,7 @@ const clade = {
     "6A": {
       "name": "Spoken Word",
       "aka": [
+        "Audio Documentary",
         "Fairy Tales",
         "Folktales",
         "Guided Meditation",
@@ -8136,7 +8195,11 @@ const clade = {
       "name": "Other Sound Effects"
     },
     "6H9": {
-      "name": "Unspecified Sound Effects"
+      "name": "Unspecified Sound Effects",
+      "aka": [
+        "Battle Record",
+        "Broadband Noise"
+      ]
     },
     "7R": {
       "name": "Artist Sort R"
