@@ -45,11 +45,14 @@ const clade = {
       "aka": [
         "ASMR",
         "Animal Sounds",
+        "Automatic Music",
+        "Autonomous Sensory Meridian Response",
         "Bird Sounds",
         "Field Recordings",
         "Insect Sounds",
         "Mechanical Music",
         "Nature Recordings",
+        "Phonography",
         "Radio Broadcast Recordings",
         "Rain Sounds",
         "Whale Song"
@@ -200,7 +203,11 @@ const clade = {
       "name": "Misc Atmospheric Music"
     },
     "C": {
-      "name": "Classical Music"
+      "name": "Classical Music",
+      "aka": [
+        "Classical",
+        "Formal Music"
+      ]
     },
     "CA": {
       "name": "Medieval Classical"
@@ -1439,6 +1446,7 @@ const clade = {
     "D9": {
       "name": "General Electronic Dance Music",
       "aka": [
+        "Club Music",
         "Dance",
         "Gqom",
         "Hardwave",
@@ -1748,6 +1756,7 @@ const clade = {
     "EK9": {
       "name": "General Wave and Dark Synth",
       "aka": [
+        "Dark Wave",
         "Darkwave",
         "Ethereal Wave",
         "Neoclassical Darkwave",
@@ -1829,7 +1838,9 @@ const clade = {
     "E9": {
       "name": "General Electronic",
       "aka": [
-        "Slowed & Reverb"
+        "Slowed & Reverb",
+        "Slowed + Reverb",
+        "Slowed and Reverb"
       ]
     },
     "E98": {
@@ -2428,7 +2439,10 @@ const clade = {
       "name": "Misc Folk"
     },
     "H": {
-      "name": "Hip Hop"
+      "name": "Hip Hop",
+      "aka": [
+        "Rap"
+      ]
     },
     "HA": {
       "name": "Boom Bap and East Coast",
@@ -2607,6 +2621,7 @@ const clade = {
     "HFA": {
       "name": "Cloud Rap",
       "aka": [
+        "Beatbox",
         "Beatboxing",
         "Chap Hop",
         "Crunkcore",
@@ -2735,6 +2750,8 @@ const clade = {
     "J": {
       "name": "Jazz and Blues",
       "aka": [
+        "Jas",
+        "Jass",
         "Jazz"
       ]
     },
@@ -2998,7 +3015,8 @@ const clade = {
     "K": {
       "name": "RnB and Soul",
       "aka": [
-        "R&B"
+        "R&B",
+        "RnB"
       ]
     },
     "KA": {
@@ -3559,6 +3577,7 @@ const clade = {
     "NJ": {
       "name": "Sound Collage",
       "aka": [
+        "Bastard Pop",
         "Mashup"
       ]
     },
@@ -3978,7 +3997,9 @@ const clade = {
       "name": "General Pop",
       "aka": [
         "Ambient Pop",
-        "Toypop"
+        "Toy Music",
+        "Toypop",
+        "トイポップ"
       ]
     },
     "P98": {
@@ -4111,7 +4132,10 @@ const clade = {
       "name": "General Post-Punk and New Wave"
     },
     "RH": {
-      "name": "Psychedelia"
+      "name": "Psychedelia",
+      "aka": [
+        "Psychedelic Music"
+      ]
     },
     "RHA": {
       "name": "Psychedelic Rock",
@@ -4456,7 +4480,10 @@ const clade = {
       "name": "General Honky Tonk"
     },
     "TM": {
-      "name": "Singer-Songwriter"
+      "name": "Singer-Songwriter",
+      "aka": [
+        "Singer/Songwriter"
+      ]
     },
     "TMA": {
       "name": "Canzone dautore",
@@ -4535,7 +4562,8 @@ const clade = {
       "name": "General Country and Singer-Songwriter",
       "aka": [
         "Country",
-        "Country Folk"
+        "Country Folk",
+        "Country and Western"
       ]
     },
     "T98": {
@@ -4932,6 +4960,7 @@ const clade = {
     "W9": {
       "name": "General Miscellaneous",
       "aka": [
+        "Band Music",
         "Bugle Call",
         "Carols",
         "Children's Music",
@@ -4948,14 +4977,34 @@ const clade = {
         "Hanmai",
         "Holiday Music",
         "Hymn",
+        "Hymnody",
         "Jingles",
         "Lullabies",
         "Mantra",
+        "Mantram",
         "March",
         "Marching Band",
         "Nursery Rhymes",
+        "Parlor Music",
         "Parlour Music",
-        "Sacred Singing Circle"
+        "Sacred Singing",
+        "Sacred Singing Circle",
+        "Sacred Song Circle",
+        "Salon Music",
+        "Singing Circle",
+        "Song Circle",
+        "Symphonic Band",
+        "Symphonic Wind Ensemble",
+        "Symphonic Winds",
+        "Wind Band",
+        "Wind Ensemble",
+        "Wind Orchestra",
+        "Wind Symphony",
+        "מעגל שירה",
+        "מעגל שירה מקודשת",
+        "שירה מקודשת",
+        "मन्त्रम्",
+        "喊麦"
       ]
     },
     "W98": {
@@ -7269,7 +7318,8 @@ const clade = {
     "3E": {
       "name": "Electronic Scenes",
       "aka": [
-        "Hauntology"
+        "Hauntology",
+        "Memoradelia"
       ]
     },
     "3EA": {
@@ -7932,6 +7982,7 @@ const clade = {
         "Guided Meditation",
         "Interview",
         "Lectures",
+        "Radio Documentary",
         "Radio Drama",
         "Sermons",
         "Speeches",
@@ -7977,7 +8028,10 @@ const clade = {
       "name": "General Podcast"
     },
     "6H": {
-      "name": "Sound Effects"
+      "name": "Sound Effects",
+      "aka": [
+        "SFX"
+      ]
     },
     "6H8": {
       "name": "Other Sound Effects"

@@ -204,20 +204,27 @@ function parseOneItem(ulContent) {
   return { title, url, ...(children.length ? { children } : {}) };
 }
 
+function parseGenreAkas(html) {
+  const akaDiv = html.match(/class="page_genre_akas"[\s\S]*?<\/div>/);
+  if (!akaDiv) return [];
+  return [...akaDiv[0].matchAll(/<bdi class="comma_separated">([^<]+)<\/bdi>/g)].map(m => decodeEntities(m[1]));
+}
+
 function parseGenrePage(html) {
   const canonicalMatch = html.match(/<link rel="canonical" href="([^"]+)"/);
   const url = canonicalMatch ? canonicalMatch[1] : null;
   const titleMatch = html.match(/<title>([^<]+?) - Music genre/);
   const title = titleMatch ? decodeEntities(titleMatch[1].trim()) : null;
+  const akas = parseGenreAkas(html);
   const sectionStart = html.indexOf('id="page_genre_section_hierarchy"');
-  if (sectionStart === -1) return { title, url, children: [] };
+  if (sectionStart === -1) return { title, url, akas, children: [] };
   const childrenLiStart = html.indexOf('class="hierarchy_list_children"', sectionStart);
-  if (childrenLiStart === -1) return { title, url, children: [] };
+  if (childrenLiStart === -1) return { title, url, akas, children: [] };
   const childrenLiTagEnd = html.indexOf(">", childrenLiStart) + 1;
   const childrenLiEnd = findMatchingClose(html, childrenLiTagEnd, "<li", "</li>");
   const childrenContent = html.slice(childrenLiTagEnd, childrenLiEnd - "</li>".length);
   const children = parseChildrenContent(childrenContent);
-  return { title, url, children };
+  return { title, url, akas, children };
 }
 
 function parseGenresIndex(html) {
@@ -325,6 +332,12 @@ for (const file of files) {
 }
 
 const genres = [];
+const htmlAkas = {}; // title -> [aka, ...]
+for (const file of files) {
+  const content = fs.readFileSync(path.join(GENRES_DIR, file), "utf8");
+  const parsed = parseGenrePage(content);
+  if (parsed.title && parsed.akas.length > 0) htmlAkas[parsed.title] = parsed.akas;
+}
 for (const { title, url } of topLevel) {
   const content = urlToEntry[url];
   if (!content) continue;
@@ -745,12 +758,29 @@ if (failureCount > 0) {
 
 // ── Phase 3: Generate clade.js ──────────────────────────────────────────────
 
+// Map genre page titles to codes via bare rym paths and name matches
+const titleToCode = {};
+for (const [code, entry] of Object.entries(codes)) {
+  if (entry.name && !titleToCode[entry.name]) titleToCode[entry.name] = code;
+  for (const rymPath of entry.rym || []) {
+    if (!rymPath.includes(" > ") && !titleToCode[rymPath]) titleToCode[rymPath] = code;
+  }
+}
+
 const result = {};
 for (const [code, entry] of Object.entries(codes)) {
   const aka = [];
   for (const rymPath of entry.rym || []) {
     const leaf = rymPath.split(" > ").pop();
     if (leaf !== entry.name && !aka.includes(leaf)) aka.push(leaf);
+  }
+  // Merge HTML AKAs for genres whose title maps to this code
+  for (const [title, akas] of Object.entries(htmlAkas)) {
+    const mappedCode = titleToCode[title];
+    if (mappedCode !== code) continue;
+    for (const a of akas) {
+      if (a !== entry.name && !aka.includes(a)) aka.push(a);
+    }
   }
   result[code] = { name: entry.name };
   if (aka.length > 0) result[code].aka = aka.sort();
