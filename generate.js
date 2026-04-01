@@ -506,29 +506,34 @@ runTest("every 2-char code has an XX9 child named 'General <parent>'", () => {
   }
 });
 
-runTest("X8 and X9 codes have no children", () => {
-  for (const code of Object.keys(codes)) {
-    if (code.length !== 3) continue;
-    const parent = code.slice(0, 2);
-    if (/^[A-Z][89]$/.test(parent)) failure(`"${code}" should not exist — "${parent}" codes should not have children`);
-  }
-});
-
-runTest("every 1-char code has an X8 child named 'Other <parent>'", () => {
-  for (const [code, entry] of Object.entries(codes)) {
-    if (code.length !== 1) continue;
-    const child = codes[code + "8"];
-    if (!child) failure(`"${code}8" missing for parent "${code} ${entry.name}"`);
-    else if (child.name !== `Other ${entry.name}`) failure(`"${code}8": expected "Other ${entry.name}", got "${child.name}"`);
-  }
-});
-
 runTest("every 1-char code has an X9 child named 'General <parent>'", () => {
   for (const [code, entry] of Object.entries(codes)) {
     if (code.length !== 1) continue;
     const child = codes[code + "9"];
     if (!child) failure(`"${code}9" missing for parent "${code} ${entry.name}"`);
     else if (child.name !== `General ${entry.name}`) failure(`"${code}9": expected "General ${entry.name}", got "${child.name}"`);
+  }
+});
+
+runTest("every X9 code has an X98 child named 'Other <grandparent>' and X99 named 'Misc <grandparent>'", () => {
+  for (const code of Object.keys(codes)) {
+    if (code.length !== 1) continue;
+    const x9 = code + "9";
+    if (!codes[x9]) continue;
+    const grandparent = codes[code];
+    const other = codes[x9 + "8"];
+    if (!other) failure(`"${x9}8" missing`);
+    else if (other.name !== `Other ${grandparent.name}`) failure(`"${x9}8": expected "Other ${grandparent.name}", got "${other.name}"`);
+    const misc = codes[x9 + "9"];
+    if (!misc) failure(`"${x9}9" missing`);
+    else if (misc.name !== `Misc ${grandparent.name}`) failure(`"${x9}9": expected "Misc ${grandparent.name}", got "${misc.name}"`);
+  }
+});
+
+runTest("no X8 codes exist as children of 1-char codes", () => {
+  for (const code of Object.keys(codes)) {
+    if (code.length !== 1) continue;
+    if (codes[code + "8"]) failure(`"${code}8" should not exist — use ${code}98 under ${code}9 instead`);
   }
 });
 
@@ -722,6 +727,14 @@ runTest("every 3-char code has a 2-char parent", () => {
     if (code.length !== 3) continue;
     const parent = code.slice(0, 2);
     if (!codes[parent]) failure(`"${code}" has no parent "${parent}"`);
+  }
+});
+
+runTest("every 2-char code has at least one 3-char child", () => {
+  for (const code of Object.keys(codes)) {
+    if (code.length !== 2) continue;
+    const hasChild = Object.keys(codes).some(c => c.length === 3 && c.startsWith(code));
+    if (!hasChild) failure(`"${code}" (${codes[code].name}) has no 3-char children`);
   }
 });
 

@@ -31,26 +31,14 @@ const clade = {
     "9": {
       "name": "Unassigned"
     },
-    "28": {
-      "name": "Other Music Descriptor"
-    },
     "29": {
       "name": "General Music Descriptor"
-    },
-    "38": {
-      "name": "Other Scenes and Movements"
     },
     "39": {
       "name": "General Scenes and Movements"
     },
-    "48": {
-      "name": "Other Time"
-    },
     "49": {
       "name": "General Time"
-    },
-    "68": {
-      "name": "Other Non-music"
     },
     "69": {
       "name": "General Non-music",
@@ -67,100 +55,61 @@ const clade = {
         "Whale Song"
       ]
     },
-    "78": {
-      "name": "Other Artist Sort"
-    },
     "79": {
       "name": "General Artist Sort"
-    },
-    "88": {
-      "name": "Other Other"
     },
     "89": {
       "name": "General Other"
     },
-    "98": {
-      "name": "Other Unassigned"
-    },
     "99": {
       "name": "General Unassigned"
     },
-    "288": {
-      "name": "Other Other Music Descriptor"
-    },
-    "289": {
-      "name": "Misc Music Descriptor"
-    },
     "298": {
-      "name": "Other General Music Descriptor"
+      "name": "Other Music Descriptor"
     },
     "299": {
-      "name": "General Unspecified Music Descriptor"
-    },
-    "388": {
-      "name": "Other Other Scenes and Movements"
-    },
-    "389": {
-      "name": "Misc Scenes and Movements"
+      "name": "Misc Music Descriptor"
     },
     "398": {
-      "name": "Other General Scenes and Movements"
+      "name": "Other Scenes and Movements"
     },
     "399": {
-      "name": "Undecided Scenes and Movements",
+      "name": "Misc Scenes and Movements",
       "aka": [
         "Progg",
         "Psichedelia occulta italiana",
         "Windmill Scene"
       ]
     },
-    "488": {
-      "name": "Other Other Time"
-    },
-    "489": {
-      "name": "Misc Time"
-    },
     "498": {
-      "name": "Other General Time"
+      "name": "Other Time"
     },
     "499": {
-      "name": "General Unspecified Time"
-    },
-    "688": {
-      "name": "Other Other Non-music"
-    },
-    "689": {
-      "name": "Misc Non-music"
+      "name": "Misc Time"
     },
     "698": {
-      "name": "Other General Non-music"
+      "name": "Other Non-music"
     },
-    "788": {
-      "name": "Other Other Artist Sort"
-    },
-    "789": {
-      "name": "Misc Artist Sort"
+    "699": {
+      "name": "Misc Non-music"
     },
     "798": {
-      "name": "Other General Artist Sort"
+      "name": "Other Artist Sort"
     },
-    "888": {
-      "name": "Other Other Other"
-    },
-    "889": {
-      "name": "Misc Other"
+    "799": {
+      "name": "Misc Artist Sort"
     },
     "898": {
-      "name": "Other General Other"
+      "name": "Other Other"
     },
-    "988": {
-      "name": "Other Other Unassigned"
-    },
-    "989": {
-      "name": "Misc Unassigned"
+    "899": {
+      "name": "Misc Other"
     },
     "998": {
-      "name": "Other General Unassigned"
+      "name": "Other Unassigned"
+    },
+    "999": {
+      "name": "Misc Unassigned"
     },
     "A": {
       "name": "Atmospheric Music"
@@ -241,11 +190,14 @@ const clade = {
     "AE9": {
       "name": "General Easy Listening"
     },
-    "A8": {
-      "name": "Other Atmospheric Music"
-    },
     "A9": {
       "name": "General Atmospheric Music"
+    },
+    "A98": {
+      "name": "Other Atmospheric Music"
+    },
+    "A99": {
+      "name": "Misc Atmospheric Music"
     },
     "C": {
       "name": "Classical Music"
@@ -711,7 +663,10 @@ const clade = {
     "CT9": {
       "name": "General Minimalist Classical"
     },
-    "C8": {
+    "C9": {
+      "name": "General Classical Music"
+    },
+    "C98": {
       "name": "Other Classical Music",
       "aka": [
         "Bagatelle",
@@ -734,8 +689,8 @@ const clade = {
         "Étude"
       ]
     },
-    "C9": {
-      "name": "General Classical Music"
+    "C99": {
+      "name": "Misc Classical Music"
     },
     "D": {
       "name": "Electronic Dance Music"
@@ -1481,7 +1436,18 @@ const clade = {
     "DX9": {
       "name": "General Disco"
     },
-    "D8": {
+    "D9": {
+      "name": "General Electronic Dance Music",
+      "aka": [
+        "Dance",
+        "Gqom",
+        "Hardwave",
+        "Krushclub",
+        "Kuduro",
+        "Shangaan Electro"
+      ]
+    },
+    "D98": {
       "name": "Other Electronic Dance Music",
       "aka": [
         "Aquacrunk",
@@ -1526,16 +1492,8 @@ const clade = {
         "Wonky"
       ]
     },
-    "D9": {
-      "name": "General Electronic Dance Music",
-      "aka": [
-        "Dance",
-        "Gqom",
-        "Hardwave",
-        "Krushclub",
-        "Kuduro",
-        "Shangaan Electro"
-      ]
+    "D99": {
+      "name": "Misc Electronic Dance Music"
     },
     "E": {
       "name": "Electronic"
@@ -1868,14 +1826,17 @@ const clade = {
     "ET9": {
       "name": "General Electronic Fusion"
     },
-    "E8": {
-      "name": "Other Electronic"
-    },
     "E9": {
       "name": "General Electronic",
       "aka": [
         "Slowed & Reverb"
       ]
+    },
+    "E98": {
+      "name": "Other Electronic"
+    },
+    "E99": {
+      "name": "Misc Electronic"
     },
     "F": {
       "name": "Folk"
@@ -2440,7 +2401,14 @@ const clade = {
         "Work Song"
       ]
     },
-    "F8": {
+    "F9": {
+      "name": "General Folk",
+      "aka": [
+        "Traditional Folk Music",
+        "Worldbeat"
+      ]
+    },
+    "F98": {
       "name": "Other Folk",
       "aka": [
         "Australian Folk Music",
@@ -2456,12 +2424,8 @@ const clade = {
         "Yodeling"
       ]
     },
-    "F9": {
-      "name": "General Folk",
-      "aka": [
-        "Traditional Folk Music",
-        "Worldbeat"
-      ]
+    "F99": {
+      "name": "Misc Folk"
     },
     "H": {
       "name": "Hip Hop"
@@ -2759,11 +2723,14 @@ const clade = {
         "Latin Rap"
       ]
     },
-    "H8": {
-      "name": "Other Hip Hop"
-    },
     "H9": {
       "name": "General Hip Hop"
+    },
+    "H98": {
+      "name": "Other Hip Hop"
+    },
+    "H99": {
+      "name": "Misc Hip Hop"
     },
     "J": {
       "name": "Jazz and Blues",
@@ -3019,11 +2986,14 @@ const clade = {
     "JK9": {
       "name": "General Cinematic Jazz"
     },
-    "J8": {
-      "name": "Other Jazz and Blues"
-    },
     "J9": {
       "name": "General Jazz and Blues"
+    },
+    "J98": {
+      "name": "Other Jazz and Blues"
+    },
+    "J99": {
+      "name": "Misc Jazz and Blues"
     },
     "K": {
       "name": "RnB and Soul",
@@ -3202,11 +3172,14 @@ const clade = {
     "KF9": {
       "name": "General Gospel"
     },
-    "K8": {
-      "name": "Other RnB and Soul"
-    },
     "K9": {
       "name": "General RnB and Soul"
+    },
+    "K98": {
+      "name": "Other RnB and Soul"
+    },
+    "K99": {
+      "name": "Misc RnB and Soul"
     },
     "M": {
       "name": "Metal"
@@ -3465,15 +3438,18 @@ const clade = {
     "MM9": {
       "name": "General Folk Metal"
     },
-    "M8": {
+    "M9": {
+      "name": "General Metal"
+    },
+    "M98": {
       "name": "Other Metal",
       "aka": [
         "Avant-Garde Metal",
         "Groove Metal"
       ]
     },
-    "M9": {
-      "name": "General Metal"
+    "M99": {
+      "name": "Misc Metal"
     },
     "N": {
       "name": "Experimental and Industrial"
@@ -3646,15 +3622,18 @@ const clade = {
     "NN9": {
       "name": "General Drone Music"
     },
-    "N8": {
-      "name": "Other Experimental and Industrial"
-    },
     "N9": {
       "name": "General Experimental and Industrial",
       "aka": [
         "Experimental",
         "Industrial & Noise"
       ]
+    },
+    "N98": {
+      "name": "Other Experimental and Industrial"
+    },
+    "N99": {
+      "name": "Misc Experimental and Industrial"
     },
     "P": {
       "name": "Pop"
@@ -3995,18 +3974,21 @@ const clade = {
     "PX9": {
       "name": "General Kayokyoku"
     },
-    "P8": {
-      "name": "Other Pop",
-      "aka": [
-        "Adult Contemporary"
-      ]
-    },
     "P9": {
       "name": "General Pop",
       "aka": [
         "Ambient Pop",
         "Toypop"
       ]
+    },
+    "P98": {
+      "name": "Other Pop",
+      "aka": [
+        "Adult Contemporary"
+      ]
+    },
+    "P99": {
+      "name": "Misc Pop"
     },
     "R": {
       "name": "Rock and Psychedelia"
@@ -4332,7 +4314,14 @@ const clade = {
     "RV9": {
       "name": "General Afro-Rock"
     },
-    "R8": {
+    "R9": {
+      "name": "General Rock and Psychedelia",
+      "aka": [
+        "Rock",
+        "Roots Rock"
+      ]
+    },
+    "R98": {
       "name": "Other Rock and Psychedelia",
       "aka": [
         "AOR",
@@ -4349,12 +4338,8 @@ const clade = {
         "Zolo"
       ]
     },
-    "R9": {
-      "name": "General Rock and Psychedelia",
-      "aka": [
-        "Rock",
-        "Roots Rock"
-      ]
+    "R99": {
+      "name": "Misc Rock and Psychedelia"
     },
     "T": {
       "name": "Country and Singer-Songwriter"
@@ -4546,7 +4531,14 @@ const clade = {
         "Chanson à texte"
       ]
     },
-    "T8": {
+    "T9": {
+      "name": "General Country and Singer-Songwriter",
+      "aka": [
+        "Country",
+        "Country Folk"
+      ]
+    },
+    "T98": {
       "name": "Other Country and Singer-Songwriter",
       "aka": [
         "Country & Irish",
@@ -4554,12 +4546,8 @@ const clade = {
         "Western Swing"
       ]
     },
-    "T9": {
-      "name": "General Country and Singer-Songwriter",
-      "aka": [
-        "Country",
-        "Country Folk"
-      ]
+    "T99": {
+      "name": "Misc Country and Singer-Songwriter"
     },
     "U": {
       "name": "Reggae and Ska and Dancehall",
@@ -4684,11 +4672,14 @@ const clade = {
     "UK9": {
       "name": "General Ragga"
     },
-    "U8": {
-      "name": "Other Reggae and Ska and Dancehall"
-    },
     "U9": {
       "name": "General Reggae and Ska and Dancehall"
+    },
+    "U98": {
+      "name": "Other Reggae and Ska and Dancehall"
+    },
+    "U99": {
+      "name": "Misc Reggae and Ska and Dancehall"
     },
     "V": {
       "name": "Punk"
@@ -4869,9 +4860,6 @@ const clade = {
     "VJ9": {
       "name": "General Emo"
     },
-    "V8": {
-      "name": "Other Punk"
-    },
     "V9": {
       "name": "General Punk",
       "aka": [
@@ -4881,6 +4869,12 @@ const clade = {
         "Punk Poetry",
         "Synth Punk"
       ]
+    },
+    "V98": {
+      "name": "Other Punk"
+    },
+    "V99": {
+      "name": "Misc Punk"
     },
     "W": {
       "name": "Miscellaneous"
@@ -4935,9 +4929,6 @@ const clade = {
     "WM9": {
       "name": "General Exercise Music"
     },
-    "W8": {
-      "name": "Other Miscellaneous"
-    },
     "W9": {
       "name": "General Miscellaneous",
       "aka": [
@@ -4966,6 +4957,12 @@ const clade = {
         "Parlour Music",
         "Sacred Singing Circle"
       ]
+    },
+    "W98": {
+      "name": "Other Miscellaneous"
+    },
+    "W99": {
+      "name": "Misc Miscellaneous"
     },
     "X": {
       "name": "Regional Music"
@@ -6095,7 +6092,10 @@ const clade = {
         "Orthodox Pop"
       ]
     },
-    "X8": {
+    "X9": {
+      "name": "General Regional Music"
+    },
+    "X98": {
       "name": "Other Regional Music",
       "aka": [
         "Banga",
@@ -6148,8 +6148,8 @@ const clade = {
         "Xuc"
       ]
     },
-    "X9": {
-      "name": "General Regional Music"
+    "X99": {
+      "name": "Misc Regional Music"
     },
     "Y": {
       "name": "Musical Theatre and Entertainment",
@@ -6180,7 +6180,10 @@ const clade = {
     "YE9": {
       "name": "General Siffleur"
     },
-    "Y8": {
+    "Y9": {
+      "name": "General Musical Theatre and Entertainment"
+    },
+    "Y98": {
       "name": "Other Musical Theatre and Entertainment",
       "aka": [
         "Cabaret",
@@ -6190,8 +6193,8 @@ const clade = {
         "Show Tunes"
       ]
     },
-    "Y9": {
-      "name": "General Musical Theatre and Entertainment"
+    "Y99": {
+      "name": "Misc Musical Theatre and Entertainment"
     },
     "2A": {
       "name": "Atmosphere",

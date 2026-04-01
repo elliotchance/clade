@@ -584,7 +584,19 @@
           const termLower = term.toLowerCase();
 
           const matches = [];
+          const termUpper = term.toUpperCase();
+          if (clade.genres[termUpper]) {
+            const genre = clade.genres[termUpper];
+            matches.push({
+              code: termUpper,
+              label: genre.name,
+              isAka: false,
+              parentName: null,
+              genre,
+            });
+          }
           for (const [code, genre] of Object.entries(clade.genres)) {
+            if (code === termUpper) continue;
             if (genre.name.toLowerCase().includes(termLower)) {
               matches.push({
                 code,
