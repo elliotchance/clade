@@ -7459,6 +7459,196 @@ const clade = {
     "2K9": {
       "name": "General Lyrics"
     },
+    "2M": {
+      "name": "Language"
+    },
+    "2MA": {
+      "name": "English"
+    },
+    "2MC": {
+      "name": "Catalan",
+      "aka": [
+        "Galician",
+        "Spanish"
+      ]
+    },
+    "2MD": {
+      "name": "Brazilian Portuguese",
+      "aka": [
+        "Portuguese"
+      ]
+    },
+    "2ME": {
+      "name": "Cajun French",
+      "aka": [
+        "French",
+        "Haitian Creole"
+      ]
+    },
+    "2MF": {
+      "name": "Italian",
+      "aka": [
+        "Neapolitan",
+        "Sicilian"
+      ]
+    },
+    "2MH": {
+      "name": "Austrian German",
+      "aka": [
+        "German",
+        "Swiss German",
+        "Yiddish"
+      ]
+    },
+    "2MJ": {
+      "name": "Afrikaans",
+      "aka": [
+        "Dutch",
+        "Flemish"
+      ]
+    },
+    "2MK": {
+      "name": "Danish",
+      "aka": [
+        "Finnish",
+        "Icelandic",
+        "Norwegian",
+        "Scandinavian",
+        "Swedish"
+      ]
+    },
+    "2MM": {
+      "name": "Bosnian",
+      "aka": [
+        "Bulgarian",
+        "Croatian",
+        "Czech",
+        "Polish",
+        "Russian",
+        "Serbian",
+        "Slavic",
+        "Slovak",
+        "Slovenian",
+        "Ukrainian"
+      ]
+    },
+    "2MN": {
+      "name": "Ancient Greek",
+      "aka": [
+        "Greek"
+      ]
+    },
+    "2MP": {
+      "name": "Breton",
+      "aka": [
+        "Celtic",
+        "Gaelic",
+        "Irish",
+        "Scottish Gaelic",
+        "Welsh"
+      ]
+    },
+    "2MR": {
+      "name": "Romani",
+      "aka": [
+        "Romanian"
+      ]
+    },
+    "2MT": {
+      "name": "Japanese"
+    },
+    "2MU": {
+      "name": "Korean"
+    },
+    "2MV": {
+      "name": "Cantonese",
+      "aka": [
+        "Hakka",
+        "Hokkien",
+        "Mandarin"
+      ]
+    },
+    "2MW": {
+      "name": "Bengali",
+      "aka": [
+        "Gujarati",
+        "Hindi",
+        "Marathi",
+        "Nepali",
+        "Punjabi",
+        "Sanskrit",
+        "Tamil",
+        "Telugu",
+        "Urdu"
+      ]
+    },
+    "2MX": {
+      "name": "Arabic",
+      "aka": [
+        "Egyptian Arabic",
+        "Levantine Arabic",
+        "Maghrebi Arabic"
+      ]
+    },
+    "2MY": {
+      "name": "Hebrew"
+    },
+    "2M2": {
+      "name": "Azerbaijani",
+      "aka": [
+        "Kazakh",
+        "Turkish",
+        "Uzbek"
+      ]
+    },
+    "2M3": {
+      "name": "Dari",
+      "aka": [
+        "Kurdish",
+        "Persian",
+        "Tajik"
+      ]
+    },
+    "2M4": {
+      "name": "Indonesian",
+      "aka": [
+        "Khmer",
+        "Malay",
+        "Southeast Asian",
+        "Tagalog",
+        "Thai",
+        "Vietnamese"
+      ]
+    },
+    "2M6": {
+      "name": "African Languages",
+      "aka": [
+        "Amharic",
+        "Hausa",
+        "Igbo",
+        "Swahili",
+        "Wolof",
+        "Yoruba",
+        "Zulu"
+      ]
+    },
+    "2M7": {
+      "name": "Ainu",
+      "aka": [
+        "Hawaiian",
+        "Indigenous and Other",
+        "Inuktitut",
+        "Maori",
+        "Nahuatl",
+        "Quechua"
+      ]
+    },
+    "2M8": {
+      "name": "Other Language"
+    },
+    "2M9": {
+      "name": "General Language"
+    },
     "3A": {
       "name": "Pop and Rock Scenes"
     },

@@ -801,6 +801,10 @@ for (const [code, entry] of Object.entries(codes)) {
   for (const a of mappingAkas[code] || []) {
     if (a !== entry.name && !aka.includes(a)) aka.push(a);
   }
+  // Merge explicit akas from codes.json
+  for (const a of entry.aka || []) {
+    if (a !== entry.name && !aka.includes(a)) aka.push(a);
+  }
   result[code] = { name: entry.name };
   if (aka.length > 0) result[code].aka = aka.sort();
 }
