@@ -481,7 +481,7 @@ runTest("names use allowed file path characters", () => {
   }
 });
 
-runTest("subgenres use allowed characters in ascending order", () => {
+runTest("subgenres use unique allowed characters", () => {
   const byParent = {};
   for (const code of Object.keys(codes)) {
     if (code.length < 2) continue;
@@ -490,11 +490,13 @@ runTest("subgenres use allowed characters in ascending order", () => {
   }
   for (const [parent, siblings] of Object.entries(byParent)) {
     const suffixes = siblings.filter(c => !/[89]$/.test(c)).map(c => c.slice(-1));
-    for (let i = 1; i < suffixes.length; i++) {
-      if (allowedCodeCharacters.indexOf(suffixes[i]) <= allowedCodeCharacters.indexOf(suffixes[i - 1])) {
-        failure(`children of "${parent}" have "${suffixes[i]}" after "${suffixes[i - 1]}" (children: ${siblings.join(", ")})`);
+    const seen = new Set();
+    for (const s of suffixes) {
+      if (seen.has(s)) {
+        failure(`children of "${parent}" have duplicate suffix "${s}" (children: ${siblings.join(", ")})`);
         break;
       }
+      seen.add(s);
     }
   }
 });

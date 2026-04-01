@@ -58,6 +58,21 @@ const clade = {
         "Whale Song"
       ]
     },
+    "72": {
+      "name": "Numbers"
+    },
+    "73": {
+      "name": "Symbols"
+    },
+    "74": {
+      "name": "CJK overflow"
+    },
+    "76": {
+      "name": "Cyrillic and Arabic and Hebrew"
+    },
+    "77": {
+      "name": "Greek and Indic and SE Asian"
+    },
     "79": {
       "name": "General Artist Sort"
     },
@@ -95,6 +110,36 @@ const clade = {
     },
     "699": {
       "name": "Misc Non-music"
+    },
+    "728": {
+      "name": "Other Numbers"
+    },
+    "729": {
+      "name": "General Numbers"
+    },
+    "738": {
+      "name": "Other Symbols"
+    },
+    "739": {
+      "name": "General Symbols"
+    },
+    "748": {
+      "name": "Other CJK overflow"
+    },
+    "749": {
+      "name": "General CJK overflow"
+    },
+    "768": {
+      "name": "Other Cyrillic and Arabic and Hebrew"
+    },
+    "769": {
+      "name": "General Cyrillic and Arabic and Hebrew"
+    },
+    "778": {
+      "name": "Other Greek and Indic and SE Asian"
+    },
+    "779": {
+      "name": "General Greek and Indic and SE Asian"
     },
     "798": {
       "name": "Other Artist Sort"
@@ -9028,8 +9073,884 @@ const clade = {
         "Broadband Noise"
       ]
     },
+    "7A": {
+      "name": "A"
+    },
+    "7AA": {
+      "name": "Aa"
+    },
+    "7AC": {
+      "name": "Aba"
+    },
+    "7AD": {
+      "name": "Abe"
+    },
+    "7AE": {
+      "name": "Abi"
+    },
+    "7AF": {
+      "name": "Abo"
+    },
+    "7AH": {
+      "name": "Abu"
+    },
+    "7AJ": {
+      "name": "Aca"
+    },
+    "7AK": {
+      "name": "Ace"
+    },
+    "7AM": {
+      "name": "Aci"
+    },
+    "7AN": {
+      "name": "Aco"
+    },
+    "7AP": {
+      "name": "Acu"
+    },
+    "7AR": {
+      "name": "Ad"
+    },
+    "7AT": {
+      "name": "Af"
+    },
+    "7AU": {
+      "name": "Ai"
+    },
+    "7AV": {
+      "name": "Al"
+    },
+    "7AW": {
+      "name": "Am"
+    },
+    "7AX": {
+      "name": "An"
+    },
+    "7AY": {
+      "name": "Ap"
+    },
+    "7A2": {
+      "name": "Ar"
+    },
+    "7A3": {
+      "name": "As"
+    },
+    "7A4": {
+      "name": "At"
+    },
+    "7A6": {
+      "name": "Au"
+    },
+    "7A7": {
+      "name": "Av"
+    },
+    "7A8": {
+      "name": "Other A"
+    },
+    "7A9": {
+      "name": "General A"
+    },
+    "7C": {
+      "name": "B-C"
+    },
+    "7CA": {
+      "name": "Ba"
+    },
+    "7CC": {
+      "name": "Bam"
+    },
+    "7CD": {
+      "name": "Be"
+    },
+    "7CE": {
+      "name": "Bes"
+    },
+    "7CF": {
+      "name": "Bi"
+    },
+    "7CH": {
+      "name": "Bl"
+    },
+    "7CJ": {
+      "name": "Bo"
+    },
+    "7CK": {
+      "name": "Br"
+    },
+    "7CM": {
+      "name": "Bri"
+    },
+    "7CN": {
+      "name": "Bru"
+    },
+    "7CP": {
+      "name": "Bu"
+    },
+    "7CR": {
+      "name": "Bv"
+    },
+    "7CT": {
+      "name": "Ca"
+    },
+    "7CU": {
+      "name": "Ce"
+    },
+    "7CV": {
+      "name": "Ch"
+    },
+    "7CW": {
+      "name": "Cha"
+    },
+    "7CX": {
+      "name": "Ci"
+    },
+    "7CY": {
+      "name": "Cl"
+    },
+    "7C2": {
+      "name": "Co"
+    },
+    "7C3": {
+      "name": "Com"
+    },
+    "7C4": {
+      "name": "Cr"
+    },
+    "7C6": {
+      "name": "Cu"
+    },
+    "7C7": {
+      "name": "Cy"
+    },
+    "7C8": {
+      "name": "Other B-C"
+    },
+    "7C9": {
+      "name": "General B-C"
+    },
+    "7D": {
+      "name": "D"
+    },
+    "7DA": {
+      "name": "Da"
+    },
+    "7DC": {
+      "name": "Dam"
+    },
+    "7DD": {
+      "name": "Dar"
+    },
+    "7DE": {
+      "name": "De"
+    },
+    "7DF": {
+      "name": "Dem"
+    },
+    "7DH": {
+      "name": "Der"
+    },
+    "7DJ": {
+      "name": "Di"
+    },
+    "7DK": {
+      "name": "Dia"
+    },
+    "7DM": {
+      "name": "Din"
+    },
+    "7DN": {
+      "name": "Dis"
+    },
+    "7DP": {
+      "name": "Dj"
+    },
+    "7DR": {
+      "name": "Do"
+    },
+    "7DT": {
+      "name": "Dom"
+    },
+    "7DU": {
+      "name": "Dor"
+    },
+    "7DV": {
+      "name": "Dr"
+    },
+    "7DW": {
+      "name": "Dra"
+    },
+    "7DX": {
+      "name": "Dri"
+    },
+    "7DY": {
+      "name": "Dru"
+    },
+    "7D2": {
+      "name": "Du"
+    },
+    "7D3": {
+      "name": "Dun"
+    },
+    "7D4": {
+      "name": "Dur"
+    },
+    "7D6": {
+      "name": "Dw"
+    },
+    "7D7": {
+      "name": "Dy"
+    },
+    "7D8": {
+      "name": "Other D"
+    },
+    "7D9": {
+      "name": "General D"
+    },
+    "7E": {
+      "name": "E"
+    },
+    "7EA": {
+      "name": "Ea"
+    },
+    "7EC": {
+      "name": "Ed"
+    },
+    "7ED": {
+      "name": "Ef"
+    },
+    "7EE": {
+      "name": "Eg"
+    },
+    "7EF": {
+      "name": "Ei"
+    },
+    "7EH": {
+      "name": "El"
+    },
+    "7EJ": {
+      "name": "Ele"
+    },
+    "7EK": {
+      "name": "Eli"
+    },
+    "7EM": {
+      "name": "Em"
+    },
+    "7EN": {
+      "name": "En"
+    },
+    "7EP": {
+      "name": "Eni"
+    },
+    "7ER": {
+      "name": "Ep"
+    },
+    "7ET": {
+      "name": "Er"
+    },
+    "7EU": {
+      "name": "Eri"
+    },
+    "7EV": {
+      "name": "Ern"
+    },
+    "7EW": {
+      "name": "Ero"
+    },
+    "7EX": {
+      "name": "Es"
+    },
+    "7EY": {
+      "name": "Et"
+    },
+    "7E2": {
+      "name": "Eu"
+    },
+    "7E3": {
+      "name": "Ev"
+    },
+    "7E4": {
+      "name": "Ew"
+    },
+    "7E6": {
+      "name": "Ex"
+    },
+    "7E7": {
+      "name": "Ey"
+    },
+    "7E8": {
+      "name": "Other E"
+    },
+    "7E9": {
+      "name": "General E"
+    },
+    "7F": {
+      "name": "F"
+    },
+    "7FA": {
+      "name": "Fa"
+    },
+    "7FC": {
+      "name": "Fal"
+    },
+    "7FD": {
+      "name": "Far"
+    },
+    "7FE": {
+      "name": "Fas"
+    },
+    "7FF": {
+      "name": "Fe"
+    },
+    "7FH": {
+      "name": "Fer"
+    },
+    "7FJ": {
+      "name": "Fi"
+    },
+    "7FK": {
+      "name": "Fif"
+    },
+    "7FM": {
+      "name": "Fin"
+    },
+    "7FN": {
+      "name": "Fir"
+    },
+    "7FP": {
+      "name": "Fis"
+    },
+    "7FR": {
+      "name": "Fl"
+    },
+    "7FT": {
+      "name": "Fla"
+    },
+    "7FU": {
+      "name": "Flo"
+    },
+    "7FV": {
+      "name": "Fo"
+    },
+    "7FW": {
+      "name": "For"
+    },
+    "7FX": {
+      "name": "Fr"
+    },
+    "7FY": {
+      "name": "Fra"
+    },
+    "7F2": {
+      "name": "Fre"
+    },
+    "7F3": {
+      "name": "Fri"
+    },
+    "7F4": {
+      "name": "Fro"
+    },
+    "7F6": {
+      "name": "Fu"
+    },
+    "7F7": {
+      "name": "Fy"
+    },
+    "7F8": {
+      "name": "Other F"
+    },
+    "7F9": {
+      "name": "General F"
+    },
+    "7H": {
+      "name": "G-H"
+    },
+    "7HA": {
+      "name": "Ga"
+    },
+    "7HC": {
+      "name": "Gar"
+    },
+    "7HD": {
+      "name": "Ge"
+    },
+    "7HE": {
+      "name": "Gi"
+    },
+    "7HF": {
+      "name": "Gl"
+    },
+    "7HH": {
+      "name": "Go"
+    },
+    "7HJ": {
+      "name": "Gol"
+    },
+    "7HK": {
+      "name": "Gr"
+    },
+    "7HM": {
+      "name": "Gra"
+    },
+    "7HN": {
+      "name": "Gu"
+    },
+    "7HP": {
+      "name": "Ha"
+    },
+    "7HR": {
+      "name": "Ham"
+    },
+    "7HT": {
+      "name": "Har"
+    },
+    "7HU": {
+      "name": "He"
+    },
+    "7HV": {
+      "name": "Hea"
+    },
+    "7HW": {
+      "name": "Her"
+    },
+    "7HX": {
+      "name": "Hi"
+    },
+    "7HY": {
+      "name": "Hil"
+    },
+    "7H2": {
+      "name": "Ho"
+    },
+    "7H3": {
+      "name": "Hol"
+    },
+    "7H4": {
+      "name": "Hor"
+    },
+    "7H6": {
+      "name": "Hu"
+    },
+    "7H7": {
+      "name": "Hy"
+    },
+    "7H8": {
+      "name": "Other G-H"
+    },
+    "7H9": {
+      "name": "General G-H"
+    },
+    "7J": {
+      "name": "I-J"
+    },
+    "7JA": {
+      "name": "Ia"
+    },
+    "7JC": {
+      "name": "If"
+    },
+    "7JD": {
+      "name": "Il"
+    },
+    "7JE": {
+      "name": "Im"
+    },
+    "7JF": {
+      "name": "In"
+    },
+    "7JH": {
+      "name": "Io"
+    },
+    "7JJ": {
+      "name": "Ir"
+    },
+    "7JK": {
+      "name": "Is"
+    },
+    "7JM": {
+      "name": "It"
+    },
+    "7JN": {
+      "name": "Iv"
+    },
+    "7JP": {
+      "name": "Ja"
+    },
+    "7JR": {
+      "name": "Jac"
+    },
+    "7JT": {
+      "name": "Jam"
+    },
+    "7JU": {
+      "name": "Jan"
+    },
+    "7JV": {
+      "name": "Je"
+    },
+    "7JW": {
+      "name": "Jea"
+    },
+    "7JX": {
+      "name": "Jef"
+    },
+    "7JY": {
+      "name": "Ji"
+    },
+    "7J2": {
+      "name": "Jo"
+    },
+    "7J3": {
+      "name": "Joh"
+    },
+    "7J4": {
+      "name": "Jon"
+    },
+    "7J6": {
+      "name": "Jos"
+    },
+    "7J7": {
+      "name": "Ju"
+    },
+    "7J8": {
+      "name": "Other I-J"
+    },
+    "7J9": {
+      "name": "General I-J"
+    },
+    "7K": {
+      "name": "K"
+    },
+    "7KA": {
+      "name": "Ka"
+    },
+    "7KC": {
+      "name": "Kal"
+    },
+    "7KD": {
+      "name": "Kam"
+    },
+    "7KE": {
+      "name": "Kar"
+    },
+    "7KF": {
+      "name": "Kat"
+    },
+    "7KH": {
+      "name": "Ke"
+    },
+    "7KJ": {
+      "name": "Kel"
+    },
+    "7KK": {
+      "name": "Ken"
+    },
+    "7KM": {
+      "name": "Ker"
+    },
+    "7KN": {
+      "name": "Kh"
+    },
+    "7KP": {
+      "name": "Ki"
+    },
+    "7KR": {
+      "name": "Kin"
+    },
+    "7KT": {
+      "name": "Kir"
+    },
+    "7KU": {
+      "name": "Kit"
+    },
+    "7KV": {
+      "name": "Kl"
+    },
+    "7KW": {
+      "name": "Kn"
+    },
+    "7KX": {
+      "name": "Ko"
+    },
+    "7KY": {
+      "name": "Kol"
+    },
+    "7K2": {
+      "name": "Kon"
+    },
+    "7K3": {
+      "name": "Kor"
+    },
+    "7K4": {
+      "name": "Kr"
+    },
+    "7K6": {
+      "name": "Ku"
+    },
+    "7K7": {
+      "name": "Ky"
+    },
+    "7K8": {
+      "name": "Other K"
+    },
+    "7K9": {
+      "name": "General K"
+    },
+    "7M": {
+      "name": "L-M"
+    },
+    "7MA": {
+      "name": "La"
+    },
+    "7MC": {
+      "name": "Lam"
+    },
+    "7MD": {
+      "name": "Lar"
+    },
+    "7ME": {
+      "name": "Le"
+    },
+    "7MF": {
+      "name": "Lee"
+    },
+    "7MH": {
+      "name": "Li"
+    },
+    "7MJ": {
+      "name": "Lin"
+    },
+    "7MK": {
+      "name": "Lo"
+    },
+    "7MM": {
+      "name": "Lon"
+    },
+    "7MN": {
+      "name": "Lu"
+    },
+    "7MP": {
+      "name": "Ly"
+    },
+    "7MR": {
+      "name": "Ma"
+    },
+    "7MT": {
+      "name": "Mal"
+    },
+    "7MU": {
+      "name": "Man"
+    },
+    "7MV": {
+      "name": "Mar"
+    },
+    "7MW": {
+      "name": "Mat"
+    },
+    "7MX": {
+      "name": "Mc"
+    },
+    "7MY": {
+      "name": "Me"
+    },
+    "7M2": {
+      "name": "Mi"
+    },
+    "7M3": {
+      "name": "Mil"
+    },
+    "7M4": {
+      "name": "Mo"
+    },
+    "7M6": {
+      "name": "Mu"
+    },
+    "7M7": {
+      "name": "My"
+    },
+    "7M8": {
+      "name": "Other L-M"
+    },
+    "7M9": {
+      "name": "General L-M"
+    },
+    "7N": {
+      "name": "N"
+    },
+    "7NA": {
+      "name": "Na"
+    },
+    "7NC": {
+      "name": "Nag"
+    },
+    "7ND": {
+      "name": "Nak"
+    },
+    "7NE": {
+      "name": "Nam"
+    },
+    "7NF": {
+      "name": "Nan"
+    },
+    "7NH": {
+      "name": "Nar"
+    },
+    "7NJ": {
+      "name": "Nas"
+    },
+    "7NK": {
+      "name": "Nat"
+    },
+    "7NM": {
+      "name": "Ne"
+    },
+    "7NN": {
+      "name": "Nel"
+    },
+    "7NP": {
+      "name": "Ner"
+    },
+    "7NR": {
+      "name": "Nes"
+    },
+    "7NT": {
+      "name": "New"
+    },
+    "7NU": {
+      "name": "Ni"
+    },
+    "7NV": {
+      "name": "Nic"
+    },
+    "7NW": {
+      "name": "Nil"
+    },
+    "7NX": {
+      "name": "Nin"
+    },
+    "7NY": {
+      "name": "Nis"
+    },
+    "7N2": {
+      "name": "No"
+    },
+    "7N3": {
+      "name": "Nor"
+    },
+    "7N4": {
+      "name": "Not"
+    },
+    "7N6": {
+      "name": "Nu"
+    },
+    "7N7": {
+      "name": "Ny"
+    },
+    "7N8": {
+      "name": "Other N"
+    },
+    "7N9": {
+      "name": "General N"
+    },
+    "7P": {
+      "name": "O-P"
+    },
+    "7PA": {
+      "name": "Oa"
+    },
+    "7PC": {
+      "name": "Ob"
+    },
+    "7PD": {
+      "name": "Od"
+    },
+    "7PE": {
+      "name": "Of"
+    },
+    "7PF": {
+      "name": "Ol"
+    },
+    "7PH": {
+      "name": "On"
+    },
+    "7PJ": {
+      "name": "Op"
+    },
+    "7PK": {
+      "name": "Or"
+    },
+    "7PM": {
+      "name": "Os"
+    },
+    "7PN": {
+      "name": "Ou"
+    },
+    "7PP": {
+      "name": "Ov"
+    },
+    "7PR": {
+      "name": "Ow"
+    },
+    "7PT": {
+      "name": "Pa"
+    },
+    "7PU": {
+      "name": "Par"
+    },
+    "7PV": {
+      "name": "Pe"
+    },
+    "7PW": {
+      "name": "Per"
+    },
+    "7PX": {
+      "name": "Ph"
+    },
+    "7PY": {
+      "name": "Pi"
+    },
+    "7P2": {
+      "name": "Pl"
+    },
+    "7P3": {
+      "name": "Po"
+    },
+    "7P4": {
+      "name": "Pr"
+    },
+    "7P6": {
+      "name": "Pri"
+    },
+    "7P7": {
+      "name": "Pu"
+    },
+    "7P8": {
+      "name": "Other O-P"
+    },
+    "7P9": {
+      "name": "General O-P"
+    },
     "7R": {
       "name": "Artist Sort R"
+    },
+    "7RA": {
+      "name": "Qa"
+    },
+    "7RC": {
+      "name": "Qu"
+    },
+    "7RD": {
+      "name": "Que"
+    },
+    "7RE": {
+      "name": "Ra"
+    },
+    "7RF": {
+      "name": "Rab"
+    },
+    "7RH": {
+      "name": "Rad"
     },
     "7RJ": {
       "name": "Rai",
@@ -9038,14 +9959,302 @@ const clade = {
         "Raï"
       ]
     },
+    "7RK": {
+      "name": "Ram"
+    },
+    "7RM": {
+      "name": "Ran"
+    },
+    "7RN": {
+      "name": "Re"
+    },
+    "7RP": {
+      "name": "Red"
+    },
+    "7RR": {
+      "name": "Ren"
+    },
+    "7RT": {
+      "name": "Rev"
+    },
+    "7RU": {
+      "name": "Rh"
+    },
+    "7RV": {
+      "name": "Ri"
+    },
+    "7RW": {
+      "name": "Ric"
+    },
+    "7RX": {
+      "name": "Ro"
+    },
+    "7RY": {
+      "name": "Rob"
+    },
+    "7R2": {
+      "name": "Rod"
+    },
+    "7R3": {
+      "name": "Rol"
+    },
+    "7R4": {
+      "name": "Ron"
+    },
+    "7R6": {
+      "name": "Ros"
+    },
+    "7R7": {
+      "name": "Ru"
+    },
     "7R8": {
       "name": "Other Artist Sort R"
     },
     "7R9": {
       "name": "General Artist Sort R"
     },
+    "7T": {
+      "name": "S-T"
+    },
+    "7TA": {
+      "name": "Sa"
+    },
+    "7TC": {
+      "name": "Sc"
+    },
+    "7TD": {
+      "name": "Se"
+    },
+    "7TE": {
+      "name": "Sh"
+    },
+    "7TF": {
+      "name": "Si"
+    },
+    "7TH": {
+      "name": "Sk"
+    },
+    "7TJ": {
+      "name": "Sl"
+    },
+    "7TK": {
+      "name": "Sm"
+    },
+    "7TM": {
+      "name": "Sn"
+    },
+    "7TN": {
+      "name": "So"
+    },
+    "7TP": {
+      "name": "Sp"
+    },
+    "7TR": {
+      "name": "St"
+    },
+    "7TT": {
+      "name": "Su"
+    },
+    "7TU": {
+      "name": "Sw"
+    },
+    "7TV": {
+      "name": "Sy"
+    },
+    "7TW": {
+      "name": "Ta"
+    },
+    "7TX": {
+      "name": "Te"
+    },
+    "7TY": {
+      "name": "Th"
+    },
+    "7T2": {
+      "name": "Ti"
+    },
+    "7T3": {
+      "name": "To"
+    },
+    "7T4": {
+      "name": "Tr"
+    },
+    "7T6": {
+      "name": "Tu"
+    },
+    "7T7": {
+      "name": "Tw"
+    },
+    "7T8": {
+      "name": "Other S-T"
+    },
+    "7T9": {
+      "name": "General S-T"
+    },
+    "7U": {
+      "name": "U"
+    },
+    "7UA": {
+      "name": "Ua"
+    },
+    "7UC": {
+      "name": "Ub"
+    },
+    "7UD": {
+      "name": "Uba"
+    },
+    "7UE": {
+      "name": "Ubi"
+    },
+    "7UF": {
+      "name": "Uc"
+    },
+    "7UH": {
+      "name": "Ud"
+    },
+    "7UJ": {
+      "name": "Uf"
+    },
+    "7UK": {
+      "name": "Ug"
+    },
+    "7UM": {
+      "name": "Uk"
+    },
+    "7UN": {
+      "name": "Ul"
+    },
+    "7UP": {
+      "name": "Ula"
+    },
+    "7UR": {
+      "name": "Uli"
+    },
+    "7UT": {
+      "name": "Um"
+    },
+    "7UU": {
+      "name": "Un"
+    },
+    "7UV": {
+      "name": "Una"
+    },
+    "7UW": {
+      "name": "Und"
+    },
+    "7UX": {
+      "name": "Uni"
+    },
+    "7UY": {
+      "name": "Unt"
+    },
+    "7U2": {
+      "name": "Up"
+    },
+    "7U3": {
+      "name": "Ur"
+    },
+    "7U4": {
+      "name": "Us"
+    },
+    "7U6": {
+      "name": "Ut"
+    },
+    "7U7": {
+      "name": "Uv"
+    },
+    "7U8": {
+      "name": "Other U"
+    },
+    "7U9": {
+      "name": "General U"
+    },
+    "7V": {
+      "name": "V"
+    },
+    "7VA": {
+      "name": "Va"
+    },
+    "7VC": {
+      "name": "Val"
+    },
+    "7VD": {
+      "name": "Van"
+    },
+    "7VE": {
+      "name": "Var"
+    },
+    "7VF": {
+      "name": "Vas"
+    },
+    "7VH": {
+      "name": "Ve"
+    },
+    "7VJ": {
+      "name": "Vel"
+    },
+    "7VK": {
+      "name": "Ven"
+    },
+    "7VM": {
+      "name": "Ver"
+    },
+    "7VN": {
+      "name": "Ves"
+    },
+    "7VP": {
+      "name": "Vi"
+    },
+    "7VR": {
+      "name": "Vic"
+    },
+    "7VT": {
+      "name": "Vin"
+    },
+    "7VU": {
+      "name": "Vir"
+    },
+    "7VV": {
+      "name": "Vis"
+    },
+    "7VW": {
+      "name": "Viv"
+    },
+    "7VX": {
+      "name": "Vo"
+    },
+    "7VY": {
+      "name": "Vol"
+    },
+    "7V2": {
+      "name": "Von"
+    },
+    "7V3": {
+      "name": "Vor"
+    },
+    "7V4": {
+      "name": "Vos"
+    },
+    "7V6": {
+      "name": "Vu"
+    },
+    "7V7": {
+      "name": "Vy"
+    },
+    "7V8": {
+      "name": "Other V"
+    },
+    "7V9": {
+      "name": "General V"
+    },
     "7W": {
       "name": "Artist Sort W"
+    },
+    "7WA": {
+      "name": "Wa"
+    },
+    "7WC": {
+      "name": "Wal"
     },
     "7WD": {
       "name": "War",
@@ -9053,11 +10262,257 @@ const clade = {
         "war"
       ]
     },
+    "7WE": {
+      "name": "Was"
+    },
+    "7WF": {
+      "name": "Wat"
+    },
+    "7WH": {
+      "name": "We"
+    },
+    "7WJ": {
+      "name": "Wel"
+    },
+    "7WK": {
+      "name": "Wes"
+    },
+    "7WM": {
+      "name": "Wh"
+    },
+    "7WN": {
+      "name": "Whi"
+    },
+    "7WP": {
+      "name": "Wi"
+    },
+    "7WR": {
+      "name": "Wil"
+    },
+    "7WT": {
+      "name": "Win"
+    },
+    "7WU": {
+      "name": "Wis"
+    },
+    "7WV": {
+      "name": "Wit"
+    },
+    "7WW": {
+      "name": "Wo"
+    },
+    "7WX": {
+      "name": "Wol"
+    },
+    "7WY": {
+      "name": "Won"
+    },
+    "7W2": {
+      "name": "Woo"
+    },
+    "7W3": {
+      "name": "Wor"
+    },
+    "7W4": {
+      "name": "Wr"
+    },
+    "7W6": {
+      "name": "Wu"
+    },
+    "7W7": {
+      "name": "Wy"
+    },
     "7W8": {
       "name": "Other Artist Sort W"
     },
     "7W9": {
       "name": "General Artist Sort W"
+    },
+    "7X": {
+      "name": "X"
+    },
+    "7XA": {
+      "name": "Xa"
+    },
+    "7XC": {
+      "name": "Xb"
+    },
+    "7XD": {
+      "name": "Xc"
+    },
+    "7XE": {
+      "name": "Xd"
+    },
+    "7XF": {
+      "name": "Xe"
+    },
+    "7XH": {
+      "name": "Xf"
+    },
+    "7XJ": {
+      "name": "Xg"
+    },
+    "7XK": {
+      "name": "Xh"
+    },
+    "7XM": {
+      "name": "Xi"
+    },
+    "7XN": {
+      "name": "Xj"
+    },
+    "7XP": {
+      "name": "Xk"
+    },
+    "7XR": {
+      "name": "Xl"
+    },
+    "7XT": {
+      "name": "Xm"
+    },
+    "7XU": {
+      "name": "Xn"
+    },
+    "7XV": {
+      "name": "Xo"
+    },
+    "7XW": {
+      "name": "Xp"
+    },
+    "7XX": {
+      "name": "Xr"
+    },
+    "7XY": {
+      "name": "Xs"
+    },
+    "7X2": {
+      "name": "Xt"
+    },
+    "7X3": {
+      "name": "Xu"
+    },
+    "7X4": {
+      "name": "Xv"
+    },
+    "7X6": {
+      "name": "Xw"
+    },
+    "7X7": {
+      "name": "Xy"
+    },
+    "7X8": {
+      "name": "Other X"
+    },
+    "7X9": {
+      "name": "General X"
+    },
+    "7Y": {
+      "name": "Y-Z"
+    },
+    "7YA": {
+      "name": "Ya"
+    },
+    "7YC": {
+      "name": "Yam"
+    },
+    "7YD": {
+      "name": "Yan"
+    },
+    "7YE": {
+      "name": "Yar"
+    },
+    "7YF": {
+      "name": "Yas"
+    },
+    "7YH": {
+      "name": "Ye"
+    },
+    "7YJ": {
+      "name": "Yel"
+    },
+    "7YK": {
+      "name": "Yi"
+    },
+    "7YM": {
+      "name": "Yo"
+    },
+    "7YN": {
+      "name": "Yok"
+    },
+    "7YP": {
+      "name": "You"
+    },
+    "7YR": {
+      "name": "Yu"
+    },
+    "7YT": {
+      "name": "Yun"
+    },
+    "7YU": {
+      "name": "Za"
+    },
+    "7YV": {
+      "name": "Zam"
+    },
+    "7YW": {
+      "name": "Zan"
+    },
+    "7YX": {
+      "name": "Zap"
+    },
+    "7YY": {
+      "name": "Ze"
+    },
+    "7Y2": {
+      "name": "Zel"
+    },
+    "7Y3": {
+      "name": "Zi"
+    },
+    "7Y4": {
+      "name": "Zim"
+    },
+    "7Y6": {
+      "name": "Zo"
+    },
+    "7Y7": {
+      "name": "Zu"
+    },
+    "7Y8": {
+      "name": "Other Y-Z"
+    },
+    "7Y9": {
+      "name": "General Y-Z"
+    },
+    "72A": {
+      "name": "0"
+    },
+    "72C": {
+      "name": "1"
+    },
+    "72D": {
+      "name": "2"
+    },
+    "72E": {
+      "name": "3"
+    },
+    "72F": {
+      "name": "4"
+    },
+    "72H": {
+      "name": "5"
+    },
+    "72J": {
+      "name": "6"
+    },
+    "72K": {
+      "name": "7"
+    },
+    "72M": {
+      "name": "8"
+    },
+    "72N": {
+      "name": "9"
     }
   },
   "colors": {
