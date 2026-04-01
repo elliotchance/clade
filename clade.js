@@ -2599,7 +2599,7 @@ const clade = {
       "name": "General Southern Hip Hop"
     },
     "HF": {
-      "name": "Alternative and Experimental",
+      "name": "Alternative and Experimental Hip Hop",
       "aka": [
         "Experimental Hip Hop"
       ]
@@ -2622,10 +2622,10 @@ const clade = {
       "name": "Digicore"
     },
     "HF8": {
-      "name": "Other Alternative and Experimental"
+      "name": "Other Alternative and Experimental Hip Hop"
     },
     "HF9": {
-      "name": "General Alternative and Experimental"
+      "name": "General Alternative and Experimental Hip Hop"
     },
     "HH": {
       "name": "Pop Rap and Commercial",
