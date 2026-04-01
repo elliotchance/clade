@@ -767,6 +767,19 @@ for (const [code, entry] of Object.entries(codes)) {
   }
 }
 
+// Collect aliases from external format mappings
+const mappingAkas = {};
+function collectMappingAkas(label, mapping) {
+  for (const part of mapping.split("; ")) {
+    const spaceIdx = part.indexOf(" ");
+    const code = part.slice(0, spaceIdx);
+    (mappingAkas[code] ??= []).push(label);
+  }
+}
+for (const [label, mapping] of cdtext) collectMappingAkas(label, mapping);
+for (const [, label, mapping] of id3v1) collectMappingAkas(label, mapping);
+for (const [, label, mapping] of winampExtensions) collectMappingAkas(label, mapping);
+
 const result = {};
 for (const [code, entry] of Object.entries(codes)) {
   const aka = [];
@@ -781,6 +794,10 @@ for (const [code, entry] of Object.entries(codes)) {
     for (const a of akas) {
       if (a !== entry.name && !aka.includes(a)) aka.push(a);
     }
+  }
+  // Merge external format mapping labels as aliases
+  for (const a of mappingAkas[code] || []) {
+    if (a !== entry.name && !aka.includes(a)) aka.push(a);
   }
   result[code] = { name: entry.name };
   if (aka.length > 0) result[code].aka = aka.sort();

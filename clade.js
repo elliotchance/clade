@@ -118,7 +118,10 @@ const clade = {
       "name": "Atmospheric Music"
     },
     "AA": {
-      "name": "Ambient"
+      "name": "Ambient",
+      "aka": [
+        "Meditative"
+      ]
     },
     "AAA": {
       "name": "Dark Ambient",
@@ -143,7 +146,10 @@ const clade = {
       ]
     },
     "AC": {
-      "name": "New Age"
+      "name": "New Age",
+      "aka": [
+        "New age"
+      ]
     },
     "ACA": {
       "name": "Celtic New Age",
@@ -173,7 +179,10 @@ const clade = {
       "name": "General Drone"
     },
     "AE": {
-      "name": "Easy Listening"
+      "name": "Easy Listening",
+      "aka": [
+        "Easy listening"
+      ]
     },
     "AEA": {
       "name": "Lounge and Exotica",
@@ -234,6 +243,7 @@ const clade = {
     "CAD": {
       "name": "Baroque Suite",
       "aka": [
+        "Baroque",
         "Baroque Music",
         "Zarzuela barroca"
       ]
@@ -245,7 +255,11 @@ const clade = {
       "name": "General Medieval Classical"
     },
     "CC": {
-      "name": "Opera and Vocal Music"
+      "name": "Opera and Vocal Music",
+      "aka": [
+        "A cappella",
+        "Chorus"
+      ]
     },
     "CCA": {
       "name": "Opera",
@@ -321,6 +335,7 @@ const clade = {
     "CDD": {
       "name": "Chamber Music",
       "aka": [
+        "Chamber music",
         "Divertissement",
         "Serenade",
         "String Quartet"
@@ -347,7 +362,10 @@ const clade = {
       "name": "General Contemporary Classical"
     },
     "CE": {
-      "name": "Romanticism"
+      "name": "Romanticism",
+      "aka": [
+        "Sonata"
+      ]
     },
     "CEA": {
       "name": "New German School"
@@ -362,7 +380,10 @@ const clade = {
       "name": "General Romanticism"
     },
     "CF": {
-      "name": "Modern Classical"
+      "name": "Modern Classical",
+      "aka": [
+        "Neoclassical"
+      ]
     },
     "CFA": {
       "name": "Impressionism"
@@ -700,10 +721,21 @@ const clade = {
       "name": "Misc Classical Music"
     },
     "D": {
-      "name": "Electronic Dance Music"
+      "name": "Electronic Dance Music",
+      "aka": [
+        "Bass",
+        "Club",
+        "Dance",
+        "Rave"
+      ]
     },
     "DA": {
-      "name": "House"
+      "name": "House",
+      "aka": [
+        "Club-house",
+        "Euro-house",
+        "Tribal"
+      ]
     },
     "DAA": {
       "name": "Chicago House",
@@ -784,7 +816,10 @@ const clade = {
       ]
     },
     "DAN": {
-      "name": "Acid House"
+      "name": "Acid House",
+      "aka": [
+        "Acid"
+      ]
     },
     "DAP": {
       "name": "Changa tuki",
@@ -843,7 +878,10 @@ const clade = {
       ]
     },
     "DC": {
-      "name": "Techno"
+      "name": "Techno",
+      "aka": [
+        "Euro-techno"
+      ]
     },
     "DCA": {
       "name": "Bleep Techno",
@@ -894,7 +932,10 @@ const clade = {
       ]
     },
     "DD": {
-      "name": "Trance"
+      "name": "Trance",
+      "aka": [
+        "Goa music"
+      ]
     },
     "DDA": {
       "name": "Psytrance",
@@ -958,7 +999,10 @@ const clade = {
       "name": "General Trance"
     },
     "DE": {
-      "name": "Drum and Bass"
+      "name": "Drum and Bass",
+      "aka": [
+        "Drum & bass"
+      ]
     },
     "DEA": {
       "name": "Atmospheric Drum and Bass"
@@ -993,6 +1037,7 @@ const clade = {
       "aka": [
         "Dubwise Drum and Bass",
         "Jungle",
+        "Jungle music",
         "Ragga Jungle"
       ]
     },
@@ -1034,7 +1079,10 @@ const clade = {
       ]
     },
     "DF": {
-      "name": "Hardcore EDM"
+      "name": "Hardcore EDM",
+      "aka": [
+        "Hardcore techno"
+      ]
     },
     "DFA": {
       "name": "Happy Hardcore",
@@ -1187,13 +1235,20 @@ const clade = {
       "name": "General Dubstep"
     },
     "DK": {
-      "name": "Breakbeat"
+      "name": "Breakbeat",
+      "aka": [
+        "Leftfield",
+        "Nu-breakz"
+      ]
     },
     "DKA": {
       "name": "Acid Breaks"
     },
     "DKC": {
-      "name": "Big Beat"
+      "name": "Big Beat",
+      "aka": [
+        "Big beat"
+      ]
     },
     "DKD": {
       "name": "Nu Skool Breaks"
@@ -1226,7 +1281,10 @@ const clade = {
       "name": "General Breakbeat"
     },
     "DM": {
-      "name": "UK Bass and UK Garage"
+      "name": "UK Bass and UK Garage",
+      "aka": [
+        "Garage"
+      ]
     },
     "DMA": {
       "name": "2-Step"
@@ -1254,7 +1312,12 @@ const clade = {
       ]
     },
     "DN": {
-      "name": "EBM and Electro"
+      "name": "EBM and Electro",
+      "aka": [
+        "EBM",
+        "Electroclash",
+        "Eurodance"
+      ]
     },
     "DNA": {
       "name": "Dark Electro",
@@ -1396,7 +1459,10 @@ const clade = {
       ]
     },
     "DW": {
-      "name": "World and Regional EDM"
+      "name": "World and Regional EDM",
+      "aka": [
+        "Terror"
+      ]
     },
     "DW8": {
       "name": "Other World and Regional EDM"
@@ -1509,7 +1575,8 @@ const clade = {
     "EA": {
       "name": "Chillout and Downtempo",
       "aka": [
-        "Chillout"
+        "Chillout",
+        "Trip-hop"
       ]
     },
     "EAA": {
@@ -1540,7 +1607,10 @@ const clade = {
       "name": "General Chillout and Downtempo"
     },
     "EC": {
-      "name": "Synth and Pop Electronic"
+      "name": "Synth and Pop Electronic",
+      "aka": [
+        "Synthpop"
+      ]
     },
     "ECA": {
       "name": "Electropop"
@@ -1683,7 +1753,10 @@ const clade = {
       "name": "General Vapor and Vaporwave"
     },
     "EH": {
-      "name": "Industrial Electronic"
+      "name": "Industrial Electronic",
+      "aka": [
+        "Industro-Goth"
+      ]
     },
     "EH8": {
       "name": "Other Industrial Electronic"
@@ -1850,7 +1923,12 @@ const clade = {
       "name": "Misc Electronic"
     },
     "F": {
-      "name": "Folk"
+      "name": "Folk",
+      "aka": [
+        "Folklore",
+        "National folk",
+        "Pop-folk"
+      ]
     },
     "FA": {
       "name": "Contemporary Folk"
@@ -2009,7 +2087,10 @@ const clade = {
       "name": "General Caribbean Folk Music"
     },
     "FH": {
-      "name": "Celtic Folk Music"
+      "name": "Celtic Folk Music",
+      "aka": [
+        "Celtic"
+      ]
     },
     "FHA": {
       "name": "Scottish Folk Music",
@@ -2301,7 +2382,10 @@ const clade = {
       "name": "General East Asian Folk Music"
     },
     "FR": {
-      "name": "South Asian Folk Music"
+      "name": "South Asian Folk Music",
+      "aka": [
+        "Bhangra"
+      ]
     },
     "FRA": {
       "name": "Pashto Folk Music",
@@ -2441,6 +2525,8 @@ const clade = {
     "H": {
       "name": "Hip Hop",
       "aka": [
+        "Christian rap",
+        "Hip-hop",
         "Rap"
       ]
     },
@@ -2525,6 +2611,7 @@ const clade = {
     "HD": {
       "name": "Hardcore Hip Hop and Gangsta",
       "aka": [
+        "Christian gangsta rap",
         "Hardcore Hip Hop"
       ]
     },
@@ -2532,6 +2619,7 @@ const clade = {
       "name": "Gangsta Rap",
       "aka": [
         "Coke Rap",
+        "Gangsta",
         "Mafioso Rap",
         "Mobb Music",
         "Road Rap",
@@ -2565,7 +2653,11 @@ const clade = {
       "name": "General Hardcore Hip Hop and Gangsta"
     },
     "HE": {
-      "name": "Southern Hip Hop"
+      "name": "Southern Hip Hop",
+      "aka": [
+        "Booty bass",
+        "G-Funk"
+      ]
     },
     "HEA": {
       "name": "West Coast Hip Hop",
@@ -2672,7 +2764,8 @@ const clade = {
     "HJ": {
       "name": "Instrumental and Lo-Fi",
       "aka": [
-        "Instrumental Hip Hop"
+        "Instrumental Hip Hop",
+        "Lo-fi"
       ]
     },
     "HJA": {
@@ -2752,7 +2845,8 @@ const clade = {
       "aka": [
         "Jas",
         "Jass",
-        "Jazz"
+        "Jazz",
+        "Jazz & funk"
       ]
     },
     "JA": {
@@ -2818,6 +2912,7 @@ const clade = {
     "JCA": {
       "name": "Big Band",
       "aka": [
+        "Big band",
         "Experimental Big Band",
         "Progressive Big Band"
       ]
@@ -2910,7 +3005,11 @@ const clade = {
       "name": "General Avant-Garde Jazz"
     },
     "JF": {
-      "name": "Jazz Fusion"
+      "name": "Jazz Fusion",
+      "aka": [
+        "Fast fusion",
+        "Fusion"
+      ]
     },
     "JFA": {
       "name": "Jazz-Funk"
@@ -3022,7 +3121,8 @@ const clade = {
     "KA": {
       "name": "Rhythm and Blues",
       "aka": [
-        "Rhythm & Blues"
+        "Rhythm & Blues",
+        "Rhythm and blues"
       ]
     },
     "KAA": {
@@ -3053,10 +3153,16 @@ const clade = {
       "name": "General Rhythm and Blues"
     },
     "KC": {
-      "name": "Soul"
+      "name": "Soul",
+      "aka": [
+        "Rhythmic Soul"
+      ]
     },
     "KCA": {
-      "name": "Acid Jazz"
+      "name": "Acid Jazz",
+      "aka": [
+        "Acid jazz"
+      ]
     },
     "KCC": {
       "name": "Blue-Eyed Soul"
@@ -3109,7 +3215,8 @@ const clade = {
     "KD": {
       "name": "Contemporary RnB",
       "aka": [
-        "Contemporary R&B"
+        "Contemporary R&B",
+        "Slow jam"
       ]
     },
     "KDA": {
@@ -3140,7 +3247,11 @@ const clade = {
       "name": "General Contemporary RnB"
     },
     "KE": {
-      "name": "Funk"
+      "name": "Funk",
+      "aka": [
+        "Jazz & funk",
+        "Pop/funk"
+      ]
     },
     "KEA": {
       "name": "Classic Funk",
@@ -3167,7 +3278,10 @@ const clade = {
       "name": "P-Funk"
     },
     "KEJ": {
-      "name": "Porn Groove"
+      "name": "Porn Groove",
+      "aka": [
+        "Porn groove"
+      ]
     },
     "KEK": {
       "name": "Synth Funk",
@@ -3182,7 +3296,10 @@ const clade = {
       "name": "General Funk"
     },
     "KF": {
-      "name": "Gospel"
+      "name": "Gospel",
+      "aka": [
+        "Contemporary Christian"
+      ]
     },
     "KF8": {
       "name": "Other Gospel"
@@ -3203,7 +3320,10 @@ const clade = {
       "name": "Metal"
     },
     "MA": {
-      "name": "Heavy Metal"
+      "name": "Heavy Metal",
+      "aka": [
+        "Heavy metal"
+      ]
     },
     "MAA": {
       "name": "Neoclassical Metal"
@@ -3227,7 +3347,11 @@ const clade = {
       "name": "General Heavy Metal"
     },
     "MC": {
-      "name": "Thrash Metal"
+      "name": "Thrash Metal",
+      "aka": [
+        "Crossover",
+        "Thrash metal"
+      ]
     },
     "MCA": {
       "name": "Crossover Thrash"
@@ -3242,7 +3366,10 @@ const clade = {
       "name": "General Thrash Metal"
     },
     "MD": {
-      "name": "Death Metal"
+      "name": "Death Metal",
+      "aka": [
+        "Death metal"
+      ]
     },
     "MDA": {
       "name": "Brutal Death Metal",
@@ -3275,7 +3402,10 @@ const clade = {
       "name": "General Death Metal"
     },
     "ME": {
-      "name": "Black Metal"
+      "name": "Black Metal",
+      "aka": [
+        "Black metal"
+      ]
     },
     "MEA": {
       "name": "Atmospheric Black Metal"
@@ -3470,10 +3600,17 @@ const clade = {
       "name": "Misc Metal"
     },
     "N": {
-      "name": "Experimental and Industrial"
+      "name": "Experimental and Industrial",
+      "aka": [
+        "Avantgarde",
+        "Experimental"
+      ]
     },
     "NA": {
-      "name": "Industrial"
+      "name": "Industrial",
+      "aka": [
+        "Techno-industrial"
+      ]
     },
     "NA8": {
       "name": "Other Industrial"
@@ -3655,10 +3792,19 @@ const clade = {
       "name": "Misc Experimental and Industrial"
     },
     "P": {
-      "name": "Pop"
+      "name": "Pop",
+      "aka": [
+        "Instrumental pop",
+        "Pop Music",
+        "Pop/funk",
+        "Top 40"
+      ]
     },
     "PA": {
-      "name": "Traditional Pop"
+      "name": "Traditional Pop",
+      "aka": [
+        "Adult Contemporary"
+      ]
     },
     "PA8": {
       "name": "Other Traditional Pop",
@@ -3673,7 +3819,10 @@ const clade = {
       ]
     },
     "PC": {
-      "name": "Pop Rock"
+      "name": "Pop Rock",
+      "aka": [
+        "Slow rock"
+      ]
     },
     "PCA": {
       "name": "Beat",
@@ -3735,7 +3884,10 @@ const clade = {
       "name": "General Dance-Pop"
     },
     "PE": {
-      "name": "J-Pop"
+      "name": "J-Pop",
+      "aka": [
+        "Jpop"
+      ]
     },
     "PEA": {
       "name": "Denpa"
@@ -4012,10 +4164,20 @@ const clade = {
       "name": "Misc Pop"
     },
     "R": {
-      "name": "Rock and Psychedelia"
+      "name": "Rock and Psychedelia",
+      "aka": [
+        "Instrumental rock",
+        "Rock",
+        "Rock Music"
+      ]
     },
     "RA": {
-      "name": "Rock and Roll"
+      "name": "Rock and Roll",
+      "aka": [
+        "Classic rock",
+        "Oldies",
+        "Rock 'n' roll"
+      ]
     },
     "RA8": {
       "name": "Other Rock and Roll",
@@ -4033,7 +4195,10 @@ const clade = {
       ]
     },
     "RC": {
-      "name": "Hard Rock"
+      "name": "Hard Rock",
+      "aka": [
+        "Hard rock"
+      ]
     },
     "RC8": {
       "name": "Other Hard Rock",
@@ -4050,7 +4215,15 @@ const clade = {
       ]
     },
     "RD": {
-      "name": "Alternative Rock"
+      "name": "Alternative Rock",
+      "aka": [
+        "Alternative",
+        "Alternative rock",
+        "Britpop",
+        "Dream",
+        "Indie",
+        "Shoegaze"
+      ]
     },
     "RDA": {
       "name": "Grunge"
@@ -4066,6 +4239,7 @@ const clade = {
       "aka": [
         "Dunedin Sound",
         "Indie Surf",
+        "Indie rock",
         "Noise Pop",
         "Slacker Rock",
         "Slowcore"
@@ -4091,7 +4265,10 @@ const clade = {
       ]
     },
     "RE": {
-      "name": "Progressive Rock"
+      "name": "Progressive Rock",
+      "aka": [
+        "Progressive rock"
+      ]
     },
     "REA": {
       "name": "Canterbury Scene",
@@ -4100,7 +4277,10 @@ const clade = {
       ]
     },
     "REC": {
-      "name": "Symphonic Prog"
+      "name": "Symphonic Prog",
+      "aka": [
+        "Symphonic rock"
+      ]
     },
     "RE8": {
       "name": "Other Progressive Rock",
@@ -4117,12 +4297,18 @@ const clade = {
       ]
     },
     "RF": {
-      "name": "Post-Punk and New Wave"
+      "name": "Post-Punk and New Wave",
+      "aka": [
+        "Gothic",
+        "Neue Deutsche Welle",
+        "New romantic"
+      ]
     },
     "RFA": {
       "name": "New Wave",
       "aka": [
-        "Mod Revival"
+        "Mod Revival",
+        "New wave"
       ]
     },
     "RF8": {
@@ -4134,7 +4320,10 @@ const clade = {
     "RH": {
       "name": "Psychedelia",
       "aka": [
-        "Psychedelic Music"
+        "Psychedelic",
+        "Psychedelic Music",
+        "Space",
+        "Space rock"
       ]
     },
     "RHA": {
@@ -4144,6 +4333,7 @@ const clade = {
         "Freakbeat",
         "Garage Psych",
         "Heavy Psych",
+        "Psychedelic rock",
         "Raga Rock",
         "Space Rock",
         "Space Rock Revival",
@@ -4166,7 +4356,10 @@ const clade = {
       ]
     },
     "RJ": {
-      "name": "Garage Rock"
+      "name": "Garage Rock",
+      "aka": [
+        "Garage rock"
+      ]
     },
     "RJA": {
       "name": "Surf Music",
@@ -4193,7 +4386,12 @@ const clade = {
       ]
     },
     "RK": {
-      "name": "Folk Rock"
+      "name": "Folk Rock",
+      "aka": [
+        "Folk rock",
+        "Jam band",
+        "Trop rock"
+      ]
     },
     "RKA": {
       "name": "Country Rock",
@@ -4233,7 +4431,10 @@ const clade = {
       "name": "General Rock Crossover"
     },
     "RN": {
-      "name": "Rock Musical"
+      "name": "Rock Musical",
+      "aka": [
+        "Christian rock"
+      ]
     },
     "RNA": {
       "name": "Rock Opera"
@@ -4257,7 +4458,10 @@ const clade = {
       "name": "Pub Rock"
     },
     "RPE": {
-      "name": "Southern Rock"
+      "name": "Southern Rock",
+      "aka": [
+        "Southern rock"
+      ]
     },
     "RP8": {
       "name": "Other Blues Rock",
@@ -4272,7 +4476,10 @@ const clade = {
       "name": "Art and Experimental Rock"
     },
     "RRA": {
-      "name": "Post-Rock"
+      "name": "Post-Rock",
+      "aka": [
+        "Post-rock"
+      ]
     },
     "RRC": {
       "name": "Noise Rock",
@@ -4284,7 +4491,8 @@ const clade = {
     "RRD": {
       "name": "Math Rock",
       "aka": [
-        "Math Pop"
+        "Math Pop",
+        "Math rock"
       ]
     },
     "RRE": {
@@ -4294,7 +4502,10 @@ const clade = {
       ]
     },
     "RRF": {
-      "name": "Art Rock"
+      "name": "Art Rock",
+      "aka": [
+        "Art rock"
+      ]
     },
     "RR8": {
       "name": "Other Art and Experimental Rock"
@@ -4366,7 +4577,10 @@ const clade = {
       "name": "Misc Rock and Psychedelia"
     },
     "T": {
-      "name": "Country and Singer-Songwriter"
+      "name": "Country and Singer-Songwriter",
+      "aka": [
+        "Country"
+      ]
     },
     "TA": {
       "name": "Alt-Country"
@@ -4547,7 +4761,10 @@ const clade = {
       "name": "General Liedermacher"
     },
     "TR": {
-      "name": "Chanson a texte"
+      "name": "Chanson a texte",
+      "aka": [
+        "Chanson"
+      ]
     },
     "TR8": {
       "name": "Other Chanson a texte"
@@ -4670,7 +4887,10 @@ const clade = {
       "name": "General Third Wave Ska"
     },
     "UJ": {
-      "name": "Dancehall"
+      "name": "Dancehall",
+      "aka": [
+        "Dance hall"
+      ]
     },
     "UJA": {
       "name": "Digital Dancehall"
@@ -4713,7 +4933,11 @@ const clade = {
       "name": "Punk"
     },
     "VA": {
-      "name": "Punk Rock"
+      "name": "Punk Rock",
+      "aka": [
+        "Polsk punk",
+        "Punk rock"
+      ]
     },
     "VAA": {
       "name": "Pop Punk",
@@ -4798,12 +5022,17 @@ const clade = {
       ]
     },
     "VD": {
-      "name": "Post-Punk"
+      "name": "Post-Punk",
+      "aka": [
+        "Darkwave",
+        "Post-punk"
+      ]
     },
     "VDA": {
       "name": "Gothic Rock",
       "aka": [
-        "Deathrock"
+        "Deathrock",
+        "Gothic rock"
       ]
     },
     "VDC": {
@@ -4847,7 +5076,10 @@ const clade = {
       "name": "General Post-Hardcore"
     },
     "VF": {
-      "name": "Art Punk"
+      "name": "Art Punk",
+      "aka": [
+        "Acid punk"
+      ]
     },
     "VFA": {
       "name": "Egg Punk"
@@ -4905,10 +5137,38 @@ const clade = {
       "name": "Misc Punk"
     },
     "W": {
-      "name": "Miscellaneous"
+      "name": "Miscellaneous",
+      "aka": [
+        "Acoustic",
+        "Anime",
+        "Ballad",
+        "Cabaret",
+        "Christmas",
+        "Contemporary Christian",
+        "Cult",
+        "Drum solo",
+        "Duet",
+        "Eclectic",
+        "Erotic",
+        "Instrumental",
+        "Negerpunk",
+        "Other",
+        "Polka",
+        "Power ballad",
+        "Primus",
+        "Retro",
+        "Revival",
+        "Sound clip",
+        "Trailer"
+      ]
     },
     "WC": {
-      "name": "Comedy"
+      "name": "Comedy",
+      "aka": [
+        "Humour",
+        "Pranks",
+        "Satire"
+      ]
     },
     "WC8": {
       "name": "Other Comedy"
@@ -4940,7 +5200,10 @@ const clade = {
       ]
     },
     "WE": {
-      "name": "Video Game Music"
+      "name": "Video Game Music",
+      "aka": [
+        "Game"
+      ]
     },
     "WE8": {
       "name": "Other Video Game Music"
@@ -5014,7 +5277,16 @@ const clade = {
       "name": "Misc Miscellaneous"
     },
     "X": {
-      "name": "Regional Music"
+      "name": "Regional Music",
+      "aka": [
+        "Ethnic",
+        "Global",
+        "Latin",
+        "Native US",
+        "Tribal",
+        "World Music",
+        "World music"
+      ]
     },
     "XA": {
       "name": "African Music"
@@ -5439,7 +5711,10 @@ const clade = {
       "name": "General Hispanic Music"
     },
     "XH": {
-      "name": "Brazilian Music"
+      "name": "Brazilian Music",
+      "aka": [
+        "Samba"
+      ]
     },
     "XH8": {
       "name": "Other Brazilian Music",
@@ -6208,11 +6483,16 @@ const clade = {
         "Minstrelsy",
         "Murga",
         "Music Hall",
+        "Musical",
         "Vaudeville"
       ]
     },
     "YA": {
-      "name": "Musical Theatre"
+      "name": "Musical Theatre",
+      "aka": [
+        "Musical",
+        "Showtunes"
+      ]
     },
     "YA8": {
       "name": "Other Musical Theatre"
@@ -7977,6 +8257,7 @@ const clade = {
       "name": "Spoken Word",
       "aka": [
         "Audio Documentary",
+        "Audio theatre",
         "Fairy Tales",
         "Folktales",
         "Guided Meditation",
@@ -7985,8 +8266,10 @@ const clade = {
         "Radio Documentary",
         "Radio Drama",
         "Sermons",
+        "Speech",
         "Speeches",
-        "Stand-Up Comedy"
+        "Stand-Up Comedy",
+        "Vocal"
       ]
     },
     "6A8": {
